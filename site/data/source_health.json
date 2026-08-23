@@ -1,0 +1,122 @@
+[
+ {
+  "id": "anthropic-pricing",
+  "vendor": "anthropic",
+  "url": "https://platform.claude.com/docs/en/about-claude/pricing.md",
+  "category": "pricing",
+  "role": "primary",
+  "status": "ok",
+  "last_checked": "2026-08-22T20:02:52Z",
+  "last_error": null
+ },
+ {
+  "id": "anthropic-limits",
+  "vendor": "anthropic",
+  "url": "https://platform.claude.com/docs/en/api/rate-limits.md",
+  "category": "limits",
+  "role": "primary",
+  "status": "ok",
+  "last_checked": "2026-08-22T20:02:52Z",
+  "last_error": null
+ },
+ {
+  "id": "openrouter-models",
+  "vendor": "openrouter",
+  "url": "https://openrouter.ai/api/v1/models",
+  "category": "pricing",
+  "role": "primary",
+  "status": "ok",
+  "last_checked": "2026-08-22T20:02:52Z",
+  "last_error": null
+ },
+ {
+  "id": "deepseek-pricing",
+  "vendor": "deepseek",
+  "url": "https://api-docs.deepseek.com/quick_start/pricing",
+  "category": "pricing",
+  "role": "primary",
+  "status": "ok",
+  "last_checked": "2026-08-22T20:02:54Z",
+  "last_error": null
+ },
+ {
+  "id": "mistral-models",
+  "vendor": "mistral",
+  "url": "https://docs.mistral.ai/models",
+  "category": "pricing",
+  "role": "primary",
+  "status": "ok",
+  "last_checked": "2026-08-22T20:02:54Z",
+  "last_error": null
+ },
+ {
+  "id": "google-gemini-pricing",
+  "vendor": "google",
+  "url": "https://ai.google.dev/gemini-api/docs/pricing",
+  "category": "pricing",
+  "role": "primary",
+  "status": "ok",
+  "last_checked": "2026-08-22T20:02:55Z",
+  "last_error": null
+ },
+ {
+  "id": "github-copilot-plans",
+  "vendor": "github",
+  "url": "https://docs.github.com/en/copilot/get-started/plans",
+  "category": "plans",
+  "role": "primary",
+  "status": "ok",
+  "last_checked": "2026-08-22T20:02:55Z",
+  "last_error": null
+ },
+ {
+  "id": "github-copilot-premium",
+  "vendor": "github",
+  "url": "https://docs.github.com/en/copilot/managing-copilot/monitoring-usage-and-entitlements/about-premium-requests",
+  "category": "limits",
+  "role": "primary",
+  "status": "ok",
+  "last_checked": "2026-08-22T20:02:56Z",
+  "last_error": null
+ },
+ {
+  "id": "anthropic-changelog",
+  "vendor": "anthropic",
+  "url": "https://platform.claude.com/docs/en/release-notes/overview.md",
+  "category": "changelog",
+  "role": "announcements",
+  "status": "ok",
+  "last_checked": "2026-08-22T20:02:56Z",
+  "last_error": null
+ },
+ {
+  "id": "github-changelog-rss",
+  "vendor": "github",
+  "url": "https://github.blog/changelog/feed/",
+  "category": "changelog",
+  "role": "announcements",
+  "status": "ok",
+  "last_checked": "2026-08-22T20:02:56Z",
+  "last_error": null
+ },
+ {
+  "id": "openai-news-rss",
+  "vendor": "openai",
+  "url": "https://openai.com/news/rss.xml",
+  "category": "changelog",
+  "role": "announcements",
+  "status": "ok",
+  "last_checked": "2026-08-22T20:02:57Z",
+  "last_error": null
+ },
+ {
+  "id": "gemini-release-notes",
+  "vendor": "google",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog",
+  "category": "changelog",
+  "role": "announcements",
+  "status": "ok",
+  "last_checked": "2026-08-22T20:02:57Z",
+  "last_error": null
+ }
+]

@@ -1,0 +1,788 @@
+{
+ "1254829bd999": {
+  "title": "Release notes",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "fee07a958baa": {
+  "title": "August 13, 2026",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "bebecffed670": {
+  "title": "July 30, 2026",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "9c66791da800": {
+  "title": "July 21, 2026",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "be73b89273a0": {
+  "title": "July 6, 2026",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "91c9713670a7": {
+  "title": "June 30, 2026",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "5397b540679f": {
+  "title": "June 24, 2026",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "8277b4b2d6b9": {
+  "title": "June 17, 2026",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "8f7dda079e6d": {
+  "title": "June 15, 2026",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "ff31cb77573d": {
+  "title": "June 1, 2026",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "4e533e184659": {
+  "title": "May 28, 2026",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "bf067fefea03": {
+  "title": "May 25, 2026",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "713a36255ed1": {
+  "title": "May 19, 2026",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "b19ac1e17ae1": {
+  "title": "May 7, 2026",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "f9dd9d1812d6": {
+  "title": "May 6, 2026",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "dc86f94af5cc": {
+  "title": "May 5, 2026",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "f005645c3b11": {
+  "title": "May 4, 2026",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "637bf33b9099": {
+  "title": "April 30, 2026",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "6e4399e4be51": {
+  "title": "April 22, 2026",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "a617a35b9d37": {
+  "title": "April 21, 2026",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "22cff74cfb5e": {
+  "title": "April 15, 2026",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "2354b54f6435": {
+  "title": "April 14, 2026",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "c2ba8fa2b43b": {
+  "title": "April 2, 2026",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "0480e0ca2a86": {
+  "title": "April 1, 2026",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "9304e55fc839": {
+  "title": "March 31, 2026",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "498f34fcd151": {
+  "title": "March 26, 2026",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "5d2cb2d81b88": {
+  "title": "March 25, 2026",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "6ca9c6205727": {
+  "title": "March 23, 2026",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "4812659f6603": {
+  "title": "March 18, 2026",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "5f0bd48482c7": {
+  "title": "March 16, 2026",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "19c5f1a90e13": {
+  "title": "March 12, 2026",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "aa686f49fbc6": {
+  "title": "March 10, 2026",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "c67be31e6b45": {
+  "title": "March 9, 2026",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "25ea829bd2bb": {
+  "title": "March 3, 2026",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "89116118f233": {
+  "title": "February 26, 2026",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "7dbca96371de": {
+  "title": "February 19, 2026",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "39bbf6f3c741": {
+  "title": "February 18, 2026",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "e4ecde18d88b": {
+  "title": "February 17, 2026",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "364a99880ae8": {
+  "title": "January 29, 2026",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "d971bf4be070": {
+  "title": "January 21, 2026",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "9f9c705b984d": {
+  "title": "January 15, 2026",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "1438e644c975": {
+  "title": "January 14, 2026",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "4ab49e00aff7": {
+  "title": "January 13, 2026",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "b5917320e4ba": {
+  "title": "January 12, 2026",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "acb49da31c27": {
+  "title": "January 8, 2026",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "536ad338ea7d": {
+  "title": "December 19, 2025",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "d582d52221c0": {
+  "title": "December 17, 2025",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "912c47314edd": {
+  "title": "December 12, 2025",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "947cc6646257": {
+  "title": "December 11, 2025",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "75d60e29a076": {
+  "title": "December 10, 2025",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "bdc4bfffc674": {
+  "title": "December 9, 2025",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "85b3eaa7bed9": {
+  "title": "December 5, 2025",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "9934d63c1d25": {
+  "title": "December 4, 2025",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "3bb78478de10": {
+  "title": "December 3, 2025",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "0b2749311221": {
+  "title": "November 20, 2025",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "d89970687af9": {
+  "title": "November 18, 2025",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "da0e065f825d": {
+  "title": "November 11, 2025",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "776231568970": {
+  "title": "November 10, 2025",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "3591eecf5ca8": {
+  "title": "November 6, 2025",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "a75dc5718963": {
+  "title": "November 4, 2025",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "be50dcb7d35f": {
+  "title": "October 29, 2025",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "10e62bb9f9e1": {
+  "title": "October 20, 2025",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "dfe3cb493da1": {
+  "title": "October 17, 2025",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "41e4102a28aa": {
+  "title": "October 15, 2025",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "9be6dd634557": {
+  "title": "October 7, 2025",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "ec5bfb2fa247": {
+  "title": "October 2, 2025",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "d70a44be9dcc": {
+  "title": "September 29, 2025",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "4fef80e1db0f": {
+  "title": "September 25, 2025",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "9b49f4926f75": {
+  "title": "September 23, 2025",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "79fe9cd01020": {
+  "title": "September 16, 2025",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "3f15ccb0e274": {
+  "title": "September 10, 2025",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "897bb9253a0f": {
+  "title": "September 9, 2025",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "1a5b5178d864": {
+  "title": "August 26, 2025",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "702a873bb63d": {
+  "title": "August 18, 2025",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "61322ddd3e24": {
+  "title": "August 14, 2025",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "01f8346fb606": {
+  "title": "August 7, 2025",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "1e6d56786492": {
+  "title": "July 31, 2025",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "484f22521692": {
+  "title": "July 22, 2025",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "a60c4504f70f": {
+  "title": "July 17, 2025",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "2d55211bfc42": {
+  "title": "July 14, 2025",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "8bd6bd7bfb50": {
+  "title": "July 7, 2025",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "f38773dfcbb5": {
+  "title": "June 26, 2025",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "e437bb4b0339": {
+  "title": "June 24, 2025",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "8a606b652491": {
+  "title": "June 17, 2025",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "f2801f33e1eb": {
+  "title": "June 05, 2025",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "25d0c436251e": {
+  "title": "May 27, 2025",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "f71d40a0aa38": {
+  "title": "May 20, 2025",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "e7b043e98c35": {
+  "title": "May 7, 2025",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "b36e917333cf": {
+  "title": "May 6, 2025",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "e0a2bdc4a5a5": {
+  "title": "April 17, 2025",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "de1f9f45a649": {
+  "title": "April 16, 2025",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "4dc70ee784f0": {
+  "title": "April 9, 2025",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "992fb39d5da4": {
+  "title": "April 4, 2025",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "19e5a1ed8b94": {
+  "title": "March 25, 2025",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "4f099e70c5dc": {
+  "title": "March 12, 2025",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "9c2e78379f3b": {
+  "title": "March 11, 2025",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "90849168b379": {
+  "title": "March 7, 2025",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "3a6e9c9e574f": {
+  "title": "February 28, 2025",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "890b391d3067": {
+  "title": "February 25, 2025",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "6d9afcc235f3": {
+  "title": "February 19, 2025",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "5235dc380c7a": {
+  "title": "February 18, 2025",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "cbd6b22aae69": {
+  "title": "February 11, 2025",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "37fb106d889c": {
+  "title": "February 6, 2025",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "19857f796bdd": {
+  "title": "February 5, 2025",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "7f340527adfe": {
+  "title": "January 21, 2025",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "340c4bfe5328": {
+  "title": "December 19, 2024",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "551cf141c9cb": {
+  "title": "December 11, 2024",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "7075b67ea820": {
+  "title": "November 21, 2024",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "44107b4ca4a6": {
+  "title": "November 14, 2024",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "ac9a1507d397": {
+  "title": "November 8, 2024",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "15a99ac07405": {
+  "title": "October 31, 2024",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "fe5c75d78b8a": {
+  "title": "October 3, 2024",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "d9a10b2af10e": {
+  "title": "September 24, 2024",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "827b1bef3000": {
+  "title": "September 19, 2024",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "e0729a018df1": {
+  "title": "September 17, 2024",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "e68bbc657b93": {
+  "title": "September 13, 2024",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "4e2230efeca5": {
+  "title": "August 30, 2024",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "fae4cd99ab36": {
+  "title": "August 27, 2024",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "975c5127ee03": {
+  "title": "August 9, 2024",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "16c52eed4016": {
+  "title": "August 5, 2024",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "8da87264adf0": {
+  "title": "August 1, 2024",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "9e240214f987": {
+  "title": "July 12, 2024",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "fe970aafaba3": {
+  "title": "June 27, 2024",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "c6b5615103b2": {
+  "title": "June 18, 2024",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "80fb3bd4197b": {
+  "title": "June 12, 2024",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "721c009ab38d": {
+  "title": "May 23, 2024",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "49ec247ceb5e": {
+  "title": "May 14, 2024",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "fbf0a1ca5ec1": {
+  "title": "May 10, 2024",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "8d59d9da64f6": {
+  "title": "April 9, 2024",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "c6a7d32a4944": {
+  "title": "March 19, 2024",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ },
+ "53a90791f611": {
+  "title": "December 13 2023",
+  "date": "",
+  "summary": "",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog"
+ }
+}

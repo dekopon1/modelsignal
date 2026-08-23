@@ -1,0 +1,140 @@
+{
+ "About rate limits": {},
+ "Spend limits": {
+  "Start": {
+   "Monthly spend cap": "$500 USD"
+  },
+  "Build": {
+   "Monthly spend cap": "$1,000 USD"
+  },
+  "Scale": {
+   "Monthly spend cap": "$200,000 USD"
+  }
+ },
+ "Reaching your spend cap": {},
+ "Setting your own spend limit": {},
+ "Rate limits": {},
+ "Cache-aware ITPM": {
+  "Claude Fable 5": {
+   "Maximum requests per minute (RPM)": "4,000",
+   "Maximum input tokens per minute (ITPM)": "4,000,000",
+   "Maximum output tokens per minute (OTPM)": "800,000"
+  },
+  "Claude Opus 5": {
+   "Maximum requests per minute (RPM)": "10,000",
+   "Maximum input tokens per minute (ITPM)": "10,000,000",
+   "Maximum output tokens per minute (OTPM)": "2,000,000"
+  },
+  "Claude Opus 4.x\\": {
+   "Maximum requests per minute (RPM)": "10,000",
+   "Maximum input tokens per minute (ITPM)": "10,000,000",
+   "Maximum output tokens per minute (OTPM)": "2,000,000"
+  },
+  "Claude Sonnet 5": {
+   "Maximum requests per minute (RPM)": "10,000",
+   "Maximum input tokens per minute (ITPM)": "10,000,000",
+   "Maximum output tokens per minute (OTPM)": "2,000,000"
+  },
+  "Claude Sonnet 4.x\\\\": {
+   "Maximum requests per minute (RPM)": "10,000",
+   "Maximum input tokens per minute (ITPM)": "10,000,000",
+   "Maximum output tokens per minute (OTPM)": "2,000,000"
+  },
+  "Claude Haiku 4.5": {
+   "Maximum requests per minute (RPM)": "10,000",
+   "Maximum input tokens per minute (ITPM)": "10,000,000",
+   "Maximum output tokens per minute (OTPM)": "2,000,000"
+  },
+  "Claude Haiku 3.5 (retired, except on Bedrock and Google Cloud)": {
+   "Maximum requests per minute (RPM)": "4,000",
+   "Maximum input tokens per minute (ITPM)": "400,000†",
+   "Maximum output tokens per minute (OTPM)": "80,000"
+  }
+ },
+ "Message Batches API": {
+  "1,000": {
+   "Maximum batch requests in processing queue": "200,000",
+   "Maximum batch requests per batch": "100,000"
+  },
+  "2,000": {
+   "Maximum batch requests in processing queue": "300,000",
+   "Maximum batch requests per batch": "100,000"
+  },
+  "4,000": {
+   "Maximum batch requests in processing queue": "500,000",
+   "Maximum batch requests per batch": "100,000"
+  }
+ },
+ "Managed Agents": {
+  "Create endpoints (for example, agents, sessions, and environments)": {
+   "Limit": "300 requests per minute"
+  },
+  "Read endpoints (for example, retrieve, list, and stream)": {
+   "Limit": "1,200 requests per minute"
+  }
+ },
+ "Files API": {},
+ "Fast mode rate limits": {},
+ "Monitoring your rate limits in the Console": {},
+ "Requesting higher limits": {},
+ "Setting lower limits for Workspaces": {},
+ "Response headers": {
+  "retry-after": {
+   "Description": "The number of seconds to wait until you can retry the request. Earlier retries will fail. Not sent with the spend-cap 429 (see Reaching your spend cap)."
+  },
+  "anthropic-ratelimit-requests-limit": {
+   "Description": "The maximum number of requests allowed within any rate limit period."
+  },
+  "anthropic-ratelimit-requests-remaining": {
+   "Description": "The number of requests remaining before being rate limited."
+  },
+  "anthropic-ratelimit-requests-reset": {
+   "Description": "The time when the request rate limit will be fully replenished, provided in RFC 3339 format."
+  },
+  "anthropic-ratelimit-tokens-limit": {
+   "Description": "The maximum number of tokens allowed within any rate limit period."
+  },
+  "anthropic-ratelimit-tokens-remaining": {
+   "Description": "The number of tokens remaining (rounded to the nearest thousand) before being rate limited."
+  },
+  "anthropic-ratelimit-tokens-reset": {
+   "Description": "The time when the token rate limit will be fully replenished, provided in RFC 3339 format."
+  },
+  "anthropic-ratelimit-input-tokens-limit": {
+   "Description": "The maximum number of input tokens allowed within any rate limit period."
+  },
+  "anthropic-ratelimit-input-tokens-remaining": {
+   "Description": "The number of input tokens remaining (rounded to the nearest thousand) before being rate limited."
+  },
+  "anthropic-ratelimit-input-tokens-reset": {
+   "Description": "The time when the input token rate limit will be fully replenished, provided in RFC 3339 format."
+  },
+  "anthropic-ratelimit-output-tokens-limit": {
+   "Description": "The maximum number of output tokens allowed within any rate limit period."
+  },
+  "anthropic-ratelimit-output-tokens-remaining": {
+   "Description": "The number of output tokens remaining (rounded to the nearest thousand) before being rate limited."
+  },
+  "anthropic-ratelimit-output-tokens-reset": {
+   "Description": "The time when the output token rate limit will be fully replenished, provided in RFC 3339 format."
+  },
+  "anthropic-priority-input-tokens-limit": {
+   "Description": "The maximum number of Priority Tier input tokens allowed within any rate limit period. (Priority Tier only)"
+  },
+  "anthropic-priority-input-tokens-remaining": {
+   "Description": "The number of Priority Tier input tokens remaining (rounded to the nearest thousand) before being rate limited. (Priority Tier only)"
+  },
+  "anthropic-priority-input-tokens-reset": {
+   "Description": "The time when the Priority Tier input token rate limit will be fully replenished, provided in RFC 3339 format. (Priority Tier only)"
+  },
+  "anthropic-priority-output-tokens-limit": {
+   "Description": "The maximum number of Priority Tier output tokens allowed within any rate limit period. (Priority Tier only)"
+  },
+  "anthropic-priority-output-tokens-remaining": {
+   "Description": "The number of Priority Tier output tokens remaining (rounded to the nearest thousand) before being rate limited. (Priority Tier only)"
+  },
+  "anthropic-priority-output-tokens-reset": {
+   "Description": "The time when the Priority Tier output token rate limit will be fully replenished, provided in RFC 3339 format. (Priority Tier only)"
+  }
+ }
+}

@@ -1,0 +1,93 @@
+[
+ {
+  "name": "Anthropic",
+  "slug": "anthropic",
+  "key": "anthropic",
+  "sources": [
+   "anthropic-pricing",
+   "anthropic-limits",
+   "anthropic-changelog"
+  ],
+  "last_checked": "2026-08-22T20:02:56Z",
+  "degraded": false,
+  "change_count": 0
+ },
+ {
+  "name": "OpenRouter",
+  "slug": "openrouter",
+  "key": "openrouter",
+  "sources": [
+   "openrouter-models"
+  ],
+  "last_checked": "2026-08-22T20:02:52Z",
+  "degraded": false,
+  "change_count": 0
+ },
+ {
+  "name": "DeepSeek",
+  "slug": "deepseek",
+  "key": "deepseek",
+  "sources": [
+   "deepseek-pricing"
+  ],
+  "last_checked": "2026-08-22T20:02:54Z",
+  "degraded": false,
+  "change_count": 0
+ },
+ {
+  "name": "Mistral AI",
+  "slug": "mistral",
+  "key": "mistral",
+  "sources": [
+   "mistral-models"
+  ],
+  "last_checked": "2026-08-22T20:02:54Z",
+  "degraded": false,
+  "change_count": 0
+ },
+ {
+  "name": "Google Gemini",
+  "slug": "google-gemini",
+  "key": "google",
+  "sources": [
+   "google-gemini-pricing",
+   "gemini-release-notes"
+  ],
+  "last_checked": "2026-08-22T20:02:57Z",
+  "degraded": false,
+  "change_count": 0
+ },
+ {
+  "name": "GitHub Copilot",
+  "slug": "github-copilot",
+  "key": "github",
+  "sources": [
+   "github-copilot-plans",
+   "github-copilot-premium",
+   "github-changelog-rss"
+  ],
+  "last_checked": "2026-08-22T20:02:56Z",
+  "degraded": false,
+  "change_count": 0
+ },
+ {
+  "name": "Cursor",
+  "slug": "cursor",
+  "key": "cursor",
+  "sources": [],
+  "last_checked": null,
+  "degraded": false,
+  "change_count": 0
+ },
+ {
+  "name": "OpenAI",
+  "slug": "openai",
+  "key": "openai",
+  "sources": [
+   "openai-news-rss"
+  ],
+  "last_checked": "2026-08-22T20:02:57Z",
+  "degraded": false,
+  "change_count": 0
+ }
+]

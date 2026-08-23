@@ -1,0 +1,16 @@
+{
+  "site_url": "https://dekopon1.github.io/modelsignal",
+  "repo_url": "https://github.com/dekopon1/modelsignal",
+  "contact_email": "hello@modelsignal.dev",
+  "year": "2026",
+  "payments": {
+    "pro_price_id": null,
+    "team_price_id": null,
+    "pro_payment_link": null,
+    "team_payment_link": null
+  },
+  "forms": {
+    "newsletter_endpoint": null
+  },
+  "_note": "When owner creates Stripe payment links / Resend form endpoint, fill values here and rebuild. site_url updated to custom domain when purchased."
+}

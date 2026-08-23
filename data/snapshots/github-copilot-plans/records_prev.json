@@ -1,0 +1,142 @@
+{
+ "GitHub Copilot": {},
+ "Plans for GitHub Copilot": {},
+ "In this article": {},
+ "GitHub Copilot plans": {},
+ "Copilot plans overview": {
+  "Copilot Free": {
+   "Pricing": "Free",
+   "GitHub AI Credits": "An allowance of GitHub AI Credits",
+   "Agents": "Limited",
+   "Models": "Auto model selection only"
+  },
+  "Copilot Student": {
+   "Pricing": "Free",
+   "GitHub AI Credits": "An allowance of GitHub AI Credits",
+   "Agents": "Excludes third-party agents",
+   "Models": "Auto model selection only"
+  },
+  "Copilot Pro": {
+   "Pricing": "$10 USD per month (free for some users)",
+   "GitHub AI Credits": "Base: 1,000",
+   "Models": "A selection of models"
+  },
+  "Copilot Pro+": {
+   "Pricing": "$39 USD per month.",
+   "GitHub AI Credits": "Base: 3,900",
+   "Models": "Access to premium models"
+  },
+  "Copilot Max": {
+   "Pricing": "$100 USD per month",
+   "GitHub AI Credits": "Base: 10,000",
+   "Models": "Priority access to premium models"
+  },
+  "Copilot Business": {
+   "Pricing": "$19 USD per granted seat per month",
+   "GitHub AI Credits": "Total per user per month: 1,900",
+   "Models": "Access to premium models"
+  },
+  "Copilot Enterprise": {
+   "Pricing": "$39 USD per granted seat per month",
+   "GitHub AI Credits": "Total per user per month: 3,900",
+   "Models": "Priority access to premium models"
+  }
+ },
+ "Individual plans": {},
+ "GitHub AI Credits allowance by plan": {
+  "Copilot Pro": {
+   "Price per month": "$10 USD",
+   "Base credits": "1,000",
+   "Flex allotment": "500",
+   "Total monthly AI credits": "1,500"
+  },
+  "Copilot Pro+": {
+   "Price per month": "$39 USD",
+   "Base credits": "3,900",
+   "Flex allotment": "3,100",
+   "Total monthly AI credits": "7,000"
+  },
+  "Copilot Max": {
+   "Price per month": "$100 USD",
+   "Base credits": "10,000",
+   "Flex allotment": "10,000",
+   "Total monthly AI credits": "20,000"
+  },
+  "Copilot Business": {
+   "Price per granted seat per month": "$19 USD",
+   "GitHub AI Credits per user per month": "1,900"
+  },
+  "Copilot Enterprise": {
+   "Price per granted seat per month": "$39 USD",
+   "GitHub AI Credits per user per month": "3,900"
+  }
+ },
+ "Inline suggestions and Copilot Chat": {},
+ "Models": {
+  "Claude Haiku 4.5": {},
+  "Claude Opus 4.5": {},
+  "Claude Opus 4.6": {},
+  "Claude Opus 4.7": {},
+  "Claude Opus 4.8": {},
+  "Claude Opus 4.8 (fast mode) (preview)": {},
+  "Claude Opus 5": {},
+  "Claude Fable 52": {},
+  "Claude Sonnet 4.5": {},
+  "Claude Sonnet 4.6": {},
+  "Claude Sonnet 5": {},
+  "Gemini 3.1 Pro": {},
+  "Gemini 3.5 Flash": {},
+  "Gemini 3.6 Flash": {},
+  "Gemini 3.7 Flash": {},
+  "GPT-5 mini": {},
+  "GPT-5.3-Codex": {},
+  "GPT-5.4": {},
+  "GPT-5.4 mini": {},
+  "GPT-5.4 nano3": {},
+  "GPT-5.5": {},
+  "GPT-5.6 Luna": {},
+  "GPT-5.6 Sol": {},
+  "GPT-5.6 Terra": {},
+  "Grok 4.5": {},
+  "Grok 4.6": {},
+  "Kimi K2.7 Code": {},
+  "Kimi K3": {},
+  "MAI-Code-1-Flash": {},
+  "MAI-Code-1.1-Flash": {},
+  "Raptor mini": {}
+ },
+ "Agents": {
+  "Copilot cloud agent": {},
+  "Agent mode": {},
+  "Copilot code review": {
+   "Copilot Free": "Only \"Review selection\" in VS Code"
+  },
+  "Model Context Protocol (MCP)": {},
+  "Third-party Agents (public preview)": {}
+ },
+ "Customization": {
+  "Repository and personal custom instructions": {},
+  "Organization custom instructions": {},
+  "Prompt files": {},
+  "Model Context Protocol (MCP)": {},
+  "Block suggestions matching public code": {},
+  "Exclude specified files from Copilot": {},
+  "Organization-wide policy management": {}
+ },
+ "Other features": {
+  "Copilot pull request summaries": {},
+  "Audit logs": {},
+  "Content exclusion": {},
+  "Copilot CLI": {},
+  "Copilot app": {},
+  "GitHub Spark (public preview)": {}
+ },
+ "Organization and enterprise plans": {},
+ "Further reading": {},
+ "Footnotes": {},
+ "Help and support": {},
+ "Did you find what you needed?": {},
+ "Help us make these docs great!": {},
+ "Still need help?": {},
+ "Legal": {}
+}

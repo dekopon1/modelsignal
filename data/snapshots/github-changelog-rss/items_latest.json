@@ -1,0 +1,52 @@
+{
+ "https://github.blog/changelog/2026-08-21-better-tools-for-managing-blocked-users": {
+  "title": "Better tools for managing blocked users",
+  "date": "Fri, 21 Aug 2026 17:28:36 +0000",
+  "summary": "Managing blocked users is now faster and clearer for personal accounts and organizations. With this update, you can: Search by username, full name, or email. Sort and paginate long lists.&#8230;\nThe post Better tools for managing blocked users appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-08-21-the-new-github-copilot-experience-in-slack": {
+  "title": "The new GitHub Copilot experience in Slack",
+  "date": "Fri, 21 Aug 2026 16:07:15 +0000",
+  "summary": "The GitHub integration in Slack now brings the agentic capabilities of GitHub Copilot CLI and the GitHub Copilot app into Slack in public preview. You can work with @GitHub to&#8230;\nThe post The new GitHub Copilot experience in Slack appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-08-21-shared-agentic-work-with-github-copilot-in-microsoft-teams": {
+  "title": "Shared agentic work with GitHub Copilot in Microsoft Teams",
+  "date": "Fri, 21 Aug 2026 16:03:36 +0000",
+  "summary": "Turn a Microsoft Teams discussion into a collaborative agent session everyone can see and help direct. Mention @GitHub in a channel, thread, or direct message to start a GitHub Copilot&#8230;\nThe post Shared agentic work with GitHub Copilot in Microsoft Teams appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-08-20-pin-projects-views-and-milestones-to-the-repository-sidebar": {
+  "title": "Pinning saved views to the repository issues sidebar is generally available and more",
+  "date": "Thu, 20 Aug 2026 23:29:34 +0000",
+  "summary": "Pinning saved views to the repository issues sidebar You can now pin saved views&#8288; to the repository issues sidebar, making the views you use most just one click away, even&#8230;\nThe post Pinning saved views to the repository issues sidebar is generally available and more appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-08-20-windows-11-arm64-vs2026-image-generally-available": {
+  "title": "Windows 11 arm64 VS2026 image generally available",
+  "date": "Thu, 20 Aug 2026 17:52:38 +0000",
+  "summary": "The Windows 11 arm64 image with Visual Studio 2026 is now generally available on standard and larger GitHub-hosted runners. To use it in GitHub Actions, update your workflow file to&#8230;\nThe post Windows 11 arm64 VS2026 image generally available appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-08-20-code-scanning-adds-a-mitigated-alert-dismissal-reason": {
+  "title": "Code scanning adds a mitigated alert dismissal reason",
+  "date": "Thu, 20 Aug 2026 15:14:31 +0000",
+  "summary": "You can now dismiss a code scanning alert with the reason Mitigated when a vulnerability remains in the code but external controls, such as a web application firewall or network&#8230;\nThe post Code scanning adds a mitigated alert dismissal reason appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-08-20-separate-github-actions-path-for-github-code-quality": {
+  "title": "Separate GitHub Actions path for GitHub Code Quality",
+  "date": "Thu, 20 Aug 2026 14:29:27 +0000",
+  "summary": "A dedicated workflow path for code quality CodeQL actions workflows is now generally available. Your workflow run history and your Actions usage reports now tell GitHub Code Quality runs apart&#8230;\nThe post Separate GitHub Actions path for GitHub Code Quality appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-08-20-track-github-code-quality-enablement-changes-in-the-audit-log": {
+  "title": "Track GitHub Code Quality enablement changes in the audit log",
+  "date": "Thu, 20 Aug 2026 14:28:41 +0000",
+  "summary": "GitHub Code Quality now writes an audit log event whenever someone enables, disables, or changes its settings on a repository. Three new events give you that history: repo.code_quality_enabled records when&#8230;\nThe post Track GitHub Code Quality enablement changes in the audit log appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-08-19-codeql-2-26-3-improves-github-actions-queries-and-javascript-modeling": {
+  "title": "CodeQL 2.26.3 improves GitHub Actions queries and JavaScript modeling",
+  "date": "Wed, 19 Aug 2026 21:09:30 +0000",
+  "summary": "CodeQL 2.26.3 adds JavaScript, TypeScript, and Vue source modeling and improves the accuracy of several GitHub Actions queries. CodeQL is the static analysis engine behind GitHub code scanning, which helps&#8230;\nThe post CodeQL 2.26.3 improves GitHub Actions queries and JavaScript modeling appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-08-19-track-organization-code-quality-trends": {
+  "title": "Track organization code quality trends",
+  "date": "Wed, 19 Aug 2026 12:56:57 +0000",
+  "summary": "The organization-level Code Quality dashboard now includes a Trends tab that shows how code quality has changed across your repositories over time. Instead of a point-in-time snapshot, you can see&#8230;\nThe post Track organization code quality trends appeared first on The GitHub Blog."
+ }
+}

@@ -1,0 +1,60 @@
+{
+ "GitHub Copilot": {},
+ "Requests in GitHub Copilot (legacy)": {},
+ "In this article": {},
+ "What is a request?": {},
+ "What are premium requests?": {},
+ "Premium features": {
+  "Copilot Chat": {
+   "Premium request consumption": "Copilot Chat uses one premium request per user prompt, multiplied by the model's rate. This includes ask, edit, agent, and plan modes in Copilot Chat in an IDE.",
+   "SKU Attribution": "Copilot premium requests"
+  },
+  "Copilot CLI": {
+   "Premium request consumption": "Each prompt to Copilot CLI uses one premium request with the default model. For other models, this is multiplied by the model's rate.",
+   "SKU Attribution": "Copilot premium requests"
+  },
+  "Copilot code review": {
+   "Premium request consumption": "Each time Copilot reviews a pull request (when assigned as a reviewer) or reviews code in your IDE, 13 premium requests are consumed.",
+   "SKU Attribution": "Copilot premium requests"
+  },
+  "Copilot cloud agent": {
+   "Premium request consumption": "Copilot cloud agent uses one premium request per session, multiplied by the model's rate. A session begins when you prompt Copilot to undertake a task. In addition, each real-time steering comment made during an active session uses one premium request per session, multiplied by the model's rate.",
+   "SKU Attribution": "Copilot cloud agent premium requests"
+  },
+  "Copilot Spaces": {
+   "Premium request consumption": "Copilot Spaces uses one premium request per user prompt, multiplied by the model's rate.",
+   "SKU Attribution": "Copilot premium requests"
+  },
+  "Spark": {
+   "Premium request consumption": "Each prompt to Spark uses a fixed rate of four premium requests.",
+   "SKU Attribution": "Spark premium requests"
+  },
+  "OpenAI Codex Visual Studio Code integration": {
+   "Premium request consumption": "While in preview, each prompt to OpenAI Codex uses one premium request multiplied by the model multiplier rates.",
+   "SKU Attribution": "Copilot premium requests"
+  },
+  "Third-party coding agents": {
+   "Premium request consumption": "While in preview, each prompt to a third-party coding agent uses one premium request, multiplied by the model's rate.",
+   "SKU Attribution": "Copilot premium requests"
+  }
+ },
+ "How do request allowances work per plan?": {
+  "Pricing": {
+   "Copilot Pro": "$10 USD per month (free for some users)",
+   "Copilot Pro+": "$39 USD per month"
+  },
+  "Premium requests": {
+   "Copilot Pro": "300 per month",
+   "Copilot Pro+": "1500 per month"
+  },
+  "Purchase additional premium requests at $0.04/request": {}
+ },
+ "What happens to unused requests at the end of the month?": {},
+ "What if I run out of premium requests?": {},
+ "Model multipliers": {},
+ "Help and support": {},
+ "Did you find what you needed?": {},
+ "Help us make these docs great!": {},
+ "Still need help?": {},
+ "Legal": {}
+}

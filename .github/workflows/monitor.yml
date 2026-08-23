@@ -1,0 +1,58 @@
+name: monitor
+on:
+  schedule:
+    - cron: "17 */6 * * *"   # every 6h at :17 (off-peak minute)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: monitor
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch, diff, verify, build data + digest
+        id: run
+        continue-on-error: true
+        run: |
+          set -o pipefail
+          python3 pipeline/monitor.py | tee /tmp/monitor.log
+          python3 pipeline/verify.py
+          python3 pipeline/build_site_data.py
+          python3 pipeline/newsletter.py
+
+      - name: Report per-source failures honestly
+        if: always()
+        run: |
+          echo "## Monitor run $(date -u +%FT%TZ)" >> $GITHUB_STEP_SUMMARY
+          cat /tmp/monitor.log >> $GITHUB_STEP_SUMMARY || true
+          python3 - <<'EOF'
+          import json
+          try:
+            r=json.load(open('data/run_report.json'))
+            fails=[x for x in r['results'] if not x.get('ok')]
+            if fails:
+              print(f"::warning::{len(fails)} source(s) failed this run:")
+              for f in fails: print(f"::warning::  {f['id']}: {f.get('error','?')[:140]}")
+          except Exception as e:
+            print('no report:', e)
+          EOF
+
+      - name: Commit snapshots & detected changes
+        run: |
+          git config user.name "modelsignal-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/ marketing/digests/ || true
+          if git diff --cached --quiet; then
+            echo "No new changes detected."
+          else
+            git commit -m "monitor: update snapshots & changes ($(date -u +%FT%TZ))" --quiet
+            git push
+          fi

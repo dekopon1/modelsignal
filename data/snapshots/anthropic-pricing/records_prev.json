@@ -1,0 +1,369 @@
+{
+ "Model pricing": {
+  "Claude Fable 5": {
+   "Base Input Tokens": "$10 / MTok",
+   "5m Cache Writes": "$12.50 / MTok",
+   "1h Cache Writes": "$20 / MTok",
+   "Cache Hits & Refreshes": "$1 / MTok",
+   "Output Tokens": "$50 / MTok"
+  },
+  "Claude Mythos 5 (limited availability)": {
+   "Base Input Tokens": "$10 / MTok",
+   "5m Cache Writes": "$12.50 / MTok",
+   "1h Cache Writes": "$20 / MTok",
+   "Cache Hits & Refreshes": "$1 / MTok",
+   "Output Tokens": "$50 / MTok"
+  },
+  "Claude Opus 5": {
+   "Base Input Tokens": "$5 / MTok",
+   "5m Cache Writes": "$6.25 / MTok",
+   "1h Cache Writes": "$10 / MTok",
+   "Cache Hits & Refreshes": "$0.50 / MTok",
+   "Output Tokens": "$25 / MTok"
+  },
+  "Claude Opus 4.8": {
+   "Base Input Tokens": "$5 / MTok",
+   "5m Cache Writes": "$6.25 / MTok",
+   "1h Cache Writes": "$10 / MTok",
+   "Cache Hits & Refreshes": "$0.50 / MTok",
+   "Output Tokens": "$25 / MTok"
+  },
+  "Claude Opus 4.7": {
+   "Base Input Tokens": "$5 / MTok",
+   "5m Cache Writes": "$6.25 / MTok",
+   "1h Cache Writes": "$10 / MTok",
+   "Cache Hits & Refreshes": "$0.50 / MTok",
+   "Output Tokens": "$25 / MTok"
+  },
+  "Claude Opus 4.6": {
+   "Base Input Tokens": "$5 / MTok",
+   "5m Cache Writes": "$6.25 / MTok",
+   "1h Cache Writes": "$10 / MTok",
+   "Cache Hits & Refreshes": "$0.50 / MTok",
+   "Output Tokens": "$25 / MTok"
+  },
+  "Claude Opus 4.5": {
+   "Base Input Tokens": "$5 / MTok",
+   "5m Cache Writes": "$6.25 / MTok",
+   "1h Cache Writes": "$10 / MTok",
+   "Cache Hits & Refreshes": "$0.50 / MTok",
+   "Output Tokens": "$25 / MTok"
+  },
+  "Claude Opus 4.1 (retired, except on Bedrock and Google Cloud)": {
+   "Base Input Tokens": "$15 / MTok",
+   "5m Cache Writes": "$18.75 / MTok",
+   "1h Cache Writes": "$30 / MTok",
+   "Cache Hits & Refreshes": "$1.50 / MTok",
+   "Output Tokens": "$75 / MTok"
+  },
+  "Claude Opus 4 (retired, except on Google Cloud)": {
+   "Base Input Tokens": "$15 / MTok",
+   "5m Cache Writes": "$18.75 / MTok",
+   "1h Cache Writes": "$30 / MTok",
+   "Cache Hits & Refreshes": "$1.50 / MTok",
+   "Output Tokens": "$75 / MTok"
+  },
+  "Claude Sonnet 5": {
+   "Base Input Tokens": "$2 / MTok",
+   "5m Cache Writes": "$2.50 / MTok",
+   "1h Cache Writes": "$4 / MTok",
+   "Cache Hits & Refreshes": "$0.20 / MTok",
+   "Output Tokens": "$10 / MTok"
+  },
+  "Claude Sonnet 4.6": {
+   "Base Input Tokens": "$3 / MTok",
+   "5m Cache Writes": "$3.75 / MTok",
+   "1h Cache Writes": "$6 / MTok",
+   "Cache Hits & Refreshes": "$0.30 / MTok",
+   "Output Tokens": "$15 / MTok"
+  },
+  "Claude Sonnet 4.5": {
+   "Base Input Tokens": "$3 / MTok",
+   "5m Cache Writes": "$3.75 / MTok",
+   "1h Cache Writes": "$6 / MTok",
+   "Cache Hits & Refreshes": "$0.30 / MTok",
+   "Output Tokens": "$15 / MTok"
+  },
+  "Claude Sonnet 4 (retired, except on Bedrock and Google Cloud)": {
+   "Base Input Tokens": "$3 / MTok",
+   "5m Cache Writes": "$3.75 / MTok",
+   "1h Cache Writes": "$6 / MTok",
+   "Cache Hits & Refreshes": "$0.30 / MTok",
+   "Output Tokens": "$15 / MTok"
+  },
+  "Claude Haiku 4.5": {
+   "Base Input Tokens": "$1 / MTok",
+   "5m Cache Writes": "$1.25 / MTok",
+   "1h Cache Writes": "$2 / MTok",
+   "Cache Hits & Refreshes": "$0.10 / MTok",
+   "Output Tokens": "$5 / MTok"
+  },
+  "Claude Haiku 3.5 (retired, except on Bedrock and Google Cloud)": {
+   "Base Input Tokens": "$0.80 / MTok",
+   "5m Cache Writes": "$1 / MTok",
+   "1h Cache Writes": "$1.60 / MTok",
+   "Cache Hits & Refreshes": "$0.08 / MTok",
+   "Output Tokens": "$4 / MTok"
+  }
+ },
+ "Cloud platform pricing": {},
+ "Claude Platform on AWS pricing": {
+  "Billing unit": {
+   "Details": "Claude Consumption Unit (CCU)"
+  },
+  "CCU price": {
+   "Details": "$0.01 per CCU (fixed; discounts apply at token-to-CCU conversion, not to the CCU price)"
+  },
+  "Conversion": {
+   "Details": "Token usage rated in USD at standard per-model, per-feature rates (same as Claude API pricing), then converted to CCUs at $0.01 per CCU"
+  },
+  "Billing cadence": {
+   "Details": "Hourly metering to AWS Marketplace; monthly invoices"
+  },
+  "Payment model": {
+   "Details": "Arrears only (postpaid); no prepaid credits"
+  },
+  "Discounts": {
+   "Details": "Applied as fewer CCUs metered"
+  },
+  "Tax": {
+   "Details": "Pre-tax metering; AWS Marketplace handles tax"
+  },
+  "Cost visibility": {
+   "Details": "Real-time breakdown in the Claude Console (access through the AWS Console); AWS Cost Explorer shows aggregated CCU"
+  }
+ },
+ "Inference geography": {},
+ "Private offers": {},
+ "Claude in Microsoft Foundry pricing": {
+  "Billing unit": {
+   "Details": "Claude Consumption Unit (CCU)"
+  },
+  "CCU price": {
+   "Details": "$0.01 per CCU (fixed; discounts apply at token-to-CCU conversion, not to the CCU price)"
+  },
+  "Conversion": {
+   "Details": "Token usage rated in USD at standard per-model, per-feature rates (same as Claude API pricing), then converted to CCUs at $0.01 per CCU"
+  },
+  "Billing cadence": {
+   "Details": "Hourly metering to the Azure Marketplace; monthly invoices"
+  },
+  "Payment model": {
+   "Details": "Arrears only (postpaid); no prepaid credits"
+  },
+  "Discounts": {
+   "Details": "Applied as fewer CCUs metered"
+  },
+  "Tax": {
+   "Details": "Pre-tax metering; Azure Marketplace handles tax"
+  },
+  "Cost visibility": {
+   "Details": "Azure Cost Management shows aggregated CCU"
+  }
+ },
+ "Feature-specific pricing": {},
+ "Prompt caching": {
+  "5-minute cache write": {
+   "Multiplier": "1.25x base input price",
+   "Duration": "Cache valid for 5 minutes"
+  },
+  "1-hour cache write": {
+   "Multiplier": "2x base input price",
+   "Duration": "Cache valid for 1 hour"
+  },
+  "Cache read (hit)": {
+   "Multiplier": "0.1x base input price",
+   "Duration": "Same duration as the preceding write"
+  }
+ },
+ "Data residency pricing": {},
+ "Fast mode pricing": {
+  "Claude Opus 5 / Claude Opus 4.8": {
+   "Input": "$10 / MTok",
+   "Output": "$50 / MTok"
+  }
+ },
+ "Batch processing": {
+  "Claude Fable 5": {
+   "Batch input": "$5 / MTok",
+   "Batch output": "$25 / MTok"
+  },
+  "Claude Mythos 5 (limited availability)": {
+   "Batch input": "$5 / MTok",
+   "Batch output": "$25 / MTok"
+  },
+  "Claude Opus 5": {
+   "Batch input": "$2.50 / MTok",
+   "Batch output": "$12.50 / MTok"
+  },
+  "Claude Opus 4.8": {
+   "Batch input": "$2.50 / MTok",
+   "Batch output": "$12.50 / MTok"
+  },
+  "Claude Opus 4.7": {
+   "Batch input": "$2.50 / MTok",
+   "Batch output": "$12.50 / MTok"
+  },
+  "Claude Opus 4.6": {
+   "Batch input": "$2.50 / MTok",
+   "Batch output": "$12.50 / MTok"
+  },
+  "Claude Opus 4.5": {
+   "Batch input": "$2.50 / MTok",
+   "Batch output": "$12.50 / MTok"
+  },
+  "Claude Opus 4.1 (retired, except on Bedrock and Google Cloud)": {
+   "Batch input": "$7.50 / MTok",
+   "Batch output": "$37.50 / MTok"
+  },
+  "Claude Opus 4 (retired, except on Google Cloud)": {
+   "Batch input": "$7.50 / MTok",
+   "Batch output": "$37.50 / MTok"
+  },
+  "Claude Sonnet 5": {
+   "Batch input": "$1 / MTok",
+   "Batch output": "$5 / MTok"
+  },
+  "Claude Sonnet 4.6": {
+   "Batch input": "$1.50 / MTok",
+   "Batch output": "$7.50 / MTok"
+  },
+  "Claude Sonnet 4.5": {
+   "Batch input": "$1.50 / MTok",
+   "Batch output": "$7.50 / MTok"
+  },
+  "Claude Sonnet 4 (retired, except on Bedrock and Google Cloud)": {
+   "Batch input": "$1.50 / MTok",
+   "Batch output": "$7.50 / MTok"
+  },
+  "Claude Haiku 4.5": {
+   "Batch input": "$0.50 / MTok",
+   "Batch output": "$2.50 / MTok"
+  },
+  "Claude Haiku 3.5 (retired, except on Bedrock and Google Cloud)": {
+   "Batch input": "$0.40 / MTok",
+   "Batch output": "$2 / MTok"
+  }
+ },
+ "Long context pricing": {},
+ "Tool use pricing": {
+  "Claude Opus 5": {
+   "Tool choice": "auto, noneany, tool",
+   "Tool use system prompt token count": "286 tokens406 tokens"
+  },
+  "Claude Opus 4.8": {
+   "Tool choice": "auto, noneany, tool",
+   "Tool use system prompt token count": "290 tokens410 tokens"
+  },
+  "Claude Opus 4.7": {
+   "Tool choice": "auto, noneany, tool",
+   "Tool use system prompt token count": "675 tokens804 tokens"
+  },
+  "Claude Opus 4.6": {
+   "Tool choice": "auto, noneany, tool",
+   "Tool use system prompt token count": "497 tokens589 tokens"
+  },
+  "Claude Opus 4.5": {
+   "Tool choice": "auto, noneany, tool",
+   "Tool use system prompt token count": "496 tokens588 tokens"
+  },
+  "Claude Opus 4.1 (retired, except on Bedrock and Google Cloud)": {
+   "Tool choice": "auto, noneany, tool",
+   "Tool use system prompt token count": "313 tokens315 tokens"
+  },
+  "Claude Opus 4 (retired, except on Google Cloud)": {
+   "Tool choice": "auto, noneany, tool",
+   "Tool use system prompt token count": "313 tokens315 tokens"
+  },
+  "Claude Sonnet 5": {
+   "Tool choice": "auto, noneany, tool",
+   "Tool use system prompt token count": "354 tokens474 tokens"
+  },
+  "Claude Sonnet 4.6": {
+   "Tool choice": "auto, noneany, tool",
+   "Tool use system prompt token count": "497 tokens589 tokens"
+  },
+  "Claude Sonnet 4.5": {
+   "Tool choice": "auto, noneany, tool",
+   "Tool use system prompt token count": "496 tokens588 tokens"
+  },
+  "Claude Sonnet 4 (retired, except on Bedrock and Google Cloud)": {
+   "Tool choice": "auto, noneany, tool",
+   "Tool use system prompt token count": "313 tokens315 tokens"
+  },
+  "Claude Haiku 4.5": {
+   "Tool choice": "auto, noneany, tool",
+   "Tool use system prompt token count": "496 tokens588 tokens"
+  },
+  "Claude Haiku 3.5 (retired, except on Bedrock and Google Cloud)": {
+   "Tool choice": "auto, noneany, tool",
+   "Tool use system prompt token count": "264 tokens355 tokens"
+  }
+ },
+ "Specific tool pricing": {},
+ "Bash tool": {
+  "Claude Opus 5, Claude Opus 4.8, and Claude Opus 4.7": {
+   "Additional input tokens": "325 tokens"
+  },
+  "Claude Opus 4.6, Claude Sonnet 4.6, and earlier": {
+   "Additional input tokens": "244 tokens"
+  }
+ },
+ "Code execution tool": {},
+ "Text editor tool": {
+  "text_editor_20250429 (Claude 4.x)": {
+   "Additional input tokens": "700 tokens"
+  }
+ },
+ "Web search tool": {},
+ "Web fetch tool": {},
+ "Computer use tool": {},
+ "Browser use tool": {},
+ "Claude Managed Agents pricing": {},
+ "Tokens": {
+  "Batch API discount": {
+   "Why it doesn't apply": "Sessions are stateful and interactive. There is no batch mode."
+  },
+  "Cloud platform pricing": {
+   "Why it doesn't apply": "Not available on partner-operated cloud platforms."
+  }
+ },
+ "Session runtime": {
+  "Session runtime": {
+   "Rate": "$0.08 per session-hour",
+   "Metering": "running status duration"
+  }
+ },
+ "Worked example": {
+  "Input tokens": {
+   "Calculation": "50,000 × $5 / 1,000,000",
+   "Cost": "$0.25"
+  },
+  "Output tokens": {
+   "Calculation": "15,000 × $25 / 1,000,000",
+   "Cost": "$0.375"
+  },
+  "Session runtime": {
+   "Calculation": "1.0 hour × $0.08",
+   "Cost": "$0.08"
+  },
+  "Total": {
+   "Cost": "$0.525"
+  },
+  "Uncached input tokens": {
+   "Calculation": "10,000 × $5 / 1,000,000",
+   "Cost": "$0.05"
+  },
+  "Cache read tokens": {
+   "Calculation": "40,000 × $5 × 0.1 / 1,000,000",
+   "Cost": "$0.02"
+  }
+ },
+ "Additional pricing considerations": {},
+ "Cost optimization strategies": {},
+ "Rate limits": {},
+ "Volume discounts": {},
+ "Enterprise pricing": {},
+ "Billing and payment": {},
+ "Frequently asked questions": {}
+}
