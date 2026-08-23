@@ -85,8 +85,8 @@ class TestJsonModels(unittest.TestCase):
     def test_pricing_conversion(self):
         raw = '{"data":[{"id":"m-1","name":"Model 1","context_length":128000,"pricing":{"prompt":"0.0000015","completion":"0.000006"}}]}'
         r = parsers.parse_json_models(raw)
-        self.assertEqual(r["m-1"]["prompt_per_mtok"], "1.5")
-        self.assertEqual(r["m-1"]["completion_per_mtok"], "6")
+        self.assertEqual(r["models"]["m-1"]["prompt_per_mtok"], "1.5")
+        self.assertEqual(r["models"]["m-1"]["completion_per_mtok"], "6")
 
 
 class TestDiff(unittest.TestCase):

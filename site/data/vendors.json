@@ -4,11 +4,18 @@
   "slug": "anthropic",
   "key": "anthropic",
   "sources": [
-   "anthropic-pricing",
-   "anthropic-limits",
-   "anthropic-changelog"
+   {
+    "id": "anthropic-pricing"
+   },
+   {
+    "id": "anthropic-limits"
+   },
+   {
+    "id": "anthropic-changelog"
+   }
   ],
-  "last_checked": "2026-08-22T20:02:56Z",
+  "status": "active",
+  "last_checked": "2026-08-23T02:32:04Z",
   "degraded": false,
   "change_count": 0
  },
@@ -17,9 +24,12 @@
   "slug": "openrouter",
   "key": "openrouter",
   "sources": [
-   "openrouter-models"
+   {
+    "id": "openrouter-models"
+   }
   ],
-  "last_checked": "2026-08-22T20:02:52Z",
+  "status": "active",
+  "last_checked": "2026-08-23T03:09:03Z",
   "degraded": false,
   "change_count": 0
  },
@@ -28,9 +38,12 @@
   "slug": "deepseek",
   "key": "deepseek",
   "sources": [
-   "deepseek-pricing"
+   {
+    "id": "deepseek-pricing"
+   }
   ],
-  "last_checked": "2026-08-22T20:02:54Z",
+  "status": "active",
+  "last_checked": "2026-08-23T02:32:02Z",
   "degraded": false,
   "change_count": 0
  },
@@ -39,9 +52,12 @@
   "slug": "mistral",
   "key": "mistral",
   "sources": [
-   "mistral-models"
+   {
+    "id": "mistral-models"
+   }
   ],
-  "last_checked": "2026-08-22T20:02:54Z",
+  "status": "active",
+  "last_checked": "2026-08-23T02:32:02Z",
   "degraded": false,
   "change_count": 0
  },
@@ -50,10 +66,15 @@
   "slug": "google-gemini",
   "key": "google",
   "sources": [
-   "google-gemini-pricing",
-   "gemini-release-notes"
+   {
+    "id": "google-gemini-pricing"
+   },
+   {
+    "id": "gemini-release-notes"
+   }
   ],
-  "last_checked": "2026-08-22T20:02:57Z",
+  "status": "active",
+  "last_checked": "2026-08-23T02:32:04Z",
   "degraded": false,
   "change_count": 0
  },
@@ -62,20 +83,18 @@
   "slug": "github-copilot",
   "key": "github",
   "sources": [
-   "github-copilot-plans",
-   "github-copilot-premium",
-   "github-changelog-rss"
+   {
+    "id": "github-copilot-plans"
+   },
+   {
+    "id": "github-copilot-premium"
+   },
+   {
+    "id": "github-changelog-rss"
+   }
   ],
-  "last_checked": "2026-08-22T20:02:56Z",
-  "degraded": false,
-  "change_count": 0
- },
- {
-  "name": "Cursor",
-  "slug": "cursor",
-  "key": "cursor",
-  "sources": [],
-  "last_checked": null,
+  "status": "active",
+  "last_checked": "2026-08-23T02:32:04Z",
   "degraded": false,
   "change_count": 0
  },
@@ -84,9 +103,12 @@
   "slug": "openai",
   "key": "openai",
   "sources": [
-   "openai-news-rss"
+   {
+    "id": "openai-news-rss"
+   }
   ],
-  "last_checked": "2026-08-22T20:02:57Z",
+  "status": "announcements_only",
+  "last_checked": null,
   "degraded": false,
   "change_count": 0
  }

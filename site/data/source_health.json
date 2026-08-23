@@ -6,7 +6,7 @@
   "category": "pricing",
   "role": "primary",
   "status": "ok",
-  "last_checked": "2026-08-22T20:02:52Z",
+  "last_checked": "2026-08-23T02:32:00Z",
   "last_error": null
  },
  {
@@ -16,7 +16,7 @@
   "category": "limits",
   "role": "primary",
   "status": "ok",
-  "last_checked": "2026-08-22T20:02:52Z",
+  "last_checked": "2026-08-23T02:32:00Z",
   "last_error": null
  },
  {
@@ -26,7 +26,7 @@
   "category": "pricing",
   "role": "primary",
   "status": "ok",
-  "last_checked": "2026-08-22T20:02:52Z",
+  "last_checked": "2026-08-23T03:09:03Z",
   "last_error": null
  },
  {
@@ -36,7 +36,7 @@
   "category": "pricing",
   "role": "primary",
   "status": "ok",
-  "last_checked": "2026-08-22T20:02:54Z",
+  "last_checked": "2026-08-23T02:32:02Z",
   "last_error": null
  },
  {
@@ -46,7 +46,7 @@
   "category": "pricing",
   "role": "primary",
   "status": "ok",
-  "last_checked": "2026-08-22T20:02:54Z",
+  "last_checked": "2026-08-23T02:32:02Z",
   "last_error": null
  },
  {
@@ -56,7 +56,7 @@
   "category": "pricing",
   "role": "primary",
   "status": "ok",
-  "last_checked": "2026-08-22T20:02:55Z",
+  "last_checked": "2026-08-23T02:32:03Z",
   "last_error": null
  },
  {
@@ -66,7 +66,7 @@
   "category": "plans",
   "role": "primary",
   "status": "ok",
-  "last_checked": "2026-08-22T20:02:55Z",
+  "last_checked": "2026-08-23T02:32:03Z",
   "last_error": null
  },
  {
@@ -76,7 +76,7 @@
   "category": "limits",
   "role": "primary",
   "status": "ok",
-  "last_checked": "2026-08-22T20:02:56Z",
+  "last_checked": "2026-08-23T02:32:03Z",
   "last_error": null
  },
  {
@@ -86,7 +86,7 @@
   "category": "changelog",
   "role": "announcements",
   "status": "ok",
-  "last_checked": "2026-08-22T20:02:56Z",
+  "last_checked": "2026-08-23T02:32:04Z",
   "last_error": null
  },
  {
@@ -96,7 +96,7 @@
   "category": "changelog",
   "role": "announcements",
   "status": "ok",
-  "last_checked": "2026-08-22T20:02:56Z",
+  "last_checked": "2026-08-23T02:32:04Z",
   "last_error": null
  },
  {
@@ -106,7 +106,7 @@
   "category": "changelog",
   "role": "announcements",
   "status": "ok",
-  "last_checked": "2026-08-22T20:02:57Z",
+  "last_checked": "2026-08-23T02:32:04Z",
   "last_error": null
  },
  {
@@ -116,7 +116,7 @@
   "category": "changelog",
   "role": "announcements",
   "status": "ok",
-  "last_checked": "2026-08-22T20:02:57Z",
+  "last_checked": "2026-08-23T02:32:04Z",
   "last_error": null
  }
 ]

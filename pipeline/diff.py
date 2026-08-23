@@ -2,7 +2,7 @@
 import re
 
 MATERIAL_RE = re.compile(
-    r"(price|pricing|\$|\bper\s+(mtok|1m|million|token|request|user|seat|mo)\b|cost|bill|limit|quota|rate|"
+    r"(prompt_per_mtok|completion_per_mtok|image_per_mtok|request_per_mtok|context_length|price|pricing|\$|\bper[\s_-]?(mtok|1m|million|token|request|user|seat|mo)\b|cost|bill|limit|quota|rate|"
     r"cap|credit|tier|plan|deprecat|retir|sunset|context|window|entitle|usage|allowance|premium.?request|"
     r"free.?tier|overage|discount|increase|decrease|effective)", re.I)
 

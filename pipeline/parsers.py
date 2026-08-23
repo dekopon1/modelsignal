@@ -253,6 +253,8 @@ def parse_rss(raw: str):
 
 # ---------- openrouter-style model json ----------
 def parse_json_models(raw: str):
+    """Return {'models': {model_id: {field: value}}} — two-level structure so the
+    generic diff engine (context → entity → fields) works uniformly."""
     try:
         payload = json.loads(raw)
     except json.JSONDecodeError:
@@ -263,14 +265,14 @@ def parse_json_models(raw: str):
     recs = {}
     for m in data:
         mid = m.get("id")
-        if not mid:
+        if not mid or not isinstance(m, dict):
             continue
         entry = {}
         if m.get("name"):
             entry["name"] = m["name"]
         if m.get("context_length") is not None:
             entry["context_length"] = str(m["context_length"])
-        pr = m.get("pricing") or {}
+        pr = m.get("pricing") if isinstance(m.get("pricing"), dict) else {}
         for k in ("prompt", "completion", "request", "image"):
             v = pr.get(k)
             if v is None:
@@ -280,8 +282,9 @@ def parse_json_models(raw: str):
                 entry[f"{k}_per_mtok"] = f"{f * 1_000_000:.4f}".rstrip("0").rstrip(".")
             except (TypeError, ValueError):
                 entry[f"{k}"] = str(v)
-        recs[mid] = entry
-    return recs
+        if entry:
+            recs[mid] = entry
+    return {"models": recs}
 
 
 PARSERS = {

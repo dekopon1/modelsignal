@@ -14,12 +14,11 @@
   "first_seen": "2026-08-22T20:02:52Z"
  },
  "openrouter-models": {
-  "hash": "7ac2091afbfac486",
-  "last_snapshot": "snapshots/openrouter-models/2026-08-22T200252Z.txt.gz",
-  "last_checked": "2026-08-22T20:02:52Z",
+  "hash": "6b52be4cbd8d2743",
+  "last_snapshot": "snapshots/openrouter-models/2026-08-23T030903Z.txt.gz",
+  "last_checked": "2026-08-23T03:09:03Z",
   "last_changed": null,
-  "first_seen": "2026-08-22T20:02:52Z",
-  "last_error": "2026-08-23T02:32:01Z AttributeError: 'str' object has no attribute 'get'"
+  "first_seen": "2026-08-22T20:02:52Z"
  },
  "deepseek-pricing": {
   "hash": "2ca40d14478a538a",

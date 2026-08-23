@@ -24,10 +24,10 @@ class TestMonitorFlow(unittest.TestCase):
         lib.DATA_DIR = os.path.join(self.tmp, "data")
         lib.SNAP_DIR = os.path.join(lib.DATA_DIR, "snapshots")
         monitor.lib.SNAP_DIR = lib.SNAP_DIR
-        self.src = {"id": "test-vendor", "vendor": "openai", "product": "Test API",
-                    "category": "pricing", "url": "https://example.com/pricing",
+        self.src = {"id": "acme-pricing", "vendor": "openai", "product": "Acme API",
+                    "category": "pricing", "url": "https://docs.acmetools.dev/pricing",
                     "parser": "markdown_tables", "role": "primary"}
-        self.vendors = {"openai": {"name": "OpenAI", "slug": "openai"}}
+        self.vendors = {"openai": {"name": "Acme", "slug": "acme"}}
         self.state = {}
         self.payload = PAGE_V1
         self._orig_get = lib.http_get
@@ -66,7 +66,7 @@ class TestMonitorFlow(unittest.TestCase):
         self.assertEqual(c["old_value"], "$2.00")
         self.assertEqual(c["new_value"], "$4.00")
         self.assertEqual(c["confidence"], "detected")
-        self.assertIn("OpenAI", c["summary"])
+        self.assertIn("Acme", c["summary"])
 
         # run 4: same content again -> idempotent, no duplicates
         r = self.run_src()

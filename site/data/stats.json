@@ -1,9 +1,13 @@
 {
- "generated_at": "2026-08-22T20:06:04Z",
+ "generated_at": "2026-08-23T03:14:05Z",
  "total_changes": 0,
  "verified_changes": 0,
- "vendors_monitored": 8,
+ "vendors_monitored": 6,
+ "vendors_announcements_only": 1,
  "active_sources": 12,
+ "primary_sources": 8,
  "material_announcements": 0,
- "announcements_total": 0
+ "announcements_total": 0,
+ "calculator_models": 408,
+ "degraded_sources": 0
 }

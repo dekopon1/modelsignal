@@ -21,8 +21,8 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Fetch, diff, verify, build data + digest
-        id: run
-        continue-on-error: true
+        id: pipeline
+        continue-on-error: true   # we still publish good data if some sources fail; judged below
         run: |
           set -o pipefail
           python3 pipeline/monitor.py | tee /tmp/monitor.log
@@ -30,24 +30,8 @@ jobs:
           python3 pipeline/build_site_data.py
           python3 pipeline/newsletter.py
 
-      - name: Report per-source failures honestly
-        if: always()
-        run: |
-          echo "## Monitor run $(date -u +%FT%TZ)" >> $GITHUB_STEP_SUMMARY
-          cat /tmp/monitor.log >> $GITHUB_STEP_SUMMARY || true
-          python3 - <<'EOF'
-          import json
-          try:
-            r=json.load(open('data/run_report.json'))
-            fails=[x for x in r['results'] if not x.get('ok')]
-            if fails:
-              print(f"::warning::{len(fails)} source(s) failed this run:")
-              for f in fails: print(f"::warning::  {f['id']}: {f.get('error','?')[:140]}")
-          except Exception as e:
-            print('no report:', e)
-          EOF
-
       - name: Commit snapshots & detected changes
+        if: always()
         run: |
           git config user.name "modelsignal-bot"
           git config user.email "actions@users.noreply.github.com"
@@ -62,12 +46,20 @@ jobs:
       # GITHUB_TOKEN pushes don't trigger other workflows (anti-recursion),
       # so we deploy the site directly from here.
       - name: Build static site
+        if: steps.pipeline.outcome != 'cancelled'
         run: python3 pipeline/ssg.py
 
       - uses: actions/upload-pages-artifact@v3
+        if: steps.pipeline.outcome != 'cancelled'
         with:
           path: site/dist
 
       - uses: actions/deploy-pages@v4
+        if: steps.pipeline.outcome != 'cancelled'
         with:
           emit_telemetry: false
+
+      # ---- Quality gate: partial source failures make the run RED ----
+      - name: Quality gate — degraded sources are loud, not silent
+        if: always()
+        run: python3 pipeline/quality_gate.py

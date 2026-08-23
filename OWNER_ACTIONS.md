@@ -1,21 +1,29 @@
-# OWNER ACTIONS
+# OWNER ACTIONS — prioritized
 
-Actions that require your identity/credentials/authorization. Everything else runs autonomously.
+Only actions that require **your** identity, credentials, money, or accounts. Everything else is automated (see OPERATIONS.md). All configuration happens in **one file**: `site/config.json` — the generator reads it on every build.
 
-## Required to go live on a real domain
-1. **Domain**: purchase (suggestions: `modelsignal.dev`, `modelsignal.io` — verify availability/trademark first). Then add a CNAME record for the GitHub Pages URL (documented in OPERATIONS.md once repo is live). Cost: ~$10–15/yr.
+## Priority 1 — before telling anyone about this product
+1. **Domain (recommended, ~$12/yr).** The site currently lives at `https://dekopon1.github.io/modelsignal/`. A bare domain looks credible and SEO URLs stop changing later.
+   - Before buying: see DECISIONS.md D9 for the name-conflict research and rename recommendation.
+   - After buying: set `"site_url"` in `site/config.json` to the new domain, add a CNAME file + DNS record per GitHub Pages docs (I will do the repo side once you own it).
 
-## Required to charge money
-2. **Stripe account** → create, then set `STRIPE_PUBLISHABLE_KEY` + create two Products/Prices ($15/mo Pro, $49/mo Team) and put the Price IDs into `site/config/payments.json`. Checkout buttons are already wired and will switch from waitlist-mode to live-mode automatically.
+## Priority 2 — first dollar (only after validation signals; see 7-DAY PLAN)
+2. **Stripe payment links.** Paid tiers are intentionally NOT purchasable today. When validation justifies billing:
+   - Create Stripe Payment Links for Pro/Team → put URLs in `site/config.json` under a new `payments` key → I wire the checkout UI and flip copy from "planned" to "available".
+   - No credentials need to be shared with me; you paste link URLs into config and push.
 
-## Required to send email
-3. **Resend (or similar) API key** → enables weekly digest sending + alert emails. Until then the newsletter is generated weekly as RSS + archive page (fully functional, just not emailed).
-4. **Formspree (or similar) form ID** → enables newsletter/waitlist signup capture on the static site. Until then, signup buttons link to the RSS feed and a mailto contact.
+## Priority 3 — email
+3. **Email capture endpoint** (Formspree/Resend form or similar, free tiers OK):
+   - Put the POST URL in `site/config.json` → `forms.newsletter_endpoint`.
+   - Until set, the site deliberately shows NO signup form (it refuses to collect addresses it cannot store) — RSS works instead.
+4. **Email sending key** (Resend or similar) if/when weekly digest should arrive by email rather than RSS.
 
-## Required for full app tier (accounts, watchlists, saved alerts)
-5. **Supabase project** (free tier OK) → database + auth. Schema provided in `docs/APP_SCHEMA.sql` (created during build). Until then, the paid-tier UX is stubbed honestly ("coming soon") and the public database + RSS + calculators are live.
+## Priority 4 — optional
+5. **Analytics** (privacy-friendly): create Plausible/GoatCounter account → put script URL in `site/config.json` → `analytics_script`. Or use GitHub's built-in repo traffic insights (free, zero code).
+6. **Approve launch posts** (drafts in `marketing/LAUNCH_PLAN.md`) — posting through your personal accounts needs your explicit OK per ground rules.
+7. Enable "Send notifications for failed workflows" in your GitHub notification settings so degraded monitor runs reach your inbox.
 
-## Optional
-6. Confirm/reject product name before domain purchase (see DECISIONS.md D5).
-7. Approve launch posts (drafts in marketing/LAUNCH_PLAN.md) — posting through your personal accounts needs your explicit OK per ground rules.
-8. **Analytics**: the site ships with zero tracking (privacy policy promises this). If you want conversion metrics, create a Plausible/GoatCounter account and put the script URL in `site/config.json` → `analytics_script`; the generator will wire it in. Alternatively enable GitHub's traffic insights (free, repo-level, no code).
+## Removed / corrected from previous version of this file
+- ~~`docs/APP_SCHEMA.sql`~~ — never existed; there is no database yet. Accounts/watchlists are planned features, not partially built.
+- ~~`site/config/payments.json`~~ — wrong path; real wiring point is `site/config.json`.
+- Supabase item removed: no app tier exists today; it would be created fresh when paid alerting is actually built.

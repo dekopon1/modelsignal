@@ -17,3 +17,12 @@ Domain purchase requires owner action; check conflicts before purchase. Alternat
 
 ## D6 — Verification model
 `detected` changes publish to public feed only after passing a materiality filter (pricing/limit/model fields, not cosmetic). Cross-corroboration with official announcement feeds promotes to `verified`. Unverifiable significant changes stay `detected` and are labeled as such everywhere.
+
+## D7 — Publication guard (2026-08-23)
+A synthetic test record reached production changes.jsonl during test development. Fixed at two layers: monitor.validate_source() rejects non-https/example/test-shaped sources before any fetch; build_site_data re-filters every record against the source registry before publication. Tests use legitimate-shaped fixtures only.
+
+## D8 — Workflow honesty (2026-08-23)
+Partial source failures previously produced green runs. quality_gate.py now fails the workflow on any source failure (distinguishing PARTIAL from COMPLETE outage), emits per-source tables to the step summary, and successful runs clear prior error state so /status never shows stale failures.
+
+## D9 — Rename recommended before domain purchase (2026-08-23)
+modelsignal.ai is an existing beehiiv newsletter ("Stay on top of AI model releases") — same space, same audience. modelsignal.com returns 403 (taken). Recommendation: RENAME. Candidates (registrar/trademark checks are owner actions): VendorSignal (vendorsignal.ai/.dev unregistered at check time), PriceRadar (.dev free at check), RateLedger (rateledger.com taken; .dev unverified), QuotaWatch (.com 404/parked, .dev free at check), APIPriceWatch (.com free at check). Product strings stay "ModelSignal" only until owner picks a domain; rename is a small copy change in the generator.

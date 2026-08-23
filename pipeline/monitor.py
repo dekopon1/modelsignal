@@ -4,6 +4,7 @@ Usage: python3 monitor.py [--source SOURCE_ID]
 Idempotent: identical content never produces duplicate changes.
 """
 import argparse, json, os, re, sys, time
+import urllib.parse
 
 sys.path.insert(0, os.path.dirname(__file__))
 import lib
@@ -27,6 +28,26 @@ def load_sources():
     return cfg.get("sources", []), cfg.get("vendors", {})
 
 
+# --- publication guard: test/example data must never reach production ---
+BLOCKED_HOSTS = {"example.com", "example.org", "example.net", "localhost",
+                 "127.0.0.1", "0.0.0.0", "httpbin.org", "test.local"}
+TEST_ID_RE = re.compile(r"^(test|fixture|sample|dummy|fake)[-_]", re.I)
+
+
+def validate_source(src):
+    """Raise ValueError if a source looks like a test fixture or points off-domain."""
+    sid = str(src.get("id", ""))
+    if TEST_ID_RE.match(sid):
+        raise ValueError(f"publication guard: test-like source id '{sid}'")
+    url = str(src.get("url", ""))
+    host = urllib.parse.urlparse(url).hostname or ""
+    if host.lower() in BLOCKED_HOSTS:
+        raise ValueError(f"publication guard: non-official host '{host}'")
+    if not url.startswith("https://"):
+        raise ValueError(f"publication guard: only https official sources allowed, got {url[:60]}")
+    return True
+
+
 def extract_effective_date(*texts):
     """Only trust dates literally present in the changed content itself."""
     blob = " ".join(t for t in texts if t)
@@ -38,6 +59,13 @@ def process_source(src, state, vendors):
     sid = src["id"]
     st = state.setdefault(sid, {})
     result = {"id": sid, "ok": False}
+    try:
+        validate_source(src)
+    except ValueError as e:
+        st["last_error"] = f"{lib.now_iso()} {e}"
+        result["error"] = st["last_error"]
+        result["blocked"] = True
+        return result
     try:
         raw = lib.http_get(src["url"])
         norm = lib.normalize("json" if src["parser"] == "json_models" else "text", raw)
@@ -115,6 +143,7 @@ def process_source(src, state, vendors):
         append_jsonl(changes_path(), added)
         append_jsonl(ann_path(), added_a)
 
+        st.pop("last_error", None)  # a successful run clears prior failure state
         st.update(hash=h, last_snapshot=snap_rel, last_checked=lib.now_iso(),
                   last_changed=lib.now_iso() if (added or added_a) else st.get("last_changed"),
                   first_seen=st.get("first_seen") or lib.now_iso())

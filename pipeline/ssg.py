@@ -15,6 +15,16 @@ CFG = json.load(open(os.path.join(SITE, "config.json"), encoding="utf-8"))
 URL = CFG["site_url"].rstrip("/")
 
 
+def u(path: str) -> str:
+    """Base-path-aware internal URL. ALL internal links must go through this."""
+    if path.startswith(("http://", "https://", "mailto:", "#")):
+        return path
+    return f"{URL}/{path.lstrip('/')}"
+
+
+LAST_CALC_MODELS = 0
+
+
 def esc(s):
     return H.escape(str(s if s is not None else ""), quote=True)
 
@@ -38,6 +48,9 @@ def write(path, content):
         f.write(content)
 
 
+ANALYTICS = CFG.get("analytics_script")
+
+
 def page(title, desc, body, path, extra_head=""):
     canon = f"{URL}/{path}" if path != "index.html" else f"{URL}/"
     return f"""<!DOCTYPE html>
@@ -54,42 +67,43 @@ def page(title, desc, body, path, extra_head=""):
 <meta property="og:url" content="{canon}">
 <meta property="og:type" content="website">
 <style>{CSS}</style>
+{f'<script defer src="{esc(ANALYTICS)}"></script>' if ANALYTICS else ''}
 {extra_head}
 </head>
 <body>
 <header class="top">
-  <a class="brand" href="/">Model<span>Signal</span></a>
+  <a class="brand" href="{u('/')}">Model<span>Signal</span></a>
   <nav>
-    <a href="/changes/">Changes</a>
-    <a href="/vendors/">Vendors</a>
-    <a href="/calculators/llm-cost/">Calculator</a>
-    <a href="/pricing/">Pricing</a>
-    <a href="/blog/">Blog</a>
+    <a href="{u('changes/')}">Changes</a>
+    <a href="{u('vendors/')}">Vendors</a>
+    <a href="{u('calculators/llm-cost/')}">Calculator</a>
+    <a href="{u('pricing/')}">Pricing</a>
+    <a href="{u('blog/')}">Blog</a>
   </nav>
-  <a class="cta" href="/pricing/">Start monitoring</a>
+  <a class="cta" href="{u('pricing/')}">Free database &amp; pricing</a>
 </header>
 <main>
 {body}
 </main>
 <footer>
   <div class="cols">
-    <div><strong>ModelSignal</strong><br>We watch what AI &amp; dev-tool vendors change — prices, limits, models, plans — and tell you what it means.<br><a href="/feed.xml">RSS</a></div>
+    <div><strong>ModelSignal</strong><br>We watch what AI &amp; dev-tool vendors change — prices, limits, models, plans — and tell you what it means.<br><a href="{u('feed.xml')}">RSS</a></div>
     <div>
-      <a href="/changes/">Change feed</a><br>
-      <a href="/vendors/">Vendor directory</a><br>
-      <a href="/methodology/">Methodology &amp; accuracy</a><br>
-      <a href="/faq/">FAQ</a>
+      <a href="{u('changes/')}">Change feed</a><br>
+      <a href="{u('vendors/')}">Vendor directory</a><br>
+      <a href="{u('methodology/')}">Methodology &amp; accuracy</a><br>
+      <a href="{u('faq/')}">FAQ</a>
     </div>
     <div>
-      <a href="/calculators/llm-cost/">LLM cost calculator</a><br>
-      <a href="/newsletter/">Newsletter</a><br>
+      <a href="{u('calculators/llm-cost/')}">LLM cost calculator</a><br>
+      <a href="{u('newsletter/')}">Newsletter</a><br>
       <a href="{esc(CFG.get("repo_url", "#"))}">Source &amp; issue tracker</a><br>
-      <a href="/about/">About / contact</a>
+      <a href="{u('about/')}">About / contact</a>
     </div>
     <div>
-      <a href="/privacy/">Privacy</a><br>
-      <a href="/terms/">Terms</a><br>
-      <a href="/status/">Source status</a>
+      <a href="{u('privacy/')}">Privacy</a><br>
+      <a href="{u('terms/')}">Terms</a><br>
+      <a href="{u('status/')}">Source status</a>
     </div>
   </div>
   <p class="fine">Facts link to official sources. Estimates are labeled as estimates. © {CFG.get("year", "2026")} ModelSignal.</p>
@@ -114,7 +128,7 @@ def change_card(c, link=True):
       {"<p class='ov'><del>" + esc(c.get("old_value")) + "</del> → <ins>" + esc(c.get("new_value")) + "</ins></p>" if c.get("old_value") or c.get("new_value") else ""}
     </article>"""
     if link:
-        return f'<a class="plain" href="/changes/{c["id"]}/">{inner}</a>'
+        return f'<a class="plain" href="{u("changes/" + c["id"] + "/")}">{inner}</a>'
     return inner
 
 
@@ -148,25 +162,30 @@ def fmt_table(records, max_rows=40, max_cols=7):
 def pg_index(stats, changes, vendors):
     recent = "".join(change_card(c) for c in changes[:6]) or \
              "<p>The first monitoring runs are establishing baselines. Changes will appear here as vendors make them.</p>"
-    vend = " ".join(f'<a class="chip" href="/vendors/{v["slug"]}/">{esc(v["name"])}</a>' for v in vendors)
+    vend = " ".join(
+        f'<a class="chip" href="{u("vendors/" + v["slug"] + "/")}">{esc(v["name"])}</a>'
+        for v in vendors if v.get("status") == "active")
+    ann_only = " ".join(esc(v["name"]) for v in vendors if v.get("status") == "announcements_only")
     body = f"""
 <section class="hero">
-  <h1>AI vendors change prices, limits and models constantly.<br><em>We record every change — and tell you what it costs you.</em></h1>
-  <p class="sub">ModelSignal watches official pricing pages, docs, changelogs and APIs across {stats.get("vendors_monitored", 0)+4} AI &amp; developer-tool vendors.
-  When something material changes, you get the old value, the new value, who is affected, and a cost estimate — with a link to the official source. Never a vague “this page changed”.</p>
-  <p class="cta-row"><a class="big" href="/pricing/">Get alerts from $15/mo</a> <a class="ghost" href="/changes/">Browse the live change feed</a></p>
-  <p class="fine">Free public database · No account needed to browse</p>
+  <h1>AI vendors change prices, limits and models constantly.<br><em>We record each change — and show what it may cost you.</em></h1>
+  <p class="sub">ModelSignal polls {stats.get("active_sources", 0)} official sources across {stats.get("vendors_monitored", 0)} AI &amp; developer-tool vendors
+  ({stats.get("vendors_announcements_only", 0)} more are announcements-only). When something material changes on a watched surface, you get the old value, the new value,
+  and a link to the official source — never a vague “this page changed”.</p>
+  <p class="cta-row"><a class="big" href="{u('changes/')}">Browse the live change feed</a> <a class="ghost" href="{u('calculators/llm-cost/')}">Try the cost calculator</a></p>
+  <p class="fine">Free public database · No account needed · Paid alerting is planned, not yet available — see {esc('')}<a href="{u('pricing/')}">pricing</a> for exactly what exists today</p>
 </section>
 <section class="statsbar">
-  <div><strong>{stats.get("vendors_monitored", 0)}</strong><span>vendors watched</span></div>
+  <div><strong>{stats.get("vendors_monitored", 0)}</strong><span>vendors actively monitored</span></div>
   <div><strong>{stats.get("active_sources", 0)}</strong><span>official sources polled</span></div>
   <div><strong>{stats.get("total_changes", 0)}</strong><span>changes recorded</span></div>
   <div><strong>{stats.get("verified_changes", 0)}</strong><span>vendor-corroborated</span></div>
 </section>
+{f'<p class="fine">Announcement feeds only (no pricing-page monitors yet): {ann_only}.</p>' if ann_only else ''}
 <section>
   <h2>Latest detected changes</h2>
   {recent}
-  <p><a href="/changes/">See all changes →</a></p>
+  <p><a href="{u('changes/')}">See all changes →</a></p>
 </section>
 <section>
   <h2>Currently monitored</h2>
@@ -180,7 +199,7 @@ def pg_index(stats, changes, vendors):
     <li><strong>Verify.</strong> Detected changes are corroborated against official announcements when possible — labeled <span class="badge v">verified</span>, otherwise shown as <span class="badge d">detected</span>.</li>
     <li><strong>Explain.</strong> Plain-English summaries and impact estimates computed only from published numbers, always linked to evidence.</li>
   </ol>
-  <p><a href="/methodology/">Read the methodology →</a></p>
+  <p><a href="{u('methodology/')}">Read the methodology →</a></p>
 </section>"""
     return page("ModelSignal — Know what AI vendors change, before it costs you",
                 "Monitoring and explained history of pricing, limits, quotas, deprecations and plan changes across OpenAI, Anthropic, Google Gemini, Cursor, Copilot and more.",
@@ -193,7 +212,7 @@ def pg_changes(changes):
         "conf": c.get("confidence"), "date": dt(c.get("detected_at")),
         "sum": c.get("summary"), "ent": c.get("entity") or ""} for c in changes[:500]])
     items_json_safe = items_json.replace("</", "<\\/")
-    body = f"""
+    body_head = f"""
 <h1>Change feed</h1>
 <p>Every material change our monitors detected on official vendor surfaces. <span class="badge v">verified</span> = corroborated by an official announcement. <span class="badge d">detected</span> = seen directly on the official page.</p>
 <div class="filters">
@@ -203,10 +222,10 @@ def pg_changes(changes):
 </div>
 <div id="feed"></div>
 <script id="data" type="application/json">{items_json_safe}</script>
-<script>""" + FEED_JS + """</script>"""
+<script>""" + FEED_JS.replace("{BASE_JS}", json.dumps(URL + "/")) + """</script>"""
     return page("Change feed — every detected AI vendor change",
                 "Live feed of pricing, limit, quota, model availability and plan changes across major AI and developer-tool vendors, with old/new values and sources.",
-                body, "changes/index.html")
+                body_head, "changes/index.html")
 
 
 def pg_change_detail(c):
@@ -215,7 +234,7 @@ def pg_change_detail(c):
         corrob = f"""<p><strong>Corroboration:</strong> <a rel="nofollow" href="{esc(c['verification']['corroborated_by'])}">{esc(c['verification'].get('corroboration_title') or 'official announcement')}</a>
         <span class="fine">({esc(c['verification'].get('method', ''))})</span></p>"""
     body = f"""
-<p><a href="/changes/">← All changes</a></p>
+<p><a href="{u('changes/')}">← All changes</a></p>
 <article class="detail">
 <h1>{esc(c.get("vendor_name"))}: {esc(c.get("entity") or c.get("kind"))}{(" — " + esc(c["field"])) if c.get("field") else ""}</h1>
 <div class="meta">{esc(c.get("product"))} · {esc(c.get("category"))} · detected {dt(c.get("detected_at"))} · {CONF_BADGE.get(c.get('confidence'), '')}</div>
@@ -244,29 +263,49 @@ AFFECTED = {
 }
 
 
+STATUS_LABEL = {"active": "Active monitor", "announcements_only": "Announcements only"}
+
+
 def pg_vendors(vendors):
     rows = "".join(
-        f"<tr><td><a href='/vendors/{v['slug']}/'>{esc(v['name'])}</a></td>"
-        f"<td>{len(v['sources'])} sources</td>"
+        f"<tr><td><a href='{u('vendors/' + v['slug'] + '/')}'>{esc(v['name'])}</a></td>"
+        f"<td>{STATUS_LABEL.get(v.get('status'), esc(v.get('status')))}</td>"
+        f"<td>{len([s for s in v['sources'] if s])} sources</td>"
         f"<td>{'degraded' if v.get('degraded') else 'healthy'}</td>"
         f"<td>{dt(v.get('last_checked')) or 'pending'}</td></tr>"
         for v in vendors)
     body = f"""
-<h1>Monitored vendors</h1>
-<p>We monitor vendors where AI builders have real money at stake. Sources are official pages only; health is reported honestly.</p>
+<h1>Tracked vendors</h1>
+<p><b>Active monitor</b> = we poll this vendor's official pricing/limits surfaces and diff them. <b>Announcements only</b> = we relay the vendor's official announcements, but do not yet diff its pricing pages (usually because they render only via JavaScript). We do not list vendors we cannot actually monitor.</p>
 <div class="twrap"><table>
-<tr><th>Vendor</th><th>Coverage</th><th>Monitor health</th><th>Last checked (UTC)</th></tr>
+<tr><th>Vendor</th><th>Status</th><th>Sources</th><th>Health</th><th>Last checked (UTC)</th></tr>
 {rows}
 </table></div>"""
-    return page("Monitored vendors — AI & developer tools",
-                "Directory of vendors ModelSignal monitors: official sources, coverage and health.",
+    return page("Tracked vendors — AI & developer tools",
+                "Directory of vendors ModelSignal tracks: which have active pricing/limits monitors, which are announcements-only, and current health.",
                 body, "vendors/index.html")
 
 
 def pg_vendor(v, changes, anns, current_records=None):
     slug = v["slug"]
-    chg_html = "".join(change_card(c) for c in changes[:25]) or \
-               "<p>No changes recorded yet for this vendor since monitoring began. Baselines were captured on day one — any future change will appear here.</p>"
+    if v.get("status") == "announcements_only":
+        coverage = ("We currently relay this vendor's official announcements only. "
+                    f"{esc(v['name'])}'s pricing pages render via JavaScript, so we do not yet diff them — "
+                    "no pricing changes are published for this vendor until that monitor exists. "
+                    "<b>Planned</b>, not active.")
+    else:
+        if v.get("degraded"):
+            health_txt = f'degraded — see <a href="{u("status/")}">status</a>'
+        else:
+            health_txt = "ok"
+        coverage = (f"{len(v['sources'])} official sources polled · "
+                    f"last checked {dt(v.get('last_checked')) or 'pending'} UTC · monitor health: {health_txt}")
+    if not changes and v.get("status") == "active":
+        chg_html = "<p>No material changes detected yet. Baselines were captured on day one — any future change will appear here. Nothing is back-filled or invented.</p>"
+    elif not changes:
+        chg_html = "<p>No changes recorded — we do not yet run pricing monitors for this vendor (see status above).</p>"
+    else:
+        chg_html = "".join(change_card(c) for c in changes[:25])
     ann_html = ""
     va = [a for a in anns if a.get("vendor") == v["key"]][:12]
     if va:
@@ -278,12 +317,12 @@ def pg_vendor(v, changes, anns, current_records=None):
         cur_html = "<h2>Current published rates (extracted)</h2>" + fmt_table(current_records, max_rows=30)
         cur_html += "<p class=\"fine\">Extracted verbatim from official pages. Values are shown exactly as published; see source links on each change.</p>"
     body = f"""
-<p><a href="/vendors/">← All vendors</a></p>
+<p><a href="{u('vendors/')}">← All vendors</a></p>
 <h1>{esc(v["name"])} — changes &amp; pricing history</h1>
-<p>{len(v["sources"])} official sources monitored · last checked {dt(v.get("last_checked")) or "pending"} UTC · monitor health: {'<b style="color:#eab308">degraded</b>' if v.get('degraded') else 'ok'}</p>
+<p>{coverage}</p>
 <h2>Recent changes</h2>
 {chg_html}
-<p><a href="/vendors/{slug}/pricing-history/">Full pricing &amp; limits history →</a></p>
+{f'<p><a href="{u("vendors/" + slug + "/pricing-history/")}">Full pricing &amp; limits history →</a></p>' if v.get("status") == "active" else ''}
 {cur_html}
 {ann_html}"""
     return page(f"{v['name']} pricing & limits history",
@@ -292,7 +331,9 @@ def pg_vendor(v, changes, anns, current_records=None):
 
 
 def pg_vendor_history(v, changes):
-    if not changes:
+    if v.get("status") != "active":
+        chg_html = ("<p>No pricing-change history exists: we do not yet run pricing monitors for this vendor.</p>")
+    elif not changes:
         chg_html = ("<p>No material changes detected yet. This page grows automatically as our monitors observe "
                     "changes on " + esc(v["name"]) + "'s official surfaces. Nothing here is back-filled or invented.</p>")
     else:
@@ -302,7 +343,7 @@ def pg_vendor_history(v, changes):
             parts.append(change_card(c, link=False))
         chg_html = "\n".join(parts)
     body = f"""
-<p><a href="/vendors/{v["slug"]}/">← {esc(v["name"])} overview</a></p>
+<p><a href="{u('vendors/' + v["slug"] + '/')}">← {esc(v["name"])} overview</a></p>
 <h1>{esc(v["name"])} — pricing &amp; limits history</h1>
 <p>A chronological record of every material change observed on official {esc(v["name"])} surfaces since we started watching. Each entry links to the exact source and preserves old/new values.</p>
 {chg_html}"""
@@ -323,7 +364,12 @@ def pg_calculator(anthropic, openrouter, deepseek):
             if inp and out and "retired" not in m.lower():
                 models[f"Anthropic {m}"] = {"in": inp, "out": out,
                                             "src": "https://platform.claude.com/docs/en/about-claude/pricing"}
-    for mid, fields in (openrouter or {}).items():
+    or_models = (openrouter or {}).get("models", openrouter or {})
+    if not isinstance(or_models, dict):
+        or_models = {}
+    for mid, fields in or_models.items():
+        if not isinstance(fields, dict):
+            continue
         try:
             i = float(fields.get("prompt_per_mtok", "0") or 0)
             o = float(fields.get("completion_per_mtok", "0") or 0)
@@ -342,6 +388,8 @@ def pg_calculator(anthropic, openrouter, deepseek):
                     models[f"DeepSeek {col} ({row.strip()})"] = {
                         "in": r * 0.5, "out": r,
                         "src": "https://api-docs.deepseek.com/quick_start/pricing"}
+    global LAST_CALC_MODELS
+    LAST_CALC_MODELS = len(models)
     payload = json.dumps(models)[:400000]
     payload_safe = payload.replace("</", "<\\/")
     body = f"""
@@ -371,6 +419,7 @@ def _rate(s):
 
 
 FEED_JS = """
+const BASE={BASE_JS};
 const D=JSON.parse(document.getElementById('data').textContent);
 const feed=document.getElementById('feed'),q=document.getElementById('q'),
 vc=document.getElementById('vc'),cc=document.getElementById('cc');
@@ -380,7 +429,7 @@ function render(){
  const term=(q.value||'').toLowerCase();
  const rows=D.filter(x=>(!term||(x.sum+' '+x.ent).toLowerCase().includes(term))
    &&(!vc.value||x.vendor===vc.value)&&(!cc.value||x.cat===cc.value));
- feed.innerHTML=rows.slice(0,120).map(x=>`<a class="plain" href="/changes/${x.id}/">
+ feed.innerHTML=rows.slice(0,120).map(x=>`<a class="plain" href="${BASE}changes/${x.id}/">
   <article class="card"><div class="meta"><strong>${x.vendor}</strong> · ${x.cat} · ${x.date}
   <span class="badge ${x.conf==='verified'?'v':'d'}">${x.conf}</span></div>
   <p class="summary">${x.sum}</p></article></a>`).join('')
@@ -409,6 +458,10 @@ CSS = open(os.path.join(SITE, "static", "style.css"), encoding="utf-8").read()
 
 
 def main():
+    import shutil
+    if os.path.isdir(DIST):
+        shutil.rmtree(DIST)
+    os.makedirs(DIST, exist_ok=True)
     stats = load("stats.json", {})
     changes = load("changes.json", [])
     vendors = load("vendors.json", [])
@@ -416,6 +469,11 @@ def main():
     anth = load("current_anthropic.json", None)
     orr = load("current_openrouter.json", None)
     dsk = load("current_deepseek.json", None)
+
+    write("calculators/llm-cost/index.html", pg_calculator(anth, orr, dsk))
+    stats["calculator_models"] = LAST_CALC_MODELS
+    with open(os.path.join(DATA, "stats.json"), "w") as f:
+        json.dump(stats, f, indent=1)
 
     write("index.html", pg_index(stats, changes, vendors))
     write("changes/index.html", pg_changes(changes))
@@ -425,14 +483,14 @@ def main():
     for v in vendors:
         vc = [c for c in changes if c.get("vendor") == v["key"]]
         write(f"vendors/{v['slug']}/index.html", pg_vendor(v, vc, anns))
-        write(f"vendors/{v['slug']}/pricing-history/index.html",
-              pg_vendor_history(v, vc))
-    write("calculators/llm-cost/index.html", pg_calculator(anth, orr, dsk))
+        if v.get("status") == "active":
+            write(f"vendors/{v['slug']}/pricing-history/index.html",
+                  pg_vendor_history(v, vc))
 
     # informational pages
     CFG["_site_data"] = DATA
     import misc_pages as mp
-    mp.build_all(write, page, CFG, stats, changes, vendors)
+    mp.build_all(write, page, CFG, stats, changes, vendors, u)
 
     # rss
     write("feed.xml", rss_feed(changes, anns))
@@ -472,7 +530,7 @@ def sitemap(changes, vendors):
             "/about/", "/newsletter/", "/calculators/llm-cost/", "/privacy/",
             "/terms/", "/status/", "/blog/"]
     urls += [f"/vendors/{v['slug']}/" for v in vendors]
-    urls += [f"/vendors/{v['slug']}/pricing-history/" for v in vendors]
+    urls += [f"/vendors/{v['slug']}/pricing-history/" for v in vendors if v.get("status") == "active"]
     urls += [f"/changes/{c['id']}/" for c in changes[:300]]
     xml = "".join(f"<url><loc>{URL}{u}</loc></url>" for u in urls)
     return f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{xml}</urlset>'
