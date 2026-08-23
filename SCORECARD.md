@@ -1,6 +1,6 @@
 # SCORECARD — ModelSignal
 
-Last updated: 2026-08-22 (pre-build validation complete; MVP in progress)
+Last updated: 2026-08-23 (MVP deployed and operating autonomously; two production monitor cycles completed)
 
 | Dimension | Score (1–5) | Evidence / reasoning |
 |---|---|---|
@@ -15,10 +15,10 @@ Last updated: 2026-08-22 (pre-build validation complete; MVP in progress)
 | **Overall** | **Go** | Pain is documented and frequent; wedge is narrow and buildable solo; costs ~$0 while owner actions are pending. |
 
 ## Strongest evidence it will work
-Adjacent paid products bracket our price point from both sides (Distill $15–80 generic monitoring; AA $417/seat AI data), and the pain events are real, recurring, and public.
+Adjacent paid products bracket our price point from both sides (Distill $15–80 generic monitoring; AA $417/seat AI data), the pain events are real, recurring, and public — and as of today the product demonstrably works end-to-end at $0 operating cost: 12 official sources polled autonomously every 6h, structured diffs with honest detected/verified labels, 407 live-extracted model rates in a public calculator, and a site that grows a citable change history automatically.
 
 ## Strongest evidence it will fail
-No direct willingness-to-pay proof for this exact product; free alternatives may suffice for most devs; value hinges on extraction quality we haven't yet demonstrated at scale.
+No direct willingness-to-pay proof for this exact product yet (checkout is waitlist-mode pending owner Stripe account); free alternatives may suffice for most devs; and the moat depends on extraction coverage we've run for only one day — noise rate and source stability are unproven over time.
 
 ## Kill/pivot criteria (decided now, honestly applied)
 - After launch exposure (HN Show + 2 subreddits): if organic signup intent < ~20 emails or < 1 meaningful "would pay" conversation per 1,000 visitors → treat as weak demand; pivot toward free-tools/data-API angle or stop.
