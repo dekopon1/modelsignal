@@ -1,5 +1,5 @@
 {
- "run_at": "2026-08-23T02:28:45Z",
+ "run_at": "2026-08-23T02:32:00Z",
  "results": [
   {
    "id": "anthropic-pricing",
@@ -17,15 +17,13 @@
    "id": "openrouter-models",
    "ok": false,
    "http_chars": 689910,
-   "error": "2026-08-23T02:28:45Z AttributeError: 'str' object has no attribute 'get'"
+   "error": "2026-08-23T02:32:01Z AttributeError: 'str' object has no attribute 'get'"
   },
   {
    "id": "deepseek-pricing",
    "ok": true,
    "http_chars": 23112,
-   "changed": true,
-   "changes": 0,
-   "announcements": 0
+   "changed": false
   },
   {
    "id": "mistral-models",
