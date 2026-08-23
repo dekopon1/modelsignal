@@ -156,7 +156,7 @@
    "name": "DeepSeek V4 Flash Latest",
    "context_length": "1310720",
    "prompt_per_mtok": "0.055",
-   "completion_per_mtok": "0.18"
+   "completion_per_mtok": "0.14"
   },
   "deepseek/deepseek-v4-flash-0731": {
    "name": "DeepSeek: DeepSeek V4 Flash 0731",

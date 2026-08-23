@@ -1,1 +1,25 @@
-[]
+[
+ {
+  "id": "f3c5d5682110d7cc",
+  "vendor": "openrouter",
+  "vendor_name": "OpenRouter",
+  "product": "Models API",
+  "category": "pricing",
+  "kind": "field_change",
+  "context": "models",
+  "entity": "~deepseek/deepseek-v4-flash-latest",
+  "old_value": "0.18",
+  "new_value": "0.14",
+  "field": "completion_per_mtok",
+  "summary": "OpenRouter (Models API): “~deepseek/deepseek-v4-flash-latest [completion_per_mtok]” on the pricing page (section “models”) changed from “0.18” to “0.14”.",
+  "effective_date": null,
+  "detected_at": "2026-08-23T03:21:33Z",
+  "source_url": "https://openrouter.ai/api/v1/models",
+  "snapshot": "snapshots/openrouter-models/2026-08-23T032133Z.txt.gz",
+  "confidence": "detected",
+  "verification": {
+   "status": "unverified",
+   "corroborated_by": null
+  }
+ }
+]

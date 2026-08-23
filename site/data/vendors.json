@@ -1,5 +1,19 @@
 [
  {
+  "name": "OpenRouter",
+  "slug": "openrouter",
+  "key": "openrouter",
+  "sources": [
+   {
+    "id": "openrouter-models"
+   }
+  ],
+  "status": "active",
+  "last_checked": "2026-08-23T03:21:38Z",
+  "degraded": false,
+  "change_count": 1
+ },
+ {
   "name": "Anthropic",
   "slug": "anthropic",
   "key": "anthropic",
@@ -15,21 +29,7 @@
    }
   ],
   "status": "active",
-  "last_checked": "2026-08-23T02:32:04Z",
-  "degraded": false,
-  "change_count": 0
- },
- {
-  "name": "OpenRouter",
-  "slug": "openrouter",
-  "key": "openrouter",
-  "sources": [
-   {
-    "id": "openrouter-models"
-   }
-  ],
-  "status": "active",
-  "last_checked": "2026-08-23T03:09:03Z",
+  "last_checked": "2026-08-23T03:21:41Z",
   "degraded": false,
   "change_count": 0
  },
@@ -43,7 +43,7 @@
    }
   ],
   "status": "active",
-  "last_checked": "2026-08-23T02:32:02Z",
+  "last_checked": "2026-08-23T03:21:40Z",
   "degraded": false,
   "change_count": 0
  },
@@ -57,7 +57,7 @@
    }
   ],
   "status": "active",
-  "last_checked": "2026-08-23T02:32:02Z",
+  "last_checked": "2026-08-23T03:21:40Z",
   "degraded": false,
   "change_count": 0
  },
@@ -74,7 +74,7 @@
    }
   ],
   "status": "active",
-  "last_checked": "2026-08-23T02:32:04Z",
+  "last_checked": "2026-08-23T03:21:42Z",
   "degraded": false,
   "change_count": 0
  },
@@ -94,7 +94,7 @@
    }
   ],
   "status": "active",
-  "last_checked": "2026-08-23T02:32:04Z",
+  "last_checked": "2026-08-23T03:21:41Z",
   "degraded": false,
   "change_count": 0
  },
