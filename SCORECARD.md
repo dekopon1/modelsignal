@@ -23,3 +23,8 @@ No direct willingness-to-pay proof for this exact product yet (checkout is waitl
 ## Kill/pivot criteria (decided now, honestly applied)
 - After launch exposure (HN Show + 2 subreddits): if organic signup intent < ~20 emails or < 1 meaningful "would pay" conversation per 1,000 visitors → treat as weak demand; pivot toward free-tools/data-API angle or stop.
 - If pipeline produces >50% false-positive/noise alerts over 30 days despite tuning → core promise broken; stop rather than ship junk.
+
+## Post-repair evidence update (2026-08-23)
+- Product caught its first genuine, snapshot-verified vendor price change within ~4h of production deployment (OpenRouter cut DeepSeek-v4-flash completion pricing $0.18→$0.14/MTok; raw snapshots + live API confirm). This is the core value proposition demonstrating itself on real data.
+- All nine audit defects fixed with live verification; 32 tests; link-integrity and publication guards in place.
+- Still unproven: scheduled cron firing (first native run expected 06:17Z), any willingness-to-pay. Launch gated on 7-day validation plan (LAUNCH_READINESS.md), not on further building.
