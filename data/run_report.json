@@ -1,34 +1,28 @@
 {
- "run_at": "2026-08-22T20:02:51Z",
+ "run_at": "2026-08-23T02:28:45Z",
  "results": [
   {
    "id": "anthropic-pricing",
    "ok": true,
    "http_chars": 43650,
-   "changed": true,
-   "changes": 0,
-   "announcements": 0
+   "changed": false
   },
   {
    "id": "anthropic-limits",
    "ok": true,
    "http_chars": 32796,
-   "changed": true,
-   "changes": 0,
-   "announcements": 0
+   "changed": false
   },
   {
    "id": "openrouter-models",
-   "ok": true,
-   "http_chars": 688886,
-   "changed": true,
-   "changes": 0,
-   "announcements": 0
+   "ok": false,
+   "http_chars": 689910,
+   "error": "2026-08-23T02:28:45Z AttributeError: 'str' object has no attribute 'get'"
   },
   {
    "id": "deepseek-pricing",
    "ok": true,
-   "http_chars": 23312,
+   "http_chars": 23112,
    "changed": true,
    "changes": 0,
    "announcements": 0
@@ -37,9 +31,7 @@
    "id": "mistral-models",
    "ok": true,
    "http_chars": 1266138,
-   "changed": true,
-   "changes": 0,
-   "announcements": 0
+   "changed": false
   },
   {
    "id": "google-gemini-pricing",
@@ -53,33 +45,25 @@
    "id": "github-copilot-plans",
    "ok": true,
    "http_chars": 1055096,
-   "changed": true,
-   "changes": 0,
-   "announcements": 0
+   "changed": false
   },
   {
    "id": "github-copilot-premium",
    "ok": true,
    "http_chars": 610636,
-   "changed": true,
-   "changes": 0,
-   "announcements": 0
+   "changed": false
   },
   {
    "id": "anthropic-changelog",
    "ok": true,
    "http_chars": 93487,
-   "changed": true,
-   "changes": 0,
-   "announcements": 0
+   "changed": false
   },
   {
    "id": "github-changelog-rss",
    "ok": true,
    "http_chars": 42243,
-   "changed": true,
-   "changes": 0,
-   "announcements": 0
+   "changed": false
   },
   {
    "id": "openai-news-rss",
