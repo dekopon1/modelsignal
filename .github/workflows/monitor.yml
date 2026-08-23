@@ -6,9 +6,11 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
-  group: monitor
+  group: monitor-deploy-chain
   cancel-in-progress: false
 
 jobs:
@@ -56,3 +58,16 @@ jobs:
             git commit -m "monitor: update snapshots & changes ($(date -u +%FT%TZ))" --quiet
             git push
           fi
+
+      # GITHUB_TOKEN pushes don't trigger other workflows (anti-recursion),
+      # so we deploy the site directly from here.
+      - name: Build static site
+        run: python3 pipeline/ssg.py
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site/dist
+
+      - uses: actions/deploy-pages@v4
+        with:
+          emit_telemetry: false
