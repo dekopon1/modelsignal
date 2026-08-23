@@ -18,3 +18,4 @@ Actions that require your identity/credentials/authorization. Everything else ru
 ## Optional
 6. Confirm/reject product name before domain purchase (see DECISIONS.md D5).
 7. Approve launch posts (drafts in marketing/LAUNCH_PLAN.md) — posting through your personal accounts needs your explicit OK per ground rules.
+8. **Analytics**: the site ships with zero tracking (privacy policy promises this). If you want conversion metrics, create a Plausible/GoatCounter account and put the script URL in `site/config.json` → `analytics_script`; the generator will wire it in. Alternatively enable GitHub's traffic insights (free, repo-level, no code).
