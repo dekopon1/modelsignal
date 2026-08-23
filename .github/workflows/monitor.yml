@@ -1,7 +1,7 @@
 name: monitor
 on:
   schedule:
-    - cron: "17 */6 * * *"   # every 6h at :17 (off-peak minute)
+    - cron: "*/10 * * * *"   # TEMPORARY: schedule-proof interval; revert to "17 */6 * * *" after verification
   workflow_dispatch:
 
 permissions:
