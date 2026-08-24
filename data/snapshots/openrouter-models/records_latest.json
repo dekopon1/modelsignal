@@ -161,8 +161,8 @@
   "deepseek/deepseek-v4-flash-0731": {
    "name": "DeepSeek: DeepSeek V4 Flash 0731",
    "context_length": "1310720",
-   "prompt_per_mtok": "0.14",
-   "completion_per_mtok": "0.28"
+   "prompt_per_mtok": "0.0658",
+   "completion_per_mtok": "0.1316"
   },
   "thinkingmachines/inkling-small": {
    "name": "Thinking Machines: Inkling Small",
@@ -627,12 +627,6 @@
    "prompt_per_mtok": "0.15",
    "completion_per_mtok": "1.5"
   },
-  "inclusionai/ring-2.6-1t": {
-   "name": "inclusionAI: Ring-2.6-1T",
-   "context_length": "262144",
-   "prompt_per_mtok": "0.075",
-   "completion_per_mtok": "0.625"
-  },
   "google/gemini-3.1-flash-lite": {
    "name": "Google: Gemini 3.1 Flash Lite",
    "context_length": "1048576",
@@ -784,14 +778,8 @@
   "deepseek/deepseek-v4-flash": {
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0574",
-   "completion_per_mtok": "0.1148"
-  },
-  "inclusionai/ling-2.6-1t": {
-   "name": "inclusionAI: Ling-2.6-1T",
-   "context_length": "262144",
-   "prompt_per_mtok": "0.075",
-   "completion_per_mtok": "0.625"
+   "prompt_per_mtok": "0.056",
+   "completion_per_mtok": "0.112"
   },
   "tencent/hy3-preview": {
    "name": "Tencent: Hy3 preview",
@@ -816,12 +804,6 @@
    "context_length": "272000",
    "prompt_per_mtok": "8",
    "completion_per_mtok": "15"
-  },
-  "inclusionai/ling-2.6-flash": {
-   "name": "inclusionAI: Ling-2.6-flash",
-   "context_length": "262144",
-   "prompt_per_mtok": "0.01",
-   "completion_per_mtok": "0.03"
   },
   "~anthropic/claude-opus-latest": {
    "name": "Anthropic: Claude Opus Latest",
