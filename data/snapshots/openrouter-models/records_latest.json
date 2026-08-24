@@ -161,8 +161,8 @@
   "deepseek/deepseek-v4-flash-0731": {
    "name": "DeepSeek: DeepSeek V4 Flash 0731",
    "context_length": "1310720",
-   "prompt_per_mtok": "0.08",
-   "completion_per_mtok": "0.18"
+   "prompt_per_mtok": "0.14",
+   "completion_per_mtok": "0.28"
   },
   "thinkingmachines/inkling-small": {
    "name": "Thinking Machines: Inkling Small",
@@ -255,7 +255,7 @@
   "thinkingmachines/inkling": {
    "name": "Thinking Machines: Inkling",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.95",
+   "prompt_per_mtok": "1",
    "completion_per_mtok": "4.05"
   },
   "thinkingmachines/inkling:batch": {
@@ -748,8 +748,8 @@
   "qwen/qwen3.6-27b": {
    "name": "Qwen: Qwen3.6 27B",
    "context_length": "262144",
-   "prompt_per_mtok": "0.6",
-   "completion_per_mtok": "3.6"
+   "prompt_per_mtok": "0.32",
+   "completion_per_mtok": "3.2"
   },
   "openai/gpt-5.5-pro": {
    "name": "OpenAI: GPT-5.5 Pro",
@@ -778,14 +778,14 @@
   "deepseek/deepseek-v4-pro": {
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.3969",
-   "completion_per_mtok": "0.7938"
+   "prompt_per_mtok": "0.5192",
+   "completion_per_mtok": "1.0384"
   },
   "deepseek/deepseek-v4-flash": {
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0489",
-   "completion_per_mtok": "0.0977"
+   "prompt_per_mtok": "0.0587",
+   "completion_per_mtok": "0.1173"
   },
   "inclusionai/ling-2.6-1t": {
    "name": "inclusionAI: Ling-2.6-1T",
@@ -1130,8 +1130,8 @@
   "qwen/qwen3.5-397b-a17b": {
    "name": "Qwen: Qwen3.5 397B A17B",
    "context_length": "262144",
-   "prompt_per_mtok": "0.39",
-   "completion_per_mtok": "2.34"
+   "prompt_per_mtok": "0.5",
+   "completion_per_mtok": "3.6"
   },
   "minimax/minimax-m2.5": {
    "name": "MiniMax: MiniMax M2.5",
