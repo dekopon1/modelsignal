@@ -1,4 +1,9 @@
 {
+ "https://github.blog/changelog/2026-08-25-push-rules-in-rulesets-now-support-path-exceptions": {
+  "title": "Push rules in rulesets now support path exceptions",
+  "date": "Tue, 25 Aug 2026 17:40:15 +0000",
+  "summary": "You can now configure push rules more granularly by exempting specific file paths, so a rule applies everywhere in scope except the paths you choose. Path exceptions are in public&#8230;\nThe post Push rules in rulesets now support path exceptions appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-08-21-better-tools-for-managing-blocked-users": {
   "title": "Better tools for managing blocked users",
   "date": "Fri, 21 Aug 2026 17:28:36 +0000",
@@ -43,10 +48,5 @@
   "title": "CodeQL 2.26.3 improves GitHub Actions queries and JavaScript modeling",
   "date": "Wed, 19 Aug 2026 21:09:30 +0000",
   "summary": "CodeQL 2.26.3 adds JavaScript, TypeScript, and Vue source modeling and improves the accuracy of several GitHub Actions queries. CodeQL is the static analysis engine behind GitHub code scanning, which helps&#8230;\nThe post CodeQL 2.26.3 improves GitHub Actions queries and JavaScript modeling appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-08-19-track-organization-code-quality-trends": {
-  "title": "Track organization code quality trends",
-  "date": "Wed, 19 Aug 2026 12:56:57 +0000",
-  "summary": "The organization-level Code Quality dashboard now includes a Trends tab that shows how code quality has changed across your repositories over time. Instead of a point-in-time snapshot, you can see&#8230;\nThe post Track organization code quality trends appeared first on The GitHub Blog."
  }
 }
