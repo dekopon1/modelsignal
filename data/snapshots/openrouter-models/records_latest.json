@@ -9,8 +9,8 @@
   "deepseek/deepseek-v4-flash-vision-exp": {
    "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.44",
-   "completion_per_mtok": "1.32"
+   "prompt_per_mtok": "0.22",
+   "completion_per_mtok": "0.66"
   },
   "stealth/ox-alpha": {
    "name": "Ox Alpha",
@@ -51,8 +51,8 @@
   "qwen/qwen3.8-27b": {
    "name": "Qwen: Qwen3.8 27B",
    "context_length": "1000000",
-   "prompt_per_mtok": "0.4",
-   "completion_per_mtok": "3"
+   "prompt_per_mtok": "0.425",
+   "completion_per_mtok": "2.55"
   },
   "dots-studio/dots-3-note-preview:free": {
    "name": "Dots Studio: Dots3-Note Preview (free)",
@@ -161,8 +161,8 @@
   "deepseek/deepseek-v4-flash-0731": {
    "name": "DeepSeek: DeepSeek V4 Flash 0731",
    "context_length": "1310720",
-   "prompt_per_mtok": "0.14",
-   "completion_per_mtok": "0.28"
+   "prompt_per_mtok": "0.0616",
+   "completion_per_mtok": "0.1232"
   },
   "thinkingmachines/inkling-small": {
    "name": "Thinking Machines: Inkling Small",
@@ -778,14 +778,14 @@
   "deepseek/deepseek-v4-pro": {
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.7903",
-   "completion_per_mtok": "1.5806"
+   "prompt_per_mtok": "0.5791",
+   "completion_per_mtok": "1.1581"
   },
   "deepseek/deepseek-v4-flash": {
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0886",
-   "completion_per_mtok": "0.1772"
+   "prompt_per_mtok": "0.0854",
+   "completion_per_mtok": "0.1708"
   },
   "tencent/hy3-preview": {
    "name": "Tencent: Hy3 preview",
