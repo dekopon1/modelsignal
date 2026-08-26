@@ -1,4 +1,19 @@
 {
+ "https://github.blog/changelog/2026-08-25-rule-insights-dashboard-generally-available": {
+  "title": "Rule insights dashboard generally available",
+  "date": "Tue, 25 Aug 2026 20:05:35 +0000",
+  "summary": "The rule insights dashboard is now generally available at both the repository and organization levels. You get a visual, high-level view of how GitHub evaluates and enforces your GitHub repository&#8230;\nThe post Rule insights dashboard generally available appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-08-25-github-copilot-app-customize-tab-is-generally-available": {
+  "title": "GitHub Copilot app Customize tab is generally available",
+  "date": "Tue, 25 Aug 2026 20:05:26 +0000",
+  "summary": "GitHub Copilot is more useful when it works with the tools, knowledge, and workflows your team already relies on. The new Customize tab in the GitHub Copilot app brings MCP&#8230;\nThe post GitHub Copilot app Customize tab is generally available appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-08-25-block-users-directly-from-security-advisories": {
+  "title": "Block users directly from security advisories",
+  "date": "Tue, 25 Aug 2026 18:38:57 +0000",
+  "summary": "You can now block a user directly from a security advisory page in public repositories owned by either an organization or a personal account. This brings the streamlined moderation experience&#8230;\nThe post Block users directly from security advisories appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-08-25-push-rules-in-rulesets-now-support-path-exceptions": {
   "title": "Push rules in rulesets now support path exceptions",
   "date": "Tue, 25 Aug 2026 17:40:15 +0000",
@@ -33,20 +48,5 @@
   "title": "Code scanning adds a mitigated alert dismissal reason",
   "date": "Thu, 20 Aug 2026 15:14:31 +0000",
   "summary": "You can now dismiss a code scanning alert with the reason Mitigated when a vulnerability remains in the code but external controls, such as a web application firewall or network&#8230;\nThe post Code scanning adds a mitigated alert dismissal reason appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-08-20-separate-github-actions-path-for-github-code-quality": {
-  "title": "Separate GitHub Actions path for GitHub Code Quality",
-  "date": "Thu, 20 Aug 2026 14:29:27 +0000",
-  "summary": "A dedicated workflow path for code quality CodeQL actions workflows is now generally available. Your workflow run history and your Actions usage reports now tell GitHub Code Quality runs apart&#8230;\nThe post Separate GitHub Actions path for GitHub Code Quality appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-08-20-track-github-code-quality-enablement-changes-in-the-audit-log": {
-  "title": "Track GitHub Code Quality enablement changes in the audit log",
-  "date": "Thu, 20 Aug 2026 14:28:41 +0000",
-  "summary": "GitHub Code Quality now writes an audit log event whenever someone enables, disables, or changes its settings on a repository. Three new events give you that history: repo.code_quality_enabled records when&#8230;\nThe post Track GitHub Code Quality enablement changes in the audit log appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-08-19-codeql-2-26-3-improves-github-actions-queries-and-javascript-modeling": {
-  "title": "CodeQL 2.26.3 improves GitHub Actions queries and JavaScript modeling",
-  "date": "Wed, 19 Aug 2026 21:09:30 +0000",
-  "summary": "CodeQL 2.26.3 adds JavaScript, TypeScript, and Vue source modeling and improves the accuracy of several GitHub Actions queries. CodeQL is the static analysis engine behind GitHub code scanning, which helps&#8230;\nThe post CodeQL 2.26.3 improves GitHub Actions queries and JavaScript modeling appeared first on The GitHub Blog."
  }
 }
