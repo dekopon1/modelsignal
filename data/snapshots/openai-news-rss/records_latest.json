@@ -1,4 +1,19 @@
 {
+ "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts": {
+  "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
+  "date": "Wed, 26 Aug 2026 10:00:00 GMT",
+  "summary": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff."
+ },
+ "https://openai.com/index/learning-never-stops": {
+  "title": "Learning never stops: How AI makes learning continuous",
+  "date": "Wed, 26 Aug 2026 10:00:00 GMT",
+  "summary": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom."
+ },
+ "https://openai.com/index/hugging-face-incident-and-the-road-ahead": {
+  "title": "The Hugging Face incident and the road ahead",
+  "date": "Wed, 26 Aug 2026 00:00:00 GMT",
+  "summary": "OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment."
+ },
  "https://openai.com/index/loveholidays": {
   "title": "How loveholidays is making everyone a builder with Codex",
   "date": "Wed, 26 Aug 2026 00:00:00 GMT",
@@ -1483,20 +1498,5 @@
   "title": "Our agreement with the Department of War",
   "date": "Sat, 28 Feb 2026 12:30:00 GMT",
   "summary": "Details on OpenAI’s contract with the Department of War, outlining safety red lines, legal protections, and how AI systems will be deployed in classified environments."
- },
- "https://openai.com/index/introducing-the-stateful-runtime-environment-for-agents-in-amazon-bedrock": {
-  "title": "Introducing the Stateful Runtime Environment for Agents in Amazon Bedrock",
-  "date": "Fri, 27 Feb 2026 05:30:00 GMT",
-  "summary": "Stateful Runtime for Agents in Amazon Bedrock brings persistent orchestration, memory, and secure execution to multi-step AI workflows powered by OpenAI."
- },
- "https://openai.com/index/scaling-ai-for-everyone": {
-  "title": "Scaling AI for everyone",
-  "date": "Fri, 27 Feb 2026 05:30:00 GMT",
-  "summary": "Today we’re announcing $110B in new investment at a $730B pre money valuation. This includes $30B from SoftBank, $30B from NVIDIA, and $50B from Amazon."
- },
- "https://openai.com/index/continuing-microsoft-partnership": {
-  "title": "Joint Statement from OpenAI and Microsoft",
-  "date": "Fri, 27 Feb 2026 05:30:00 GMT",
-  "summary": "Microsoft and OpenAI continue to work closely across research, engineering, and product development, building on years of deep collaboration and shared success."
  }
 }
