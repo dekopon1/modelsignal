@@ -1,4 +1,9 @@
 {
+ "https://openai.com/index/loveholidays": {
+  "title": "How loveholidays is making everyone a builder with Codex",
+  "date": "Wed, 26 Aug 2026 00:00:00 GMT",
+  "summary": "Discover how loveholidays uses OpenAI Codex to make software development accessible across the business, helping teams turn ideas into products faster."
+ },
  "https://openai.com/index/the-full-stack-behind-abundant-intelligence": {
   "title": "The full stack behind abundant intelligence",
   "date": "Tue, 25 Aug 2026 07:05:00 GMT",
@@ -1493,10 +1498,5 @@
   "title": "Joint Statement from OpenAI and Microsoft",
   "date": "Fri, 27 Feb 2026 05:30:00 GMT",
   "summary": "Microsoft and OpenAI continue to work closely across research, engineering, and product development, building on years of deep collaboration and shared success."
- },
- "https://openai.com/index/amazon-partnership": {
-  "title": "OpenAI and Amazon announce strategic partnership",
-  "date": "Fri, 27 Feb 2026 05:30:00 GMT",
-  "summary": "OpenAI and Amazon announce a strategic partnership bringing OpenAI’s Frontier platform to AWS, expanding AI infrastructure, custom models, and enterprise AI agents."
  }
 }
