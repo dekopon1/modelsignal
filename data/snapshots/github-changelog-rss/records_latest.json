@@ -1,4 +1,14 @@
 {
+ "https://github.blog/changelog/2026-08-26-enterprise-managed-settings-now-support-autoupdate-for-plugin-marketplaces": {
+  "title": "Enterprise-managed settings now support autoUpdate for plugin marketplaces",
+  "date": "Thu, 27 Aug 2026 01:52:19 +0000",
+  "summary": "You can now opt individual plugin marketplaces into automatic updates by setting autoUpdate: true on an extraKnownMarketplaces entry in enterprise managed settings. Supported clients automatically check the marketplace and update&#8230;\nThe post Enterprise-managed settings now support autoUpdate for plugin marketplaces appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-08-26-global-model-policy-generally-available": {
+  "title": "Global model policy generally available",
+  "date": "Wed, 26 Aug 2026 22:08:38 +0000",
+  "summary": "In July, we announced a default model policy for generally available GitHub Copilot models on Copilot Business and Copilot Enterprise plans. Starting today, we&#8217;re gradually rolling out enforcement of the&#8230;\nThe post Global model policy generally available appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-08-26-github-apps-can-now-access-enterprise-billing-data": {
   "title": "GitHub Apps can now access enterprise billing data",
   "date": "Wed, 26 Aug 2026 12:18:59 +0000",
@@ -38,15 +48,5 @@
   "title": "Shared agentic work with GitHub Copilot in Microsoft Teams",
   "date": "Fri, 21 Aug 2026 16:03:36 +0000",
   "summary": "Turn a Microsoft Teams discussion into a collaborative agent session everyone can see and help direct. Mention @GitHub in a channel, thread, or direct message to start a GitHub Copilot&#8230;\nThe post Shared agentic work with GitHub Copilot in Microsoft Teams appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-08-20-pin-projects-views-and-milestones-to-the-repository-sidebar": {
-  "title": "Pinning saved views to the repository issues sidebar is generally available and more",
-  "date": "Thu, 20 Aug 2026 23:29:34 +0000",
-  "summary": "Pinning saved views to the repository issues sidebar You can now pin saved views&#8288; to the repository issues sidebar, making the views you use most just one click away, even&#8230;\nThe post Pinning saved views to the repository issues sidebar is generally available and more appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-08-20-windows-11-arm64-vs2026-image-generally-available": {
-  "title": "Windows 11 arm64 VS2026 image generally available",
-  "date": "Thu, 20 Aug 2026 17:52:38 +0000",
-  "summary": "The Windows 11 arm64 image with Visual Studio 2026 is now generally available on standard and larger GitHub-hosted runners. To use it in GitHub Actions, update your workflow file to&#8230;\nThe post Windows 11 arm64 VS2026 image generally available appeared first on The GitHub Blog."
  }
 }

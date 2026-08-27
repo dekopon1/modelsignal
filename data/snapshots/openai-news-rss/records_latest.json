@@ -45,9 +45,14 @@
   "summary": "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance."
  },
  "https://openai.com/index/introducing-ai-futures": {
-  "title": "Introducing AI Futures",
+  "title": "Introducing Intelligence Age",
   "date": "Thu, 20 Aug 2026 07:00:00 GMT",
-  "summary": "Introducing AI Futures, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom."
+  "summary": "Introducing Intelligence Age, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom."
+ },
+ "https://openai.com/index/introducing-intelligence-age": {
+  "title": "Introducing Intelligence Age",
+  "date": "Thu, 20 Aug 2026 07:00:00 GMT",
+  "summary": "Introducing Intelligence Age, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom."
  },
  "https://openai.com/index/stampli": {
   "title": "Stampli cuts launch hours by 68% using ChatGPT Work",
@@ -1493,10 +1498,5 @@
   "title": "GPT-5.3 Instant System Card",
   "date": "Tue, 03 Mar 2026 10:00:00 GMT",
   "summary": ""
- },
- "https://openai.com/index/our-agreement-with-the-department-of-war": {
-  "title": "Our agreement with the Department of War",
-  "date": "Sat, 28 Feb 2026 12:30:00 GMT",
-  "summary": "Details on OpenAI’s contract with the Department of War, outlining safety red lines, legal protections, and how AI systems will be deployed in classified environments."
  }
 }
