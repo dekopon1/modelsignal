@@ -1,4 +1,14 @@
 {
+ "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training": {
+  "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
+  "date": "Thu, 27 Aug 2026 09:00:00 GMT",
+  "summary": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment."
+ },
+ "https://openai.com/index/expanding-our-presence-in-brazil": {
+  "title": "Expanding OpenAI’s presence in Brazil",
+  "date": "Thu, 27 Aug 2026 03:00:00 GMT",
+  "summary": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country."
+ },
  "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts": {
   "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
   "date": "Wed, 26 Aug 2026 10:00:00 GMT",
@@ -1488,15 +1498,5 @@
   "title": "Understanding AI and learning outcomes",
   "date": "Wed, 04 Mar 2026 00:00:00 GMT",
   "summary": "OpenAI introduces the Learning Outcomes Measurement Suite to assess AI’s impact on student learning across diverse educational environments over time."
- },
- "https://openai.com/index/gpt-5-3-instant": {
-  "title": "GPT-5.3 Instant: Smoother, more useful everyday conversations",
-  "date": "Tue, 03 Mar 2026 10:00:00 GMT",
-  "summary": ""
- },
- "https://openai.com/index/gpt-5-3-instant-system-card": {
-  "title": "GPT-5.3 Instant System Card",
-  "date": "Tue, 03 Mar 2026 10:00:00 GMT",
-  "summary": ""
  }
 }

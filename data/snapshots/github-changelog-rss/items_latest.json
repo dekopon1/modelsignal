@@ -1,4 +1,9 @@
 {
+ "https://github.blog/changelog/2026-08-27-close-all-open-contributions-authored-by-a-blocked-user": {
+  "title": "Close all open contributions authored by a blocked user",
+  "date": "Thu, 27 Aug 2026 16:30:52 +0000",
+  "summary": "You can now automatically close all open issues, discussions, and pull requests authored by a user when you block them from your personal account or organization. To use this option,&#8230;\nThe post Close all open contributions authored by a blocked user appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-08-26-enterprise-managed-settings-now-support-autoupdate-for-plugin-marketplaces": {
   "title": "Enterprise-managed settings now support autoUpdate for plugin marketplaces",
   "date": "Thu, 27 Aug 2026 01:52:19 +0000",
@@ -43,10 +48,5 @@
   "title": "The new GitHub Copilot experience in Slack",
   "date": "Fri, 21 Aug 2026 16:07:15 +0000",
   "summary": "The GitHub integration in Slack now brings the agentic capabilities of GitHub Copilot CLI and the GitHub Copilot app into Slack in public preview. You can work with @GitHub to&#8230;\nThe post The new GitHub Copilot experience in Slack appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-08-21-shared-agentic-work-with-github-copilot-in-microsoft-teams": {
-  "title": "Shared agentic work with GitHub Copilot in Microsoft Teams",
-  "date": "Fri, 21 Aug 2026 16:03:36 +0000",
-  "summary": "Turn a Microsoft Teams discussion into a collaborative agent session everyone can see and help direct. Mention @GitHub in a channel, thread, or direct message to start a GitHub Copilot&#8230;\nThe post Shared agentic work with GitHub Copilot in Microsoft Teams appeared first on The GitHub Blog."
  }
 }
