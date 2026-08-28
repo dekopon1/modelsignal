@@ -1,4 +1,19 @@
 {
+ "https://github.blog/changelog/2026-08-28-github-copilot-in-visual-studio-august-update-2": {
+  "title": "GitHub Copilot in Visual Studio — August update",
+  "date": "Fri, 28 Aug 2026 20:24:20 +0000",
+  "summary": "August 2026 brought more control over how GitHub Copilot reasons, which models you use, how teams share specialized agents, and when you ask for a code review. Highlights Here&#8217;s what&#8217;s&#8230;\nThe post GitHub Copilot in Visual Studio — August update appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-08-28-github-copilot-weekly-releases-august-24": {
+  "title": "GitHub Copilot weekly releases — August 24",
+  "date": "Fri, 28 Aug 2026 20:13:22 +0000",
+  "summary": "This week&#8217;s updates give you more control over how Copilot runs, from team sessions in Slack and Teams to customization across the app, CLI, and your IDE. GitHub Copilot in&#8230;\nThe post GitHub Copilot weekly releases — August 24 appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing": {
+  "title": "Upcoming changes to GitHub Copilot policies and billing",
+  "date": "Fri, 28 Aug 2026 11:37:19 +0000",
+  "summary": "To provide a strong, consistent Copilot experience, we&#8217;re making three separate, upcoming changes to Copilot policies and billing. Please review the upcoming updates to understand what may impact you. Reopening&#8230;\nThe post Upcoming changes to GitHub Copilot policies and billing appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-08-27-label-archiving-is-generally-available": {
   "title": "Better label management on issues is generally available",
   "date": "Thu, 27 Aug 2026 23:33:22 +0000",
@@ -8,6 +23,11 @@
   "title": "Copilot code review: Resolution reasons and expanded capabilities",
   "date": "Thu, 27 Aug 2026 22:46:04 +0000",
   "summary": "Copilot code review can now review two types of pull requests it didn&#8217;t cover before: Reviews requested automatically on pull requests authored by bots, including Copilot cloud agent Very large&#8230;\nThe post Copilot code review: Resolution reasons and expanded capabilities appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-08-27-github-classroom-deprecated": {
+  "title": "GitHub Classroom deprecated",
+  "date": "Thu, 27 Aug 2026 22:42:40 +0000",
+  "summary": "As of August 28, 2026, GitHub Classroom is now deprecated in favor of our selected partner solutions. The GitHub Classroom website, APIs, and related services have now been decommissioned. However,&#8230;\nThe post GitHub Classroom deprecated appeared first on The GitHub Blog."
  },
  "https://github.blog/changelog/2026-08-27-actions-retention-will-cover-checks-workflow-runs-and-statuses": {
   "title": "Actions retention will cover checks, workflow runs, and statuses",
@@ -28,25 +48,5 @@
   "title": "Global model policy generally available",
   "date": "Wed, 26 Aug 2026 22:08:38 +0000",
   "summary": "In July, we announced a default model policy for generally available GitHub Copilot models on Copilot Business and Copilot Enterprise plans. Starting today, we&#8217;re gradually rolling out enforcement of the&#8230;\nThe post Global model policy generally available appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-08-26-github-apps-can-now-access-enterprise-billing-data": {
-  "title": "GitHub Apps can now access enterprise billing data",
-  "date": "Wed, 26 Aug 2026 12:18:59 +0000",
-  "summary": "Enterprise owners can now grant a GitHub App access to enterprise billing data. When you create or configure a GitHub App, you can select the enterprise billing permission and choose&#8230;\nThe post GitHub Apps can now access enterprise billing data appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-08-25-rule-insights-dashboard-generally-available": {
-  "title": "Rule insights dashboard generally available",
-  "date": "Tue, 25 Aug 2026 20:05:35 +0000",
-  "summary": "The rule insights dashboard is now generally available at both the repository and organization levels. You get a visual, high-level view of how GitHub evaluates and enforces your GitHub repository&#8230;\nThe post Rule insights dashboard generally available appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-08-25-github-copilot-app-customize-tab-is-generally-available": {
-  "title": "GitHub Copilot app Customize tab is generally available",
-  "date": "Tue, 25 Aug 2026 20:05:26 +0000",
-  "summary": "GitHub Copilot is more useful when it works with the tools, knowledge, and workflows your team already relies on. The new Customize tab in the GitHub Copilot app brings MCP&#8230;\nThe post GitHub Copilot app Customize tab is generally available appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-08-25-block-users-directly-from-security-advisories": {
-  "title": "Block users directly from security advisories",
-  "date": "Tue, 25 Aug 2026 18:38:57 +0000",
-  "summary": "You can now block a user directly from a security advisory page in public repositories owned by either an organization or a personal account. This brings the streamlined moderation experience&#8230;\nThe post Block users directly from security advisories appeared first on The GitHub Blog."
  }
 }
