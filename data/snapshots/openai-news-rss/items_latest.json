@@ -1,4 +1,9 @@
 {
+ "https://openai.com/index/supporting-next-generation-ai-startups-thailand": {
+  "title": "Supporting Thailand’s next generation of AI startups",
+  "date": "Fri, 28 Aug 2026 02:00:00 GMT",
+  "summary": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products."
+ },
  "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training": {
   "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
   "date": "Thu, 27 Aug 2026 09:00:00 GMT",
@@ -1493,10 +1498,5 @@
   "title": "How Axios uses AI to help deliver high-impact local journalism",
   "date": "Wed, 04 Mar 2026 00:00:00 GMT",
   "summary": "Axios COO Allison Murphy explains how the company uses AI to support local reporters, streamline newsroom workflows, and deliver high-impact local journalism at scale."
- },
- "https://openai.com/index/understanding-ai-and-learning-outcomes": {
-  "title": "Understanding AI and learning outcomes",
-  "date": "Wed, 04 Mar 2026 00:00:00 GMT",
-  "summary": "OpenAI introduces the Learning Outcomes Measurement Suite to assess AI’s impact on student learning across diverse educational environments over time."
  }
 }

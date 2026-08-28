@@ -1,4 +1,19 @@
 {
+ "https://github.blog/changelog/2026-08-27-label-archiving-is-generally-available": {
+  "title": "Better label management on issues is generally available",
+  "date": "Thu, 27 Aug 2026 23:33:22 +0000",
+  "summary": "We&#8217;re making it easier to keep labels organized and find the right one, especially in repositories with long and growing label lists. Suggested Labels You can now find the right&#8230;\nThe post Better label management on issues is generally available appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-08-27-copilot-code-review-resolution-reasons-and-expanded-capabilities": {
+  "title": "Copilot code review: Resolution reasons and expanded capabilities",
+  "date": "Thu, 27 Aug 2026 22:46:04 +0000",
+  "summary": "Copilot code review can now review two types of pull requests it didn&#8217;t cover before: Reviews requested automatically on pull requests authored by bots, including Copilot cloud agent Very large&#8230;\nThe post Copilot code review: Resolution reasons and expanded capabilities appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-08-27-actions-retention-will-cover-checks-workflow-runs-and-statuses": {
+  "title": "Actions retention will cover checks, workflow runs, and statuses",
+  "date": "Thu, 27 Aug 2026 21:50:39 +0000",
+  "summary": "Starting October 1, 2026, checks, workflow runs, and statuses will be governed by the same Actions retention setting that already controls how long artifacts and logs are kept, with a&#8230;\nThe post Actions retention will cover checks, workflow runs, and statuses appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-08-27-close-all-open-contributions-authored-by-a-blocked-user": {
   "title": "Close all open contributions authored by a blocked user",
   "date": "Thu, 27 Aug 2026 16:30:52 +0000",
@@ -33,20 +48,5 @@
   "title": "Block users directly from security advisories",
   "date": "Tue, 25 Aug 2026 18:38:57 +0000",
   "summary": "You can now block a user directly from a security advisory page in public repositories owned by either an organization or a personal account. This brings the streamlined moderation experience&#8230;\nThe post Block users directly from security advisories appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-08-25-push-rules-in-rulesets-now-support-path-exceptions": {
-  "title": "Push rules in rulesets now support path exceptions",
-  "date": "Tue, 25 Aug 2026 17:40:15 +0000",
-  "summary": "You can now configure push rules more granularly by exempting specific file paths, so a rule applies everywhere in scope except the paths you choose. Path exceptions are in public&#8230;\nThe post Push rules in rulesets now support path exceptions appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-08-21-better-tools-for-managing-blocked-users": {
-  "title": "Better tools for managing blocked users",
-  "date": "Fri, 21 Aug 2026 17:28:36 +0000",
-  "summary": "Managing blocked users is now faster and clearer for personal accounts and organizations. With this update, you can: Search by username, full name, or email. Sort and paginate long lists.&#8230;\nThe post Better tools for managing blocked users appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-08-21-the-new-github-copilot-experience-in-slack": {
-  "title": "The new GitHub Copilot experience in Slack",
-  "date": "Fri, 21 Aug 2026 16:07:15 +0000",
-  "summary": "The GitHub integration in Slack now brings the agentic capabilities of GitHub Copilot CLI and the GitHub Copilot app into Slack in public preview. You can work with @GitHub to&#8230;\nThe post The new GitHub Copilot experience in Slack appeared first on The GitHub Blog."
  }
 }
