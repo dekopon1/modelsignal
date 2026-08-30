@@ -1,5 +1,5 @@
 {
- "run_at": "2026-08-30T16:38:53Z",
+ "run_at": "2026-08-30T21:02:44Z",
  "results": [
   {
    "id": "anthropic-pricing",
@@ -18,7 +18,7 @@
    "ok": true,
    "http_chars": 655292,
    "changed": true,
-   "changes": 6,
+   "changes": 0,
    "announcements": 0
   },
   {
