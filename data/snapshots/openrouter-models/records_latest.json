@@ -423,8 +423,8 @@
   "tencent/hy3": {
    "name": "Tencent: Hy3",
    "context_length": "262144",
-   "prompt_per_mtok": "0.132",
-   "completion_per_mtok": "0.528"
+   "prompt_per_mtok": "0.0825",
+   "completion_per_mtok": "0.33"
   },
   "poolside/laguna-xs-2.1": {
    "name": "Poolside: Laguna XS 2.1",
@@ -784,14 +784,14 @@
   "deepseek/deepseek-v4-pro": {
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.4273",
-   "completion_per_mtok": "0.8547"
+   "prompt_per_mtok": "0.4173",
+   "completion_per_mtok": "0.8345"
   },
   "deepseek/deepseek-v4-flash": {
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0798",
-   "completion_per_mtok": "0.1596"
+   "prompt_per_mtok": "0.079",
+   "completion_per_mtok": "0.1579"
   },
   "tencent/hy3-preview": {
    "name": "Tencent: Hy3 preview",
@@ -1288,8 +1288,8 @@
   "mistralai/devstral-2512": {
    "name": "Mistral: Devstral 2 2512",
    "context_length": "262144",
-   "prompt_per_mtok": "0.44",
-   "completion_per_mtok": "2.2"
+   "prompt_per_mtok": "0.4",
+   "completion_per_mtok": "2"
   },
   "relace/relace-search": {
    "name": "Relace: Relace Search",
