@@ -784,14 +784,14 @@
   "deepseek/deepseek-v4-pro": {
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.4882",
-   "completion_per_mtok": "0.9765"
+   "prompt_per_mtok": "0.4273",
+   "completion_per_mtok": "0.8547"
   },
   "deepseek/deepseek-v4-flash": {
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0806",
-   "completion_per_mtok": "0.1613"
+   "prompt_per_mtok": "0.0798",
+   "completion_per_mtok": "0.1596"
   },
   "tencent/hy3-preview": {
    "name": "Tencent: Hy3 preview",
