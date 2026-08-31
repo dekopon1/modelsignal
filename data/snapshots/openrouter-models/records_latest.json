@@ -423,8 +423,8 @@
   "tencent/hy3": {
    "name": "Tencent: Hy3",
    "context_length": "262144",
-   "prompt_per_mtok": "0.0825",
-   "completion_per_mtok": "0.33"
+   "prompt_per_mtok": "0.132",
+   "completion_per_mtok": "0.528"
   },
   "poolside/laguna-xs-2.1": {
    "name": "Poolside: Laguna XS 2.1",
@@ -784,14 +784,14 @@
   "deepseek/deepseek-v4-pro": {
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.4173",
-   "completion_per_mtok": "0.8345"
+   "prompt_per_mtok": "1.6",
+   "completion_per_mtok": "3.2"
   },
   "deepseek/deepseek-v4-flash": {
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.079",
-   "completion_per_mtok": "0.1579"
+   "prompt_per_mtok": "0.0886",
+   "completion_per_mtok": "0.1772"
   },
   "tencent/hy3-preview": {
    "name": "Tencent: Hy3 preview",
@@ -1178,8 +1178,8 @@
   "moonshotai/kimi-k2.5": {
    "name": "MoonshotAI: Kimi K2.5",
    "context_length": "262144",
-   "prompt_per_mtok": "0.6",
-   "completion_per_mtok": "3"
+   "prompt_per_mtok": "0.45",
+   "completion_per_mtok": "2.25"
   },
   "upstage/solar-pro-3": {
    "name": "Upstage: Solar Pro 3",
@@ -1971,7 +1971,7 @@
    "name": "Meta: Llama 4 Maverick",
    "context_length": "1048576",
    "prompt_per_mtok": "0.2",
-   "completion_per_mtok": "0.8"
+   "completion_per_mtok": "0.696"
   },
   "meta-llama/llama-4-scout": {
    "name": "Meta: Llama 4 Scout",
