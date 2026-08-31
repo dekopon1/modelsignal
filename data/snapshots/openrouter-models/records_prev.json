@@ -1,5 +1,11 @@
 {
  "models": {
+  "ibm-granite/granite-4.2-8b": {
+   "name": "IBM: Granite 4.2 8B",
+   "context_length": "131072",
+   "prompt_per_mtok": "0.1",
+   "completion_per_mtok": "0.15"
+  },
   "tencent/hy4-preview": {
    "name": "Tencent: Hy4 preview",
    "context_length": "1048576",
@@ -57,8 +63,8 @@
   "~z-ai/glm-latest": {
    "name": "Z.ai: GLM Latest",
    "context_length": "1310720",
-   "prompt_per_mtok": "1.1875",
-   "completion_per_mtok": "4.18"
+   "prompt_per_mtok": "1.17",
+   "completion_per_mtok": "3.96"
   },
   "tencent/hy-mt2-7b": {
    "name": "Tencent: Hy-MT2-7B",
@@ -197,7 +203,7 @@
   "~deepseek/deepseek-v4-flash-latest": {
    "name": "DeepSeek V4 Flash Latest",
    "context_length": "1310720",
-   "prompt_per_mtok": "0.03",
+   "prompt_per_mtok": "0.05",
    "completion_per_mtok": "0.16"
   },
   "deepseek/deepseek-v4-flash-0731": {
@@ -348,12 +354,6 @@
    "prompt_per_mtok": "1.25",
    "completion_per_mtok": "4.25"
   },
-  "kwaipilot/kat-coder-air-v2.5": {
-   "name": "Kwaipilot: KAT-Coder-Air V2.5",
-   "context_length": "256000",
-   "prompt_per_mtok": "0.15",
-   "completion_per_mtok": "0.6"
-  },
   "kwaipilot/kat-coder-pro-v2.5": {
    "name": "Kwaipilot: KAT-Coder-Pro V2.5",
    "context_length": "262144",
@@ -366,11 +366,23 @@
    "prompt_per_mtok": "0.2",
    "completion_per_mtok": "1.2"
   },
+  "openai/gpt-5.6-luna-pro:batch": {
+   "name": "OpenAI: GPT-5.6 Luna Pro (batch)",
+   "context_length": "1050000",
+   "prompt_per_mtok": "0.1",
+   "completion_per_mtok": "0.6"
+  },
   "openai/gpt-5.6-luna": {
    "name": "OpenAI: GPT-5.6 Luna",
    "context_length": "1050000",
    "prompt_per_mtok": "0.2",
    "completion_per_mtok": "1.2"
+  },
+  "openai/gpt-5.6-luna:batch": {
+   "name": "OpenAI: GPT-5.6 Luna (batch)",
+   "context_length": "1050000",
+   "prompt_per_mtok": "0.1",
+   "completion_per_mtok": "0.6"
   },
   "openai/gpt-5.6-terra-pro": {
    "name": "OpenAI: GPT-5.6 Terra Pro",
@@ -378,11 +390,23 @@
    "prompt_per_mtok": "2",
    "completion_per_mtok": "12"
   },
+  "openai/gpt-5.6-terra-pro:batch": {
+   "name": "OpenAI: GPT-5.6 Terra Pro (batch)",
+   "context_length": "1050000",
+   "prompt_per_mtok": "1",
+   "completion_per_mtok": "6"
+  },
   "openai/gpt-5.6-terra": {
    "name": "OpenAI: GPT-5.6 Terra",
    "context_length": "1050000",
    "prompt_per_mtok": "2",
    "completion_per_mtok": "12"
+  },
+  "openai/gpt-5.6-terra:batch": {
+   "name": "OpenAI: GPT-5.6 Terra (batch)",
+   "context_length": "1050000",
+   "prompt_per_mtok": "1",
+   "completion_per_mtok": "6"
   },
   "openai/gpt-5.6-sol-pro": {
    "name": "OpenAI: GPT-5.6 Sol Pro",
@@ -390,11 +414,23 @@
    "prompt_per_mtok": "2",
    "completion_per_mtok": "10"
   },
+  "openai/gpt-5.6-sol-pro:batch": {
+   "name": "OpenAI: GPT-5.6 Sol Pro (batch)",
+   "context_length": "1050000",
+   "prompt_per_mtok": "1",
+   "completion_per_mtok": "5"
+  },
   "openai/gpt-5.6-sol": {
    "name": "OpenAI: GPT-5.6 Sol",
    "context_length": "1050000",
    "prompt_per_mtok": "2",
    "completion_per_mtok": "10"
+  },
+  "openai/gpt-5.6-sol:batch": {
+   "name": "OpenAI: GPT-5.6 Sol (batch)",
+   "context_length": "1050000",
+   "prompt_per_mtok": "1",
+   "completion_per_mtok": "5"
   },
   "x-ai/grok-4.5": {
    "name": "SpaceXAI: Grok 4.5",
@@ -423,8 +459,8 @@
   "tencent/hy3": {
    "name": "Tencent: Hy3",
    "context_length": "262144",
-   "prompt_per_mtok": "0.132",
-   "completion_per_mtok": "0.528"
+   "prompt_per_mtok": "0.0825",
+   "completion_per_mtok": "0.33"
   },
   "poolside/laguna-xs-2.1": {
    "name": "Poolside: Laguna XS 2.1",
@@ -775,23 +811,35 @@
    "prompt_per_mtok": "30",
    "completion_per_mtok": "180"
   },
+  "openai/gpt-5.5-pro:batch": {
+   "name": "OpenAI: GPT-5.5 Pro (batch)",
+   "context_length": "1050000",
+   "prompt_per_mtok": "15",
+   "completion_per_mtok": "90"
+  },
   "openai/gpt-5.5": {
    "name": "OpenAI: GPT-5.5",
    "context_length": "1050000",
    "prompt_per_mtok": "5",
    "completion_per_mtok": "30"
   },
+  "openai/gpt-5.5:batch": {
+   "name": "OpenAI: GPT-5.5 (batch)",
+   "context_length": "1050000",
+   "prompt_per_mtok": "2.5",
+   "completion_per_mtok": "15"
+  },
   "deepseek/deepseek-v4-pro": {
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "1.0393",
-   "completion_per_mtok": "2.0786"
+   "prompt_per_mtok": "0.87",
+   "completion_per_mtok": "1.74"
   },
   "deepseek/deepseek-v4-flash": {
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0871",
-   "completion_per_mtok": "0.1742"
+   "prompt_per_mtok": "0.0794",
+   "completion_per_mtok": "0.1588"
   },
   "tencent/hy3-preview": {
    "name": "Tencent: Hy3 preview",
@@ -955,11 +1003,23 @@
    "prompt_per_mtok": "0.2",
    "completion_per_mtok": "1.25"
   },
+  "openai/gpt-5.4-nano:batch": {
+   "name": "OpenAI: GPT-5.4 Nano (batch)",
+   "context_length": "400000",
+   "prompt_per_mtok": "0.1",
+   "completion_per_mtok": "0.625"
+  },
   "openai/gpt-5.4-mini": {
    "name": "OpenAI: GPT-5.4 Mini",
    "context_length": "400000",
    "prompt_per_mtok": "0.75",
    "completion_per_mtok": "4.5"
+  },
+  "openai/gpt-5.4-mini:batch": {
+   "name": "OpenAI: GPT-5.4 Mini (batch)",
+   "context_length": "400000",
+   "prompt_per_mtok": "0.375",
+   "completion_per_mtok": "2.25"
   },
   "mistralai/mistral-small-2603": {
    "name": "Mistral: Mistral Small 4",
@@ -1015,11 +1075,23 @@
    "prompt_per_mtok": "30",
    "completion_per_mtok": "180"
   },
+  "openai/gpt-5.4-pro:batch": {
+   "name": "OpenAI: GPT-5.4 Pro (batch)",
+   "context_length": "1050000",
+   "prompt_per_mtok": "15",
+   "completion_per_mtok": "90"
+  },
   "openai/gpt-5.4": {
    "name": "OpenAI: GPT-5.4",
    "context_length": "1050000",
    "prompt_per_mtok": "2.5",
    "completion_per_mtok": "15"
+  },
+  "openai/gpt-5.4:batch": {
+   "name": "OpenAI: GPT-5.4 (batch)",
+   "context_length": "1050000",
+   "prompt_per_mtok": "1.25",
+   "completion_per_mtok": "7.5"
   },
   "inception/mercury-2": {
    "name": "Inception: Mercury 2",
@@ -1279,11 +1351,23 @@
    "prompt_per_mtok": "21",
    "completion_per_mtok": "168"
   },
+  "openai/gpt-5.2-pro:batch": {
+   "name": "OpenAI: GPT-5.2 Pro (batch)",
+   "context_length": "400000",
+   "prompt_per_mtok": "10.5",
+   "completion_per_mtok": "84"
+  },
   "openai/gpt-5.2": {
    "name": "OpenAI: GPT-5.2",
    "context_length": "400000",
    "prompt_per_mtok": "1.75",
    "completion_per_mtok": "14"
+  },
+  "openai/gpt-5.2:batch": {
+   "name": "OpenAI: GPT-5.2 (batch)",
+   "context_length": "400000",
+   "prompt_per_mtok": "0.875",
+   "completion_per_mtok": "7"
   },
   "mistralai/devstral-2512": {
    "name": "Mistral: Devstral 2 2512",
@@ -1387,6 +1471,12 @@
    "context_length": "400000",
    "prompt_per_mtok": "1.25",
    "completion_per_mtok": "10"
+  },
+  "openai/gpt-5.1:batch": {
+   "name": "OpenAI: GPT-5.1 (batch)",
+   "context_length": "400000",
+   "prompt_per_mtok": "0.625",
+   "completion_per_mtok": "5"
   },
   "openai/gpt-5.1-codex": {
    "name": "OpenAI: GPT-5.1-Codex",
@@ -1509,6 +1599,12 @@
    "prompt_per_mtok": "15",
    "completion_per_mtok": "120"
   },
+  "openai/gpt-5-pro:batch": {
+   "name": "OpenAI: GPT-5 Pro (batch)",
+   "context_length": "400000",
+   "prompt_per_mtok": "7.5",
+   "completion_per_mtok": "60"
+  },
   "z-ai/glm-4.6": {
    "name": "Z.ai: GLM 4.6",
    "context_length": "204800",
@@ -1590,7 +1686,7 @@
   "qwen/qwen3-next-80b-a3b-instruct": {
    "name": "Qwen: Qwen3 Next 80B A3B Instruct",
    "context_length": "262144",
-   "prompt_per_mtok": "0.09",
+   "prompt_per_mtok": "0.1",
    "completion_per_mtok": "1.1"
   },
   "qwen/qwen-plus-2025-07-28": {
@@ -1653,17 +1749,35 @@
    "prompt_per_mtok": "1.25",
    "completion_per_mtok": "10"
   },
+  "openai/gpt-5:batch": {
+   "name": "OpenAI: GPT-5 (batch)",
+   "context_length": "400000",
+   "prompt_per_mtok": "0.625",
+   "completion_per_mtok": "5"
+  },
   "openai/gpt-5-mini": {
    "name": "OpenAI: GPT-5 Mini",
    "context_length": "400000",
    "prompt_per_mtok": "0.25",
    "completion_per_mtok": "2"
   },
+  "openai/gpt-5-mini:batch": {
+   "name": "OpenAI: GPT-5 Mini (batch)",
+   "context_length": "400000",
+   "prompt_per_mtok": "0.125",
+   "completion_per_mtok": "1"
+  },
   "openai/gpt-5-nano": {
    "name": "OpenAI: GPT-5 Nano",
    "context_length": "400000",
    "prompt_per_mtok": "0.05",
    "completion_per_mtok": "0.4"
+  },
+  "openai/gpt-5-nano:batch": {
+   "name": "OpenAI: GPT-5 Nano (batch)",
+   "context_length": "400000",
+   "prompt_per_mtok": "0.025",
+   "completion_per_mtok": "0.2"
   },
   "openai/gpt-oss-120b": {
    "name": "OpenAI: gpt-oss-120b",
@@ -1943,11 +2057,23 @@
    "prompt_per_mtok": "2",
    "completion_per_mtok": "8"
   },
+  "openai/o3:batch": {
+   "name": "OpenAI: o3 (batch)",
+   "context_length": "200000",
+   "prompt_per_mtok": "1",
+   "completion_per_mtok": "4"
+  },
   "openai/o4-mini": {
    "name": "OpenAI: o4 Mini",
    "context_length": "200000",
    "prompt_per_mtok": "1.1",
    "completion_per_mtok": "4.4"
+  },
+  "openai/o4-mini:batch": {
+   "name": "OpenAI: o4 Mini (batch)",
+   "context_length": "200000",
+   "prompt_per_mtok": "0.55",
+   "completion_per_mtok": "2.2"
   },
   "openai/gpt-4.1": {
    "name": "OpenAI: GPT-4.1",
@@ -1955,17 +2081,35 @@
    "prompt_per_mtok": "2",
    "completion_per_mtok": "8"
   },
+  "openai/gpt-4.1:batch": {
+   "name": "OpenAI: GPT-4.1 (batch)",
+   "context_length": "1047576",
+   "prompt_per_mtok": "1",
+   "completion_per_mtok": "4"
+  },
   "openai/gpt-4.1-mini": {
    "name": "OpenAI: GPT-4.1 Mini",
    "context_length": "1047576",
    "prompt_per_mtok": "0.4",
    "completion_per_mtok": "1.6"
   },
+  "openai/gpt-4.1-mini:batch": {
+   "name": "OpenAI: GPT-4.1 Mini (batch)",
+   "context_length": "1047576",
+   "prompt_per_mtok": "0.2",
+   "completion_per_mtok": "0.8"
+  },
   "openai/gpt-4.1-nano": {
    "name": "OpenAI: GPT-4.1 Nano",
    "context_length": "1047576",
    "prompt_per_mtok": "0.1",
    "completion_per_mtok": "0.4"
+  },
+  "openai/gpt-4.1-nano:batch": {
+   "name": "OpenAI: GPT-4.1 Nano (batch)",
+   "context_length": "1047576",
+   "prompt_per_mtok": "0.05",
+   "completion_per_mtok": "0.2"
   },
   "meta-llama/llama-4-maverick": {
    "name": "Meta: Llama 4 Maverick",
@@ -2086,6 +2230,12 @@
    "context_length": "200000",
    "prompt_per_mtok": "1.1",
    "completion_per_mtok": "4.4"
+  },
+  "openai/o3-mini:batch": {
+   "name": "OpenAI: o3 Mini (batch)",
+   "context_length": "200000",
+   "prompt_per_mtok": "0.55",
+   "completion_per_mtok": "2.2"
   },
   "mistralai/mistral-small-24b-instruct-2501": {
    "name": "Mistral: Mistral Small 3",
@@ -2297,6 +2447,12 @@
    "prompt_per_mtok": "0.15",
    "completion_per_mtok": "0.6"
   },
+  "openai/gpt-4o-mini:batch": {
+   "name": "OpenAI: GPT-4o-mini (batch)",
+   "context_length": "128000",
+   "prompt_per_mtok": "0.075",
+   "completion_per_mtok": "0.3"
+  },
   "google/gemma-2-27b-it": {
    "name": "Google: Gemma 2 27B",
    "context_length": "8192",
@@ -2315,6 +2471,12 @@
    "prompt_per_mtok": "5",
    "completion_per_mtok": "15"
   },
+  "openai/gpt-4o:batch": {
+   "name": "OpenAI: GPT-4o (batch)",
+   "context_length": "128000",
+   "prompt_per_mtok": "1.25",
+   "completion_per_mtok": "5"
+  },
   "mistralai/mixtral-8x22b-instruct": {
    "name": "Mistral: Mixtral 8x22B Instruct",
    "context_length": "65536",
@@ -2332,6 +2494,12 @@
    "context_length": "128000",
    "prompt_per_mtok": "10",
    "completion_per_mtok": "30"
+  },
+  "openai/gpt-4-turbo:batch": {
+   "name": "OpenAI: GPT-4 Turbo (batch)",
+   "context_length": "128000",
+   "prompt_per_mtok": "5",
+   "completion_per_mtok": "15"
   },
   "anthropic/claude-3-haiku": {
    "name": "Anthropic: Claude 3 Haiku",
@@ -2398,6 +2566,12 @@
    "context_length": "16385",
    "prompt_per_mtok": "0.5",
    "completion_per_mtok": "1.5"
+  },
+  "openai/gpt-3.5-turbo:batch": {
+   "name": "OpenAI: GPT-3.5 Turbo (batch)",
+   "context_length": "16385",
+   "prompt_per_mtok": "0.25",
+   "completion_per_mtok": "0.75"
   },
   "openai/gpt-4": {
    "name": "OpenAI: GPT-4",

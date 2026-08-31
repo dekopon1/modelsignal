@@ -25,10 +25,6 @@
    "Premium request consumption": "Copilot Spaces uses one premium request per user prompt, multiplied by the model's rate.",
    "SKU Attribution": "Copilot premium requests"
   },
-  "Spark": {
-   "Premium request consumption": "Each prompt to Spark uses a fixed rate of four premium requests.",
-   "SKU Attribution": "Spark premium requests"
-  },
   "OpenAI Codex Visual Studio Code integration": {
    "Premium request consumption": "While in preview, each prompt to OpenAI Codex uses one premium request multiplied by the model multiplier rates.",
    "SKU Attribution": "Copilot premium requests"
