@@ -1,5 +1,11 @@
 {
  "models": {
+  "inception/mercury-2.5-preview": {
+   "name": "Inception: Mercury 2.5 Preview",
+   "context_length": "260000",
+   "prompt_per_mtok": "0.04",
+   "completion_per_mtok": "0.15"
+  },
   "ibm-granite/granite-4.2-8b": {
    "name": "IBM: Granite 4.2 8B",
    "context_length": "131072",
@@ -204,7 +210,7 @@
    "name": "DeepSeek V4 Flash Latest",
    "context_length": "1310720",
    "prompt_per_mtok": "0.05",
-   "completion_per_mtok": "0.16"
+   "completion_per_mtok": "0.1"
   },
   "deepseek/deepseek-v4-flash-0731": {
    "name": "DeepSeek: DeepSeek V4 Flash 0731",
@@ -241,12 +247,6 @@
    "context_length": "1000000",
    "prompt_per_mtok": "0.03",
    "completion_per_mtok": "0.13"
-  },
-  "anthropic/claude-opus-5-fast": {
-   "name": "Claude Opus 5 (Fast)",
-   "context_length": "1000000",
-   "prompt_per_mtok": "10",
-   "completion_per_mtok": "50"
   },
   "anthropic/claude-opus-5": {
    "name": "Claude Opus 5",
@@ -459,8 +459,8 @@
   "tencent/hy3": {
    "name": "Tencent: Hy3",
    "context_length": "262144",
-   "prompt_per_mtok": "0.132",
-   "completion_per_mtok": "0.528"
+   "prompt_per_mtok": "0.0825",
+   "completion_per_mtok": "0.33"
   },
   "poolside/laguna-xs-2.1": {
    "name": "Poolside: Laguna XS 2.1",
@@ -625,12 +625,6 @@
    "prompt_per_mtok": "0.2",
    "completion_per_mtok": "1.15"
   },
-  "anthropic/claude-opus-4.8-fast": {
-   "name": "Anthropic: Claude Opus 4.8 (Fast)",
-   "context_length": "1000000",
-   "prompt_per_mtok": "10",
-   "completion_per_mtok": "50"
-  },
   "anthropic/claude-opus-4.8": {
    "name": "Anthropic: Claude Opus 4.8",
    "context_length": "1000000",
@@ -668,12 +662,6 @@
    "prompt_per_mtok": "0.75",
    "completion_per_mtok": "4.5",
    "image_per_mtok": "0.75"
-  },
-  "anthropic/claude-opus-4.7-fast": {
-   "name": "Anthropic: Claude Opus 4.7 (Fast)",
-   "context_length": "1000000",
-   "prompt_per_mtok": "30",
-   "completion_per_mtok": "150"
   },
   "perceptron/perceptron-mk1": {
    "name": "Perceptron: Perceptron Mk1",
@@ -838,8 +826,8 @@
   "deepseek/deepseek-v4-flash": {
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0809",
-   "completion_per_mtok": "0.1618"
+   "prompt_per_mtok": "0.0748",
+   "completion_per_mtok": "0.1495"
   },
   "tencent/hy3-preview": {
    "name": "Tencent: Hy3 preview",

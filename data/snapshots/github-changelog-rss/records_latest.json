@@ -1,4 +1,9 @@
 {
+ "https://github.blog/changelog/2026-08-31-copilot-model-access-update-for-github-team-plans": {
+  "title": "Copilot model access update for GitHub Team plans",
+  "date": "Mon, 31 Aug 2026 21:58:46 +0000",
+  "summary": "We have updated how model access is determined for Copilot users who hold seats in more than one organization. To keep billing and governance in sync, your model access is&#8230;\nThe post Copilot model access update for GitHub Team plans appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-08-31-github-copilot-in-vs-code-august-2026-releases": {
   "title": "GitHub Copilot in VS Code, August 2026 releases",
   "date": "Mon, 31 Aug 2026 08:39:54 +0000",
@@ -43,10 +48,5 @@
   "title": "Close all open contributions authored by a blocked user",
   "date": "Thu, 27 Aug 2026 16:30:52 +0000",
   "summary": "You can now automatically close all open issues, discussions, and pull requests authored by a user when you block them from your personal account or organization. To use this option,&#8230;\nThe post Close all open contributions authored by a blocked user appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-08-26-enterprise-managed-settings-now-support-autoupdate-for-plugin-marketplaces": {
-  "title": "Enterprise-managed settings now support autoUpdate for plugin marketplaces",
-  "date": "Thu, 27 Aug 2026 01:52:19 +0000",
-  "summary": "You can now opt individual plugin marketplaces into automatic updates by setting autoUpdate: true on an extraKnownMarketplaces entry in enterprise managed settings. Supported clients automatically check the marketplace and update&#8230;\nThe post Enterprise-managed settings now support autoUpdate for plugin marketplaces appeared first on The GitHub Blog."
  }
 }
