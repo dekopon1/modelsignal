@@ -1,109 +1,123 @@
 {
  "Model pricing": {
+  "Claude Fable 5.1": {
+   "Base input tokens": "$10 / MTok",
+   "5m cache writes": "$12.50 / MTok",
+   "1h cache writes": "$20 / MTok",
+   "Cache hits and refreshes": "$0.25 / MTok1",
+   "Output tokens": "$50 / MTok"
+  },
+  "Claude Mythos 5.1 (limited availability)": {
+   "Base input tokens": "$10 / MTok",
+   "5m cache writes": "$12.50 / MTok",
+   "1h cache writes": "$20 / MTok",
+   "Cache hits and refreshes": "$0.25 / MTok1",
+   "Output tokens": "$50 / MTok"
+  },
   "Claude Fable 5": {
-   "Base Input Tokens": "$10 / MTok",
-   "5m Cache Writes": "$12.50 / MTok",
-   "1h Cache Writes": "$20 / MTok",
-   "Cache Hits & Refreshes": "$1 / MTok",
-   "Output Tokens": "$50 / MTok"
+   "Base input tokens": "$10 / MTok",
+   "5m cache writes": "$12.50 / MTok",
+   "1h cache writes": "$20 / MTok",
+   "Cache hits and refreshes": "$1 / MTok",
+   "Output tokens": "$50 / MTok"
   },
   "Claude Mythos 5 (limited availability)": {
-   "Base Input Tokens": "$10 / MTok",
-   "5m Cache Writes": "$12.50 / MTok",
-   "1h Cache Writes": "$20 / MTok",
-   "Cache Hits & Refreshes": "$1 / MTok",
-   "Output Tokens": "$50 / MTok"
+   "Base input tokens": "$10 / MTok",
+   "5m cache writes": "$12.50 / MTok",
+   "1h cache writes": "$20 / MTok",
+   "Cache hits and refreshes": "$1 / MTok",
+   "Output tokens": "$50 / MTok"
   },
   "Claude Opus 5": {
-   "Base Input Tokens": "$5 / MTok",
-   "5m Cache Writes": "$6.25 / MTok",
-   "1h Cache Writes": "$10 / MTok",
-   "Cache Hits & Refreshes": "$0.50 / MTok",
-   "Output Tokens": "$25 / MTok"
+   "Base input tokens": "$5 / MTok",
+   "5m cache writes": "$6.25 / MTok",
+   "1h cache writes": "$10 / MTok",
+   "Cache hits and refreshes": "$0.50 / MTok",
+   "Output tokens": "$25 / MTok"
   },
   "Claude Opus 4.8": {
-   "Base Input Tokens": "$5 / MTok",
-   "5m Cache Writes": "$6.25 / MTok",
-   "1h Cache Writes": "$10 / MTok",
-   "Cache Hits & Refreshes": "$0.50 / MTok",
-   "Output Tokens": "$25 / MTok"
+   "Base input tokens": "$5 / MTok",
+   "5m cache writes": "$6.25 / MTok",
+   "1h cache writes": "$10 / MTok",
+   "Cache hits and refreshes": "$0.50 / MTok",
+   "Output tokens": "$25 / MTok"
   },
   "Claude Opus 4.7": {
-   "Base Input Tokens": "$5 / MTok",
-   "5m Cache Writes": "$6.25 / MTok",
-   "1h Cache Writes": "$10 / MTok",
-   "Cache Hits & Refreshes": "$0.50 / MTok",
-   "Output Tokens": "$25 / MTok"
+   "Base input tokens": "$5 / MTok",
+   "5m cache writes": "$6.25 / MTok",
+   "1h cache writes": "$10 / MTok",
+   "Cache hits and refreshes": "$0.50 / MTok",
+   "Output tokens": "$25 / MTok"
   },
   "Claude Opus 4.6": {
-   "Base Input Tokens": "$5 / MTok",
-   "5m Cache Writes": "$6.25 / MTok",
-   "1h Cache Writes": "$10 / MTok",
-   "Cache Hits & Refreshes": "$0.50 / MTok",
-   "Output Tokens": "$25 / MTok"
+   "Base input tokens": "$5 / MTok",
+   "5m cache writes": "$6.25 / MTok",
+   "1h cache writes": "$10 / MTok",
+   "Cache hits and refreshes": "$0.50 / MTok",
+   "Output tokens": "$25 / MTok"
   },
   "Claude Opus 4.5": {
-   "Base Input Tokens": "$5 / MTok",
-   "5m Cache Writes": "$6.25 / MTok",
-   "1h Cache Writes": "$10 / MTok",
-   "Cache Hits & Refreshes": "$0.50 / MTok",
-   "Output Tokens": "$25 / MTok"
+   "Base input tokens": "$5 / MTok",
+   "5m cache writes": "$6.25 / MTok",
+   "1h cache writes": "$10 / MTok",
+   "Cache hits and refreshes": "$0.50 / MTok",
+   "Output tokens": "$25 / MTok"
   },
   "Claude Opus 4.1 (retired, except on Bedrock and Google Cloud)": {
-   "Base Input Tokens": "$15 / MTok",
-   "5m Cache Writes": "$18.75 / MTok",
-   "1h Cache Writes": "$30 / MTok",
-   "Cache Hits & Refreshes": "$1.50 / MTok",
-   "Output Tokens": "$75 / MTok"
+   "Base input tokens": "$15 / MTok",
+   "5m cache writes": "$18.75 / MTok",
+   "1h cache writes": "$30 / MTok",
+   "Cache hits and refreshes": "$1.50 / MTok",
+   "Output tokens": "$75 / MTok"
   },
   "Claude Opus 4 (retired, except on Google Cloud)": {
-   "Base Input Tokens": "$15 / MTok",
-   "5m Cache Writes": "$18.75 / MTok",
-   "1h Cache Writes": "$30 / MTok",
-   "Cache Hits & Refreshes": "$1.50 / MTok",
-   "Output Tokens": "$75 / MTok"
+   "Base input tokens": "$15 / MTok",
+   "5m cache writes": "$18.75 / MTok",
+   "1h cache writes": "$30 / MTok",
+   "Cache hits and refreshes": "$1.50 / MTok",
+   "Output tokens": "$75 / MTok"
   },
   "Claude Sonnet 5": {
-   "Base Input Tokens": "$2 / MTok",
-   "5m Cache Writes": "$2.50 / MTok",
-   "1h Cache Writes": "$4 / MTok",
-   "Cache Hits & Refreshes": "$0.20 / MTok",
-   "Output Tokens": "$10 / MTok"
+   "Base input tokens": "$2 / MTok",
+   "5m cache writes": "$2.50 / MTok",
+   "1h cache writes": "$4 / MTok",
+   "Cache hits and refreshes": "$0.20 / MTok",
+   "Output tokens": "$10 / MTok"
   },
   "Claude Sonnet 4.6": {
-   "Base Input Tokens": "$3 / MTok",
-   "5m Cache Writes": "$3.75 / MTok",
-   "1h Cache Writes": "$6 / MTok",
-   "Cache Hits & Refreshes": "$0.30 / MTok",
-   "Output Tokens": "$15 / MTok"
+   "Base input tokens": "$3 / MTok",
+   "5m cache writes": "$3.75 / MTok",
+   "1h cache writes": "$6 / MTok",
+   "Cache hits and refreshes": "$0.30 / MTok",
+   "Output tokens": "$15 / MTok"
   },
   "Claude Sonnet 4.5": {
-   "Base Input Tokens": "$3 / MTok",
-   "5m Cache Writes": "$3.75 / MTok",
-   "1h Cache Writes": "$6 / MTok",
-   "Cache Hits & Refreshes": "$0.30 / MTok",
-   "Output Tokens": "$15 / MTok"
+   "Base input tokens": "$3 / MTok",
+   "5m cache writes": "$3.75 / MTok",
+   "1h cache writes": "$6 / MTok",
+   "Cache hits and refreshes": "$0.30 / MTok",
+   "Output tokens": "$15 / MTok"
   },
   "Claude Sonnet 4 (retired, except on Bedrock and Google Cloud)": {
-   "Base Input Tokens": "$3 / MTok",
-   "5m Cache Writes": "$3.75 / MTok",
-   "1h Cache Writes": "$6 / MTok",
-   "Cache Hits & Refreshes": "$0.30 / MTok",
-   "Output Tokens": "$15 / MTok"
+   "Base input tokens": "$3 / MTok",
+   "5m cache writes": "$3.75 / MTok",
+   "1h cache writes": "$6 / MTok",
+   "Cache hits and refreshes": "$0.30 / MTok",
+   "Output tokens": "$15 / MTok"
   },
   "Claude Haiku 4.5": {
-   "Base Input Tokens": "$1 / MTok",
-   "5m Cache Writes": "$1.25 / MTok",
-   "1h Cache Writes": "$2 / MTok",
-   "Cache Hits & Refreshes": "$0.10 / MTok",
-   "Output Tokens": "$5 / MTok"
+   "Base input tokens": "$1 / MTok",
+   "5m cache writes": "$1.25 / MTok",
+   "1h cache writes": "$2 / MTok",
+   "Cache hits and refreshes": "$0.10 / MTok",
+   "Output tokens": "$5 / MTok"
   },
   "Claude Haiku 3.5 (retired, except on Bedrock and Google Cloud)": {
-   "Base Input Tokens": "$0.80 / MTok",
-   "5m Cache Writes": "$1 / MTok",
-   "1h Cache Writes": "$1.60 / MTok",
-   "Cache Hits & Refreshes": "$0.08 / MTok",
-   "Output Tokens": "$4 / MTok"
+   "Base input tokens": "$0.80 / MTok",
+   "5m cache writes": "$1 / MTok",
+   "1h cache writes": "$1.60 / MTok",
+   "Cache hits and refreshes": "$0.08 / MTok",
+   "Output tokens": "$4 / MTok"
   }
  },
  "Cloud platform pricing": {},
@@ -172,7 +186,7 @@
    "Duration": "Cache valid for 1 hour"
   },
   "Cache read (hit)": {
-   "Multiplier": "0.1x base input price",
+   "Multiplier": "0.1x base input price (0.025x on Claude Fable 5.1 and Claude Mythos 5.1)",
    "Duration": "Same duration as the preceding write"
   }
  },
@@ -184,6 +198,14 @@
   }
  },
  "Batch processing": {
+  "Claude Fable 5.1": {
+   "Batch input": "$5 / MTok",
+   "Batch output": "$25 / MTok"
+  },
+  "Claude Mythos 5.1 (limited availability)": {
+   "Batch input": "$5 / MTok",
+   "Batch output": "$25 / MTok"
+  },
   "Claude Fable 5": {
    "Batch input": "$5 / MTok",
    "Batch output": "$25 / MTok"

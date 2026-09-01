@@ -15,7 +15,7 @@
  "Setting your own spend limit": {},
  "Rate limits": {},
  "Cache-aware ITPM": {
-  "Claude Fable 5": {
+  "Claude Fable 5.x1": {
    "Maximum requests per minute (RPM)": "4,000",
    "Maximum input tokens per minute (ITPM)": "4,000,000",
    "Maximum output tokens per minute (OTPM)": "800,000"
@@ -25,7 +25,7 @@
    "Maximum input tokens per minute (ITPM)": "10,000,000",
    "Maximum output tokens per minute (OTPM)": "2,000,000"
   },
-  "Claude Opus 4.x\\": {
+  "Claude Opus 4.x2": {
    "Maximum requests per minute (RPM)": "10,000",
    "Maximum input tokens per minute (ITPM)": "10,000,000",
    "Maximum output tokens per minute (OTPM)": "2,000,000"
@@ -35,7 +35,7 @@
    "Maximum input tokens per minute (ITPM)": "10,000,000",
    "Maximum output tokens per minute (OTPM)": "2,000,000"
   },
-  "Claude Sonnet 4.x\\\\": {
+  "Claude Sonnet 4.x3": {
    "Maximum requests per minute (RPM)": "10,000",
    "Maximum input tokens per minute (ITPM)": "10,000,000",
    "Maximum output tokens per minute (OTPM)": "2,000,000"
@@ -47,7 +47,7 @@
   },
   "Claude Haiku 3.5 (retired, except on Bedrock and Google Cloud)": {
    "Maximum requests per minute (RPM)": "4,000",
-   "Maximum input tokens per minute (ITPM)": "400,000†",
+   "Maximum input tokens per minute (ITPM)": "400,0004",
    "Maximum output tokens per minute (OTPM)": "80,000"
   }
  },

@@ -1,24 +1,28 @@
 {
- "run_at": "2026-09-01T16:37:29Z",
+ "run_at": "2026-09-01T21:00:37Z",
  "results": [
   {
    "id": "anthropic-pricing",
    "ok": true,
-   "http_chars": 43650,
-   "changed": false
+   "http_chars": 45038,
+   "changed": true,
+   "changes": 155,
+   "announcements": 0
   },
   {
    "id": "anthropic-limits",
    "ok": true,
-   "http_chars": 32796,
-   "changed": false
+   "http_chars": 33080,
+   "changed": true,
+   "changes": 7,
+   "announcements": 0
   },
   {
    "id": "openrouter-models",
    "ok": true,
-   "http_chars": 693316,
+   "http_chars": 694620,
    "changed": true,
-   "changes": 7,
+   "changes": 5,
    "announcements": 0
   },
   {
@@ -36,7 +40,7 @@
   {
    "id": "google-gemini-pricing",
    "ok": true,
-   "http_chars": 239940,
+   "http_chars": 240448,
    "changed": true,
    "changes": 0,
    "announcements": 0
@@ -44,7 +48,7 @@
   {
    "id": "github-copilot-plans",
    "ok": true,
-   "http_chars": 1049528,
+   "http_chars": 1061313,
    "changed": true,
    "changes": 0,
    "announcements": 0
@@ -52,7 +56,7 @@
   {
    "id": "github-copilot-premium",
    "ok": true,
-   "http_chars": 602860,
+   "http_chars": 602840,
    "changed": true,
    "changes": 0,
    "announcements": 0
@@ -60,32 +64,34 @@
   {
    "id": "anthropic-changelog",
    "ok": true,
-   "http_chars": 97416,
-   "changed": false
-  },
-  {
-   "id": "github-changelog-rss",
-   "ok": true,
-   "http_chars": 52638,
+   "http_chars": 102682,
    "changed": true,
    "changes": 0,
    "announcements": 1
   },
   {
-   "id": "openai-news-rss",
+   "id": "github-changelog-rss",
    "ok": true,
-   "http_chars": 703109,
+   "http_chars": 51869,
    "changed": true,
    "changes": 0,
-   "announcements": 0
+   "announcements": 3
+  },
+  {
+   "id": "openai-news-rss",
+   "ok": true,
+   "http_chars": 705021,
+   "changed": true,
+   "changes": 0,
+   "announcements": 3
   },
   {
    "id": "gemini-release-notes",
    "ok": true,
-   "http_chars": 162044,
+   "http_chars": 162698,
    "changed": true,
    "changes": 0,
-   "announcements": 0
+   "announcements": 1
   }
  ]
 }
