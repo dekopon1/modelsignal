@@ -1027,12 +1027,6 @@
    "prompt_per_mtok": "0.15",
    "completion_per_mtok": "0.6"
   },
-  "mistralai/mistral-small-2603:batch": {
-   "name": "Mistral: Mistral Small 4 (batch)",
-   "context_length": "262144",
-   "prompt_per_mtok": "0.15",
-   "completion_per_mtok": "0.6"
-  },
   "z-ai/glm-5-turbo": {
    "name": "Z.ai: GLM 5 Turbo",
    "context_length": "202752",
@@ -1417,12 +1411,6 @@
    "prompt_per_mtok": "0.15",
    "completion_per_mtok": "0.15"
   },
-  "mistralai/ministral-8b-2512:batch": {
-   "name": "Mistral: Ministral 3 8B 2512 (batch)",
-   "context_length": "262144",
-   "prompt_per_mtok": "0.15",
-   "completion_per_mtok": "0.15"
-  },
   "mistralai/ministral-3b-2512": {
    "name": "Mistral: Ministral 3 3B 2512",
    "context_length": "131072",
@@ -1431,12 +1419,6 @@
   },
   "mistralai/mistral-large-2512": {
    "name": "Mistral: Mistral Large 3 2512",
-   "context_length": "262144",
-   "prompt_per_mtok": "0.5",
-   "completion_per_mtok": "1.5"
-  },
-  "mistralai/mistral-large-2512:batch": {
-   "name": "Mistral: Mistral Large 3 2512 (batch)",
    "context_length": "262144",
    "prompt_per_mtok": "0.5",
    "completion_per_mtok": "1.5"
@@ -1731,12 +1713,6 @@
    "prompt_per_mtok": "0.4",
    "completion_per_mtok": "2"
   },
-  "mistralai/mistral-medium-3.1:batch": {
-   "name": "Mistral: Mistral Medium 3.1 (batch)",
-   "context_length": "131072",
-   "prompt_per_mtok": "0.4",
-   "completion_per_mtok": "2"
-  },
   "z-ai/glm-4.5v": {
    "name": "Z.ai: GLM 4.5V",
    "context_length": "65536",
@@ -1821,12 +1797,6 @@
    "prompt_per_mtok": "0.3",
    "completion_per_mtok": "0.9"
   },
-  "mistralai/codestral-2508:batch": {
-   "name": "Mistral: Codestral 2508 (batch)",
-   "context_length": "256000",
-   "prompt_per_mtok": "0.3",
-   "completion_per_mtok": "0.9"
-  },
   "qwen/qwen3-coder-30b-a3b-instruct": {
    "name": "Qwen: Qwen3 Coder 30B A3B Instruct",
    "context_length": "262144",
@@ -1886,8 +1856,8 @@
   "qwen/qwen3-235b-a22b-2507": {
    "name": "Qwen: Qwen3 235B A22B Instruct 2507",
    "context_length": "262144",
-   "prompt_per_mtok": "0.09",
-   "completion_per_mtok": "0.55"
+   "prompt_per_mtok": "0.0875",
+   "completion_per_mtok": "0.35"
   },
   "moonshotai/kimi-k2": {
    "name": "MoonshotAI: Kimi K2 0711",
@@ -2120,8 +2090,8 @@
   "meta-llama/llama-4-scout": {
    "name": "Meta: Llama 4 Scout",
    "context_length": "1310720",
-   "prompt_per_mtok": "0.11",
-   "completion_per_mtok": "0.34"
+   "prompt_per_mtok": "0.1",
+   "completion_per_mtok": "0.3"
   },
   "deepseek/deepseek-chat-v3-0324": {
    "name": "DeepSeek: DeepSeek V3 0324",
@@ -2558,8 +2528,8 @@
   "gryphe/mythomax-l2-13b": {
    "name": "MythoMax 13B",
    "context_length": "8192",
-   "prompt_per_mtok": "0.35",
-   "completion_per_mtok": "0.6"
+   "prompt_per_mtok": "0.06",
+   "completion_per_mtok": "0.06"
   },
   "openai/gpt-3.5-turbo": {
    "name": "OpenAI: GPT-3.5 Turbo",
