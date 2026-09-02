@@ -3,7 +3,7 @@
  "Free": {},
  "Paid": {},
  "Enterprise": {},
- "Gemini 3.7 Flash": {},
+ "Gemini 3.8 Flash": {},
  "Standard": {
   "Input price": {
    "Free Tier": "Free of charge | Not available | Not available | Not available | Not available | Not available | Free of charge | Free of charge | Not available | Free of charge | Free of charge | Not available | Free of charge | Not available | Free of charge | Free of charge | Free of charge | Free of charge",
@@ -200,6 +200,7 @@
    "Paid Tier, per 1M tokens in USD": "$0.18 (text / image / video)$0.54 (audio)"
   }
  },
+ "Gemini 3.7 Flash": {},
  "Gemini 3.6 Flash": {},
  "Gemini 3.5 Flash": {},
  "Gemini 3.5 Live Translate": {},
