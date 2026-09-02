@@ -1,4 +1,9 @@
 {
+ "https://github.blog/changelog/2026-09-02-enterprise-managed-settings-support-any-default-model": {
+  "title": "Enterprise-managed settings support any default model",
+  "date": "Wed, 02 Sep 2026 18:51:12 +0000",
+  "summary": "You can now set your preferred GitHub Copilot model as the default for new conversations through enterprise-managed settings. This lets you choose the default model that best fits your workflows.&#8230;\nThe post Enterprise-managed settings support any default model appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-09-01-enterprise-live-migrations-from-ghes-to-ghe-com-generally-available": {
   "title": "Enterprise Live Migrations from GHES to ghe.com generally available",
   "date": "Tue, 01 Sep 2026 22:24:27 +0000",
@@ -43,10 +48,5 @@
   "title": "GitHub Copilot in VS Code, August 2026 releases",
   "date": "Mon, 31 Aug 2026 08:39:54 +0000",
   "summary": "This changelog covers VS Code v1.132 through v1.135, shipped throughout August 2026. These releases make it easier to organize agent sessions, review changes, and navigate long conversations. Agent Host, the&#8230;\nThe post GitHub Copilot in VS Code, August 2026 releases appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-08-28-github-copilot-in-visual-studio-august-update-2": {
-  "title": "GitHub Copilot in Visual Studio — August update",
-  "date": "Fri, 28 Aug 2026 20:24:20 +0000",
-  "summary": "August 2026 brought more control over how GitHub Copilot reasons, which models you use, how teams share specialized agents, and when you ask for a code review. Highlights Here&#8217;s what&#8217;s&#8230;\nThe post GitHub Copilot in Visual Studio — August update appeared first on The GitHub Blog."
  }
 }
