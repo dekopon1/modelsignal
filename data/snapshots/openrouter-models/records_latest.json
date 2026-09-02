@@ -30,6 +30,12 @@
    "prompt_per_mtok": "0",
    "completion_per_mtok": "0"
   },
+  "~z-ai/glm-flash-latest": {
+   "name": "Z.ai: GLM Flash Latest",
+   "context_length": "1310720",
+   "prompt_per_mtok": "0.075",
+   "completion_per_mtok": "0.25"
+  },
   "qwen/qwen3.8-flash": {
    "name": "Qwen: Qwen3.8 Flash",
    "context_length": "1000000",
@@ -131,8 +137,8 @@
   "qwen/qwen3.8-2.4t-a95b:batch": {
    "name": "Qwen: Qwen3.8 2.4T A95B (batch)",
    "context_length": "1010000",
-   "prompt_per_mtok": "2.5",
-   "completion_per_mtok": "6.25"
+   "prompt_per_mtok": "2",
+   "completion_per_mtok": "6"
   },
   "bytedance-seed/seed-2.0-code": {
    "name": "ByteDance Seed: Seed-2.0-Code",
@@ -143,8 +149,8 @@
   "deepseek/deepseek-v4-pro-0813": {
    "name": "DeepSeek: DeepSeek V4 Pro 0813",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.66",
-   "completion_per_mtok": "1.98"
+   "prompt_per_mtok": "1.1154",
+   "completion_per_mtok": "3.3462"
   },
   "deepseek/deepseek-v4-pro-0813:batch": {
    "name": "DeepSeek: DeepSeek V4 Pro 0813 (batch)",
@@ -216,7 +222,7 @@
    "name": "DeepSeek V4 Flash Latest",
    "context_length": "1310720",
    "prompt_per_mtok": "0.05",
-   "completion_per_mtok": "0.1"
+   "completion_per_mtok": "0.16"
   },
   "deepseek/deepseek-v4-flash-0731": {
    "name": "DeepSeek: DeepSeek V4 Flash 0731",
@@ -465,8 +471,8 @@
   "tencent/hy3": {
    "name": "Tencent: Hy3",
    "context_length": "262144",
-   "prompt_per_mtok": "0.0825",
-   "completion_per_mtok": "0.33"
+   "prompt_per_mtok": "0.132",
+   "completion_per_mtok": "0.528"
   },
   "poolside/laguna-xs-2.1": {
    "name": "Poolside: Laguna XS 2.1",
@@ -532,8 +538,8 @@
   "z-ai/glm-5.2": {
    "name": "Z.ai: GLM 5.2",
    "context_length": "1048576",
-   "prompt_per_mtok": "1.19",
-   "completion_per_mtok": "3.74"
+   "prompt_per_mtok": "0.966",
+   "completion_per_mtok": "3.036"
   },
   "z-ai/glm-5.2:free": {
    "name": "Z.ai: GLM 5.2 (free)",
@@ -586,8 +592,8 @@
   "nvidia/nemotron-3-ultra-550b-a55b": {
    "name": "NVIDIA: Nemotron 3 Ultra",
    "context_length": "262144",
-   "prompt_per_mtok": "0.5",
-   "completion_per_mtok": "2.2"
+   "prompt_per_mtok": "0.625",
+   "completion_per_mtok": "3.125"
   },
   "nvidia/nemotron-3-ultra-550b-a55b:batch": {
    "name": "NVIDIA: Nemotron 3 Ultra (batch)",
@@ -826,14 +832,14 @@
   "deepseek/deepseek-v4-pro": {
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "1.0275",
-   "completion_per_mtok": "2.0549"
+   "prompt_per_mtok": "1.0423",
+   "completion_per_mtok": "2.0845"
   },
   "deepseek/deepseek-v4-flash": {
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0717",
-   "completion_per_mtok": "0.1434"
+   "prompt_per_mtok": "0.0886",
+   "completion_per_mtok": "0.1772"
   },
   "tencent/hy3-preview": {
    "name": "Tencent: Hy3 preview",
@@ -1698,8 +1704,8 @@
   "deepseek/deepseek-chat-v3.1": {
    "name": "DeepSeek: DeepSeek V3.1",
    "context_length": "163840",
-   "prompt_per_mtok": "0.55",
-   "completion_per_mtok": "1.65"
+   "prompt_per_mtok": "0.25",
+   "completion_per_mtok": "0.95"
   },
   "mistralai/mistral-medium-3.1": {
    "name": "Mistral: Mistral Medium 3.1",

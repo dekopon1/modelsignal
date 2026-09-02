@@ -1,4 +1,9 @@
 {
+ "https://github.blog/changelog/2026-09-01-enterprise-live-migrations-from-ghes-to-ghe-com-generally-available": {
+  "title": "Enterprise Live Migrations from GHES to ghe.com generally available",
+  "date": "Tue, 01 Sep 2026 22:24:27 +0000",
+  "summary": "Enterprise Live Migrations (ELM) is now generally available, enabling near-zero-downtime repository migrations from GitHub Enterprise Server (GHES) to GitHub Enterprise Cloud with Data Residency (GHEC DR), so you can move&#8230;\nThe post Enterprise Live Migrations from GHES to ghe.com generally available appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-09-01-set-an-expiration-date-for-individual-user-budgets": {
   "title": "Set an expiration date for individual user budgets",
   "date": "Tue, 01 Sep 2026 20:23:13 +0000",
@@ -14,10 +19,25 @@
   "date": "Tue, 01 Sep 2026 16:30:01 +0000",
   "summary": "You can now block or unblock users directly from discussion comments in repositories owned by personal GitHub accounts, extending the in-context blocking controls already available for issue and pull request&#8230;\nThe post Block users from discussion comments in personal repositories appeared first on The GitHub Blog."
  },
+ "https://github.blog/changelog/2026-09-01-claude-fable-5-1-generally-available-in-github-copilot": {
+  "title": "Claude Fable 5.1 is generally available in GitHub Copilot",
+  "date": "Tue, 01 Sep 2026 14:29:23 +0000",
+  "summary": "Claude Fable 5.1 from Anthropic is now available in GitHub Copilot. The latest model in Anthropic&#8217;s Mythos class, Claude Fable 5.1 is designed for long-horizon, autonomous coding and knowledge-work tasks.&#8230;\nThe post Claude Fable 5.1 is generally available in GitHub Copilot appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-09-01-github-cli-media-in-issues-pull-requests-and-comments": {
+  "title": "GitHub CLI: Media in issues, pull requests, and comments",
+  "date": "Tue, 01 Sep 2026 12:35:59 +0000",
+  "summary": "GitHub CLI now has a repeatable --attach flag that uploads a local image or video and references it inline in an issue, pull request, or comment body. This is now&#8230;\nThe post GitHub CLI: Media in issues, pull requests, and comments appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-08-31-copilot-model-access-update-for-github-team-plans": {
   "title": "Copilot model access update for GitHub Team plans",
   "date": "Mon, 31 Aug 2026 21:58:46 +0000",
   "summary": "We have updated how model access is determined for Copilot users who hold seats in more than one organization. To keep billing and governance in sync, your model access is&#8230;\nThe post Copilot model access update for GitHub Team plans appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-08-31-selected-github-copilot-models-deprecated": {
+  "title": "Selected GitHub Copilot models deprecated",
+  "date": "Mon, 31 Aug 2026 21:21:40 +0000",
+  "summary": "As of today, September 1, 2026, we have deprecated the following models across most GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). Note&#8230;\nThe post Selected GitHub Copilot models deprecated appeared first on The GitHub Blog."
  },
  "https://github.blog/changelog/2026-08-31-github-copilot-in-vs-code-august-2026-releases": {
   "title": "GitHub Copilot in VS Code, August 2026 releases",
@@ -28,25 +48,5 @@
   "title": "GitHub Copilot in Visual Studio — August update",
   "date": "Fri, 28 Aug 2026 20:24:20 +0000",
   "summary": "August 2026 brought more control over how GitHub Copilot reasons, which models you use, how teams share specialized agents, and when you ask for a code review. Highlights Here&#8217;s what&#8217;s&#8230;\nThe post GitHub Copilot in Visual Studio — August update appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-08-28-github-copilot-weekly-releases-august-24": {
-  "title": "GitHub Copilot weekly releases — August 24",
-  "date": "Fri, 28 Aug 2026 20:13:22 +0000",
-  "summary": "This week&#8217;s updates give you more control over how Copilot runs, from team sessions in Slack and Teams to customization across the app, CLI, and your IDE. GitHub Copilot in&#8230;\nThe post GitHub Copilot weekly releases — August 24 appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing": {
-  "title": "Upcoming changes to GitHub Copilot policies and billing",
-  "date": "Fri, 28 Aug 2026 11:37:19 +0000",
-  "summary": "To provide a strong, consistent Copilot experience, we&#8217;re making three separate, upcoming changes to Copilot policies and billing. Please review the upcoming updates to understand what may impact you. Reopening&#8230;\nThe post Upcoming changes to GitHub Copilot policies and billing appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-08-27-label-archiving-is-generally-available": {
-  "title": "Better label management on issues is generally available",
-  "date": "Thu, 27 Aug 2026 23:33:22 +0000",
-  "summary": "We&#8217;re making it easier to keep labels organized and find the right one, especially in repositories with long and growing label lists. Suggested Labels You can now find the right&#8230;\nThe post Better label management on issues is generally available appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-08-27-copilot-code-review-resolution-reasons-and-expanded-capabilities": {
-  "title": "Copilot code review: Resolution reasons and expanded capabilities",
-  "date": "Thu, 27 Aug 2026 22:46:04 +0000",
-  "summary": "Copilot code review can now review two types of pull requests it didn&#8217;t cover before: Reviews requested automatically on pull requests authored by bots, including Copilot cloud agent Very large&#8230;\nThe post Copilot code review: Resolution reasons and expanded capabilities appeared first on The GitHub Blog."
  }
 }
