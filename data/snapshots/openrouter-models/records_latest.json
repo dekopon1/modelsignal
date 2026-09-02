@@ -6,6 +6,12 @@
    "prompt_per_mtok": "10",
    "completion_per_mtok": "50"
   },
+  "anthropic/claude-fable-5.1:batch": {
+   "name": "Anthropic: Claude Fable 5.1 (batch)",
+   "context_length": "1000000",
+   "prompt_per_mtok": "5",
+   "completion_per_mtok": "25"
+  },
   "inception/mercury-2.5-preview": {
    "name": "Inception: Mercury 2.5 Preview",
    "context_length": "260000",
@@ -81,8 +87,8 @@
   "~z-ai/glm-latest": {
    "name": "Z.ai: GLM Latest",
    "context_length": "1310720",
-   "prompt_per_mtok": "1.17",
-   "completion_per_mtok": "3.96"
+   "prompt_per_mtok": "1.15",
+   "completion_per_mtok": "3.5"
   },
   "tencent/hy-mt2-7b": {
    "name": "Tencent: Hy-MT2-7B",
