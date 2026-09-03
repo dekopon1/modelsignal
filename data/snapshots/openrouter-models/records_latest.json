@@ -113,8 +113,8 @@
   "~z-ai/glm-latest": {
    "name": "Z.ai: GLM Latest",
    "context_length": "1310720",
-   "prompt_per_mtok": "1.092",
-   "completion_per_mtok": "3.432"
+   "prompt_per_mtok": "1.12",
+   "completion_per_mtok": "3.52"
   },
   "tencent/hy-mt2-7b": {
    "name": "Tencent: Hy-MT2-7B",
@@ -2026,8 +2026,8 @@
   "qwen/qwen3-14b": {
    "name": "Qwen: Qwen3 14B",
    "context_length": "131072",
-   "prompt_per_mtok": "0.2275",
-   "completion_per_mtok": "0.91"
+   "prompt_per_mtok": "0.12",
+   "completion_per_mtok": "0.24"
   },
   "qwen/qwen3-32b": {
    "name": "Qwen: Qwen3 32B",
@@ -2272,8 +2272,8 @@
   "deepseek/deepseek-chat": {
    "name": "DeepSeek: DeepSeek V3",
    "context_length": "163840",
-   "prompt_per_mtok": "0.2574",
-   "completion_per_mtok": "1.0287"
+   "prompt_per_mtok": "0.32",
+   "completion_per_mtok": "0.89"
   },
   "sao10k/l3.3-euryale-70b": {
    "name": "Sao10K: Llama 3.3 Euryale 70B",
