@@ -56,6 +56,12 @@
    "prompt_per_mtok": "0.834",
    "completion_per_mtok": "2.501"
   },
+  "inclusionai/ling-3.0-flash-fin": {
+   "name": "Ling 3.0 Flash Fin",
+   "context_length": "262144",
+   "prompt_per_mtok": "0.06",
+   "completion_per_mtok": "0.18"
+  },
   "inclusionai/ling-3.0-flash-fin:free": {
    "name": "Ling 3.0 Flash Fin (free)",
    "context_length": "262144",
@@ -65,8 +71,8 @@
   "~z-ai/glm-flash-latest": {
    "name": "Z.ai: GLM Flash Latest",
    "context_length": "1310720",
-   "prompt_per_mtok": "0.075",
-   "completion_per_mtok": "0.25"
+   "prompt_per_mtok": "0.0713",
+   "completion_per_mtok": "0.2375"
   },
   "qwen/qwen3.8-flash": {
    "name": "Qwen: Qwen3.8 Flash",
@@ -113,8 +119,8 @@
   "~z-ai/glm-latest": {
    "name": "Z.ai: GLM Latest",
    "context_length": "1310720",
-   "prompt_per_mtok": "1.134",
-   "completion_per_mtok": "3.564"
+   "prompt_per_mtok": "1.148",
+   "completion_per_mtok": "3.608"
   },
   "tencent/hy-mt2-7b": {
    "name": "Tencent: Hy-MT2-7B",
@@ -131,8 +137,8 @@
   "qwen/qwen3.8-27b": {
    "name": "Qwen: Qwen3.8 27B",
    "context_length": "1000000",
-   "prompt_per_mtok": "0.425",
-   "completion_per_mtok": "2.55"
+   "prompt_per_mtok": "0.42",
+   "completion_per_mtok": "3"
   },
   "dots-studio/dots-3-note-preview:free": {
    "name": "Dots Studio: Dots3-Note Preview (free)",
@@ -779,8 +785,8 @@
   "~moonshotai/kimi-latest": {
    "name": "MoonshotAI Kimi Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "2.55",
-   "completion_per_mtok": "12.75"
+   "prompt_per_mtok": "2.5",
+   "completion_per_mtok": "14"
   },
   "~google/gemini-flash-latest": {
    "name": "Google Gemini Flash Latest",
@@ -858,14 +864,14 @@
   "deepseek/deepseek-v4-pro": {
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "1.036",
-   "completion_per_mtok": "2.072"
+   "prompt_per_mtok": "1.0308",
+   "completion_per_mtok": "2.0616"
   },
   "deepseek/deepseek-v4-flash": {
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.084",
-   "completion_per_mtok": "0.168"
+   "prompt_per_mtok": "0.0794",
+   "completion_per_mtok": "0.1588"
   },
   "tencent/hy3-preview": {
    "name": "Tencent: Hy3 preview",
@@ -1730,8 +1736,8 @@
   "deepseek/deepseek-chat-v3.1": {
    "name": "DeepSeek: DeepSeek V3.1",
    "context_length": "163840",
-   "prompt_per_mtok": "0.25",
-   "completion_per_mtok": "0.95"
+   "prompt_per_mtok": "0.55",
+   "completion_per_mtok": "1.65"
   },
   "mistralai/mistral-medium-3.1": {
    "name": "Mistral: Mistral Medium 3.1",
