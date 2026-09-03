@@ -4,6 +4,11 @@
   "date": "Wed, 02 Sep 2026 18:51:12 +0000",
   "summary": "You can now set your preferred GitHub Copilot model as the default for new conversations through enterprise-managed settings. This lets you choose the default model that best fits your workflows.&#8230;\nThe post Enterprise-managed settings support any default model appeared first on The GitHub Blog."
  },
+ "https://github.blog/changelog/2026-09-02-content-exclusions-generally-available-in-copilot-app-and-cli": {
+  "title": "Content exclusions generally available in Copilot app and CLI",
+  "date": "Wed, 02 Sep 2026 18:14:23 +0000",
+  "summary": "The GitHub Copilot app and Copilot CLI now respect content exclusion policies configured by enterprise, organization, and repository administrators. Copilot won&#8217;t use excluded files as context, helping you protect sensitive&#8230;\nThe post Content exclusions generally available in Copilot app and CLI appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-09-01-enterprise-live-migrations-from-ghes-to-ghe-com-generally-available": {
   "title": "Enterprise Live Migrations from GHES to ghe.com generally available",
   "date": "Tue, 01 Sep 2026 22:24:27 +0000",
@@ -43,10 +48,5 @@
   "title": "Selected GitHub Copilot models deprecated",
   "date": "Mon, 31 Aug 2026 21:21:40 +0000",
   "summary": "As of today, September 1, 2026, we have deprecated the following models across most GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). Note&#8230;\nThe post Selected GitHub Copilot models deprecated appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-08-31-github-copilot-in-vs-code-august-2026-releases": {
-  "title": "GitHub Copilot in VS Code, August 2026 releases",
-  "date": "Mon, 31 Aug 2026 08:39:54 +0000",
-  "summary": "This changelog covers VS Code v1.132 through v1.135, shipped throughout August 2026. These releases make it easier to organize agent sessions, review changes, and navigate long conversations. Agent Host, the&#8230;\nThe post GitHub Copilot in VS Code, August 2026 releases appeared first on The GitHub Blog."
  }
 }
