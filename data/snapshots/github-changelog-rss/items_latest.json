@@ -1,4 +1,9 @@
 {
+ "https://github.blog/changelog/2026-09-03-codeql-2-26-4-improves-github-actions-security-detections": {
+  "title": "CodeQL 2.26.4 improves GitHub actions security detections",
+  "date": "Thu, 03 Sep 2026 14:04:59 +0000",
+  "summary": "CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We&#8217;ve recently released CodeQL 2.26.4, which adds support for Go 1.27,&#8230;\nThe post CodeQL 2.26.4 improves GitHub actions security detections appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-09-02-enterprise-managed-settings-support-any-default-model": {
   "title": "Enterprise-managed settings support any default model",
   "date": "Wed, 02 Sep 2026 18:51:12 +0000",
@@ -43,10 +48,5 @@
   "title": "Copilot model access update for GitHub Team plans",
   "date": "Mon, 31 Aug 2026 21:58:46 +0000",
   "summary": "We have updated how model access is determined for Copilot users who hold seats in more than one organization. To keep billing and governance in sync, your model access is&#8230;\nThe post Copilot model access update for GitHub Team plans appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-08-31-selected-github-copilot-models-deprecated": {
-  "title": "Selected GitHub Copilot models deprecated",
-  "date": "Mon, 31 Aug 2026 21:21:40 +0000",
-  "summary": "As of today, September 1, 2026, we have deprecated the following models across most GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). Note&#8230;\nThe post Selected GitHub Copilot models deprecated appeared first on The GitHub Blog."
  }
 }
