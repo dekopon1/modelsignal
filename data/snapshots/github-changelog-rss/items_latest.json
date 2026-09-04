@@ -1,4 +1,14 @@
 {
+ "https://github.blog/changelog/2026-09-03-multiple-trusted-publishing-configurations-for-npm": {
+  "title": "Multiple trusted publishing configurations for npm",
+  "date": "Thu, 03 Sep 2026 20:34:34 +0000",
+  "summary": "We&#8217;re continuing to make trusted publishing smoother for npm publishers, guided by maintainers feedback. Three updates to npm publishing are now generally available: Multiple trusted publishing configurations per package Staged&#8230;\nThe post Multiple trusted publishing configurations for npm appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-09-03-github-actions-early-september-2026-updates": {
+  "title": "GitHub Actions: Early September 2026 updates",
+  "date": "Thu, 03 Sep 2026 20:30:53 +0000",
+  "summary": "GitHub Actions now includes three updates that give you clearer visibility and finer-grained control over your workflows. New REST API for runner version deprecations A new REST API returns when&#8230;\nThe post GitHub Actions: Early September 2026 updates appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-09-03-upcoming-deprecation-of-selected-github-copilot-models": {
   "title": "Upcoming deprecation of selected GitHub Copilot models",
   "date": "Thu, 03 Sep 2026 19:40:14 +0000",
@@ -38,15 +48,5 @@
   "title": "Enterprise Live Migrations from GHES to ghe.com generally available",
   "date": "Tue, 01 Sep 2026 22:24:27 +0000",
   "summary": "Enterprise Live Migrations (ELM) is now generally available, enabling near-zero-downtime repository migrations from GitHub Enterprise Server (GHES) to GitHub Enterprise Cloud with Data Residency (GHEC DR), so you can move&#8230;\nThe post Enterprise Live Migrations from GHES to ghe.com generally available appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-09-01-set-an-expiration-date-for-individual-user-budgets": {
-  "title": "Set an expiration date for individual user budgets",
-  "date": "Tue, 01 Sep 2026 20:23:13 +0000",
-  "summary": "You can now set an optional expiration date on an individual user budget, and GitHub removes the budget on that date. This capability is generally available. The user then falls&#8230;\nThe post Set an expiration date for individual user budgets appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-09-01-copilot-code-review-can-now-approve-pull-requests": {
-  "title": "Copilot code review can now approve pull requests",
-  "date": "Tue, 01 Sep 2026 19:25:57 +0000",
-  "summary": "Copilot now tells you when a pull request is ready to approve, and admins can authorize it to sign off on approval. The ability for Copilot to approve is off&#8230;\nThe post Copilot code review can now approve pull requests appeared first on The GitHub Blog."
  }
 }
