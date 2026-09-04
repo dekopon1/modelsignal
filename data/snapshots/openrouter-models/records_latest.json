@@ -187,8 +187,8 @@
   "deepseek/deepseek-v4-pro-0813": {
    "name": "DeepSeek: DeepSeek V4 Pro 0813",
    "context_length": "1048576",
-   "prompt_per_mtok": "1.1154",
-   "completion_per_mtok": "3.3462"
+   "prompt_per_mtok": "0.5795",
+   "completion_per_mtok": "1.7384"
   },
   "deepseek/deepseek-v4-pro-0813:batch": {
    "name": "DeepSeek: DeepSeek V4 Pro 0813 (batch)",
@@ -260,7 +260,7 @@
    "name": "DeepSeek V4 Flash Latest",
    "context_length": "1310720",
    "prompt_per_mtok": "0.05",
-   "completion_per_mtok": "0.16"
+   "completion_per_mtok": "0.1"
   },
   "deepseek/deepseek-v4-flash-0731": {
    "name": "DeepSeek: DeepSeek V4 Flash 0731",
@@ -509,8 +509,8 @@
   "tencent/hy3": {
    "name": "Tencent: Hy3",
    "context_length": "262144",
-   "prompt_per_mtok": "0.132",
-   "completion_per_mtok": "0.528"
+   "prompt_per_mtok": "0.0825",
+   "completion_per_mtok": "0.33"
   },
   "poolside/laguna-xs-2.1": {
    "name": "Poolside: Laguna XS 2.1",
@@ -876,14 +876,14 @@
   "deepseek/deepseek-v4-pro": {
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "1.0423",
-   "completion_per_mtok": "2.0845"
+   "prompt_per_mtok": "1.0223",
+   "completion_per_mtok": "2.0445"
   },
   "deepseek/deepseek-v4-flash": {
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0886",
-   "completion_per_mtok": "0.1772"
+   "prompt_per_mtok": "0.0881",
+   "completion_per_mtok": "0.1761"
   },
   "tencent/hy3-preview": {
    "name": "Tencent: Hy3 preview",
