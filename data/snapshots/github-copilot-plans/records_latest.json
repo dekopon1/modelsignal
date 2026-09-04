@@ -74,18 +74,14 @@
  "Inline suggestions and Copilot Chat": {},
  "Models": {
   "Claude Haiku 4.5": {},
-  "Claude Opus 4.5": {},
-  "Claude Opus 4.6": {},
   "Claude Opus 4.7": {},
   "Claude Opus 4.8": {},
   "Claude Opus 4.8 (fast mode) (preview)": {},
   "Claude Opus 5": {},
   "Claude Fable 52": {},
   "Claude Fable 5.12": {},
-  "Claude Sonnet 4.5": {},
   "Claude Sonnet 4.6": {},
   "Claude Sonnet 5": {},
-  "Gemini 3.1 Pro": {},
   "Gemini 3.5 Flash": {},
   "Gemini 3.6 Flash": {},
   "Gemini 3.7 Flash": {},
@@ -104,8 +100,7 @@
   "Kimi K2.7 Code": {},
   "Kimi K3": {},
   "MAI-Code-1-Flash": {},
-  "MAI-Code-1.1-Flash": {},
-  "Raptor mini": {}
+  "MAI-Code-1.1-Flash": {}
  },
  "Agents": {
   "Copilot cloud agent": {},

@@ -1,4 +1,14 @@
 {
+ "https://github.blog/changelog/2026-09-04-gpt-6-astra-is-generally-available-in-github-copilot": {
+  "title": "GPT-6 Astra is generally available in GitHub Copilot",
+  "date": "Fri, 04 Sep 2026 18:59:51 +0000",
+  "summary": "GPT-6 Astra from OpenAI is now available in GitHub Copilot. OpenAI&#8217;s latest general-purpose model, GPT-6 Astra, is designed for long-horizon, autonomous coding and agentic tasks. In our internal testing, GPT-6&#8230;\nThe post GPT-6 Astra is generally available in GitHub Copilot appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-09-04-new-api-endpoint-provides-privacy-safe-star-history-data": {
+  "title": "New API endpoint provides privacy-safe star history data",
+  "date": "Fri, 04 Sep 2026 16:43:56 +0000",
+  "summary": "Track repository star growth over time with the new star history REST API endpoint without exposing stargazer identities. Earlier this year, stargazer listing endpoints were restricted to admins and collaborators&#8230;\nThe post New API endpoint provides privacy-safe star history data appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-09-03-multiple-trusted-publishing-configurations-for-npm": {
   "title": "Multiple trusted publishing configurations for npm",
   "date": "Thu, 03 Sep 2026 20:34:34 +0000",
@@ -38,15 +48,5 @@
   "title": "Enterprise-managed settings support any default model",
   "date": "Wed, 02 Sep 2026 18:51:12 +0000",
   "summary": "You can now set your preferred GitHub Copilot model as the default for new conversations through enterprise-managed settings. This lets you choose the default model that best fits your workflows.&#8230;\nThe post Enterprise-managed settings support any default model appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-09-02-content-exclusions-generally-available-in-copilot-app-and-cli": {
-  "title": "Content exclusions generally available in Copilot app and CLI",
-  "date": "Wed, 02 Sep 2026 18:14:23 +0000",
-  "summary": "The GitHub Copilot app and Copilot CLI now respect content exclusion policies configured by enterprise, organization, and repository administrators. Copilot won&#8217;t use excluded files as context, helping you protect sensitive&#8230;\nThe post Content exclusions generally available in Copilot app and CLI appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-09-01-enterprise-live-migrations-from-ghes-to-ghe-com-generally-available": {
-  "title": "Enterprise Live Migrations from GHES to ghe.com generally available",
-  "date": "Tue, 01 Sep 2026 22:24:27 +0000",
-  "summary": "Enterprise Live Migrations (ELM) is now generally available, enabling near-zero-downtime repository migrations from GitHub Enterprise Server (GHES) to GitHub Enterprise Cloud with Data Residency (GHEC DR), so you can move&#8230;\nThe post Enterprise Live Migrations from GHES to ghe.com generally available appeared first on The GitHub Blog."
  }
 }
