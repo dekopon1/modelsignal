@@ -6,11 +6,23 @@
    "prompt_per_mtok": "10",
    "completion_per_mtok": "50"
   },
+  "openai/gpt-6-astra:batch": {
+   "name": "OpenAI: GPT-6 Astra (batch)",
+   "context_length": "1050000",
+   "prompt_per_mtok": "5",
+   "completion_per_mtok": "25"
+  },
   "openai/gpt-6-astra-pro": {
    "name": "OpenAI: GPT-6 Astra Pro",
    "context_length": "1050000",
    "prompt_per_mtok": "10",
    "completion_per_mtok": "50"
+  },
+  "openai/gpt-6-astra-pro:batch": {
+   "name": "OpenAI: GPT-6 Astra Pro (batch)",
+   "context_length": "1050000",
+   "prompt_per_mtok": "5",
+   "completion_per_mtok": "25"
   },
   "inclusionai/ling-3.0-flash-sante:free": {
    "name": "inclusionAI: Ling 3.0 Flash Sante (free)",
@@ -205,8 +217,8 @@
   "deepseek/deepseek-v4-pro-0813": {
    "name": "DeepSeek: DeepSeek V4 Pro 0813",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.5795",
-   "completion_per_mtok": "1.7384"
+   "prompt_per_mtok": "1.1207",
+   "completion_per_mtok": "3.362"
   },
   "deepseek/deepseek-v4-pro-0813:batch": {
    "name": "DeepSeek: DeepSeek V4 Pro 0813 (batch)",
@@ -269,7 +281,7 @@
    "completion_per_mtok": "4.25"
   },
   "qwen/qwen3.8-max": {
-   "name": "Qwen: Qwen3.8 Max",
+   "name": "Qwen: Qwen3.8 Max (0803)",
    "context_length": "1000000",
    "prompt_per_mtok": "2",
    "completion_per_mtok": "6"
@@ -527,8 +539,8 @@
   "tencent/hy3": {
    "name": "Tencent: Hy3",
    "context_length": "262144",
-   "prompt_per_mtok": "0.0825",
-   "completion_per_mtok": "0.33"
+   "prompt_per_mtok": "0.132",
+   "completion_per_mtok": "0.528"
   },
   "poolside/laguna-xs-2.1": {
    "name": "Poolside: Laguna XS 2.1",
@@ -888,14 +900,14 @@
   "deepseek/deepseek-v4-pro": {
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.9918",
-   "completion_per_mtok": "1.9836"
+   "prompt_per_mtok": "0.9613",
+   "completion_per_mtok": "1.9227"
   },
   "deepseek/deepseek-v4-flash": {
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0875",
-   "completion_per_mtok": "0.175"
+   "prompt_per_mtok": "0.0867",
+   "completion_per_mtok": "0.1733"
   },
   "tencent/hy3-preview": {
    "name": "Tencent: Hy3 preview",
@@ -1912,8 +1924,8 @@
   "qwen/qwen3-235b-a22b-2507": {
    "name": "Qwen: Qwen3 235B A22B Instruct 2507",
    "context_length": "262144",
-   "prompt_per_mtok": "0.0875",
-   "completion_per_mtok": "0.35"
+   "prompt_per_mtok": "0.09",
+   "completion_per_mtok": "0.55"
   },
   "moonshotai/kimi-k2": {
    "name": "MoonshotAI: Kimi K2 0711",

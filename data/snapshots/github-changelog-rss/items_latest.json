@@ -1,4 +1,9 @@
 {
+ "https://github.blog/changelog/2026-09-04-github-copilot-weekly-releases-august-31": {
+  "title": "GitHub Copilot weekly releases — August 31",
+  "date": "Fri, 04 Sep 2026 21:05:01 +0000",
+  "summary": "This week, GitHub Copilot expands model choice and content protections, while VS Code adds new ways to manage agent sessions and get pull requests merge-ready. GitHub Copilot, general Claude Fable&#8230;\nThe post GitHub Copilot weekly releases — August 31 appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-09-04-gpt-6-astra-is-generally-available-in-github-copilot": {
   "title": "GPT-6 Astra is generally available in GitHub Copilot",
   "date": "Fri, 04 Sep 2026 18:59:51 +0000",
@@ -43,10 +48,5 @@
   "title": "CodeQL 2.26.4 improves GitHub actions security detections",
   "date": "Thu, 03 Sep 2026 14:04:59 +0000",
   "summary": "CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We&#8217;ve recently released CodeQL 2.26.4, which adds support for Go 1.27,&#8230;\nThe post CodeQL 2.26.4 improves GitHub actions security detections appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-09-02-enterprise-managed-settings-support-any-default-model": {
-  "title": "Enterprise-managed settings support any default model",
-  "date": "Wed, 02 Sep 2026 18:51:12 +0000",
-  "summary": "You can now set your preferred GitHub Copilot model as the default for new conversations through enterprise-managed settings. This lets you choose the default model that best fits your workflows.&#8230;\nThe post Enterprise-managed settings support any default model appeared first on The GitHub Blog."
  }
 }
