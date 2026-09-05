@@ -223,8 +223,8 @@
   "deepseek/deepseek-v4-pro-0813": {
    "name": "DeepSeek: DeepSeek V4 Pro 0813",
    "context_length": "1048576",
-   "prompt_per_mtok": "1.1207",
-   "completion_per_mtok": "3.362"
+   "prompt_per_mtok": "0.5795",
+   "completion_per_mtok": "1.7384"
   },
   "deepseek/deepseek-v4-pro-0813:batch": {
    "name": "DeepSeek: DeepSeek V4 Pro 0813 (batch)",
@@ -900,14 +900,14 @@
   "deepseek/deepseek-v4-pro": {
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.9004",
-   "completion_per_mtok": "1.8009"
+   "prompt_per_mtok": "0.8599",
+   "completion_per_mtok": "1.7198"
   },
   "deepseek/deepseek-v4-flash": {
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0855",
-   "completion_per_mtok": "0.1711"
+   "prompt_per_mtok": "0.0847",
+   "completion_per_mtok": "0.1694"
   },
   "tencent/hy3-preview": {
    "name": "Tencent: Hy3 preview",
