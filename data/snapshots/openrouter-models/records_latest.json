@@ -539,8 +539,8 @@
   "tencent/hy3": {
    "name": "Tencent: Hy3",
    "context_length": "262144",
-   "prompt_per_mtok": "0.132",
-   "completion_per_mtok": "0.528"
+   "prompt_per_mtok": "0.0825",
+   "completion_per_mtok": "0.33"
   },
   "poolside/laguna-xs-2.1": {
    "name": "Poolside: Laguna XS 2.1",
@@ -900,14 +900,14 @@
   "deepseek/deepseek-v4-pro": {
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.8599",
-   "completion_per_mtok": "1.7198"
+   "prompt_per_mtok": "0.8295",
+   "completion_per_mtok": "1.6589"
   },
   "deepseek/deepseek-v4-flash": {
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0847",
-   "completion_per_mtok": "0.1694"
+   "prompt_per_mtok": "0.0836",
+   "completion_per_mtok": "0.1672"
   },
   "tencent/hy3-preview": {
    "name": "Tencent: Hy3 preview",
@@ -1183,8 +1183,8 @@
   "qwen/qwen3.5-35b-a3b": {
    "name": "Qwen: Qwen3.5-35B-A3B",
    "context_length": "262144",
-   "prompt_per_mtok": "0.08",
-   "completion_per_mtok": "0.75"
+   "prompt_per_mtok": "0.3125",
+   "completion_per_mtok": "1.25"
   },
   "qwen/qwen3.5-27b": {
    "name": "Qwen: Qwen3.5-27B",
