@@ -223,8 +223,8 @@
   "deepseek/deepseek-v4-pro-0813": {
    "name": "DeepSeek: DeepSeek V4 Pro 0813",
    "context_length": "1048576",
-   "prompt_per_mtok": "1.1207",
-   "completion_per_mtok": "3.362"
+   "prompt_per_mtok": "0.5795",
+   "completion_per_mtok": "1.7384"
   },
   "deepseek/deepseek-v4-pro-0813:batch": {
    "name": "DeepSeek: DeepSeek V4 Pro 0813 (batch)",
@@ -609,12 +609,6 @@
    "prompt_per_mtok": "0.966",
    "completion_per_mtok": "3.036"
   },
-  "z-ai/glm-5.2:free": {
-   "name": "Z.ai: GLM 5.2 (free)",
-   "context_length": "256000",
-   "prompt_per_mtok": "0",
-   "completion_per_mtok": "0"
-  },
   "openrouter/fusion": {
    "name": "OpenRouter: Fusion",
    "context_length": "1000000",
@@ -900,14 +894,14 @@
   "deepseek/deepseek-v4-pro": {
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.6977",
-   "completion_per_mtok": "1.3955"
+   "prompt_per_mtok": "0.6673",
+   "completion_per_mtok": "1.3346"
   },
   "deepseek/deepseek-v4-flash": {
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0808",
-   "completion_per_mtok": "0.1616"
+   "prompt_per_mtok": "0.0802",
+   "completion_per_mtok": "0.1604"
   },
   "tencent/hy3-preview": {
    "name": "Tencent: Hy3 preview",
