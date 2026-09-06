@@ -155,8 +155,8 @@
   "~z-ai/glm-latest": {
    "name": "Z.ai: GLM Latest",
    "context_length": "1310720",
-   "prompt_per_mtok": "1.15",
-   "completion_per_mtok": "3.5"
+   "prompt_per_mtok": "1.17",
+   "completion_per_mtok": "3.96"
   },
   "tencent/hy-mt2-7b": {
    "name": "Tencent: Hy-MT2-7B",
@@ -223,8 +223,8 @@
   "deepseek/deepseek-v4-pro-0813": {
    "name": "DeepSeek: DeepSeek V4 Pro 0813",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.5795",
-   "completion_per_mtok": "1.7384"
+   "prompt_per_mtok": "1.1207",
+   "completion_per_mtok": "3.362"
   },
   "deepseek/deepseek-v4-pro-0813:batch": {
    "name": "DeepSeek: DeepSeek V4 Pro 0813 (batch)",
@@ -539,8 +539,8 @@
   "tencent/hy3": {
    "name": "Tencent: Hy3",
    "context_length": "262144",
-   "prompt_per_mtok": "0.0825",
-   "completion_per_mtok": "0.33"
+   "prompt_per_mtok": "0.132",
+   "completion_per_mtok": "0.528"
   },
   "poolside/laguna-xs-2.1": {
    "name": "Poolside: Laguna XS 2.1",
@@ -900,14 +900,14 @@
   "deepseek/deepseek-v4-pro": {
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.8295",
-   "completion_per_mtok": "1.6589"
+   "prompt_per_mtok": "0.7586",
+   "completion_per_mtok": "1.5173"
   },
   "deepseek/deepseek-v4-flash": {
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0836",
-   "completion_per_mtok": "0.1672"
+   "prompt_per_mtok": "0.0819",
+   "completion_per_mtok": "0.1638"
   },
   "tencent/hy3-preview": {
    "name": "Tencent: Hy3 preview",
@@ -1658,8 +1658,8 @@
   "z-ai/glm-4.6": {
    "name": "Z.ai: GLM 4.6",
    "context_length": "204800",
-   "prompt_per_mtok": "0.55",
-   "completion_per_mtok": "2.2"
+   "prompt_per_mtok": "0.5",
+   "completion_per_mtok": "2"
   },
   "anthropic/claude-sonnet-4.5": {
    "name": "Anthropic: Claude Sonnet 4.5",
