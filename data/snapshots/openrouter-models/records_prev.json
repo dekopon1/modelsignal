@@ -107,8 +107,8 @@
   "~z-ai/glm-flash-latest": {
    "name": "Z.ai: GLM Flash Latest",
    "context_length": "1310720",
-   "prompt_per_mtok": "0.075",
-   "completion_per_mtok": "0.25"
+   "prompt_per_mtok": "0.0713",
+   "completion_per_mtok": "0.2375"
   },
   "qwen/qwen3.8-flash": {
    "name": "Qwen: Qwen3.8 Flash",
@@ -155,8 +155,8 @@
   "~z-ai/glm-latest": {
    "name": "Z.ai: GLM Latest",
    "context_length": "1310720",
-   "prompt_per_mtok": "1.17",
-   "completion_per_mtok": "3.96"
+   "prompt_per_mtok": "1.12",
+   "completion_per_mtok": "3.52"
   },
   "tencent/hy-mt2-7b": {
    "name": "Tencent: Hy-MT2-7B",
@@ -223,8 +223,8 @@
   "deepseek/deepseek-v4-pro-0813": {
    "name": "DeepSeek: DeepSeek V4 Pro 0813",
    "context_length": "1048576",
-   "prompt_per_mtok": "1.1154",
-   "completion_per_mtok": "3.3462"
+   "prompt_per_mtok": "1.0494",
+   "completion_per_mtok": "3.1482"
   },
   "deepseek/deepseek-v4-pro-0813:batch": {
    "name": "DeepSeek: DeepSeek V4 Pro 0813 (batch)",
@@ -783,7 +783,7 @@
   },
   "mistralai/mistral-medium-3-5:batch": {
    "name": "Mistral: Mistral Medium 3.5 (batch)",
-   "context_length": "32768",
+   "context_length": "262144",
    "prompt_per_mtok": "0.75",
    "completion_per_mtok": "3.75"
   },
@@ -894,8 +894,8 @@
   "deepseek/deepseek-v4-pro": {
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "1.0423",
-   "completion_per_mtok": "2.0845"
+   "prompt_per_mtok": "0.9553",
+   "completion_per_mtok": "1.9105"
   },
   "deepseek/deepseek-v4-flash": {
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
