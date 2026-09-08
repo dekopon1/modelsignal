@@ -295,8 +295,8 @@
   "deepseek/deepseek-v4-flash-0731": {
    "name": "DeepSeek: DeepSeek V4 Flash 0731",
    "context_length": "1310720",
-   "prompt_per_mtok": "0.14",
-   "completion_per_mtok": "0.28"
+   "prompt_per_mtok": "0.065",
+   "completion_per_mtok": "0.18"
   },
   "deepseek/deepseek-v4-flash-0731:batch": {
    "name": "DeepSeek: DeepSeek V4 Flash 0731 (batch)",
@@ -1240,8 +1240,8 @@
   "qwen/qwen3.5-397b-a17b": {
    "name": "Qwen: Qwen3.5 397B A17B",
    "context_length": "262144",
-   "prompt_per_mtok": "0.39",
-   "completion_per_mtok": "2.34"
+   "prompt_per_mtok": "0.55",
+   "completion_per_mtok": "3.5"
   },
   "minimax/minimax-m2.5": {
    "name": "MiniMax: MiniMax M2.5",
