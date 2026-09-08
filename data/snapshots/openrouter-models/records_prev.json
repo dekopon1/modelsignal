@@ -223,8 +223,8 @@
   "deepseek/deepseek-v4-pro-0813": {
    "name": "DeepSeek: DeepSeek V4 Pro 0813",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.66",
-   "completion_per_mtok": "1.98"
+   "prompt_per_mtok": "1.0494",
+   "completion_per_mtok": "3.1482"
   },
   "deepseek/deepseek-v4-pro-0813:batch": {
    "name": "DeepSeek: DeepSeek V4 Pro 0813 (batch)",
@@ -539,8 +539,8 @@
   "tencent/hy3": {
    "name": "Tencent: Hy3",
    "context_length": "262144",
-   "prompt_per_mtok": "0.0825",
-   "completion_per_mtok": "0.33"
+   "prompt_per_mtok": "0.132",
+   "completion_per_mtok": "0.528"
   },
   "poolside/laguna-xs-2.1": {
    "name": "Poolside: Laguna XS 2.1",
@@ -618,8 +618,8 @@
   "moonshotai/kimi-k2.7-code": {
    "name": "MoonshotAI: Kimi K2.7 Code",
    "context_length": "262144",
-   "prompt_per_mtok": "0.66",
-   "completion_per_mtok": "3.4"
+   "prompt_per_mtok": "0.71",
+   "completion_per_mtok": "3.5"
   },
   "~anthropic/claude-fable-latest": {
    "name": "Anthropic: Claude Fable Latest",
@@ -1330,7 +1330,7 @@
   "z-ai/glm-4.7-flash": {
    "name": "Z.ai: GLM 4.7 Flash",
    "context_length": "202752",
-   "prompt_per_mtok": "0.06",
+   "prompt_per_mtok": "0.0605",
    "completion_per_mtok": "0.4"
   },
   "openai/gpt-5.2-codex": {
@@ -1640,8 +1640,8 @@
   "z-ai/glm-4.6": {
    "name": "Z.ai: GLM 4.6",
    "context_length": "204800",
-   "prompt_per_mtok": "0.43",
-   "completion_per_mtok": "1.75"
+   "prompt_per_mtok": "0.55",
+   "completion_per_mtok": "2.2"
   },
   "anthropic/claude-sonnet-4.5": {
    "name": "Anthropic: Claude Sonnet 4.5",
@@ -1754,8 +1754,8 @@
   "deepseek/deepseek-chat-v3.1": {
    "name": "DeepSeek: DeepSeek V3.1",
    "context_length": "163840",
-   "prompt_per_mtok": "0.55",
-   "completion_per_mtok": "1.65"
+   "prompt_per_mtok": "0.25",
+   "completion_per_mtok": "0.95"
   },
   "mistralai/mistral-medium-3.1": {
    "name": "Mistral: Mistral Medium 3.1",
@@ -1954,7 +1954,7 @@
   "minimax/minimax-m1": {
    "name": "MiniMax: MiniMax M1",
    "context_length": "1000000",
-   "prompt_per_mtok": "0.55",
+   "prompt_per_mtok": "0.4",
    "completion_per_mtok": "2.2"
   },
   "google/gemini-2.5-flash": {
@@ -2050,8 +2050,8 @@
   "qwen/qwen3-14b": {
    "name": "Qwen: Qwen3 14B",
    "context_length": "131072",
-   "prompt_per_mtok": "0.12",
-   "completion_per_mtok": "0.24"
+   "prompt_per_mtok": "0.2275",
+   "completion_per_mtok": "0.91"
   },
   "qwen/qwen3-32b": {
    "name": "Qwen: Qwen3 32B",
@@ -2146,8 +2146,8 @@
   "deepseek/deepseek-chat-v3-0324": {
    "name": "DeepSeek: DeepSeek V3 0324",
    "context_length": "163840",
-   "prompt_per_mtok": "0.25",
-   "completion_per_mtok": "1"
+   "prompt_per_mtok": "0.29",
+   "completion_per_mtok": "1.14"
   },
   "openai/o1-pro": {
    "name": "OpenAI: o1-pro",
