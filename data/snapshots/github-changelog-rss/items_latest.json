@@ -1,4 +1,9 @@
 {
+ "https://github.blog/changelog/2026-09-09-remediate-code-quality-findings-with-agentic-autofix": {
+  "title": "Remediate Code Quality findings with agentic autofix",
+  "date": "Wed, 09 Sep 2026 12:21:01 +0000",
+  "summary": "Agentic autofix is now available to help you burn down findings in your code quality backlog. You can select up to 25 standard findings on a page and assign the&#8230;\nThe post Remediate Code Quality findings with agentic autofix appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-09-08-enterprise-managed-sandbox-in-copilot-for-jetbrains": {
   "title": "Enterprise-managed sandbox in Copilot for JetBrains",
   "date": "Wed, 09 Sep 2026 02:43:38 +0000",
@@ -43,10 +48,5 @@
   "title": "GitHub Actions: Early September 2026 updates",
   "date": "Thu, 03 Sep 2026 20:30:53 +0000",
   "summary": "GitHub Actions now includes three updates that give you clearer visibility and finer-grained control over your workflows. New REST API for runner version deprecations A new REST API returns when&#8230;\nThe post GitHub Actions: Early September 2026 updates appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-09-03-upcoming-deprecation-of-selected-github-copilot-models": {
-  "title": "Upcoming deprecation of selected GitHub Copilot models",
-  "date": "Thu, 03 Sep 2026 19:40:14 +0000",
-  "summary": "We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on October 2nd, 2026: Model Deprecation date&#8230;\nThe post Upcoming deprecation of selected GitHub Copilot models appeared first on The GitHub Blog."
  }
 }
