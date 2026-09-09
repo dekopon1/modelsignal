@@ -247,8 +247,8 @@
   "deepseek/deepseek-v4-pro-0813": {
    "name": "DeepSeek: DeepSeek V4 Pro 0813",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.5795",
-   "completion_per_mtok": "1.7384"
+   "prompt_per_mtok": "1.0494",
+   "completion_per_mtok": "3.1482"
   },
   "deepseek/deepseek-v4-pro-0813:batch": {
    "name": "DeepSeek: DeepSeek V4 Pro 0813 (batch)",
