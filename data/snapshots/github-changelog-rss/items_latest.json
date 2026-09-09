@@ -1,4 +1,14 @@
 {
+ "https://github.blog/changelog/2026-09-09-github-advanced-security-expands-trial-availability": {
+  "title": "GitHub Advanced Security expands trial availability",
+  "date": "Wed, 09 Sep 2026 17:33:34 +0000",
+  "summary": "More GitHub Enterprise Cloud customers can now start a self-serve GitHub Advanced Security trial to evaluate GitHub Code Security and GitHub Secret Protection. Eligibility has expanded from enterprises with up&#8230;\nThe post GitHub Advanced Security expands trial availability appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-09-09-block-pull-requests-with-exposed-secrets-from-merging": {
+  "title": "Block pull requests with exposed secrets from merging",
+  "date": "Wed, 09 Sep 2026 17:14:02 +0000",
+  "summary": "Repository rulesets allow you to easily add scalable protections across your repositories. Starting today, you can use repository rulesets to block pull requests from merging when the pull request introduces&#8230;\nThe post Block pull requests with exposed secrets from merging appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-09-09-remediate-code-quality-findings-with-agentic-autofix": {
   "title": "Remediate Code Quality findings with agentic autofix",
   "date": "Wed, 09 Sep 2026 12:21:01 +0000",
@@ -38,15 +48,5 @@
   "title": "New API endpoint provides privacy-safe star history data",
   "date": "Fri, 04 Sep 2026 16:43:56 +0000",
   "summary": "Track repository star growth over time with the new star history REST API endpoint without exposing stargazer identities. Earlier this year, stargazer listing endpoints were restricted to admins and collaborators&#8230;\nThe post New API endpoint provides privacy-safe star history data appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-09-03-multiple-trusted-publishing-configurations-for-npm": {
-  "title": "Multiple trusted publishing configurations for npm",
-  "date": "Thu, 03 Sep 2026 20:34:34 +0000",
-  "summary": "We&#8217;re continuing to make trusted publishing smoother for npm publishers, guided by maintainers feedback. Three updates to npm publishing are now generally available: Multiple trusted publishing configurations per package Staged&#8230;\nThe post Multiple trusted publishing configurations for npm appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-09-03-github-actions-early-september-2026-updates": {
-  "title": "GitHub Actions: Early September 2026 updates",
-  "date": "Thu, 03 Sep 2026 20:30:53 +0000",
-  "summary": "GitHub Actions now includes three updates that give you clearer visibility and finer-grained control over your workflows. New REST API for runner version deprecations A new REST API returns when&#8230;\nThe post GitHub Actions: Early September 2026 updates appeared first on The GitHub Blog."
  }
 }

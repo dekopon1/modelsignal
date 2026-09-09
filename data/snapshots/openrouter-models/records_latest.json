@@ -172,7 +172,7 @@
   },
   "~z-ai/glm-latest": {
    "name": "Z.ai: GLM Latest",
-   "context_length": "1048576",
+   "context_length": "1310720",
    "prompt_per_mtok": "1.113",
    "completion_per_mtok": "3.498"
   },
@@ -184,7 +184,7 @@
   },
   "z-ai/glm-5.3": {
    "name": "Z.ai: GLM 5.3",
-   "context_length": "1048576",
+   "context_length": "1310720",
    "prompt_per_mtok": "1.4",
    "completion_per_mtok": "4.4"
   },
@@ -912,8 +912,8 @@
   "deepseek/deepseek-v4-flash": {
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.084",
-   "completion_per_mtok": "0.168"
+   "prompt_per_mtok": "0.07",
+   "completion_per_mtok": "0.14"
   },
   "tencent/hy3-preview": {
    "name": "Tencent: Hy3 preview",
