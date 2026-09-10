@@ -1,4 +1,9 @@
 {
+ "https://github.blog/changelog/2026-09-10-xcode-27-runner-image-now-runs-on-macos-27": {
+  "title": "Xcode 27 runner image now runs on macOS 27",
+  "date": "Thu, 10 Sep 2026 15:15:36 +0000",
+  "summary": "You can now validate your Apple apps against macOS 27 using the Xcode 27 runner image for GitHub-hosted macOS runners, available in public preview. The image previously ran on macOS&#8230;\nThe post Xcode 27 runner image now runs on macOS 27 appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-09-09-codeql-2-27-0-adds-support-for-linux-arm64": {
   "title": "CodeQL 2.27.0 adds support for Linux ARM64",
   "date": "Wed, 09 Sep 2026 21:45:06 +0000",
@@ -43,10 +48,5 @@
   "title": "Automatic Dependabot access to GitHub-hosted registries",
   "date": "Tue, 08 Sep 2026 16:46:05 +0000",
   "summary": "Dependabot can now read from private GitHub Packages registries without a personal access token. If a package has granted your repository access through &#8220;Manage Actions access&#8221; in the package settings,&#8230;\nThe post Automatic Dependabot access to GitHub-hosted registries appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-09-04-github-copilot-weekly-releases-august-31": {
-  "title": "GitHub Copilot weekly releases — August 31",
-  "date": "Fri, 04 Sep 2026 21:05:01 +0000",
-  "summary": "This week, GitHub Copilot expands model choice and content protections, while VS Code adds new ways to manage agent sessions and get pull requests merge-ready. GitHub Copilot, general Claude Fable&#8230;\nThe post GitHub Copilot weekly releases — August 31 appeared first on The GitHub Blog."
  }
 }
