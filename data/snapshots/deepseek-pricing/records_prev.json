@@ -2,79 +2,71 @@
  "Models & Pricing": {},
  "Model Details​": {
   "BASE URL (OpenAI Format)": {
-   "deepseek-v4-flash": "https://api.deepseek.com"
+   "deepseek-flash(1)": "https://api.deepseek.com"
   },
   "BASE URL (Anthropic Format)": {
-   "deepseek-v4-flash": "https://api.deepseek.com/anthropic"
+   "deepseek-flash(1)": "https://api.deepseek.com/anthropic"
   },
   "MODEL VERSION": {
-   "deepseek-v4-flash": "DeepSeek-V4-Flash-0731",
-   "deepseek-v4-pro": "DeepSeek-V4-Pro-0813",
-   "deepseek-v4-flash-vision-exp": "DeepSeek-V4-Flash-Vision-Exp"
+   "deepseek-flash(1)": "DeepSeek-V4.1-Flash",
+   "deepseek-v4-pro(2)": "DeepSeek-V4-Pro-0813"
   },
   "THINKING MODE": {
-   "deepseek-v4-flash": "Supports both non-thinking and thinking (default) modesSee Thinking Mode for how to switch"
+   "deepseek-flash(1)": "Supports both non-thinking and thinking (default) modesSee Thinking Mode for how to switch"
   },
   "CONTEXT LENGTH": {
-   "deepseek-v4-flash": "1M"
+   "deepseek-flash(1)": "1M"
   },
   "MAX OUTPUT": {
-   "deepseek-v4-flash": "MAXIMUM: 384K"
+   "deepseek-flash(1)": "MAXIMUM: 384K"
   },
   "FEATURES": {
-   "deepseek-v4-flash": "Json Output",
-   "deepseek-v4-pro": "✓",
-   "deepseek-v4-flash-vision-exp": "✓"
+   "deepseek-flash(1)": "Json Output",
+   "deepseek-v4-pro(2)": "✓"
   },
   "Tool Calls": {
-   "deepseek-v4-flash": "✓",
-   "deepseek-v4-pro": "✓",
-   "deepseek-v4-flash-vision-exp": "✓"
+   "deepseek-flash(1)": "✓",
+   "deepseek-v4-pro(2)": "✓"
   },
   "Responses API": {
-   "deepseek-v4-flash": "✓",
-   "deepseek-v4-pro": "✓",
-   "deepseek-v4-flash-vision-exp": "✓"
+   "deepseek-flash(1)": "✓",
+   "deepseek-v4-pro(2)": "✓"
   },
   "Anthropic API": {
-   "deepseek-v4-flash": "✓",
-   "deepseek-v4-pro": "✓",
-   "deepseek-v4-flash-vision-exp": "✓"
+   "deepseek-flash(1)": "✓",
+   "deepseek-v4-pro(2)": "✓"
   },
   "Chat Prefix Completion（Beta）": {
-   "deepseek-v4-flash": "✓",
-   "deepseek-v4-pro": "✓",
-   "deepseek-v4-flash-vision-exp": "✓"
+   "deepseek-flash(1)": "✓",
+   "deepseek-v4-pro(2)": "✓"
   },
   "FIM Completion（Beta）": {
-   "deepseek-v4-flash": "Non-thinking mode only",
-   "deepseek-v4-pro": "Non-thinking mode only",
-   "deepseek-v4-flash-vision-exp": "Not supported"
+   "deepseek-flash(1)": "Non-thinking mode only",
+   "deepseek-v4-pro(2)": "Non-thinking mode only"
   },
-  "PRICING(1)(2)": {
-   "deepseek-v4-flash": "1M INPUT TOKENS(CACHE HIT)",
-   "deepseek-v4-pro": "OFF-PEAK",
-   "deepseek-v4-flash-vision-exp": "$0.007"
+  "Vision": {
+   "deepseek-flash(1)": "✓",
+   "deepseek-v4-pro(2)": "Not supported"
+  },
+  "PRICING(3)": {
+   "deepseek-flash(1)": "1M INPUT TOKENS(CACHE HIT)",
+   "deepseek-v4-pro(2)": "OFF-PEAK"
   },
   "PEAK": {
-   "deepseek-v4-flash": "$0.014 | $0.44 | $1.32",
-   "deepseek-v4-pro": "$0.044 | $1.32 | $3.96",
-   "deepseek-v4-flash-vision-exp": "$0.014 | $0.44 | $1.32"
+   "deepseek-flash(1)": "$0.006 | $0.3 | $1.2",
+   "deepseek-v4-pro(2)": "$0.044 | $1.32 | $3.96"
   },
   "1M INPUT TOKENS(CACHE MISS)": {
-   "deepseek-v4-flash": "OFF-PEAK",
-   "deepseek-v4-pro": "$0.22",
-   "deepseek-v4-flash-vision-exp": "$0.66"
+   "deepseek-flash(1)": "OFF-PEAK",
+   "deepseek-v4-pro(2)": "$0.15"
   },
   "1M OUTPUT TOKENS": {
-   "deepseek-v4-flash": "OFF-PEAK",
-   "deepseek-v4-pro": "$0.66",
-   "deepseek-v4-flash-vision-exp": "$1.98"
+   "deepseek-flash(1)": "OFF-PEAK",
+   "deepseek-v4-pro(2)": "$0.6"
   },
-  "Concurrency Limit(3)": {
-   "deepseek-v4-flash": "2500",
-   "deepseek-v4-pro": "500",
-   "deepseek-v4-flash-vision-exp": "2500"
+  "Concurrency Limit(4)": {
+   "deepseek-flash(1)": "2500",
+   "deepseek-v4-pro(2)": "500"
   }
  },
  "Deduction Rules​": {}
