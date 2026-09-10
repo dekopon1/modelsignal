@@ -1,18 +1,81 @@
 {
- "Your First API Call": {
-  "base_url (OpenAI)": {
-   "VALUE": "https://api.deepseek.com"
+ "Models & Pricing": {},
+ "Model Details​": {
+  "BASE URL (OpenAI Format)": {
+   "deepseek-v4-flash": "https://api.deepseek.com"
   },
-  "base_url (Anthropic)": {
-   "VALUE": "https://api.deepseek.com/anthropic"
+  "BASE URL (Anthropic Format)": {
+   "deepseek-v4-flash": "https://api.deepseek.com/anthropic"
   },
-  "api_key": {
-   "VALUE": "apply for an API key"
+  "MODEL VERSION": {
+   "deepseek-v4-flash": "DeepSeek-V4-Flash-0731",
+   "deepseek-v4-pro": "DeepSeek-V4-Pro-0813",
+   "deepseek-v4-flash-vision-exp": "DeepSeek-V4-Flash-Vision-Exp"
   },
-  "model(1)": {
-   "VALUE": "deepseek-v4-flashdeepseek-v4-prodeepseek-v4-flash-vision-exp"
+  "THINKING MODE": {
+   "deepseek-v4-flash": "Supports both non-thinking and thinking (default) modesSee Thinking Mode for how to switch"
+  },
+  "CONTEXT LENGTH": {
+   "deepseek-v4-flash": "1M"
+  },
+  "MAX OUTPUT": {
+   "deepseek-v4-flash": "MAXIMUM: 384K"
+  },
+  "FEATURES": {
+   "deepseek-v4-flash": "Json Output",
+   "deepseek-v4-pro": "✓",
+   "deepseek-v4-flash-vision-exp": "✓"
+  },
+  "Tool Calls": {
+   "deepseek-v4-flash": "✓",
+   "deepseek-v4-pro": "✓",
+   "deepseek-v4-flash-vision-exp": "✓"
+  },
+  "Responses API": {
+   "deepseek-v4-flash": "✓",
+   "deepseek-v4-pro": "✓",
+   "deepseek-v4-flash-vision-exp": "✓"
+  },
+  "Anthropic API": {
+   "deepseek-v4-flash": "✓",
+   "deepseek-v4-pro": "✓",
+   "deepseek-v4-flash-vision-exp": "✓"
+  },
+  "Chat Prefix Completion（Beta）": {
+   "deepseek-v4-flash": "✓",
+   "deepseek-v4-pro": "✓",
+   "deepseek-v4-flash-vision-exp": "✓"
+  },
+  "FIM Completion（Beta）": {
+   "deepseek-v4-flash": "Non-thinking mode only",
+   "deepseek-v4-pro": "Non-thinking mode only",
+   "deepseek-v4-flash-vision-exp": "Not supported"
+  },
+  "PRICING(1)(2)": {
+   "deepseek-v4-flash": "1M INPUT TOKENS(CACHE HIT)",
+   "deepseek-v4-pro": "OFF-PEAK",
+   "deepseek-v4-flash-vision-exp": "$0.007"
+  },
+  "PEAK": {
+   "deepseek-v4-flash": "$0.014 | $0.44 | $1.32",
+   "deepseek-v4-pro": "$0.044 | $1.32 | $3.96",
+   "deepseek-v4-flash-vision-exp": "$0.014 | $0.44 | $1.32"
+  },
+  "1M INPUT TOKENS(CACHE MISS)": {
+   "deepseek-v4-flash": "OFF-PEAK",
+   "deepseek-v4-pro": "$0.22",
+   "deepseek-v4-flash-vision-exp": "$0.66"
+  },
+  "1M OUTPUT TOKENS": {
+   "deepseek-v4-flash": "OFF-PEAK",
+   "deepseek-v4-pro": "$0.66",
+   "deepseek-v4-flash-vision-exp": "$1.98"
+  },
+  "Concurrency Limit(3)": {
+   "deepseek-v4-flash": "2500",
+   "deepseek-v4-pro": "500",
+   "deepseek-v4-flash-vision-exp": "2500"
   }
  },
- "Integrate with Agent Tools​": {},
- "Invoke The Chat API​": {}
+ "Deduction Rules​": {}
 }

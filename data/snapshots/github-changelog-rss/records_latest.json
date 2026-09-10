@@ -1,4 +1,14 @@
 {
+ "https://github.blog/changelog/2026-09-09-codeql-2-27-0-adds-support-for-linux-arm64": {
+  "title": "CodeQL 2.27.0 adds support for Linux ARM64",
+  "date": "Wed, 09 Sep 2026 21:45:06 +0000",
+  "summary": "CodeQL 2.27.0 is now available on Linux ARM64, adds a new Rust security query, expanded framework coverage for Java/Kotlin and C#, and analysis accuracy improvements across multiple languages. CodeQL is&#8230;\nThe post CodeQL 2.27.0 adds support for Linux ARM64 appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-09-09-enterprise-managed-permissions-for-github-copilot-agent-operations": {
+  "title": "Enterprise managed permissions for GitHub Copilot agent operations",
+  "date": "Wed, 09 Sep 2026 20:08:14 +0000",
+  "summary": "If you administer GitHub Copilot Business or GitHub Copilot Enterprise, you can now centrally control which agent operations are blocked, require human approval, or can proceed without a prompt. Managed&#8230;\nThe post Enterprise managed permissions for GitHub Copilot agent operations appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-09-09-github-advanced-security-expands-trial-availability": {
   "title": "GitHub Advanced Security expands trial availability",
   "date": "Wed, 09 Sep 2026 17:33:34 +0000",
@@ -38,15 +48,5 @@
   "title": "GitHub Copilot weekly releases — August 31",
   "date": "Fri, 04 Sep 2026 21:05:01 +0000",
   "summary": "This week, GitHub Copilot expands model choice and content protections, while VS Code adds new ways to manage agent sessions and get pull requests merge-ready. GitHub Copilot, general Claude Fable&#8230;\nThe post GitHub Copilot weekly releases — August 31 appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-09-04-gpt-6-astra-is-generally-available-in-github-copilot": {
-  "title": "GPT-6 Astra is generally available in GitHub Copilot",
-  "date": "Fri, 04 Sep 2026 18:59:51 +0000",
-  "summary": "GPT-6 Astra from OpenAI is now available in GitHub Copilot. OpenAI&#8217;s latest general-purpose model, GPT-6 Astra, is designed for long-horizon, autonomous coding and agentic tasks. In our internal testing, GPT-6&#8230;\nThe post GPT-6 Astra is generally available in GitHub Copilot appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-09-04-new-api-endpoint-provides-privacy-safe-star-history-data": {
-  "title": "New API endpoint provides privacy-safe star history data",
-  "date": "Fri, 04 Sep 2026 16:43:56 +0000",
-  "summary": "Track repository star growth over time with the new star history REST API endpoint without exposing stargazer identities. Earlier this year, stargazer listing endpoints were restricted to admins and collaborators&#8230;\nThe post New API endpoint provides privacy-safe star history data appeared first on The GitHub Blog."
  }
 }
