@@ -1,4 +1,9 @@
 {
+ "https://github.blog/changelog/2026-09-11-auto-resolution-and-analysis-updates-in-copilot-code-review": {
+  "title": "Auto-resolution and analysis updates in Copilot code review",
+  "date": "Fri, 11 Sep 2026 20:00:07 +0000",
+  "summary": "Copilot code review now resolves its own comments once you address them and writes smart commit messages for you when you apply its code suggestions. Behind the scenes, Copilot now&#8230;\nThe post Auto-resolution and analysis updates in Copilot code review appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-09-10-github-copilot-weekly-releases-september-7": {
   "title": "GitHub Copilot weekly releases — September 7",
   "date": "Thu, 10 Sep 2026 22:55:07 +0000",
@@ -43,10 +48,5 @@
   "title": "Enterprise managed permissions for GitHub Copilot agent operations",
   "date": "Wed, 09 Sep 2026 20:08:14 +0000",
   "summary": "If you administer GitHub Copilot Business or GitHub Copilot Enterprise, you can now centrally control which agent operations are blocked, require human approval, or can proceed without a prompt. Managed&#8230;\nThe post Enterprise managed permissions for GitHub Copilot agent operations appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-09-09-github-advanced-security-expands-trial-availability": {
-  "title": "GitHub Advanced Security expands trial availability",
-  "date": "Wed, 09 Sep 2026 17:33:34 +0000",
-  "summary": "More GitHub Enterprise Cloud customers can now start a self-serve GitHub Advanced Security trial to evaluate GitHub Code Security and GitHub Secret Protection. Eligibility has expanded from enterprises with up&#8230;\nThe post GitHub Advanced Security expands trial availability appeared first on The GitHub Blog."
  }
 }
