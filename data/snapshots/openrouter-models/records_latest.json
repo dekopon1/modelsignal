@@ -1,5 +1,17 @@
 {
  "models": {
+  "sakana/fugu-ultra-v2": {
+   "name": "Sakana: Fugu Ultra v2",
+   "context_length": "1000000",
+   "prompt_per_mtok": "5",
+   "completion_per_mtok": "30"
+  },
+  "sakana/fugu-max": {
+   "name": "Sakana: Fugu Max",
+   "context_length": "1000000",
+   "prompt_per_mtok": "2",
+   "completion_per_mtok": "6"
+  },
   "inclusionai/ling-3.0-flash-vl:free": {
    "name": "inclusionAI: Ling 3.0 Flash VL (free)",
    "context_length": "262144",
@@ -185,8 +197,8 @@
   "~z-ai/glm-latest": {
    "name": "Z.ai: GLM Latest",
    "context_length": "1310720",
-   "prompt_per_mtok": "1",
-   "completion_per_mtok": "3.41"
+   "prompt_per_mtok": "0.97",
+   "completion_per_mtok": "3.3077"
   },
   "tencent/hy-mt2-7b": {
    "name": "Tencent: Hy-MT2-7B",
@@ -259,8 +271,8 @@
   "deepseek/deepseek-v4-pro-0813": {
    "name": "DeepSeek: DeepSeek V4 Pro 0813",
    "context_length": "1048576",
-   "prompt_per_mtok": "1.0494",
-   "completion_per_mtok": "3.1482"
+   "prompt_per_mtok": "0.66",
+   "completion_per_mtok": "1.98"
   },
   "deepseek/deepseek-v4-pro-0813:batch": {
    "name": "DeepSeek: DeepSeek V4 Pro 0813 (batch)",
@@ -325,7 +337,7 @@
   "~deepseek/deepseek-v4-flash-latest": {
    "name": "DeepSeek V4 Flash Latest",
    "context_length": "1310720",
-   "prompt_per_mtok": "0.04",
+   "prompt_per_mtok": "0.05",
    "completion_per_mtok": "0.16"
   },
   "deepseek/deepseek-v4-flash-0731": {
@@ -455,8 +467,8 @@
   "moonshotai/kimi-k3": {
    "name": "MoonshotAI: Kimi K3",
    "context_length": "1048576",
-   "prompt_per_mtok": "1.89",
-   "completion_per_mtok": "9.48"
+   "prompt_per_mtok": "2.34",
+   "completion_per_mtok": "11.7"
   },
   "moonshotai/kimi-k3:batch": {
    "name": "MoonshotAI: Kimi K3 (batch)",
@@ -839,8 +851,8 @@
   "~moonshotai/kimi-latest": {
    "name": "MoonshotAI Kimi Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "1.89",
-   "completion_per_mtok": "9.48"
+   "prompt_per_mtok": "2.34",
+   "completion_per_mtok": "11.7"
   },
   "~google/gemini-flash-latest": {
    "name": "Google Gemini Flash Latest",
@@ -989,7 +1001,7 @@
   },
   "google/gemma-4-26b-a4b-it": {
    "name": "Google: Gemma 4 26B A4B ",
-   "context_length": "1000000",
+   "context_length": "262144",
    "prompt_per_mtok": "0.042",
    "completion_per_mtok": "0.22"
   },
@@ -2200,8 +2212,8 @@
   "deepseek/deepseek-chat-v3-0324": {
    "name": "DeepSeek: DeepSeek V3 0324",
    "context_length": "163840",
-   "prompt_per_mtok": "0.29",
-   "completion_per_mtok": "1.14"
+   "prompt_per_mtok": "0.25",
+   "completion_per_mtok": "1"
   },
   "openai/o1-pro": {
    "name": "OpenAI: o1-pro",
@@ -2494,8 +2506,8 @@
   "meta-llama/llama-3.1-70b-instruct": {
    "name": "Meta: Llama 3.1 70B Instruct",
    "context_length": "131072",
-   "prompt_per_mtok": "0.72",
-   "completion_per_mtok": "0.72"
+   "prompt_per_mtok": "0.4",
+   "completion_per_mtok": "0.4"
   },
   "meta-llama/llama-3.1-8b-instruct": {
    "name": "Meta: Llama 3.1 8B Instruct",
