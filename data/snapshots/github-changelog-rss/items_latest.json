@@ -1,4 +1,9 @@
 {
+ "https://github.blog/changelog/2026-09-10-refreshed-repository-pull-requests-page-in-public-preview": {
+  "title": "Refreshed repository pull requests page in public preview",
+  "date": "Thu, 10 Sep 2026 21:27:17 +0000",
+  "summary": "A refreshed repository-level pull request listing page is now in public preview for all GitHub users. It brings powerful filtering, compact presentation mode, and more. Highlights The new page makes&#8230;\nThe post Refreshed repository pull requests page in public preview appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-09-10-ai-scan-for-pull-request-apis-in-public-preview": {
   "title": "AI Scan for pull request APIs in public preview",
   "date": "Thu, 10 Sep 2026 20:20:58 +0000",
@@ -43,10 +48,5 @@
   "title": "Block pull requests with exposed secrets from merging",
   "date": "Wed, 09 Sep 2026 17:14:02 +0000",
   "summary": "Repository rulesets allow you to easily add scalable protections across your repositories. Starting today, you can use repository rulesets to block pull requests from merging when the pull request introduces&#8230;\nThe post Block pull requests with exposed secrets from merging appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-09-09-remediate-code-quality-findings-with-agentic-autofix": {
-  "title": "Remediate Code Quality findings with agentic autofix",
-  "date": "Wed, 09 Sep 2026 12:21:01 +0000",
-  "summary": "Agentic autofix is now available to help you burn down findings in your code quality backlog. You can select up to 25 standard findings on a page and assign the&#8230;\nThe post Remediate Code Quality findings with agentic autofix appeared first on The GitHub Blog."
  }
 }

@@ -185,8 +185,8 @@
   "~z-ai/glm-latest": {
    "name": "Z.ai: GLM Latest",
    "context_length": "1310720",
-   "prompt_per_mtok": "0.7",
-   "completion_per_mtok": "2.2"
+   "prompt_per_mtok": "1",
+   "completion_per_mtok": "3.41"
   },
   "tencent/hy-mt2-7b": {
    "name": "Tencent: Hy-MT2-7B",
@@ -259,8 +259,8 @@
   "deepseek/deepseek-v4-pro-0813": {
    "name": "DeepSeek: DeepSeek V4 Pro 0813",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.5795",
-   "completion_per_mtok": "1.7384"
+   "prompt_per_mtok": "1.0494",
+   "completion_per_mtok": "3.1482"
   },
   "deepseek/deepseek-v4-pro-0813:batch": {
    "name": "DeepSeek: DeepSeek V4 Pro 0813 (batch)",
@@ -301,8 +301,8 @@
   "upstage/solar-pro4": {
    "name": "Upstage: Solar Pro 4",
    "context_length": "524288",
-   "prompt_per_mtok": "0.03",
-   "completion_per_mtok": "0.12"
+   "prompt_per_mtok": "0.09",
+   "completion_per_mtok": "0.36"
   },
   "meta/muse-glimmer-30b": {
    "name": "Meta: Muse Glimmer 30B",
@@ -325,7 +325,7 @@
   "~deepseek/deepseek-v4-flash-latest": {
    "name": "DeepSeek V4 Flash Latest",
    "context_length": "1310720",
-   "prompt_per_mtok": "0.05",
+   "prompt_per_mtok": "0.04",
    "completion_per_mtok": "0.16"
   },
   "deepseek/deepseek-v4-flash-0731": {
@@ -455,8 +455,8 @@
   "moonshotai/kimi-k3": {
    "name": "MoonshotAI: Kimi K3",
    "context_length": "1048576",
-   "prompt_per_mtok": "3",
-   "completion_per_mtok": "15"
+   "prompt_per_mtok": "1.89",
+   "completion_per_mtok": "9.48"
   },
   "moonshotai/kimi-k3:batch": {
    "name": "MoonshotAI: Kimi K3 (batch)",
@@ -575,8 +575,8 @@
   "tencent/hy3": {
    "name": "Tencent: Hy3",
    "context_length": "262144",
-   "prompt_per_mtok": "0.0825",
-   "completion_per_mtok": "0.33"
+   "prompt_per_mtok": "0.132",
+   "completion_per_mtok": "0.528"
   },
   "poolside/laguna-xs-2.1": {
    "name": "Poolside: Laguna XS 2.1",
@@ -636,8 +636,8 @@
   "z-ai/glm-5.2": {
    "name": "Z.ai: GLM 5.2",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.28",
-   "completion_per_mtok": "0.88"
+   "prompt_per_mtok": "0.966",
+   "completion_per_mtok": "3.036"
   },
   "z-ai/glm-5.2:batch": {
    "name": "Z.ai: GLM 5.2 (batch)",
@@ -839,8 +839,8 @@
   "~moonshotai/kimi-latest": {
    "name": "MoonshotAI Kimi Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "2.4",
-   "completion_per_mtok": "12"
+   "prompt_per_mtok": "1.89",
+   "completion_per_mtok": "9.48"
   },
   "~google/gemini-flash-latest": {
    "name": "Google Gemini Flash Latest",
@@ -918,14 +918,14 @@
   "deepseek/deepseek-v4-pro": {
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.87",
-   "completion_per_mtok": "1.74"
+   "prompt_per_mtok": "0.9553",
+   "completion_per_mtok": "1.9105"
   },
   "deepseek/deepseek-v4-flash": {
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.084",
-   "completion_per_mtok": "0.168"
+   "prompt_per_mtok": "0.0886",
+   "completion_per_mtok": "0.1772"
   },
   "tencent/hy3-preview": {
    "name": "Tencent: Hy3 preview",
@@ -989,7 +989,7 @@
   },
   "google/gemma-4-26b-a4b-it": {
    "name": "Google: Gemma 4 26B A4B ",
-   "context_length": "262144",
+   "context_length": "1000000",
    "prompt_per_mtok": "0.042",
    "completion_per_mtok": "0.22"
   },
@@ -1282,8 +1282,8 @@
   "minimax/minimax-m2.5": {
    "name": "MiniMax: MiniMax M2.5",
    "context_length": "204800",
-   "prompt_per_mtok": "0.27",
-   "completion_per_mtok": "1.08"
+   "prompt_per_mtok": "0.3",
+   "completion_per_mtok": "1.2"
   },
   "z-ai/glm-5": {
    "name": "Z.ai: GLM 5",
@@ -1910,8 +1910,8 @@
   "qwen/qwen3-30b-a3b-instruct-2507": {
    "name": "Qwen: Qwen3 30B A3B Instruct 2507",
    "context_length": "262144",
-   "prompt_per_mtok": "0.0481",
-   "completion_per_mtok": "0.193"
+   "prompt_per_mtok": "0.09",
+   "completion_per_mtok": "0.3"
   },
   "z-ai/glm-4.5": {
    "name": "Z.ai: GLM 4.5",
@@ -2494,8 +2494,8 @@
   "meta-llama/llama-3.1-70b-instruct": {
    "name": "Meta: Llama 3.1 70B Instruct",
    "context_length": "131072",
-   "prompt_per_mtok": "0.4",
-   "completion_per_mtok": "0.4"
+   "prompt_per_mtok": "0.72",
+   "completion_per_mtok": "0.72"
   },
   "meta-llama/llama-3.1-8b-instruct": {
    "name": "Meta: Llama 3.1 8B Instruct",
