@@ -1,4 +1,9 @@
 {
+ "https://github.blog/changelog/2026-09-10-github-copilot-weekly-releases-september-7": {
+  "title": "GitHub Copilot weekly releases — September 7",
+  "date": "Thu, 10 Sep 2026 22:55:07 +0000",
+  "summary": "This week, GitHub Copilot introduces Jira integration in Copilot app and adaptive model orchestration with Project HydraFusion in Copilot CLI. We also introduced new agent automation in Visual Studio Code&#8230;\nThe post GitHub Copilot weekly releases — September 7 appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-09-10-refreshed-repository-pull-requests-page-in-public-preview": {
   "title": "Refreshed repository pull requests page in public preview",
   "date": "Thu, 10 Sep 2026 21:27:17 +0000",
@@ -43,10 +48,5 @@
   "title": "GitHub Advanced Security expands trial availability",
   "date": "Wed, 09 Sep 2026 17:33:34 +0000",
   "summary": "More GitHub Enterprise Cloud customers can now start a self-serve GitHub Advanced Security trial to evaluate GitHub Code Security and GitHub Secret Protection. Eligibility has expanded from enterprises with up&#8230;\nThe post GitHub Advanced Security expands trial availability appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-09-09-block-pull-requests-with-exposed-secrets-from-merging": {
-  "title": "Block pull requests with exposed secrets from merging",
-  "date": "Wed, 09 Sep 2026 17:14:02 +0000",
-  "summary": "Repository rulesets allow you to easily add scalable protections across your repositories. Starting today, you can use repository rulesets to block pull requests from merging when the pull request introduces&#8230;\nThe post Block pull requests with exposed secrets from merging appeared first on The GitHub Blog."
  }
 }
