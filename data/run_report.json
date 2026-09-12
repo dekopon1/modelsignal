@@ -1,5 +1,5 @@
 {
- "run_at": "2026-09-12T15:29:44Z",
+ "run_at": "2026-09-12T20:31:30Z",
  "results": [
   {
    "id": "anthropic-pricing",
@@ -18,7 +18,7 @@
    "ok": true,
    "http_chars": 735272,
    "changed": true,
-   "changes": 6,
+   "changes": 8,
    "announcements": 0
   },
   {
@@ -76,7 +76,7 @@
   {
    "id": "gemini-release-notes",
    "ok": true,
-   "http_chars": 161138,
+   "http_chars": 161134,
    "changed": true,
    "changes": 0,
    "announcements": 0
