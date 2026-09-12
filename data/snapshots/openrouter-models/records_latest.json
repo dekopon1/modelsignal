@@ -13,25 +13,25 @@
    "completion_per_mtok": "0.23"
   },
   "~openai/gpt-astra-latest": {
-   "name": "OpenAI GPT Astra Latest",
+   "name": "OpenAI: GPT Astra Latest",
    "context_length": "1050000",
    "prompt_per_mtok": "10",
    "completion_per_mtok": "50"
   },
   "~openai/gpt-sol-latest": {
-   "name": "OpenAI GPT Sol Latest",
+   "name": "OpenAI: GPT Sol Latest",
    "context_length": "1050000",
    "prompt_per_mtok": "2",
    "completion_per_mtok": "10"
   },
   "~openai/gpt-terra-latest": {
-   "name": "OpenAI GPT Terra Latest",
+   "name": "OpenAI: GPT Terra Latest",
    "context_length": "1050000",
    "prompt_per_mtok": "2",
    "completion_per_mtok": "12"
   },
   "~openai/gpt-luna-latest": {
-   "name": "OpenAI GPT Luna Latest",
+   "name": "OpenAI: GPT Luna Latest",
    "context_length": "1050000",
    "prompt_per_mtok": "0.2",
    "completion_per_mtok": "1.2"
@@ -197,8 +197,8 @@
   "z-ai/glm-5.3-flash": {
    "name": "Z.ai: GLM 5.3 Flash",
    "context_length": "1310720",
-   "prompt_per_mtok": "0.15",
-   "completion_per_mtok": "0.5"
+   "prompt_per_mtok": "0.075",
+   "completion_per_mtok": "0.25"
   },
   "z-ai/glm-5.3-flash:batch": {
    "name": "Z.ai: GLM 5.3 Flash (batch)",
@@ -377,16 +377,16 @@
    "completion_per_mtok": "4.25"
   },
   "~deepseek/deepseek-v4-flash-latest": {
-   "name": "DeepSeek V4 Flash Latest",
+   "name": "DeepSeek: DeepSeek V4 Flash Latest",
    "context_length": "1310720",
-   "prompt_per_mtok": "0.05",
-   "completion_per_mtok": "0.16"
+   "prompt_per_mtok": "0.03",
+   "completion_per_mtok": "0.07"
   },
   "deepseek/deepseek-v4-flash-0731": {
    "name": "DeepSeek: DeepSeek V4 Flash 0731",
    "context_length": "1310720",
-   "prompt_per_mtok": "0.065",
-   "completion_per_mtok": "0.18"
+   "prompt_per_mtok": "0.04",
+   "completion_per_mtok": "0.08"
   },
   "deepseek/deepseek-v4-flash-0731:batch": {
    "name": "DeepSeek: DeepSeek V4 Flash 0731 (batch)",
@@ -872,39 +872,39 @@
    "completion_per_mtok": "0"
   },
   "~anthropic/claude-haiku-latest": {
-   "name": "Anthropic Claude Haiku Latest",
+   "name": "Anthropic: Claude Haiku Latest",
    "context_length": "200000",
    "prompt_per_mtok": "1",
    "completion_per_mtok": "5"
   },
   "~openai/gpt-mini-latest": {
-   "name": "OpenAI GPT Mini Latest",
+   "name": "OpenAI: GPT Mini Latest",
    "context_length": "400000",
    "prompt_per_mtok": "0.75",
    "completion_per_mtok": "4.5"
   },
   "~google/gemini-pro-latest": {
-   "name": "Google Gemini Pro Latest",
+   "name": "Google: Gemini Pro Latest",
    "context_length": "1048576",
    "prompt_per_mtok": "2",
    "completion_per_mtok": "12",
    "image_per_mtok": "2"
   },
   "~moonshotai/kimi-latest": {
-   "name": "MoonshotAI Kimi Latest",
+   "name": "MoonshotAI: Kimi Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "2.3027",
-   "completion_per_mtok": "11.5502"
+   "prompt_per_mtok": "2.125",
+   "completion_per_mtok": "11.9"
   },
   "~google/gemini-flash-latest": {
-   "name": "Google Gemini Flash Latest",
+   "name": "Google: Gemini Flash Latest",
    "context_length": "1048576",
    "prompt_per_mtok": "0.75",
    "completion_per_mtok": "3.75",
    "image_per_mtok": "0.75"
   },
   "~anthropic/claude-sonnet-latest": {
-   "name": "Anthropic Claude Sonnet Latest",
+   "name": "Anthropic: Claude Sonnet Latest",
    "context_length": "1000000",
    "prompt_per_mtok": "2",
    "completion_per_mtok": "10"
@@ -966,8 +966,8 @@
   "deepseek/deepseek-v4-pro": {
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.8295",
-   "completion_per_mtok": "1.6589"
+   "prompt_per_mtok": "0.7889",
+   "completion_per_mtok": "1.5778"
   },
   "deepseek/deepseek-v4-flash": {
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
@@ -1330,8 +1330,8 @@
   "minimax/minimax-m2.5": {
    "name": "MiniMax: MiniMax M2.5",
    "context_length": "204800",
-   "prompt_per_mtok": "0.3",
-   "completion_per_mtok": "1.2"
+   "prompt_per_mtok": "0.27",
+   "completion_per_mtok": "1.08"
   },
   "z-ai/glm-5": {
    "name": "Z.ai: GLM 5",
