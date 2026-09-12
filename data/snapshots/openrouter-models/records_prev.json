@@ -1,5 +1,17 @@
 {
  "models": {
+  "inference-net/schematron-v2-turbo": {
+   "name": "Inference.net: Schematron V2 Turbo",
+   "context_length": "128000",
+   "prompt_per_mtok": "0.03",
+   "completion_per_mtok": "0.15"
+  },
+  "inference-net/schematron-v2-small": {
+   "name": "Inference.net: Schematron V2 Small",
+   "context_length": "128000",
+   "prompt_per_mtok": "0.05",
+   "completion_per_mtok": "0.23"
+  },
   "~openai/gpt-astra-latest": {
    "name": "OpenAI GPT Astra Latest",
    "context_length": "1050000",
@@ -251,8 +263,8 @@
   "qwen/qwen3.8-27b": {
    "name": "Qwen: Qwen3.8 27B",
    "context_length": "1000000",
-   "prompt_per_mtok": "0.42",
-   "completion_per_mtok": "3"
+   "prompt_per_mtok": "0.214",
+   "completion_per_mtok": "2.55"
   },
   "dots-studio/dots-3-note-preview:free": {
    "name": "Dots Studio: Dots3-Note Preview (free)",
@@ -301,8 +313,8 @@
   "deepseek/deepseek-v4-pro-0813": {
    "name": "DeepSeek: DeepSeek V4 Pro 0813",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.5795",
-   "completion_per_mtok": "1.7384"
+   "prompt_per_mtok": "0.5782",
+   "completion_per_mtok": "1.7345"
   },
   "deepseek/deepseek-v4-pro-0813:batch": {
    "name": "DeepSeek: DeepSeek V4 Pro 0813 (batch)",
@@ -497,8 +509,8 @@
   "moonshotai/kimi-k3": {
    "name": "MoonshotAI: Kimi K3",
    "context_length": "1048576",
-   "prompt_per_mtok": "1.89",
-   "completion_per_mtok": "9.48"
+   "prompt_per_mtok": "2.3027",
+   "completion_per_mtok": "11.5502"
   },
   "moonshotai/kimi-k3:batch": {
    "name": "MoonshotAI: Kimi K3 (batch)",
@@ -617,8 +629,8 @@
   "tencent/hy3": {
    "name": "Tencent: Hy3",
    "context_length": "262144",
-   "prompt_per_mtok": "0.0825",
-   "completion_per_mtok": "0.33"
+   "prompt_per_mtok": "0.132",
+   "completion_per_mtok": "0.528"
   },
   "poolside/laguna-xs-2.1": {
    "name": "Poolside: Laguna XS 2.1",
@@ -881,8 +893,8 @@
   "~moonshotai/kimi-latest": {
    "name": "MoonshotAI Kimi Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "1.89",
-   "completion_per_mtok": "9.48"
+   "prompt_per_mtok": "2.3027",
+   "completion_per_mtok": "11.5502"
   },
   "~google/gemini-flash-latest": {
    "name": "Google Gemini Flash Latest",
@@ -954,14 +966,14 @@
   "deepseek/deepseek-v4-pro": {
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.9478",
-   "completion_per_mtok": "1.8956"
+   "prompt_per_mtok": "0.8295",
+   "completion_per_mtok": "1.6589"
   },
   "deepseek/deepseek-v4-flash": {
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0848",
-   "completion_per_mtok": "0.1697"
+   "prompt_per_mtok": "0.0668",
+   "completion_per_mtok": "0.1336"
   },
   "tencent/hy3-preview": {
    "name": "Tencent: Hy3 preview",
@@ -1318,8 +1330,8 @@
   "minimax/minimax-m2.5": {
    "name": "MiniMax: MiniMax M2.5",
    "context_length": "204800",
-   "prompt_per_mtok": "0.27",
-   "completion_per_mtok": "1.08"
+   "prompt_per_mtok": "0.3",
+   "completion_per_mtok": "1.2"
   },
   "z-ai/glm-5": {
    "name": "Z.ai: GLM 5",
@@ -1996,8 +2008,8 @@
   "qwen/qwen3-235b-a22b-2507": {
    "name": "Qwen: Qwen3 235B A22B Instruct 2507",
    "context_length": "262144",
-   "prompt_per_mtok": "0.22",
-   "completion_per_mtok": "0.88"
+   "prompt_per_mtok": "0.0875",
+   "completion_per_mtok": "0.35"
   },
   "moonshotai/kimi-k2": {
    "name": "MoonshotAI: Kimi K2 0711",
@@ -2037,7 +2049,7 @@
   },
   "mistralai/mistral-small-3.2-24b-instruct": {
    "name": "Mistral: Mistral Small 3.2 24B",
-   "context_length": "131072",
+   "context_length": "256000",
    "prompt_per_mtok": "0.075",
    "completion_per_mtok": "0.2"
   },
@@ -2530,8 +2542,8 @@
   "meta-llama/llama-3.1-70b-instruct": {
    "name": "Meta: Llama 3.1 70B Instruct",
    "context_length": "131072",
-   "prompt_per_mtok": "0.4",
-   "completion_per_mtok": "0.4"
+   "prompt_per_mtok": "0.72",
+   "completion_per_mtok": "0.72"
   },
   "meta-llama/llama-3.1-8b-instruct": {
    "name": "Meta: Llama 3.1 8B Instruct",

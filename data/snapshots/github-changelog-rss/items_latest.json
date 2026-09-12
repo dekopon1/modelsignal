@@ -1,4 +1,9 @@
 {
+ "https://github.blog/changelog/2026-09-11-add-vs-code-agents-to-copilot-usage-metrics": {
+  "title": "Add VS Code Agents to Copilot usage metrics",
+  "date": "Fri, 11 Sep 2026 21:30:30 +0000",
+  "summary": "GitHub Copilot usage metrics reports now include generally available metrics for activity in the dedicated VS Code Agents window, helping you measure adoption and engagement across enterprises and organizations. What&#8217;s&#8230;\nThe post Add VS Code Agents to Copilot usage metrics appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-09-11-auto-resolution-and-analysis-updates-in-copilot-code-review": {
   "title": "Auto-resolution and analysis updates in Copilot code review",
   "date": "Fri, 11 Sep 2026 20:00:07 +0000",
@@ -43,10 +48,5 @@
   "title": "CodeQL 2.27.0 adds support for Linux ARM64",
   "date": "Wed, 09 Sep 2026 21:45:06 +0000",
   "summary": "CodeQL 2.27.0 is now available on Linux ARM64, adds a new Rust security query, expanded framework coverage for Java/Kotlin and C#, and analysis accuracy improvements across multiple languages. CodeQL is&#8230;\nThe post CodeQL 2.27.0 adds support for Linux ARM64 appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-09-09-enterprise-managed-permissions-for-github-copilot-agent-operations": {
-  "title": "Enterprise managed permissions for GitHub Copilot agent operations",
-  "date": "Wed, 09 Sep 2026 20:08:14 +0000",
-  "summary": "If you administer GitHub Copilot Business or GitHub Copilot Enterprise, you can now centrally control which agent operations are blocked, require human approval, or can proceed without a prompt. Managed&#8230;\nThe post Enterprise managed permissions for GitHub Copilot agent operations appeared first on The GitHub Blog."
  }
 }
