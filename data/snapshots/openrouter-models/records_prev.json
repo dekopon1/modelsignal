@@ -197,8 +197,8 @@
   "z-ai/glm-5.3-flash": {
    "name": "Z.ai: GLM 5.3 Flash",
    "context_length": "1310720",
-   "prompt_per_mtok": "0.075",
-   "completion_per_mtok": "0.25"
+   "prompt_per_mtok": "0.15",
+   "completion_per_mtok": "0.5"
   },
   "z-ai/glm-5.3-flash:batch": {
    "name": "Z.ai: GLM 5.3 Flash (batch)",
@@ -972,8 +972,8 @@
   "deepseek/deepseek-v4-flash": {
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0482",
-   "completion_per_mtok": "0.0963"
+   "prompt_per_mtok": "0.047",
+   "completion_per_mtok": "0.0941"
   },
   "tencent/hy3-preview": {
    "name": "Tencent: Hy3 preview",
