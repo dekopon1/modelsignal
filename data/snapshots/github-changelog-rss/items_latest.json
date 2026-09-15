@@ -1,4 +1,14 @@
 {
+ "https://github.blog/changelog/2026-09-15-enforce-github-advanced-security-configurations": {
+  "title": "Enforce GitHub Advanced Security configurations",
+  "date": "Tue, 15 Sep 2026 19:31:58 +0000",
+  "summary": "Enterprise administrators can now enforce GitHub Advanced Security configurations across their organizations. This prevents both organization and repository administrators from overriding settings defined at the enterprise level, helping security and&#8230;\nThe post Enforce GitHub Advanced Security configurations appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-09-15-github-copilot-suggests-custom-properties-definitions": {
+  "title": "GitHub Copilot suggests custom properties definitions",
+  "date": "Tue, 15 Sep 2026 19:07:47 +0000",
+  "summary": "GitHub Copilot can now suggest allowed values when you create a custom property for repositories in your organization. This feature is in public preview for GitHub Copilot Business and Copilot&#8230;\nThe post GitHub Copilot suggests custom properties definitions appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-09-15-sha-1-in-https-on-github-sunset": {
   "title": "SHA-1 in HTTPS on GitHub sunset",
   "date": "Tue, 15 Sep 2026 16:47:20 +0000",
@@ -38,15 +48,5 @@
   "title": "AI Scan for pull request APIs in public preview",
   "date": "Thu, 10 Sep 2026 20:20:58 +0000",
   "summary": "You can now manage GitHub code scanning&#8217;s AI Scan for pull request enablement with REST API endpoints at the organization and repository levels. This public preview gives teams a programmatic&#8230;\nThe post AI Scan for pull request APIs in public preview appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-09-10-control-github-actions-cache-access-with-cache-mode": {
-  "title": "Control GitHub Actions cache access with cache-mode",
-  "date": "Thu, 10 Sep 2026 17:26:59 +0000",
-  "summary": "You can now use cache-mode to apply least-privilege access to the GitHub Actions cache at the workflow or job level. By granting each workflow or job only the cache access&#8230;\nThe post Control GitHub Actions cache access with cache-mode appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-09-10-mai-code-1-flash-deprecated": {
-  "title": "MAI-Code-1-Flash deprecated",
-  "date": "Thu, 10 Sep 2026 16:54:01 +0000",
-  "summary": "We have deprecated MAI-Code-1-Flash across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) today, September 10, 2026. Model Deprecation date Suggested alternative&#8230;\nThe post MAI-Code-1-Flash deprecated appeared first on The GitHub Blog."
  }
 }

@@ -431,13 +431,13 @@
    "completion_per_mtok": "0.13"
   },
   "anthropic/claude-opus-5": {
-   "name": "Claude Opus 5",
+   "name": "Anthropic: Claude Opus 5",
    "context_length": "1000000",
    "prompt_per_mtok": "5",
    "completion_per_mtok": "25"
   },
   "anthropic/claude-opus-5:batch": {
-   "name": "Claude Opus 5 (batch)",
+   "name": "Anthropic: Claude Opus 5 (batch)",
    "context_length": "1000000",
    "prompt_per_mtok": "2.5",
    "completion_per_mtok": "12.5"
@@ -990,8 +990,8 @@
   "deepseek/deepseek-v4-flash": {
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0855",
-   "completion_per_mtok": "0.1711"
+   "prompt_per_mtok": "0.0778",
+   "completion_per_mtok": "0.1557"
   },
   "tencent/hy3-preview": {
    "name": "Tencent: Hy3 preview",
