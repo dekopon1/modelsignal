@@ -1,4 +1,9 @@
 {
+ "https://github.blog/changelog/2026-09-15-sha-1-in-https-on-github-sunset": {
+  "title": "SHA-1 in HTTPS on GitHub sunset",
+  "date": "Tue, 15 Sep 2026 16:47:20 +0000",
+  "summary": "Previously we announced we would be disabling SHA-1 in HTTPS for GitHub on September 15th, 2026. Following the planned schedule, GitHub has disabled SHA-1 in HTTPS for github.com and partner&#8230;\nThe post SHA-1 in HTTPS on GitHub sunset appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-09-14-configure-cost-and-quality-in-copilot-auto-model-selection": {
   "title": "Configure cost and quality in Copilot auto model selection",
   "date": "Mon, 14 Sep 2026 16:05:27 +0000",
@@ -43,10 +48,5 @@
   "title": "MAI-Code-1-Flash deprecated",
   "date": "Thu, 10 Sep 2026 16:54:01 +0000",
   "summary": "We have deprecated MAI-Code-1-Flash across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) today, September 10, 2026. Model Deprecation date Suggested alternative&#8230;\nThe post MAI-Code-1-Flash deprecated appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-09-10-xcode-27-runner-image-now-runs-on-macos-27": {
-  "title": "Xcode 27 runner image now runs on macOS 27",
-  "date": "Thu, 10 Sep 2026 15:15:36 +0000",
-  "summary": "You can now validate your Apple apps against macOS 27 using the Xcode 27 runner image for GitHub-hosted macOS runners, available in public preview. The image previously ran on macOS&#8230;\nThe post Xcode 27 runner image now runs on macOS 27 appeared first on The GitHub Blog."
  }
 }
