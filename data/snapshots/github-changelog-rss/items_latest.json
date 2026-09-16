@@ -1,4 +1,9 @@
 {
+ "https://github.blog/changelog/2026-09-16-code-scanning-ai-scan-no-longer-requires-codeql-default-setup": {
+  "title": "Code scanning AI Scan no longer requires CodeQL default setup",
+  "date": "Wed, 16 Sep 2026 13:26:06 +0000",
+  "summary": "You can now use AI Scan for pull requests to find security vulnerabilities, even when CodeQL default setup isn&#8217;t enabled on a repository. Previously, AI Scan for pull requests only&#8230;\nThe post Code scanning AI Scan no longer requires CodeQL default setup appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-09-15-enforce-github-advanced-security-configurations": {
   "title": "Enforce GitHub Advanced Security configurations",
   "date": "Tue, 15 Sep 2026 19:31:58 +0000",
@@ -43,10 +48,5 @@
   "title": "Refreshed repository pull requests page in public preview",
   "date": "Thu, 10 Sep 2026 21:27:17 +0000",
   "summary": "A refreshed repository-level pull request listing page is now in public preview for all GitHub users. It brings powerful filtering, compact presentation mode, and more. Highlights The new page makes&#8230;\nThe post Refreshed repository pull requests page in public preview appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-09-10-ai-scan-for-pull-request-apis-in-public-preview": {
-  "title": "AI Scan for pull request APIs in public preview",
-  "date": "Thu, 10 Sep 2026 20:20:58 +0000",
-  "summary": "You can now manage GitHub code scanning&#8217;s AI Scan for pull request enablement with REST API endpoints at the organization and repository levels. This public preview gives teams a programmatic&#8230;\nThe post AI Scan for pull request APIs in public preview appeared first on The GitHub Blog."
  }
 }

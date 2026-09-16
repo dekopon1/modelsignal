@@ -4,14 +4,14 @@
    "Base input tokens": "$10 / MTok",
    "5m cache writes": "$12.50 / MTok",
    "1h cache writes": "$20 / MTok",
-   "Cache hits and refreshes": "$0.25 / MTok1",
+   "Cache hits and refreshes": "$0.25 / MTok<sup>1</sup>",
    "Output tokens": "$50 / MTok"
   },
   "Claude Mythos 5.1 (limited availability)": {
    "Base input tokens": "$10 / MTok",
    "5m cache writes": "$12.50 / MTok",
    "1h cache writes": "$20 / MTok",
-   "Cache hits and refreshes": "$0.25 / MTok1",
+   "Cache hits and refreshes": "$0.25 / MTok<sup>1</sup>",
    "Output tokens": "$50 / MTok"
   },
   "Claude Fable 5": {

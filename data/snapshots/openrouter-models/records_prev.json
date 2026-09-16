@@ -1,10 +1,16 @@
 {
  "models": {
+  "stealth/union-alpha": {
+   "name": "Union Alpha",
+   "context_length": "262144",
+   "prompt_per_mtok": "0",
+   "completion_per_mtok": "0"
+  },
   "~deepseek/deepseek-pro-latest": {
    "name": "DeepSeek: DeepSeek Pro Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.66",
-   "completion_per_mtok": "1.98"
+   "prompt_per_mtok": "0.5795",
+   "completion_per_mtok": "1.7384"
   },
   "~deepseek/deepseek-flash-latest": {
    "name": "DeepSeek: DeepSeek Flash Latest",
@@ -325,8 +331,8 @@
   "deepseek/deepseek-v4-pro-0813": {
    "name": "DeepSeek: DeepSeek V4 Pro 0813",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.9834",
-   "completion_per_mtok": "2.9502"
+   "prompt_per_mtok": "0.5795",
+   "completion_per_mtok": "1.7384"
   },
   "deepseek/deepseek-v4-pro-0813:batch": {
    "name": "DeepSeek: DeepSeek V4 Pro 0813 (batch)",
@@ -635,8 +641,8 @@
   "tencent/hy3": {
    "name": "Tencent: Hy3",
    "context_length": "262144",
-   "prompt_per_mtok": "0.132",
-   "completion_per_mtok": "0.528"
+   "prompt_per_mtok": "0.0825",
+   "completion_per_mtok": "0.33"
   },
   "poolside/laguna-xs-2.1": {
    "name": "Poolside: Laguna XS 2.1",
@@ -984,8 +990,8 @@
   "deepseek/deepseek-v4-flash": {
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0886",
-   "completion_per_mtok": "0.1772"
+   "prompt_per_mtok": "0.0871",
+   "completion_per_mtok": "0.1742"
   },
   "tencent/hy3-preview": {
    "name": "Tencent: Hy3 preview",
@@ -1724,8 +1730,8 @@
   "qwen/qwen3-vl-30b-a3b-instruct": {
    "name": "Qwen: Qwen3 VL 30B A3B Instruct",
    "context_length": "262144",
-   "prompt_per_mtok": "0.15",
-   "completion_per_mtok": "0.6"
+   "prompt_per_mtok": "0.13",
+   "completion_per_mtok": "0.52"
   },
   "openai/gpt-5-pro": {
    "name": "OpenAI: GPT-5 Pro",
@@ -2667,8 +2673,8 @@
   "gryphe/mythomax-l2-13b": {
    "name": "MythoMax 13B",
    "context_length": "8192",
-   "prompt_per_mtok": "0.06",
-   "completion_per_mtok": "0.06"
+   "prompt_per_mtok": "0.08",
+   "completion_per_mtok": "0.11"
   },
   "openai/gpt-3.5-turbo": {
    "name": "OpenAI: GPT-3.5 Turbo",
