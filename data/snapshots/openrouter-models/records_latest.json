@@ -257,8 +257,8 @@
   "~z-ai/glm-latest": {
    "name": "Z.ai: GLM Latest",
    "context_length": "1310720",
-   "prompt_per_mtok": "0.8775",
-   "completion_per_mtok": "2.97"
+   "prompt_per_mtok": "0.9",
+   "completion_per_mtok": "3"
   },
   "tencent/hy-mt2-7b": {
    "name": "Tencent: Hy-MT2-7B",
@@ -521,8 +521,8 @@
   "moonshotai/kimi-k3": {
    "name": "MoonshotAI: Kimi K3",
    "context_length": "1048576",
-   "prompt_per_mtok": "2.6481",
-   "completion_per_mtok": "13.2827"
+   "prompt_per_mtok": "3",
+   "completion_per_mtok": "15"
   },
   "moonshotai/kimi-k3:batch": {
    "name": "MoonshotAI: Kimi K3 (batch)",
@@ -762,8 +762,8 @@
   "nvidia/nemotron-3-ultra-550b-a55b": {
    "name": "NVIDIA: Nemotron 3 Ultra",
    "context_length": "262144",
-   "prompt_per_mtok": "0.625",
-   "completion_per_mtok": "3.125"
+   "prompt_per_mtok": "0.6",
+   "completion_per_mtok": "2.4"
   },
   "nvidia/nemotron-3-ultra-550b-a55b:free": {
    "name": "NVIDIA: Nemotron 3 Ultra (free)",
@@ -990,8 +990,8 @@
   "deepseek/deepseek-v4-flash": {
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0871",
-   "completion_per_mtok": "0.1742"
+   "prompt_per_mtok": "0.0794",
+   "completion_per_mtok": "0.1588"
   },
   "tencent/hy3-preview": {
    "name": "Tencent: Hy3 preview",

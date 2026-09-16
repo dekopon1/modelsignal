@@ -1,4 +1,14 @@
 {
+ "https://github.blog/changelog/2026-09-16-scim-user-responses-now-include-a-profileurl-attribute": {
+  "title": "SCIM user responses now include a profileUrl attribute",
+  "date": "Wed, 16 Sep 2026 20:19:58 +0000",
+  "summary": "SCIM user responses from GitHub now include the standard profileUrl attribute defined by RFC 7643, containing the absolute URL of the GitHub account linked to the external identity. Previously, matching&#8230;\nThe post SCIM user responses now include a profileUrl attribute appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-09-16-copilot-budget-increase-requests-are-generally-available": {
+  "title": "Copilot budget increase requests are generally available",
+  "date": "Wed, 16 Sep 2026 20:17:18 +0000",
+  "summary": "Previously, when a member used all the Copilot AI credits available to them, they were blocked from Copilot features that consume credits. This release adds a flow for them to&#8230;\nThe post Copilot budget increase requests are generally available appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-09-16-code-scanning-ai-scan-no-longer-requires-codeql-default-setup": {
   "title": "Code scanning AI Scan no longer requires CodeQL default setup",
   "date": "Wed, 16 Sep 2026 13:26:06 +0000",
@@ -38,15 +48,5 @@
   "title": "Auto-resolution and analysis updates in Copilot code review",
   "date": "Fri, 11 Sep 2026 20:00:07 +0000",
   "summary": "Copilot code review now resolves its own comments once you address them and writes smart commit messages for you when you apply its code suggestions. Behind the scenes, Copilot now&#8230;\nThe post Auto-resolution and analysis updates in Copilot code review appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-09-10-github-copilot-weekly-releases-september-7": {
-  "title": "GitHub Copilot weekly releases — September 7",
-  "date": "Thu, 10 Sep 2026 22:55:07 +0000",
-  "summary": "This week, GitHub Copilot introduces Jira integration in Copilot app and adaptive model orchestration with Project HydraFusion in Copilot CLI. We also introduced new agent automation in Visual Studio Code&#8230;\nThe post GitHub Copilot weekly releases — September 7 appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-09-10-refreshed-repository-pull-requests-page-in-public-preview": {
-  "title": "Refreshed repository pull requests page in public preview",
-  "date": "Thu, 10 Sep 2026 21:27:17 +0000",
-  "summary": "A refreshed repository-level pull request listing page is now in public preview for all GitHub users. It brings powerful filtering, compact presentation mode, and more. Highlights The new page makes&#8230;\nThe post Refreshed repository pull requests page in public preview appeared first on The GitHub Blog."
  }
 }
