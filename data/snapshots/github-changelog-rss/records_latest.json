@@ -1,4 +1,9 @@
 {
+ "https://github.blog/changelog/2026-09-17-ubuntu-26-generally-available-and-latest-migration": {
+  "title": "Ubuntu 26 generally available and latest migration",
+  "date": "Thu, 17 Sep 2026 16:27:16 +0000",
+  "summary": "The Ubuntu 26.04 runner image for GitHub Actions is now out of public preview and fully supported for production workflows on both x64 and arm64. As part of this release,&#8230;\nThe post Ubuntu 26 generally available and latest migration appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-09-16-automate-sso-authorization-for-classic-pats-and-ssh-keys": {
   "title": "Automate SSO authorization for classic PATs and SSH keys",
   "date": "Wed, 16 Sep 2026 20:20:16 +0000",
@@ -43,10 +48,5 @@
   "title": "Profiles now show your highest achievement badge tier",
   "date": "Fri, 11 Sep 2026 22:39:50 +0000",
   "summary": "Your GitHub profile now displays the highest tier you&#8217;ve earned for achievements with multiple levels. Previously, profiles could display the first tier earned, even after you had progressed to a&#8230;\nThe post Profiles now show your highest achievement badge tier appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-09-11-add-vs-code-agents-to-copilot-usage-metrics": {
-  "title": "Add VS Code Agents to Copilot usage metrics",
-  "date": "Fri, 11 Sep 2026 21:30:30 +0000",
-  "summary": "GitHub Copilot usage metrics reports now include generally available metrics for activity in the dedicated VS Code Agents window, helping you measure adoption and engagement across enterprises and organizations. What&#8217;s&#8230;\nThe post Add VS Code Agents to Copilot usage metrics appeared first on The GitHub Blog."
  }
 }
