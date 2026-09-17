@@ -379,8 +379,8 @@
   "meta/muse-glimmer-30b": {
    "name": "Meta: Muse Glimmer 30B",
    "context_length": "131072",
-   "prompt_per_mtok": "0.35",
-   "completion_per_mtok": "1.5"
+   "prompt_per_mtok": "0.3",
+   "completion_per_mtok": "1.1"
   },
   "meta/muse-glimmer-30b:batch": {
    "name": "Meta: Muse Glimmer 30B (batch)",
@@ -911,8 +911,8 @@
   "~moonshotai/kimi-latest": {
    "name": "MoonshotAI: Kimi Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "2",
-   "completion_per_mtok": "11.2"
+   "prompt_per_mtok": "2.1",
+   "completion_per_mtok": "10.95"
   },
   "~google/gemini-flash-latest": {
    "name": "Google: Gemini Flash Latest",
@@ -1748,8 +1748,8 @@
   "z-ai/glm-4.6": {
    "name": "Z.ai: GLM 4.6",
    "context_length": "204800",
-   "prompt_per_mtok": "0.43",
-   "completion_per_mtok": "1.75"
+   "prompt_per_mtok": "0.5",
+   "completion_per_mtok": "2"
   },
   "anthropic/claude-sonnet-4.5": {
    "name": "Anthropic: Claude Sonnet 4.5",
