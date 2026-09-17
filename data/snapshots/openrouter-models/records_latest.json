@@ -284,6 +284,12 @@
    "prompt_per_mtok": "0.214",
    "completion_per_mtok": "2.55"
   },
+  "qwen/qwen3.8-27b:free": {
+   "name": "Qwen: Qwen3.8 27B (free)",
+   "context_length": "262144",
+   "prompt_per_mtok": "0",
+   "completion_per_mtok": "0"
+  },
   "dots-studio/dots-3-note-preview:free": {
    "name": "Dots Studio: Dots3-Note Preview (free)",
    "context_length": "512000",
@@ -911,8 +917,8 @@
   "~moonshotai/kimi-latest": {
    "name": "MoonshotAI: Kimi Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "1.875",
-   "completion_per_mtok": "10.5"
+   "prompt_per_mtok": "2.1",
+   "completion_per_mtok": "10.95"
   },
   "~google/gemini-flash-latest": {
    "name": "Google: Gemini Flash Latest",
@@ -2397,8 +2403,8 @@
   "deepseek/deepseek-chat": {
    "name": "DeepSeek: DeepSeek V3",
    "context_length": "163840",
-   "prompt_per_mtok": "0.2574",
-   "completion_per_mtok": "1.0287"
+   "prompt_per_mtok": "0.32",
+   "completion_per_mtok": "0.89"
   },
   "sao10k/l3.3-euryale-70b": {
    "name": "Sao10K: Llama 3.3 Euryale 70B",

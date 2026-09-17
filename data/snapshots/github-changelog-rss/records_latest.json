@@ -4,6 +4,11 @@
   "date": "Thu, 17 Sep 2026 16:27:16 +0000",
   "summary": "The Ubuntu 26.04 runner image for GitHub Actions is now out of public preview and fully supported for production workflows on both x64 and arm64. As part of this release,&#8230;\nThe post Ubuntu 26 generally available and latest migration appeared first on The GitHub Blog."
  },
+ "https://github.blog/changelog/2026-09-17-workflow-execution-protections-in-github-actions-generally-available": {
+  "title": "Workflow execution protections in GitHub Actions generally available",
+  "date": "Thu, 17 Sep 2026 15:45:26 +0000",
+  "summary": "Workflow execution protections for GitHub Actions, previously in public preview, are now generally available for GitHub Enterprise, organizations, and repositories. Execution protections let you define an allowlist that controls who&#8230;\nThe post Workflow execution protections in GitHub Actions generally available appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-09-16-automate-sso-authorization-for-classic-pats-and-ssh-keys": {
   "title": "Automate SSO authorization for classic PATs and SSH keys",
   "date": "Wed, 16 Sep 2026 20:20:16 +0000",
@@ -43,10 +48,5 @@
   "title": "Configure cost and quality in Copilot auto model selection",
   "date": "Mon, 14 Sep 2026 16:05:27 +0000",
   "summary": "GitHub Copilot auto model selection now offers three tiers: efficiency, balance, and intelligence. Choose the tier that reflects how you want auto to weigh cost, quality, and response time for&#8230;\nThe post Configure cost and quality in Copilot auto model selection appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-09-11-profiles-now-show-your-highest-achievement-badge-tier": {
-  "title": "Profiles now show your highest achievement badge tier",
-  "date": "Fri, 11 Sep 2026 22:39:50 +0000",
-  "summary": "Your GitHub profile now displays the highest tier you&#8217;ve earned for achievements with multiple levels. Previously, profiles could display the first tier earned, even after you had progressed to a&#8230;\nThe post Profiles now show your highest achievement badge tier appeared first on The GitHub Blog."
  }
 }
