@@ -9,8 +9,8 @@
   "~deepseek/deepseek-pro-latest": {
    "name": "DeepSeek: DeepSeek Pro Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.66",
-   "completion_per_mtok": "1.98"
+   "prompt_per_mtok": "0.5782",
+   "completion_per_mtok": "1.7345"
   },
   "~deepseek/deepseek-flash-latest": {
    "name": "DeepSeek: DeepSeek Flash Latest",
@@ -257,8 +257,8 @@
   "~z-ai/glm-latest": {
    "name": "Z.ai: GLM Latest",
    "context_length": "1310720",
-   "prompt_per_mtok": "0.8775",
-   "completion_per_mtok": "2.97"
+   "prompt_per_mtok": "0.9",
+   "completion_per_mtok": "3"
   },
   "tencent/hy-mt2-7b": {
    "name": "Tencent: Hy-MT2-7B",
@@ -337,8 +337,8 @@
   "deepseek/deepseek-v4-pro-0813": {
    "name": "DeepSeek: DeepSeek V4 Pro 0813",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.66",
-   "completion_per_mtok": "1.98"
+   "prompt_per_mtok": "0.5782",
+   "completion_per_mtok": "1.7345"
   },
   "deepseek/deepseek-v4-pro-0813:batch": {
    "name": "DeepSeek: DeepSeek V4 Pro 0813 (batch)",
@@ -385,8 +385,8 @@
   "meta/muse-glimmer-30b": {
    "name": "Meta: Muse Glimmer 30B",
    "context_length": "131072",
-   "prompt_per_mtok": "0.3",
-   "completion_per_mtok": "1.1"
+   "prompt_per_mtok": "0.35",
+   "completion_per_mtok": "1.5"
   },
   "meta/muse-glimmer-30b:batch": {
    "name": "Meta: Muse Glimmer 30B (batch)",
@@ -403,8 +403,8 @@
   "~deepseek/deepseek-v4-flash-latest": {
    "name": "DeepSeek: DeepSeek V4 Flash Latest",
    "context_length": "1310720",
-   "prompt_per_mtok": "0.0558",
-   "completion_per_mtok": "0.1767"
+   "prompt_per_mtok": "0.055",
+   "completion_per_mtok": "0.165"
   },
   "deepseek/deepseek-v4-flash-0731": {
    "name": "DeepSeek: DeepSeek V4 Flash 0731",
@@ -653,8 +653,8 @@
   "tencent/hy3": {
    "name": "Tencent: Hy3",
    "context_length": "262144",
-   "prompt_per_mtok": "0.132",
-   "completion_per_mtok": "0.528"
+   "prompt_per_mtok": "0.0825",
+   "completion_per_mtok": "0.33"
   },
   "poolside/laguna-xs-2.1": {
    "name": "Poolside: Laguna XS 2.1",
@@ -714,8 +714,8 @@
   "z-ai/glm-5.2": {
    "name": "Z.ai: GLM 5.2",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.5625",
-   "completion_per_mtok": "1.8"
+   "prompt_per_mtok": "0.5544",
+   "completion_per_mtok": "1.7424"
   },
   "z-ai/glm-5.2:batch": {
    "name": "Z.ai: GLM 5.2 (batch)",
@@ -1002,8 +1002,8 @@
   "deepseek/deepseek-v4-flash": {
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0886",
-   "completion_per_mtok": "0.1772"
+   "prompt_per_mtok": "0.0498",
+   "completion_per_mtok": "0.0997"
   },
   "tencent/hy3-preview": {
    "name": "Tencent: Hy3 preview",
