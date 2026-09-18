@@ -1,24 +1,28 @@
 {
- "run_at": "2026-09-17T21:19:36Z",
+ "run_at": "2026-09-18T04:40:06Z",
  "results": [
   {
    "id": "anthropic-pricing",
    "ok": true,
    "http_chars": 45049,
-   "changed": false
+   "changed": true,
+   "changes": 0,
+   "announcements": 0
   },
   {
    "id": "anthropic-limits",
    "ok": true,
-   "http_chars": 33080,
-   "changed": false
+   "http_chars": 33131,
+   "changed": true,
+   "changes": 0,
+   "announcements": 0
   },
   {
    "id": "openrouter-models",
    "ok": true,
-   "http_chars": 736499,
+   "http_chars": 740442,
    "changed": true,
-   "changes": 3,
+   "changes": 19,
    "announcements": 0
   },
   {
@@ -36,7 +40,7 @@
   {
    "id": "google-gemini-pricing",
    "ok": true,
-   "http_chars": 243200,
+   "http_chars": 243204,
    "changed": true,
    "changes": 0,
    "announcements": 0
@@ -45,17 +49,13 @@
    "id": "github-copilot-plans",
    "ok": true,
    "http_chars": 1038528,
-   "changed": true,
-   "changes": 0,
-   "announcements": 0
+   "changed": false
   },
   {
    "id": "github-copilot-premium",
    "ok": true,
    "http_chars": 612821,
-   "changed": true,
-   "changes": 0,
-   "announcements": 0
+   "changed": false
   },
   {
    "id": "anthropic-changelog",
@@ -66,15 +66,15 @@
   {
    "id": "github-changelog-rss",
    "ok": true,
-   "http_chars": 35763,
+   "http_chars": 41796,
    "changed": true,
    "changes": 0,
-   "announcements": 1
+   "announcements": 2
   },
   {
    "id": "openai-news-rss",
    "ok": true,
-   "http_chars": 735049,
+   "http_chars": 735595,
    "changed": true,
    "changes": 0,
    "announcements": 1
@@ -85,7 +85,7 @@
    "http_chars": 166198,
    "changed": true,
    "changes": 0,
-   "announcements": 1
+   "announcements": 0
   }
  ]
 }
