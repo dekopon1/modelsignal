@@ -257,8 +257,8 @@
   "~z-ai/glm-latest": {
    "name": "Z.ai: GLM Latest",
    "context_length": "1310720",
-   "prompt_per_mtok": "0.833",
-   "completion_per_mtok": "2.618"
+   "prompt_per_mtok": "0.8775",
+   "completion_per_mtok": "2.97"
   },
   "tencent/hy-mt2-7b": {
    "name": "Tencent: Hy-MT2-7B",
@@ -714,8 +714,8 @@
   "z-ai/glm-5.2": {
    "name": "Z.ai: GLM 5.2",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.4875",
-   "completion_per_mtok": "1.56"
+   "prompt_per_mtok": "0.5625",
+   "completion_per_mtok": "1.8"
   },
   "z-ai/glm-5.2:batch": {
    "name": "Z.ai: GLM 5.2 (batch)",
@@ -996,8 +996,8 @@
   "deepseek/deepseek-v4-pro": {
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.9434",
-   "completion_per_mtok": "1.8867"
+   "prompt_per_mtok": "1.6",
+   "completion_per_mtok": "3.2"
   },
   "deepseek/deepseek-v4-flash": {
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
@@ -1580,12 +1580,6 @@
    "context_length": "131072",
    "prompt_per_mtok": "0.1",
    "completion_per_mtok": "0.1"
-  },
-  "mistralai/mistral-large-2512": {
-   "name": "Mistral: Mistral Large 3 2512",
-   "context_length": "262144",
-   "prompt_per_mtok": "0.55",
-   "completion_per_mtok": "1.65"
   },
   "mistralai/mistral-large-2512:batch": {
    "name": "Mistral: Mistral Large 3 2512 (batch)",
