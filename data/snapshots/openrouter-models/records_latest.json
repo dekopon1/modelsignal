@@ -1008,14 +1008,14 @@
   "deepseek/deepseek-v4-pro": {
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.483",
-   "completion_per_mtok": "0.966"
+   "prompt_per_mtok": "0.4223",
+   "completion_per_mtok": "0.8446"
   },
   "deepseek/deepseek-v4-flash": {
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0448",
-   "completion_per_mtok": "0.0896"
+   "prompt_per_mtok": "0.0417",
+   "completion_per_mtok": "0.0834"
   },
   "tencent/hy3-preview": {
    "name": "Tencent: Hy3 preview",
@@ -1766,8 +1766,8 @@
   "z-ai/glm-4.6": {
    "name": "Z.ai: GLM 4.6",
    "context_length": "204800",
-   "prompt_per_mtok": "0.43",
-   "completion_per_mtok": "1.75"
+   "prompt_per_mtok": "0.5",
+   "completion_per_mtok": "2"
   },
   "anthropic/claude-sonnet-4.5": {
    "name": "Anthropic: Claude Sonnet 4.5",
