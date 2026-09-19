@@ -1,4 +1,9 @@
 {
+ "https://github.blog/changelog/2026-09-18-copilot-code-review-an-improved-review-experience": {
+  "title": "Copilot code review: An improved review experience",
+  "date": "Fri, 18 Sep 2026 20:17:22 +0000",
+  "summary": "Copilot code review now gives you a clearer view of how a review changes over time, more intelligently auto-resolves its own suggestions, and generates useful commit messages when you accept&#8230;\nThe post Copilot code review: An improved review experience appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-09-18-manage-the-code-coverage-ruleset-condition-with-the-rest-api": {
   "title": "Manage the code coverage ruleset condition with the REST API",
   "date": "Fri, 18 Sep 2026 19:23:49 +0000",
@@ -43,10 +48,5 @@
   "title": "Automate SSO authorization for classic PATs and SSH keys",
   "date": "Wed, 16 Sep 2026 20:20:16 +0000",
   "summary": "Enterprise admins can now automate SSO authorization for existing classic personal access tokens (PATs) and SSH keys for organizations in GitHub Enterprise Cloud, replacing manual per-organization authorization by your developers.&#8230;\nThe post Automate SSO authorization for classic PATs and SSH keys appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-09-16-scim-user-responses-now-include-a-profileurl-attribute": {
-  "title": "SCIM user responses now include a profileUrl attribute",
-  "date": "Wed, 16 Sep 2026 20:19:58 +0000",
-  "summary": "SCIM user responses from GitHub now include the standard profileUrl attribute defined by RFC 7643, containing the absolute URL of the GitHub account linked to the external identity. Previously, matching&#8230;\nThe post SCIM user responses now include a profileUrl attribute appeared first on The GitHub Blog."
  }
 }

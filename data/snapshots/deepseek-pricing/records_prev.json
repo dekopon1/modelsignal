@@ -1,73 +1,18 @@
 {
- "Models & Pricing": {},
- "Model Details​": {
-  "BASE URL (OpenAI Format)": {
-   "deepseek-flash(1)": "https://api.deepseek.com"
+ "Your First API Call": {
+  "base_url (OpenAI)": {
+   "VALUE": "https://api.deepseek.com"
   },
-  "BASE URL (Anthropic Format)": {
-   "deepseek-flash(1)": "https://api.deepseek.com/anthropic"
+  "base_url (Anthropic)": {
+   "VALUE": "https://api.deepseek.com/anthropic"
   },
-  "MODEL VERSION": {
-   "deepseek-flash(1)": "DeepSeek-V4.1-Flash",
-   "deepseek-v4-pro(2)": "DeepSeek-V4-Pro-0813"
+  "api_key": {
+   "VALUE": "apply for an API key"
   },
-  "THINKING MODE": {
-   "deepseek-flash(1)": "Supports both non-thinking and thinking (default) modesSee Thinking Mode for how to switch"
-  },
-  "CONTEXT LENGTH": {
-   "deepseek-flash(1)": "1M"
-  },
-  "MAX OUTPUT": {
-   "deepseek-flash(1)": "MAXIMUM: 384K"
-  },
-  "FEATURES": {
-   "deepseek-flash(1)": "Json Output",
-   "deepseek-v4-pro(2)": "✓"
-  },
-  "Tool Calls": {
-   "deepseek-flash(1)": "✓",
-   "deepseek-v4-pro(2)": "✓"
-  },
-  "Responses API": {
-   "deepseek-flash(1)": "✓",
-   "deepseek-v4-pro(2)": "✓"
-  },
-  "Anthropic API": {
-   "deepseek-flash(1)": "✓",
-   "deepseek-v4-pro(2)": "✓"
-  },
-  "Chat Prefix Completion（Beta）": {
-   "deepseek-flash(1)": "✓",
-   "deepseek-v4-pro(2)": "✓"
-  },
-  "FIM Completion（Beta）": {
-   "deepseek-flash(1)": "Non-thinking mode only",
-   "deepseek-v4-pro(2)": "Non-thinking mode only"
-  },
-  "Vision": {
-   "deepseek-flash(1)": "✓",
-   "deepseek-v4-pro(2)": "Not supported"
-  },
-  "PRICING(3)": {
-   "deepseek-flash(1)": "1M INPUT TOKENS(CACHE HIT)",
-   "deepseek-v4-pro(2)": "OFF-PEAK"
-  },
-  "PEAK": {
-   "deepseek-flash(1)": "$0.006 | $0.3 | $1.2",
-   "deepseek-v4-pro(2)": "$0.044 | $1.32 | $3.96"
-  },
-  "1M INPUT TOKENS(CACHE MISS)": {
-   "deepseek-flash(1)": "OFF-PEAK",
-   "deepseek-v4-pro(2)": "$0.15"
-  },
-  "1M OUTPUT TOKENS": {
-   "deepseek-flash(1)": "OFF-PEAK",
-   "deepseek-v4-pro(2)": "$0.6"
-  },
-  "Concurrency Limit(4)": {
-   "deepseek-flash(1)": "2500",
-   "deepseek-v4-pro(2)": "500"
+  "model": {
+   "VALUE": "deepseek-flash(1)deepseek-v4-pro(2)"
   }
  },
- "Deduction Rules​": {}
+ "Integrate with Agent Tools​": {},
+ "Invoke The Chat API​": {}
 }

@@ -6,6 +6,12 @@
    "prompt_per_mtok": "0.075",
    "completion_per_mtok": "0.5"
   },
+  "z-ai/glm-5.3-flashx": {
+   "name": "Z.ai: GLM 5.3 FlashX",
+   "context_length": "1048576",
+   "prompt_per_mtok": "0.37",
+   "completion_per_mtok": "1.25"
+  },
   "unbiased/pareto": {
    "name": "Pareto",
    "context_length": "262144",
@@ -21,8 +27,8 @@
   "~deepseek/deepseek-flash-latest": {
    "name": "DeepSeek: DeepSeek Flash Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.14",
-   "completion_per_mtok": "0.42"
+   "prompt_per_mtok": "0.135",
+   "completion_per_mtok": "0.54"
   },
   "inference-net/schematron-v2-turbo": {
    "name": "Inference.net: Schematron V2 Turbo",
@@ -367,7 +373,7 @@
   "nvidia/nemotron-3.5-lightning": {
    "name": "NVIDIA: Nemotron 3.5 Lightning",
    "context_length": "262144",
-   "prompt_per_mtok": "0.08",
+   "prompt_per_mtok": "0.07",
    "completion_per_mtok": "0.2"
   },
   "nvidia/nemotron-3.5-lightning:free": {
@@ -409,14 +415,14 @@
   "~deepseek/deepseek-v4-flash-latest": {
    "name": "DeepSeek: DeepSeek V4 Flash Latest",
    "context_length": "1310720",
-   "prompt_per_mtok": "0.0541",
-   "completion_per_mtok": "0.1624"
+   "prompt_per_mtok": "0.0484",
+   "completion_per_mtok": "0.1452"
   },
   "deepseek/deepseek-v4-flash-0731": {
    "name": "DeepSeek: DeepSeek V4 Flash 0731",
    "context_length": "1310720",
-   "prompt_per_mtok": "0.06",
-   "completion_per_mtok": "0.12"
+   "prompt_per_mtok": "0.065",
+   "completion_per_mtok": "0.18"
   },
   "deepseek/deepseek-v4-flash-0731:batch": {
    "name": "DeepSeek: DeepSeek V4 Flash 0731 (batch)",
@@ -539,8 +545,8 @@
   "moonshotai/kimi-k3": {
    "name": "MoonshotAI: Kimi K3",
    "context_length": "1048576",
-   "prompt_per_mtok": "1.95",
-   "completion_per_mtok": "10.92"
+   "prompt_per_mtok": "2.0695",
+   "completion_per_mtok": "11.5892"
   },
   "moonshotai/kimi-k3:batch": {
    "name": "MoonshotAI: Kimi K3 (batch)",
@@ -659,8 +665,8 @@
   "tencent/hy3": {
    "name": "Tencent: Hy3",
    "context_length": "262144",
-   "prompt_per_mtok": "0.0825",
-   "completion_per_mtok": "0.33"
+   "prompt_per_mtok": "0.132",
+   "completion_per_mtok": "0.528"
   },
   "poolside/laguna-xs-2.1": {
    "name": "Poolside: Laguna XS 2.1",
@@ -780,8 +786,8 @@
   "nvidia/nemotron-3-ultra-550b-a55b": {
    "name": "NVIDIA: Nemotron 3 Ultra",
    "context_length": "262144",
-   "prompt_per_mtok": "0.625",
-   "completion_per_mtok": "3.125"
+   "prompt_per_mtok": "0.6",
+   "completion_per_mtok": "2.4"
   },
   "nvidia/nemotron-3-ultra-550b-a55b:free": {
    "name": "NVIDIA: Nemotron 3 Ultra (free)",
@@ -929,8 +935,8 @@
   "~moonshotai/kimi-latest": {
    "name": "MoonshotAI: Kimi Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "1.95",
-   "completion_per_mtok": "10.92"
+   "prompt_per_mtok": "2.0695",
+   "completion_per_mtok": "11.5892"
   },
   "~google/gemini-flash-latest": {
    "name": "Google: Gemini Flash Latest",
@@ -1002,14 +1008,14 @@
   "deepseek/deepseek-v4-pro": {
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "1.6",
-   "completion_per_mtok": "3.2"
+   "prompt_per_mtok": "0.6149",
+   "completion_per_mtok": "1.2298"
   },
   "deepseek/deepseek-v4-flash": {
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0484",
-   "completion_per_mtok": "0.0969"
+   "prompt_per_mtok": "0.0482",
+   "completion_per_mtok": "0.0963"
   },
   "tencent/hy3-preview": {
    "name": "Tencent: Hy3 preview",
