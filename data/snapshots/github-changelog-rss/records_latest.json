@@ -1,4 +1,14 @@
 {
+ "https://github.blog/changelog/2026-09-21-github-enterprise-adds-credential-inventory-exports": {
+  "title": "GitHub Enterprise adds credential inventory exports",
+  "date": "Mon, 21 Sep 2026 21:13:18 +0000",
+  "summary": "Enterprise owners can now export a complete inventory of every credential that can access their enterprise (e.g., SSH keys, classic and fine-grained personal access tokens, OAuth App access tokens, and&#8230;\nThe post GitHub Enterprise adds credential inventory exports appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-09-21-grok-4-7-is-now-available-in-github-copilot": {
+  "title": "Grok 4.7 is now available in GitHub Copilot",
+  "date": "Mon, 21 Sep 2026 14:54:12 +0000",
+  "summary": "Grok 4.7, xAI&#8217;s latest reasoning model, is now rolling out in GitHub Copilot. Building on Grok 4.6, it is designed for agentic coding and complex, multistep workflows. This model is&#8230;\nThe post Grok 4.7 is now available in GitHub Copilot appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-09-18-copilot-code-review-an-improved-review-experience": {
   "title": "Copilot code review: An improved review experience",
   "date": "Fri, 18 Sep 2026 20:17:22 +0000",
@@ -38,15 +48,5 @@
   "title": "Ubuntu 26 generally available and latest migration",
   "date": "Thu, 17 Sep 2026 16:27:16 +0000",
   "summary": "The Ubuntu 26.04 runner image for GitHub Actions is now out of public preview and fully supported for production workflows on both x64 and arm64. As part of this release,&#8230;\nThe post Ubuntu 26 generally available and latest migration appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-09-17-workflow-execution-protections-in-github-actions-generally-available": {
-  "title": "Workflow execution protections in GitHub Actions generally available",
-  "date": "Thu, 17 Sep 2026 15:45:26 +0000",
-  "summary": "Workflow execution protections for GitHub Actions, previously in public preview, are now generally available for GitHub Enterprise, organizations, and repositories. Execution protections let you define an allowlist that controls who&#8230;\nThe post Workflow execution protections in GitHub Actions generally available appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-09-16-automate-sso-authorization-for-classic-pats-and-ssh-keys": {
-  "title": "Automate SSO authorization for classic PATs and SSH keys",
-  "date": "Wed, 16 Sep 2026 20:20:16 +0000",
-  "summary": "Enterprise admins can now automate SSO authorization for existing classic personal access tokens (PATs) and SSH keys for organizations in GitHub Enterprise Cloud, replacing manual per-organization authorization by your developers.&#8230;\nThe post Automate SSO authorization for classic PATs and SSH keys appeared first on The GitHub Blog."
  }
 }
