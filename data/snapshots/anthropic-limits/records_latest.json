@@ -20,6 +20,11 @@
    "Maximum input tokens per minute (ITPM)": "4,000,000",
    "Maximum output tokens per minute (OTPM)": "800,000"
   },
+  "Claude Opus 5.5": {
+   "Maximum requests per minute (RPM)": "10,000",
+   "Maximum input tokens per minute (ITPM)": "10,000,000",
+   "Maximum output tokens per minute (OTPM)": "2,000,000"
+  },
   "Claude Opus 5": {
    "Maximum requests per minute (RPM)": "10,000",
    "Maximum input tokens per minute (ITPM)": "10,000,000",

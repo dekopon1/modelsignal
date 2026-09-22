@@ -28,6 +28,13 @@
    "Cache hits and refreshes": "$1 / MTok",
    "Output tokens": "$50 / MTok"
   },
+  "Claude Opus 5.5": {
+   "Base input tokens": "$4 / MTok",
+   "5m cache writes": "$5 / MTok",
+   "1h cache writes": "$8 / MTok",
+   "Cache hits and refreshes": "$0.20 / MTok<sup>2</sup>",
+   "Output tokens": "$20 / MTok"
+  },
   "Claude Opus 5": {
    "Base input tokens": "$5 / MTok",
    "5m cache writes": "$6.25 / MTok",
@@ -186,12 +193,16 @@
    "Duration": "Cache valid for 1 hour"
   },
   "Cache read (hit)": {
-   "Multiplier": "0.1x base input price (0.025x on Claude Fable 5.1 and Claude Mythos 5.1)",
+   "Multiplier": "0.1x base input price (0.025x on Claude Fable 5.1 and Claude Mythos 5.1; 0.05x on Claude Opus 5.5)",
    "Duration": "Same duration as the preceding write"
   }
  },
  "Data residency pricing": {},
  "Fast mode pricing": {
+  "Claude Opus 5.5": {
+   "Input": "$8 / MTok",
+   "Output": "$40 / MTok"
+  },
   "Claude Opus 5 / Claude Opus 4.8": {
    "Input": "$10 / MTok",
    "Output": "$50 / MTok"
@@ -213,6 +224,10 @@
   "Claude Mythos 5 (limited availability)": {
    "Batch input": "$5 / MTok",
    "Batch output": "$25 / MTok"
+  },
+  "Claude Opus 5.5": {
+   "Batch input": "$2 / MTok",
+   "Batch output": "$10 / MTok"
   },
   "Claude Opus 5": {
    "Batch input": "$2.50 / MTok",
@@ -269,6 +284,10 @@
  },
  "Long context pricing": {},
  "Tool use pricing": {
+  "Claude Opus 5.5": {
+   "Tool choice": "auto, none",
+   "Tool use system prompt token count": "286 tokens"
+  },
   "Claude Opus 5": {
    "Tool choice": "auto, noneany, tool",
    "Tool use system prompt token count": "286 tokens406 tokens"
