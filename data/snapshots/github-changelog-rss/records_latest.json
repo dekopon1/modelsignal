@@ -1,4 +1,19 @@
 {
+ "https://github.blog/changelog/2026-09-22-claude-opus-5-5-is-now-available-in-github-copilot": {
+  "title": "Claude Opus 5.5 is now available in GitHub Copilot",
+  "date": "Tue, 22 Sep 2026 17:10:23 +0000",
+  "summary": "Claude Opus 5.5, Anthropic&#8217;s newest Opus model, is now available in GitHub Copilot. You can use it for agentic coding, long-running agentic tasks, and knowledge work. In early testing, Opus&#8230;\nThe post Claude Opus 5.5 is now available in GitHub Copilot appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-09-22-openais-gpt-6-sol-and-gpt-6-luna-now-available": {
+  "title": "OpenAI&#8217;s GPT-6 Sol and GPT-6 Luna now available",
+  "date": "Tue, 22 Sep 2026 17:00:14 +0000",
+  "summary": "OpenAI&#8217;s GPT-6 family is expanding in GitHub Copilot with two additional models: GPT-6 Sol, and GPT-6 Luna. Joining the previously released GPT-6 Astra, these new options let you select the&#8230;\nThe post OpenAI&#8217;s GPT-6 Sol and GPT-6 Luna now available appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-09-22-security-improvements-for-ssh": {
+  "title": "Security improvements for SSH",
+  "date": "Tue, 22 Sep 2026 14:11:47 +0000",
+  "summary": "We&#8217;re removing several SSH algorithms, adding a new algorithm, and requiring larger RSA SSH keys to improve security. The changes are as follows: We&#8217;re removing the ability to use RSA&#8230;\nThe post Security improvements for SSH appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-09-22-deprecation-notice-all-platform-codeql-bundle": {
   "title": "Deprecation notice: All-platform CodeQL bundle",
   "date": "Tue, 22 Sep 2026 09:21:03 +0000",
@@ -33,20 +48,5 @@
   "title": "GitHub Copilot weekly releases — September 14",
   "date": "Fri, 18 Sep 2026 19:21:22 +0000",
   "summary": "This week, GitHub Copilot adds new model selection options, code review updates, and Sentry integration in the Copilot app. There are also updates for admins, plus new agent features in&#8230;\nThe post GitHub Copilot weekly releases — September 14 appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-09-18-upcoming-deprecation-of-selected-github-copilot-models-in-mid-october": {
-  "title": "Upcoming deprecation of selected GitHub Copilot models in mid-October",
-  "date": "Fri, 18 Sep 2026 19:00:00 +0000",
-  "summary": "We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on October 19th, 2026: Model Deprecation date&#8230;\nThe post Upcoming deprecation of selected GitHub Copilot models in mid-October appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-09-18-stage-only-npm-tokens-for-safer-automation": {
-  "title": "Stage-only npm tokens for safer automation",
-  "date": "Fri, 18 Sep 2026 16:37:50 +0000",
-  "summary": "You can now select Read and write (stage only) when creating an npm granular access token. This lets your automated workflows stage package versions for review without giving the token&#8230;\nThe post Stage-only npm tokens for safer automation appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-09-17-copilot-impact-dashboard-now-shows-feature-engagement": {
-  "title": "Copilot impact dashboard now shows feature engagement",
-  "date": "Thu, 17 Sep 2026 21:47:27 +0000",
-  "summary": "The Copilot impact dashboard now shows how many active users regularly use key Copilot features. Enterprise administrators can quickly see which experiences are widely adopted and which may need more&#8230;\nThe post Copilot impact dashboard now shows feature engagement appeared first on The GitHub Blog."
  }
 }

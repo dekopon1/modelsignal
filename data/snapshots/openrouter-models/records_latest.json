@@ -1,5 +1,53 @@
 {
  "models": {
+  "openai/gpt-6-luna-pro": {
+   "name": "OpenAI: GPT-6 Luna Pro",
+   "context_length": "1050000",
+   "prompt_per_mtok": "0.1",
+   "completion_per_mtok": "0.5"
+  },
+  "openai/gpt-6-luna-pro:batch": {
+   "name": "OpenAI: GPT-6 Luna Pro (batch)",
+   "context_length": "1050000",
+   "prompt_per_mtok": "0.05",
+   "completion_per_mtok": "0.25"
+  },
+  "openai/gpt-6-luna": {
+   "name": "OpenAI: GPT-6 Luna",
+   "context_length": "1050000",
+   "prompt_per_mtok": "0.1",
+   "completion_per_mtok": "0.5"
+  },
+  "openai/gpt-6-luna:batch": {
+   "name": "OpenAI: GPT-6 Luna (batch)",
+   "context_length": "1050000",
+   "prompt_per_mtok": "0.05",
+   "completion_per_mtok": "0.25"
+  },
+  "openai/gpt-6-sol-pro": {
+   "name": "OpenAI: GPT-6 Sol Pro",
+   "context_length": "1050000",
+   "prompt_per_mtok": "2",
+   "completion_per_mtok": "10"
+  },
+  "openai/gpt-6-sol-pro:batch": {
+   "name": "OpenAI: GPT-6 Sol Pro (batch)",
+   "context_length": "1050000",
+   "prompt_per_mtok": "1",
+   "completion_per_mtok": "5"
+  },
+  "openai/gpt-6-sol": {
+   "name": "OpenAI: GPT-6 Sol",
+   "context_length": "1050000",
+   "prompt_per_mtok": "2",
+   "completion_per_mtok": "10"
+  },
+  "openai/gpt-6-sol:batch": {
+   "name": "OpenAI: GPT-6 Sol (batch)",
+   "context_length": "1050000",
+   "prompt_per_mtok": "1",
+   "completion_per_mtok": "5"
+  },
   "anthropic/claude-opus-5.5": {
    "name": "Anthropic: Claude Opus 5.5",
    "context_length": "1000000",
@@ -36,6 +84,12 @@
    "prompt_per_mtok": "1.6",
    "completion_per_mtok": "4.8"
   },
+  "qwen/qwen3.8-omni-flash": {
+   "name": "Qwen: Qwen3.8 Omni Flash",
+   "context_length": "1000000",
+   "prompt_per_mtok": "0.15",
+   "completion_per_mtok": "0.47"
+  },
   "prism-ml/ternary-bonsai-2-27b": {
    "name": "PrismML: Ternary Bonsai 2 27B",
    "context_length": "262144",
@@ -57,8 +111,8 @@
   "~deepseek/deepseek-pro-latest": {
    "name": "DeepSeek: DeepSeek Pro Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.5597",
-   "completion_per_mtok": "1.679"
+   "prompt_per_mtok": "0.4",
+   "completion_per_mtok": "1.1999"
   },
   "~deepseek/deepseek-flash-latest": {
    "name": "DeepSeek: DeepSeek Flash Latest",
@@ -99,8 +153,8 @@
   "~openai/gpt-luna-latest": {
    "name": "OpenAI: GPT Luna Latest",
    "context_length": "1050000",
-   "prompt_per_mtok": "0.2",
-   "completion_per_mtok": "1.2"
+   "prompt_per_mtok": "0.1",
+   "completion_per_mtok": "0.5"
   },
   "sakana/fugu-ultra-v2": {
    "name": "Sakana: Fugu Ultra v2",
@@ -446,7 +500,7 @@
    "name": "DeepSeek: DeepSeek V4 Flash Latest",
    "context_length": "1310720",
    "prompt_per_mtok": "0.03",
-   "completion_per_mtok": "1"
+   "completion_per_mtok": "0.8"
   },
   "deepseek/deepseek-v4-flash-0731": {
    "name": "DeepSeek: DeepSeek V4 Flash 0731",
@@ -664,13 +718,13 @@
   },
   "aion-labs/aion-3.0-mini": {
    "name": "AionLabs: Aion-3.0-Mini",
-   "context_length": "1048576",
+   "context_length": "131072",
    "prompt_per_mtok": "0.7",
    "completion_per_mtok": "1.4"
   },
   "aion-labs/aion-3.0": {
    "name": "AionLabs: Aion-3.0",
-   "context_length": "1048576",
+   "context_length": "131072",
    "prompt_per_mtok": "3",
    "completion_per_mtok": "6"
   },
@@ -935,8 +989,8 @@
   "~moonshotai/kimi-latest": {
    "name": "MoonshotAI: Kimi Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "1.5",
-   "completion_per_mtok": "7.5"
+   "prompt_per_mtok": "1.4",
+   "completion_per_mtok": "13"
   },
   "~google/gemini-flash-latest": {
    "name": "Google: Gemini Flash Latest",
@@ -1008,8 +1062,8 @@
   "deepseek/deepseek-v4-pro": {
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.9227",
-   "completion_per_mtok": "1.8454"
+   "prompt_per_mtok": "0.8771",
+   "completion_per_mtok": "1.7543"
   },
   "deepseek/deepseek-v4-flash": {
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
@@ -1309,7 +1363,7 @@
   },
   "aion-labs/aion-2.0": {
    "name": "AionLabs: Aion-2.0",
-   "context_length": "1048576",
+   "context_length": "131072",
    "prompt_per_mtok": "0.8",
    "completion_per_mtok": "1.6"
   },
