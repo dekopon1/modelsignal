@@ -1,4 +1,9 @@
 {
+ "https://github.blog/changelog/2026-09-22-deprecation-notice-all-platform-codeql-bundle": {
+  "title": "Deprecation notice: All-platform CodeQL bundle",
+  "date": "Tue, 22 Sep 2026 09:21:03 +0000",
+  "summary": "Starting with CodeQL CLI 2.27.0, the all-platform CodeQL bundle (i.e., codeql-bundle.tar.gz and codeql-bundle.tar.zst), which includes the binaries for all supported platforms up to this release, is marked as deprecated. In&#8230;\nThe post Deprecation notice: All-platform CodeQL bundle appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-09-21-refreshed-repository-pull-requests-page-generally-available": {
   "title": "Refreshed repository pull requests page generally available",
   "date": "Tue, 22 Sep 2026 01:25:53 +0000",
@@ -43,10 +48,5 @@
   "title": "Copilot impact dashboard now shows feature engagement",
   "date": "Thu, 17 Sep 2026 21:47:27 +0000",
   "summary": "The Copilot impact dashboard now shows how many active users regularly use key Copilot features. Enterprise administrators can quickly see which experiences are widely adopted and which may need more&#8230;\nThe post Copilot impact dashboard now shows feature engagement appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-09-17-agentic-cli-customizations-now-in-the-usage-metrics-api": {
-  "title": "Agentic CLI customizations now in the usage metrics API",
-  "date": "Thu, 17 Sep 2026 21:08:50 +0000",
-  "summary": "GitHub Copilot expands existing CLI report coverage with agentic activity metrics for skills, custom agents, Model Context Protocol (MCP) servers, slash commands, and plugins. What&#8217;s new The fields appear in&#8230;\nThe post Agentic CLI customizations now in the usage metrics API appeared first on The GitHub Blog."
  }
 }

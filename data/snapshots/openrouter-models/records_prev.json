@@ -45,8 +45,8 @@
   "~deepseek/deepseek-pro-latest": {
    "name": "DeepSeek: DeepSeek Pro Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.6386",
-   "completion_per_mtok": "1.9158"
+   "prompt_per_mtok": "0.624",
+   "completion_per_mtok": "2.88"
   },
   "~deepseek/deepseek-flash-latest": {
    "name": "DeepSeek: DeepSeek Flash Latest",
@@ -379,8 +379,8 @@
   "deepseek/deepseek-v4-pro-0813": {
    "name": "DeepSeek: DeepSeek V4 Pro 0813",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.66",
-   "completion_per_mtok": "1.98"
+   "prompt_per_mtok": "0.624",
+   "completion_per_mtok": "2.88"
   },
   "deepseek/deepseek-v4-pro-0813:batch": {
    "name": "DeepSeek: DeepSeek V4 Pro 0813 (batch)",
@@ -446,7 +446,7 @@
    "name": "DeepSeek: DeepSeek V4 Flash Latest",
    "context_length": "1310720",
    "prompt_per_mtok": "0.03",
-   "completion_per_mtok": "0.8"
+   "completion_per_mtok": "1"
   },
   "deepseek/deepseek-v4-flash-0731": {
    "name": "DeepSeek: DeepSeek V4 Flash 0731",
@@ -763,7 +763,7 @@
    "name": "MoonshotAI: Kimi K2.7 Code",
    "context_length": "262144",
    "prompt_per_mtok": "0.7062",
-   "completion_per_mtok": "3.21"
+   "completion_per_mtok": "3.3"
   },
   "~anthropic/claude-fable-latest": {
    "name": "Anthropic: Claude Fable Latest",
@@ -1148,12 +1148,6 @@
    "context_length": "1048576",
    "prompt_per_mtok": "0",
    "completion_per_mtok": "0"
-  },
-  "kwaipilot/kat-coder-pro-v2": {
-   "name": "Kwaipilot: KAT-Coder-Pro V2",
-   "context_length": "262144",
-   "prompt_per_mtok": "0.3",
-   "completion_per_mtok": "1.2"
   },
   "rekaai/reka-edge": {
    "name": "Reka Edge",
