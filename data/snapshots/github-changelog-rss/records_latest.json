@@ -1,4 +1,9 @@
 {
+ "https://github.blog/changelog/2026-09-21-refreshed-repository-pull-requests-page-generally-available": {
+  "title": "Refreshed repository pull requests page generally available",
+  "date": "Tue, 22 Sep 2026 01:25:53 +0000",
+  "summary": "The new repository pull requests page is now generally available to all GitHub users. Highlights The new page makes it easier to find and act on pull requests in a&#8230;\nThe post Refreshed repository pull requests page generally available appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-09-21-github-enterprise-adds-credential-inventory-exports": {
   "title": "GitHub Enterprise adds credential inventory exports",
   "date": "Mon, 21 Sep 2026 21:13:18 +0000",
@@ -43,10 +48,5 @@
   "title": "Agentic CLI customizations now in the usage metrics API",
   "date": "Thu, 17 Sep 2026 21:08:50 +0000",
   "summary": "GitHub Copilot expands existing CLI report coverage with agentic activity metrics for skills, custom agents, Model Context Protocol (MCP) servers, slash commands, and plugins. What&#8217;s new The fields appear in&#8230;\nThe post Agentic CLI customizations now in the usage metrics API appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-09-17-ubuntu-26-generally-available-and-latest-migration": {
-  "title": "Ubuntu 26 generally available and latest migration",
-  "date": "Thu, 17 Sep 2026 16:27:16 +0000",
-  "summary": "The Ubuntu 26.04 runner image for GitHub Actions is now out of public preview and fully supported for production workflows on both x64 and arm64. As part of this release,&#8230;\nThe post Ubuntu 26 generally available and latest migration appeared first on The GitHub Blog."
  }
 }
