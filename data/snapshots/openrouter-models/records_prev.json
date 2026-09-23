@@ -1,5 +1,11 @@
 {
  "models": {
+  "upstage/solar-mini4": {
+   "name": "Upstage: Solar Mini 4",
+   "context_length": "524288",
+   "prompt_per_mtok": "0.05",
+   "completion_per_mtok": "0.2"
+  },
   "cohere/command-a-plus": {
    "name": "Cohere: Command A+",
    "context_length": "192000",
@@ -123,8 +129,8 @@
   "~deepseek/deepseek-flash-latest": {
    "name": "DeepSeek: DeepSeek Flash Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.094",
-   "completion_per_mtok": "0.6"
+   "prompt_per_mtok": "0.1",
+   "completion_per_mtok": "0.5"
   },
   "inference-net/schematron-v2-turbo": {
    "name": "Inference.net: Schematron V2 Turbo",
@@ -189,7 +195,7 @@
   "deepseek/deepseek-v4.1-flash": {
    "name": "DeepSeek: DeepSeek V4.1 Flash",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.094",
+   "prompt_per_mtok": "0.15",
    "completion_per_mtok": "0.6"
   },
   "deepseek/deepseek-v4.1-flash:batch": {
@@ -451,8 +457,8 @@
   "deepseek/deepseek-v4-pro-0813": {
    "name": "DeepSeek: DeepSeek V4 Pro 0813",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.66",
-   "completion_per_mtok": "1.98"
+   "prompt_per_mtok": "0.4987",
+   "completion_per_mtok": "1.4961"
   },
   "x-ai/grok-4.6": {
    "name": "SpaceXAI: Grok 4.6",
@@ -469,7 +475,7 @@
   "nvidia/nemotron-3.5-lightning": {
    "name": "NVIDIA: Nemotron 3.5 Lightning",
    "context_length": "262144",
-   "prompt_per_mtok": "0.07",
+   "prompt_per_mtok": "0.08",
    "completion_per_mtok": "0.2"
   },
   "nvidia/nemotron-3.5-lightning:free": {
@@ -505,8 +511,8 @@
   "~deepseek/deepseek-v4-flash-latest": {
    "name": "DeepSeek: DeepSeek V4 Flash Latest",
    "context_length": "1310720",
-   "prompt_per_mtok": "0.03",
-   "completion_per_mtok": "0.8"
+   "prompt_per_mtok": "0.038",
+   "completion_per_mtok": "0.55"
   },
   "deepseek/deepseek-v4-flash-0731": {
    "name": "DeepSeek: DeepSeek V4 Flash 0731",
