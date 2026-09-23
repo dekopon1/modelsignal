@@ -1,4 +1,19 @@
 {
+ "https://github.blog/changelog/2026-09-22-opentelemetry-in-the-github-copilot-app": {
+  "title": "OpenTelemetry in the GitHub Copilot app",
+  "date": "Wed, 23 Sep 2026 02:14:54 +0000",
+  "summary": "Understand how Copilot agents perform and interact with models and tools. The GitHub Copilot app now supports OpenTelemetry (OTel) configuration through enterprise-managed settings. OTel is an open source observability framework.&#8230;\nThe post OpenTelemetry in the GitHub Copilot app appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-09-22-new-features-and-improvements-in-copilot-for-jetbrains": {
+  "title": "New features and improvements in Copilot for JetBrains",
+  "date": "Wed, 23 Sep 2026 00:34:18 +0000",
+  "summary": "GitHub Copilot for JetBrains 1.18.0 brings AI-assisted tool approvals, more control over agent conversations, and shared skills and instructions for your organization. You can also review plans with the Codex&#8230;\nThe post New features and improvements in Copilot for JetBrains appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-09-22-faster-c-code-intelligence-with-whole-codebase-indexing": {
+  "title": "Faster C++ code intelligence with whole codebase indexing",
+  "date": "Tue, 22 Sep 2026 22:24:48 +0000",
+  "summary": "C++ code intelligence in GitHub Copilot CLI is now faster with support for whole codebase indexing. C++ repositories can contain millions of lines of code across deeply connected source files&#8230;\nThe post Faster C++ code intelligence with whole codebase indexing appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-09-22-claude-opus-5-5-is-now-available-in-github-copilot": {
   "title": "Claude Opus 5.5 is now available in GitHub Copilot",
   "date": "Tue, 22 Sep 2026 17:10:23 +0000",
@@ -33,20 +48,5 @@
   "title": "Grok 4.7 is now available in GitHub Copilot",
   "date": "Mon, 21 Sep 2026 14:54:12 +0000",
   "summary": "Grok 4.7, xAI&#8217;s latest reasoning model, is now rolling out in GitHub Copilot. Building on Grok 4.6, it is designed for agentic coding and complex, multistep workflows. This model is&#8230;\nThe post Grok 4.7 is now available in GitHub Copilot appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-09-18-copilot-code-review-an-improved-review-experience": {
-  "title": "Copilot code review: An improved review experience",
-  "date": "Fri, 18 Sep 2026 20:17:22 +0000",
-  "summary": "Copilot code review now gives you a clearer view of how a review changes over time, more intelligently auto-resolves its own suggestions, and generates useful commit messages when you accept&#8230;\nThe post Copilot code review: An improved review experience appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-09-18-manage-the-code-coverage-ruleset-condition-with-the-rest-api": {
-  "title": "Manage the code coverage ruleset condition with the REST API",
-  "date": "Fri, 18 Sep 2026 19:23:49 +0000",
-  "summary": "You can now use the generally available REST API to manage the Restrict code coverage repository ruleset option, in addition to the existing UI support. This ruleset lets you enforce&#8230;\nThe post Manage the code coverage ruleset condition with the REST API appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-09-18-github-copilot-weekly-releases-september-14": {
-  "title": "GitHub Copilot weekly releases — September 14",
-  "date": "Fri, 18 Sep 2026 19:21:22 +0000",
-  "summary": "This week, GitHub Copilot adds new model selection options, code review updates, and Sentry integration in the Copilot app. There are also updates for admins, plus new agent features in&#8230;\nThe post GitHub Copilot weekly releases — September 14 appeared first on The GitHub Blog."
  }
 }

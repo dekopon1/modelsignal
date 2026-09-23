@@ -1,5 +1,11 @@
 {
  "models": {
+  "cohere/command-a-plus": {
+   "name": "Cohere: Command A+",
+   "context_length": "192000",
+   "prompt_per_mtok": "0.3",
+   "completion_per_mtok": "1.5"
+  },
   "openai/gpt-6-luna-pro": {
    "name": "OpenAI: GPT-6 Luna Pro",
    "context_length": "1050000",
@@ -112,13 +118,13 @@
    "name": "DeepSeek: DeepSeek Pro Latest",
    "context_length": "1048576",
    "prompt_per_mtok": "0.4",
-   "completion_per_mtok": "1.1999"
+   "completion_per_mtok": "4.3"
   },
   "~deepseek/deepseek-flash-latest": {
    "name": "DeepSeek: DeepSeek Flash Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.12",
-   "completion_per_mtok": "0.48"
+   "prompt_per_mtok": "0.094",
+   "completion_per_mtok": "0.6"
   },
   "inference-net/schematron-v2-turbo": {
    "name": "Inference.net: Schematron V2 Turbo",
@@ -183,7 +189,7 @@
   "deepseek/deepseek-v4.1-flash": {
    "name": "DeepSeek: DeepSeek V4.1 Flash",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.15",
+   "prompt_per_mtok": "0.094",
    "completion_per_mtok": "0.6"
   },
   "deepseek/deepseek-v4.1-flash:batch": {
@@ -371,8 +377,8 @@
   "~z-ai/glm-latest": {
    "name": "Z.ai: GLM Latest",
    "context_length": "1310720",
-   "prompt_per_mtok": "0.6538",
-   "completion_per_mtok": "2.0548"
+   "prompt_per_mtok": "0.5625",
+   "completion_per_mtok": "2.5"
   },
   "tencent/hy-mt2-7b": {
    "name": "Tencent: Hy-MT2-7B",
@@ -383,8 +389,8 @@
   "z-ai/glm-5.3": {
    "name": "Z.ai: GLM 5.3",
    "context_length": "1310720",
-   "prompt_per_mtok": "0.6538",
-   "completion_per_mtok": "2.0548"
+   "prompt_per_mtok": "0.84",
+   "completion_per_mtok": "2.64"
   },
   "z-ai/glm-5.3:batch": {
    "name": "Z.ai: GLM 5.3 (batch)",
@@ -731,8 +737,8 @@
   "tencent/hy3": {
    "name": "Tencent: Hy3",
    "context_length": "262144",
-   "prompt_per_mtok": "0.0825",
-   "completion_per_mtok": "0.33"
+   "prompt_per_mtok": "0.132",
+   "completion_per_mtok": "0.528"
   },
   "poolside/laguna-xs-2.1": {
    "name": "Poolside: Laguna XS 2.1",
@@ -989,8 +995,8 @@
   "~moonshotai/kimi-latest": {
    "name": "MoonshotAI: Kimi Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "1.4",
-   "completion_per_mtok": "13"
+   "prompt_per_mtok": "1.4989",
+   "completion_per_mtok": "10.758"
   },
   "~google/gemini-flash-latest": {
    "name": "Google: Gemini Flash Latest",
@@ -1062,14 +1068,14 @@
   "deepseek/deepseek-v4-pro": {
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.8771",
-   "completion_per_mtok": "1.7543"
+   "prompt_per_mtok": "0.9553",
+   "completion_per_mtok": "1.9105"
   },
   "deepseek/deepseek-v4-flash": {
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.049",
-   "completion_per_mtok": "0.098"
+   "prompt_per_mtok": "0.0886",
+   "completion_per_mtok": "0.1772"
   },
   "tencent/hy3-preview": {
    "name": "Tencent: Hy3 preview",
