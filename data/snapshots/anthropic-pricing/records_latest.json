@@ -85,11 +85,11 @@
    "Output tokens": "$75 / MTok"
   },
   "Claude Sonnet 5": {
-   "Base input tokens": "$2 / MTok",
+   "Base input tokens": "$2 / MTok<sup>3</sup>",
    "5m cache writes": "$2.50 / MTok",
    "1h cache writes": "$4 / MTok",
    "Cache hits and refreshes": "$0.20 / MTok",
-   "Output tokens": "$10 / MTok"
+   "Output tokens": "$10 / MTok<sup>3</sup>"
   },
   "Claude Sonnet 4.6": {
    "Base input tokens": "$3 / MTok",
@@ -285,60 +285,59 @@
  "Long context pricing": {},
  "Tool use pricing": {
   "Claude Opus 5.5": {
-   "Tool choice": "auto, none",
-   "Tool use system prompt token count": "286 tokens"
+   "Tool use system prompt tokens: auto, none": "286 tokens"
   },
   "Claude Opus 5": {
-   "Tool choice": "auto, noneany, tool",
-   "Tool use system prompt token count": "286 tokens406 tokens"
+   "Tool use system prompt tokens: auto, none": "286 tokens",
+   "Tool use system prompt tokens: any, tool": "406 tokens"
   },
   "Claude Opus 4.8": {
-   "Tool choice": "auto, noneany, tool",
-   "Tool use system prompt token count": "290 tokens410 tokens"
+   "Tool use system prompt tokens: auto, none": "290 tokens",
+   "Tool use system prompt tokens: any, tool": "410 tokens"
   },
   "Claude Opus 4.7": {
-   "Tool choice": "auto, noneany, tool",
-   "Tool use system prompt token count": "675 tokens804 tokens"
+   "Tool use system prompt tokens: auto, none": "675 tokens",
+   "Tool use system prompt tokens: any, tool": "804 tokens"
   },
   "Claude Opus 4.6": {
-   "Tool choice": "auto, noneany, tool",
-   "Tool use system prompt token count": "497 tokens589 tokens"
+   "Tool use system prompt tokens: auto, none": "497 tokens",
+   "Tool use system prompt tokens: any, tool": "589 tokens"
   },
   "Claude Opus 4.5": {
-   "Tool choice": "auto, noneany, tool",
-   "Tool use system prompt token count": "496 tokens588 tokens"
+   "Tool use system prompt tokens: auto, none": "496 tokens",
+   "Tool use system prompt tokens: any, tool": "588 tokens"
   },
   "Claude Opus 4.1 (retired, except on Bedrock and Google Cloud)": {
-   "Tool choice": "auto, noneany, tool",
-   "Tool use system prompt token count": "313 tokens315 tokens"
+   "Tool use system prompt tokens: auto, none": "313 tokens",
+   "Tool use system prompt tokens: any, tool": "315 tokens"
   },
   "Claude Opus 4 (retired, except on Google Cloud)": {
-   "Tool choice": "auto, noneany, tool",
-   "Tool use system prompt token count": "313 tokens315 tokens"
+   "Tool use system prompt tokens: auto, none": "313 tokens",
+   "Tool use system prompt tokens: any, tool": "315 tokens"
   },
   "Claude Sonnet 5": {
-   "Tool choice": "auto, noneany, tool",
-   "Tool use system prompt token count": "354 tokens474 tokens"
+   "Tool use system prompt tokens: auto, none": "354 tokens",
+   "Tool use system prompt tokens: any, tool": "474 tokens"
   },
   "Claude Sonnet 4.6": {
-   "Tool choice": "auto, noneany, tool",
-   "Tool use system prompt token count": "497 tokens589 tokens"
+   "Tool use system prompt tokens: auto, none": "497 tokens",
+   "Tool use system prompt tokens: any, tool": "589 tokens"
   },
   "Claude Sonnet 4.5": {
-   "Tool choice": "auto, noneany, tool",
-   "Tool use system prompt token count": "496 tokens588 tokens"
+   "Tool use system prompt tokens: auto, none": "496 tokens",
+   "Tool use system prompt tokens: any, tool": "588 tokens"
   },
   "Claude Sonnet 4 (retired, except on Bedrock and Google Cloud)": {
-   "Tool choice": "auto, noneany, tool",
-   "Tool use system prompt token count": "313 tokens315 tokens"
+   "Tool use system prompt tokens: auto, none": "313 tokens",
+   "Tool use system prompt tokens: any, tool": "315 tokens"
   },
   "Claude Haiku 4.5": {
-   "Tool choice": "auto, noneany, tool",
-   "Tool use system prompt token count": "496 tokens588 tokens"
+   "Tool use system prompt tokens: auto, none": "496 tokens",
+   "Tool use system prompt tokens: any, tool": "588 tokens"
   },
   "Claude Haiku 3.5 (retired, except on Bedrock and Google Cloud)": {
-   "Tool choice": "auto, noneany, tool",
-   "Tool use system prompt token count": "264 tokens355 tokens"
+   "Tool use system prompt tokens: auto, none": "264 tokens",
+   "Tool use system prompt tokens: any, tool": "355 tokens"
   }
  },
  "Specific tool pricing": {},
