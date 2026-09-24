@@ -35,7 +35,7 @@
   },
   "Output price": {
    "Free Tier": "Not available | Free of charge | Free of charge | Free of charge | Not available | Not available | Free of charge | Not available | Free of charge",
-   "Paid Tier, per 1M tokens in USD": "$3 (text and thinking) $60.00 (images) Equivalent to $0.045 per 0.5K image* $0.067 per 1K image*, $0.101 per 2K image*, and $0.151 per 4K image*. | $1.50 (text and thinking) $30.00 (images) Equivalent to $0.0336 per 1K resolution image* | $9.00 (audio) through December 31, 2026.$18.00 (audio) starting January 1, 2027. | $6.00 (audio) through December 31, 2026.$12.00 (audio) starting January 1, 2027. | $20.00 (audio) | $12.00 (text and thinking) $120.00 (images) Equivalent to $0.134 per 1K/2K image** and $0.24 per 4K image** | $0.039 per image* | $10.00 (audio) | $20.00 (audio) | $5.00 through December 31, 2026.$10.00 starting January 1, 2027."
+   "Paid Tier, per 1M tokens in USD": "$3 (text and thinking) $60.00 (images) Equivalent to $0.045 per 0.5K image* $0.067 per 1K image*, $0.101 per 2K image*, and $0.151 per 4K image*. | $1.50 (text and thinking) $30.00 (images) Equivalent to $0.0336 per 1K resolution image* | $9.00 (audio) through December 31, 2026.$18.00 (audio) starting January 1, 2027.Equivalent to $0.00225 per 10s audio* through December 31, 2026.Equivalent to $0.0045 per 10s audio* starting January 1, 2027. | $6.00 (audio) through December 31, 2026.$12.00 (audio) starting January 1, 2027.Equivalent to $0.0015 per 10s audio* through December 31, 2026.Equivalent to $0.003 per 10s audio* starting January 1, 2027. | $20.00 (audio) | $12.00 (text and thinking) $120.00 (images) Equivalent to $0.134 per 1K/2K image** and $0.24 per 4K image** | $0.039 per image* | $10.00 (audio) | $20.00 (audio) | $5.00 through December 31, 2026.$10.00 starting January 1, 2027."
   },
   "Grounding with Google Web and Image Search**": {
    "Free Tier": "Not available***",
@@ -93,7 +93,7 @@
   },
   "Output price": {
    "Free Tier": "Not available",
-   "Paid Tier, per 1M tokens in USD": "$1.50 (text and thinking) $30.00 (images) Equivalent to $0.022 per 0.5K image* $0.034 per 1K image*, $0.050 per 2K image*, and $0.076 per 4K image*. | $0.75 (text and thinking) $15.00 (images) Equivalent to $0.0168 per 1K resolution image* | $4.50 (audio) through December 31, 2026.$9.00 (audio) starting January 1, 2027. | $3.00 (audio) through December 31, 2026.$6.00 (audio) starting January 1, 2027. | $10.00 (audio) | $6.00 (text and thinking) $0.067 per 1K/2K image** $0.12 per 4K image** | $0.0195 per image* | $5.00 (audio) | $10.00 (audio)"
+   "Paid Tier, per 1M tokens in USD": "$1.50 (text and thinking) $30.00 (images) Equivalent to $0.022 per 0.5K image* $0.034 per 1K image*, $0.050 per 2K image*, and $0.076 per 4K image*. | $0.75 (text and thinking) $15.00 (images) Equivalent to $0.0168 per 1K resolution image* | $4.50 (audio) through December 31, 2026.$9.00 (audio) starting January 1, 2027.Equivalent to $0.001125 per 10s audio* through December 31, 2026.Equivalent to $0.00225 per 10s audio* starting January 1, 2027. | $3.00 (audio) through December 31, 2026.$6.00 (audio) starting January 1, 2027.Equivalent to $0.00075 per 10s audio* through December 31, 2026.Equivalent to $0.0015 per 10s audio* starting January 1, 2027. | $10.00 (audio) | $6.00 (text and thinking) $0.067 per 1K/2K image** $0.12 per 4K image** | $0.0195 per image* | $5.00 (audio) | $10.00 (audio)"
   },
   "Grounding with Google Search": {
    "Free Tier": "Not available",
@@ -147,7 +147,7 @@
   },
   "Output price": {
    "Free Tier": "Not available",
-   "Paid Tier, per 1M tokens in USD": "$4.50 (audio) through December 31, 2026.$9.00 (audio) starting January 1, 2027. | $3.00 (audio) through December 31, 2026.$6.00 (audio) starting January 1, 2027. | $6.00 (text and thinking) $0.067 per 1K/2K image** $0.12 per 4K image** | $0.0195 per image*"
+   "Paid Tier, per 1M tokens in USD": "$4.50 (audio) through December 31, 2026.$9.00 (audio) starting January 1, 2027.Equivalent to $0.001125 per 10s audio* through December 31, 2026.Equivalent to $0.00225 per 10s audio* starting January 1, 2027. | $3.00 (audio) through December 31, 2026.$6.00 (audio) starting January 1, 2027.Equivalent to $0.00075 per 10s audio* through December 31, 2026.Equivalent to $0.0015 per 10s audio* starting January 1, 2027. | $6.00 (text and thinking) $0.067 per 1K/2K image** $0.12 per 4K image** | $0.0195 per image*"
   },
   "Grounding with Google Search": {
    "Free Tier": "Not available",
@@ -185,7 +185,7 @@
   },
   "Output price": {
    "Free Tier": "Free of charge | Not available | Not available",
-   "Paid Tier, per 1M tokens in USD": "$16.20 (audio) through December 31, 2026.$32.40 (audio) starting January 1, 2027. | $10.80 (audio) through December 31, 2026.$21.60 (audio) starting January 1, 2027. | $21.60 (text and thinking) $216.00 (images) | $0.0702 per image*"
+   "Paid Tier, per 1M tokens in USD": "$16.20 (audio) through December 31, 2026.$32.40 (audio) starting January 1, 2027.Equivalent to $0.00405 per 10s audio* through December 31, 2026.Equivalent to $0.0081 per 10s audio* starting January 1, 2027. | $10.80 (audio) through December 31, 2026.$21.60 (audio) starting January 1, 2027.Equivalent to $0.0027 per 10s audio* through December 31, 2026.Equivalent to $0.0054 per 10s audio* starting January 1, 2027. | $21.60 (text and thinking) $216.00 (images) | $0.0702 per image*"
   },
   "Grounding with Google Search***": {
    "Free Tier": "Not available****",
