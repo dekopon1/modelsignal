@@ -1,4 +1,9 @@
 {
+ "https://github.blog/changelog/2026-09-24-require-proof-of-presence-for-high-impact-actions": {
+  "title": "Require proof of presence for high-impact actions",
+  "date": "Thu, 24 Sep 2026 20:28:33 +0000",
+  "summary": "You can now require an interactive re-authentication or a multi-factor challenge before members take high-impact actions on GitHub Enterprise Cloud accounts. Proof of presence is an expansion of GitHub&#8217;s sudo&#8230;\nThe post Require proof of presence for high-impact actions appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-09-23-copilot-code-review-more-ways-to-request-and-configure-reviews": {
   "title": "More ways to request and configure Copilot code reviews",
   "date": "Wed, 23 Sep 2026 21:25:58 +0000",
@@ -43,10 +48,5 @@
   "title": "Security improvements for SSH",
   "date": "Tue, 22 Sep 2026 14:11:47 +0000",
   "summary": "We&#8217;re removing several SSH algorithms, adding a new algorithm, and requiring larger RSA SSH keys to improve security. The changes are as follows: We&#8217;re removing the ability to use RSA&#8230;\nThe post Security improvements for SSH appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-09-22-deprecation-notice-all-platform-codeql-bundle": {
-  "title": "Deprecation notice: All-platform CodeQL bundle",
-  "date": "Tue, 22 Sep 2026 09:21:03 +0000",
-  "summary": "Starting with CodeQL CLI 2.27.0, the all-platform CodeQL bundle (i.e., codeql-bundle.tar.gz and codeql-bundle.tar.zst), which includes the binaries for all supported platforms up to this release, is marked as deprecated. In&#8230;\nThe post Deprecation notice: All-platform CodeQL bundle appeared first on The GitHub Blog."
  }
 }

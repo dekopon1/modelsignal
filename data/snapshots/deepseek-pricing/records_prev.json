@@ -1,18 +1,73 @@
 {
- "Your First API Call": {
-  "base_url (OpenAI)": {
-   "VALUE": "https://api.deepseek.com"
+ "Models & Pricing": {},
+ "Model Details​": {
+  "BASE URL (OpenAI Format)": {
+   "deepseek-flash(1)": "https://api.deepseek.com"
   },
-  "base_url (Anthropic)": {
-   "VALUE": "https://api.deepseek.com/anthropic"
+  "BASE URL (Anthropic Format)": {
+   "deepseek-flash(1)": "https://api.deepseek.com/anthropic"
   },
-  "api_key": {
-   "VALUE": "apply for an API key"
+  "MODEL VERSION": {
+   "deepseek-flash(1)": "DeepSeek-V4.1-Flash",
+   "deepseek-v4-pro": "DeepSeek-V4-Pro-0813"
   },
-  "model": {
-   "VALUE": "deepseek-flash(1)deepseek-v4-pro"
+  "THINKING MODE": {
+   "deepseek-flash(1)": "Supports both non-thinking and thinking (default) modesSee Thinking Mode for how to switch"
+  },
+  "CONTEXT LENGTH": {
+   "deepseek-flash(1)": "1M"
+  },
+  "MAX OUTPUT": {
+   "deepseek-flash(1)": "MAXIMUM: 384K"
+  },
+  "FEATURES": {
+   "deepseek-flash(1)": "Json Output",
+   "deepseek-v4-pro": "✓"
+  },
+  "Tool Calls": {
+   "deepseek-flash(1)": "✓",
+   "deepseek-v4-pro": "✓"
+  },
+  "Responses API": {
+   "deepseek-flash(1)": "✓",
+   "deepseek-v4-pro": "✓"
+  },
+  "Anthropic API": {
+   "deepseek-flash(1)": "✓",
+   "deepseek-v4-pro": "✓"
+  },
+  "Chat Prefix Completion（Beta）": {
+   "deepseek-flash(1)": "✓",
+   "deepseek-v4-pro": "✓"
+  },
+  "FIM Completion（Beta）": {
+   "deepseek-flash(1)": "Non-thinking mode only",
+   "deepseek-v4-pro": "Non-thinking mode only"
+  },
+  "Vision": {
+   "deepseek-flash(1)": "✓",
+   "deepseek-v4-pro": "Not supported"
+  },
+  "PRICING(2)": {
+   "deepseek-flash(1)": "1M INPUT TOKENS(CACHE HIT)",
+   "deepseek-v4-pro": "OFF-PEAK"
+  },
+  "PEAK": {
+   "deepseek-flash(1)": "$0.006 | $0.3 | $1.2",
+   "deepseek-v4-pro": "$0.044 | $1.32 | $3.96"
+  },
+  "1M INPUT TOKENS(CACHE MISS)": {
+   "deepseek-flash(1)": "OFF-PEAK",
+   "deepseek-v4-pro": "$0.15"
+  },
+  "1M OUTPUT TOKENS": {
+   "deepseek-flash(1)": "OFF-PEAK",
+   "deepseek-v4-pro": "$0.6"
+  },
+  "Concurrency Limit(3)": {
+   "deepseek-flash(1)": "2500",
+   "deepseek-v4-pro": "500"
   }
  },
- "Integrate with Agent Tools​": {},
- "Invoke The Chat API​": {}
+ "Deduction Rules​": {}
 }
