@@ -1,4 +1,9 @@
 {
+ "https://github.blog/changelog/2026-09-23-copilot-code-review-more-ways-to-request-and-configure-reviews": {
+  "title": "More ways to request and configure Copilot code reviews",
+  "date": "Wed, 23 Sep 2026 21:25:58 +0000",
+  "summary": "GitHub Copilot code review now offers additional personal configurations to an expanded set of Copilot plans and an enterprise-level default setting. These improvements are now generally available: A dedicated personal&#8230;\nThe post More ways to request and configure Copilot code reviews appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-09-23-node-20-is-no-longer-available-in-github-actions": {
   "title": "Node 20 is no longer available in GitHub Actions",
   "date": "Wed, 23 Sep 2026 20:46:07 +0000",
@@ -43,10 +48,5 @@
   "title": "Deprecation notice: All-platform CodeQL bundle",
   "date": "Tue, 22 Sep 2026 09:21:03 +0000",
   "summary": "Starting with CodeQL CLI 2.27.0, the all-platform CodeQL bundle (i.e., codeql-bundle.tar.gz and codeql-bundle.tar.zst), which includes the binaries for all supported platforms up to this release, is marked as deprecated. In&#8230;\nThe post Deprecation notice: All-platform CodeQL bundle appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-09-21-refreshed-repository-pull-requests-page-generally-available": {
-  "title": "Refreshed repository pull requests page generally available",
-  "date": "Tue, 22 Sep 2026 01:25:53 +0000",
-  "summary": "The new repository pull requests page is now generally available to all GitHub users. Highlights The new page makes it easier to find and act on pull requests in a&#8230;\nThe post Refreshed repository pull requests page generally available appeared first on The GitHub Blog."
  }
 }
