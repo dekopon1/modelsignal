@@ -159,8 +159,8 @@
   "~deepseek/deepseek-pro-latest": {
    "name": "DeepSeek: DeepSeek Pro Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.26",
-   "completion_per_mtok": "3.5"
+   "prompt_per_mtok": "0.2528",
+   "completion_per_mtok": "2.88"
   },
   "~deepseek/deepseek-flash-latest": {
    "name": "DeepSeek: DeepSeek Flash Latest",
@@ -366,7 +366,7 @@
    "name": "Z.ai: GLM 5.3 Flash",
    "context_length": "1310720",
    "prompt_per_mtok": "0.045",
-   "completion_per_mtok": "0.6"
+   "completion_per_mtok": "0.14"
   },
   "z-ai/glm-5.3-flash:batch": {
    "name": "Z.ai: GLM 5.3 Flash (batch)",
@@ -641,8 +641,8 @@
   "moonshotai/kimi-k3": {
    "name": "MoonshotAI: Kimi K3",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.8845",
-   "completion_per_mtok": "10.5346"
+   "prompt_per_mtok": "3",
+   "completion_per_mtok": "15"
   },
   "moonshotai/kimi-k3:batch": {
    "name": "MoonshotAI: Kimi K3 (batch)",
@@ -1092,8 +1092,8 @@
   "deepseek/deepseek-v4-pro": {
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.8044",
-   "completion_per_mtok": "1.6088"
+   "prompt_per_mtok": "0.783",
+   "completion_per_mtok": "1.566"
   },
   "deepseek/deepseek-v4-flash": {
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
