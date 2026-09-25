@@ -1,4 +1,9 @@
 {
+ "https://github.blog/changelog/2026-09-25-updates-to-github-copilot-for-slack-and-microsoft-teams": {
+  "title": "Updates to GitHub Copilot for Slack and Microsoft Teams",
+  "date": "Fri, 25 Sep 2026 16:33:42 +0000",
+  "summary": "GitHub Copilot in Slack and Microsoft Teams now gives you more context, more control, and a clearer path from conversation to GitHub work. Whether you&#8217;re sharing files in Slack or&#8230;\nThe post Updates to GitHub Copilot for Slack and Microsoft Teams appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-09-25-codeql-2-27-1-adds-c-and-c-query-and-kotlin-2-4-20-support": {
   "title": "CodeQL 2.27.1 adds C and C++ query and Kotlin 2.4.20 support",
   "date": "Fri, 25 Sep 2026 09:55:23 +0000",
@@ -13,6 +18,11 @@
   "title": "Require proof of presence for high-impact actions",
   "date": "Thu, 24 Sep 2026 20:28:33 +0000",
   "summary": "You can now require an interactive re-authentication or a multi-factor challenge before members take high-impact actions on GitHub Enterprise Cloud accounts. Proof of presence is an expansion of GitHub&#8217;s sudo&#8230;\nThe post Require proof of presence for high-impact actions appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-09-24-expired-github-actions-artifacts-no-longer-shown-in-ui-and-api": {
+  "title": "Expired GitHub Actions artifacts no longer shown in UI and API",
+  "date": "Thu, 24 Sep 2026 19:13:02 +0000",
+  "summary": "Expired artifacts are no longer displayed in the GitHub Actions run summary or returned by the REST API. Previously, an expired artifact remained visible with an &#8220;Expired&#8221; pill, even though&#8230;\nThe post Expired GitHub Actions artifacts no longer shown in UI and API appeared first on The GitHub Blog."
  },
  "https://github.blog/changelog/2026-09-23-copilot-code-review-more-ways-to-request-and-configure-reviews": {
   "title": "More ways to request and configure Copilot code reviews",
@@ -38,15 +48,5 @@
   "title": "New features and improvements in Copilot for JetBrains",
   "date": "Wed, 23 Sep 2026 00:34:18 +0000",
   "summary": "GitHub Copilot for JetBrains 1.18.0 brings AI-assisted tool approvals, more control over agent conversations, and shared skills and instructions for your organization. You can also review plans with the Codex&#8230;\nThe post New features and improvements in Copilot for JetBrains appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-09-22-faster-c-code-intelligence-with-whole-codebase-indexing": {
-  "title": "Faster C++ code intelligence with whole codebase indexing",
-  "date": "Tue, 22 Sep 2026 22:24:48 +0000",
-  "summary": "C++ code intelligence in GitHub Copilot CLI is now faster with support for whole codebase indexing. C++ repositories can contain millions of lines of code across deeply connected source files&#8230;\nThe post Faster C++ code intelligence with whole codebase indexing appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-09-22-claude-opus-5-5-is-now-available-in-github-copilot": {
-  "title": "Claude Opus 5.5 is now available in GitHub Copilot",
-  "date": "Tue, 22 Sep 2026 17:10:23 +0000",
-  "summary": "Claude Opus 5.5, Anthropic&#8217;s newest Opus model, is now available in GitHub Copilot. You can use it for agentic coding, long-running agentic tasks, and knowledge work. In early testing, Opus&#8230;\nThe post Claude Opus 5.5 is now available in GitHub Copilot appeared first on The GitHub Blog."
  }
 }
