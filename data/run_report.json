@@ -1,5 +1,5 @@
 {
- "run_at": "2026-09-24T21:29:07Z",
+ "run_at": "2026-09-25T04:54:05Z",
  "results": [
   {
    "id": "anthropic-pricing",
@@ -16,18 +16,16 @@
   {
    "id": "openrouter-models",
    "ok": true,
-   "http_chars": 755413,
+   "http_chars": 755541,
    "changed": true,
-   "changes": 10,
+   "changes": 15,
    "announcements": 0
   },
   {
    "id": "deepseek-pricing",
    "ok": true,
    "http_chars": 23908,
-   "changed": true,
-   "changes": 1,
-   "announcements": 0
+   "changed": false
   },
   {
    "id": "mistral-models",
@@ -62,7 +60,7 @@
   {
    "id": "anthropic-changelog",
    "ok": true,
-   "http_chars": 113182,
+   "http_chars": 112107,
    "changed": true,
    "changes": 0,
    "announcements": 0
@@ -70,7 +68,7 @@
   {
    "id": "github-changelog-rss",
    "ok": true,
-   "http_chars": 50318,
+   "http_chars": 46674,
    "changed": true,
    "changes": 0,
    "announcements": 1

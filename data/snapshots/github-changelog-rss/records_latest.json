@@ -1,4 +1,9 @@
 {
+ "https://github.blog/changelog/2026-09-24-default-enablement-of-copilot-features-for-copilot-business-and-enterprise": {
+  "title": "Default Enablement of Copilot Features for Copilot Business and Enterprise",
+  "date": "Fri, 25 Sep 2026 03:13:23 +0000",
+  "summary": "We&#8217;re introducing a new global default policy for generally available GitHub Copilot features and supported client capabilities in enterprise and organization Copilot settings. For the next 28 days, you can&#8230;\nThe post Default Enablement of Copilot Features for Copilot Business and Enterprise appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-09-24-require-proof-of-presence-for-high-impact-actions": {
   "title": "Require proof of presence for high-impact actions",
   "date": "Thu, 24 Sep 2026 20:28:33 +0000",
@@ -43,10 +48,5 @@
   "title": "OpenAI&#8217;s GPT-6 Sol and GPT-6 Luna now available",
   "date": "Tue, 22 Sep 2026 17:00:14 +0000",
   "summary": "OpenAI&#8217;s GPT-6 family is expanding in GitHub Copilot with two additional models: GPT-6 Sol, and GPT-6 Luna. Joining the previously released GPT-6 Astra, these new options let you select the&#8230;\nThe post OpenAI&#8217;s GPT-6 Sol and GPT-6 Luna now available appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-09-22-security-improvements-for-ssh": {
-  "title": "Security improvements for SSH",
-  "date": "Tue, 22 Sep 2026 14:11:47 +0000",
-  "summary": "We&#8217;re removing several SSH algorithms, adding a new algorithm, and requiring larger RSA SSH keys to improve security. The changes are as follows: We&#8217;re removing the ability to use RSA&#8230;\nThe post Security improvements for SSH appeared first on The GitHub Blog."
  }
 }
