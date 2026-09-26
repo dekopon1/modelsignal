@@ -237,8 +237,8 @@
   "deepseek/deepseek-v4.1-flash": {
    "name": "DeepSeek: DeepSeek V4.1 Flash",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.3",
-   "completion_per_mtok": "1.2"
+   "prompt_per_mtok": "0.035",
+   "completion_per_mtok": "0.29"
   },
   "deepseek/deepseek-v4.1-flash:batch": {
    "name": "DeepSeek: DeepSeek V4.1 Flash (batch)",
@@ -1013,8 +1013,8 @@
   "~moonshotai/kimi-latest": {
    "name": "MoonshotAI: Kimi Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "1.0301",
-   "completion_per_mtok": "9.043"
+   "prompt_per_mtok": "1",
+   "completion_per_mtok": "9"
   },
   "~google/gemini-flash-latest": {
    "name": "Google: Gemini Flash Latest",
