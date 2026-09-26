@@ -171,8 +171,8 @@
   "~deepseek/deepseek-pro-latest": {
    "name": "DeepSeek: DeepSeek Pro Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.25",
-   "completion_per_mtok": "3.5"
+   "prompt_per_mtok": "0.2495",
+   "completion_per_mtok": "0.7484"
   },
   "~deepseek/deepseek-flash-latest": {
    "name": "DeepSeek: DeepSeek Flash Latest",
@@ -237,8 +237,8 @@
   "deepseek/deepseek-v4.1-flash": {
    "name": "DeepSeek: DeepSeek V4.1 Flash",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.14",
-   "completion_per_mtok": "0.42"
+   "prompt_per_mtok": "0.3",
+   "completion_per_mtok": "1.2"
   },
   "deepseek/deepseek-v4.1-flash:batch": {
    "name": "DeepSeek: DeepSeek V4.1 Flash (batch)",
@@ -401,8 +401,8 @@
   "~z-ai/glm-latest": {
    "name": "Z.ai: GLM Latest",
    "context_length": "1310720",
-   "prompt_per_mtok": "0.4746",
-   "completion_per_mtok": "1.4916"
+   "prompt_per_mtok": "0.3794",
+   "completion_per_mtok": "1.1924"
   },
   "tencent/hy-mt2-7b": {
    "name": "Tencent: Hy-MT2-7B",
@@ -413,8 +413,8 @@
   "z-ai/glm-5.3": {
    "name": "Z.ai: GLM 5.3",
    "context_length": "1310720",
-   "prompt_per_mtok": "1.4",
-   "completion_per_mtok": "4.4"
+   "prompt_per_mtok": "0.3794",
+   "completion_per_mtok": "1.1924"
   },
   "z-ai/glm-5.3:batch": {
    "name": "Z.ai: GLM 5.3 (batch)",
@@ -1086,8 +1086,8 @@
   "deepseek/deepseek-v4-pro": {
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.4188",
-   "completion_per_mtok": "0.8376"
+   "prompt_per_mtok": "0.348",
+   "completion_per_mtok": "0.696"
   },
   "deepseek/deepseek-v4-flash": {
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
