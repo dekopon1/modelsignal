@@ -177,8 +177,8 @@
   "~deepseek/deepseek-flash-latest": {
    "name": "DeepSeek: DeepSeek Flash Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.099",
-   "completion_per_mtok": "0.6"
+   "prompt_per_mtok": "0.035",
+   "completion_per_mtok": "0.29"
   },
   "inference-net/schematron-v2-turbo": {
    "name": "Inference.net: Schematron V2 Turbo",
@@ -237,8 +237,8 @@
   "deepseek/deepseek-v4.1-flash": {
    "name": "DeepSeek: DeepSeek V4.1 Flash",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.099",
-   "completion_per_mtok": "0.6"
+   "prompt_per_mtok": "0.14",
+   "completion_per_mtok": "0.42"
   },
   "deepseek/deepseek-v4.1-flash:batch": {
    "name": "DeepSeek: DeepSeek V4.1 Flash (batch)",
@@ -353,8 +353,8 @@
   "~z-ai/glm-flash-latest": {
    "name": "Z.ai: GLM Flash Latest",
    "context_length": "1310720",
-   "prompt_per_mtok": "0.045",
-   "completion_per_mtok": "0.14"
+   "prompt_per_mtok": "0.04",
+   "completion_per_mtok": "0.5"
   },
   "qwen/qwen3.8-flash": {
    "name": "Qwen: Qwen3.8 Flash",
@@ -365,8 +365,8 @@
   "z-ai/glm-5.3-flash": {
    "name": "Z.ai: GLM 5.3 Flash",
    "context_length": "1310720",
-   "prompt_per_mtok": "0.045",
-   "completion_per_mtok": "0.14"
+   "prompt_per_mtok": "0.04",
+   "completion_per_mtok": "0.5"
   },
   "z-ai/glm-5.3-flash:batch": {
    "name": "Z.ai: GLM 5.3 Flash (batch)",
@@ -401,8 +401,8 @@
   "~z-ai/glm-latest": {
    "name": "Z.ai: GLM Latest",
    "context_length": "1310720",
-   "prompt_per_mtok": "0.5614",
-   "completion_per_mtok": "1.7644"
+   "prompt_per_mtok": "0.4746",
+   "completion_per_mtok": "1.4916"
   },
   "tencent/hy-mt2-7b": {
    "name": "Tencent: Hy-MT2-7B",
@@ -493,7 +493,7 @@
   "nvidia/nemotron-3.5-lightning": {
    "name": "NVIDIA: Nemotron 3.5 Lightning",
    "context_length": "1000000",
-   "prompt_per_mtok": "0.07",
+   "prompt_per_mtok": "0.08",
    "completion_per_mtok": "0.2"
   },
   "nvidia/nemotron-3.5-lightning:free": {
@@ -529,18 +529,18 @@
   "~deepseek/deepseek-v4-flash-latest": {
    "name": "DeepSeek: DeepSeek V4 Flash Latest",
    "context_length": "1310720",
-   "prompt_per_mtok": "0.0225",
-   "completion_per_mtok": "0.42"
+   "prompt_per_mtok": "0.021",
+   "completion_per_mtok": "0.32"
   },
   "deepseek/deepseek-v4-flash-0731": {
    "name": "DeepSeek: DeepSeek V4 Flash 0731",
    "context_length": "1310720",
-   "prompt_per_mtok": "0.03",
+   "prompt_per_mtok": "0.021",
    "completion_per_mtok": "0.32"
   },
   "thinkingmachines/inkling-small": {
    "name": "Thinking Machines: Inkling Small",
-   "context_length": "1048576",
+   "context_length": "524288",
    "prompt_per_mtok": "0.45",
    "completion_per_mtok": "1.2"
   },
@@ -622,7 +622,7 @@
   },
   "thinkingmachines/inkling": {
    "name": "Thinking Machines: Inkling",
-   "context_length": "1048576",
+   "context_length": "524288",
    "prompt_per_mtok": "1",
    "completion_per_mtok": "4.05"
   },
@@ -761,8 +761,8 @@
   "tencent/hy3": {
    "name": "Tencent: Hy3",
    "context_length": "262144",
-   "prompt_per_mtok": "0.0825",
-   "completion_per_mtok": "0.33"
+   "prompt_per_mtok": "0.132",
+   "completion_per_mtok": "0.528"
   },
   "poolside/laguna-xs-2.1": {
    "name": "Poolside: Laguna XS 2.1",
@@ -1013,8 +1013,8 @@
   "~moonshotai/kimi-latest": {
    "name": "MoonshotAI: Kimi Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "1.2",
-   "completion_per_mtok": "10.5346"
+   "prompt_per_mtok": "1.0301",
+   "completion_per_mtok": "9.043"
   },
   "~google/gemini-flash-latest": {
    "name": "Google: Gemini Flash Latest",
@@ -1057,7 +1057,7 @@
    "name": "Qwen: Qwen3.6 27B",
    "context_length": "262144",
    "prompt_per_mtok": "0.32",
-   "completion_per_mtok": "2.7"
+   "completion_per_mtok": "3.2"
   },
   "openai/gpt-5.5-pro": {
    "name": "OpenAI: GPT-5.5 Pro",
@@ -1086,8 +1086,8 @@
   "deepseek/deepseek-v4-pro": {
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.5507",
-   "completion_per_mtok": "1.1014"
+   "prompt_per_mtok": "0.4188",
+   "completion_per_mtok": "0.8376"
   },
   "deepseek/deepseek-v4-flash": {
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
@@ -2711,12 +2711,6 @@
    "context_length": "128000",
    "prompt_per_mtok": "5",
    "completion_per_mtok": "15"
-  },
-  "anthropic/claude-3-haiku": {
-   "name": "Anthropic: Claude 3 Haiku",
-   "context_length": "200000",
-   "prompt_per_mtok": "0.25",
-   "completion_per_mtok": "1.25"
   },
   "mistralai/mistral-large": {
    "name": "Mistral Large",

@@ -440,9 +440,9 @@
   "summary": "NVIDIA teams use ChatGPT Work to reduce manual tasks, connect fast-moving signals, and scale successful workflows globally."
  },
  "https://openai.com/index/asana": {
-  "title": "Asana cleared 5 years of engineering work in 2 weeks with Codex",
+  "title": "Asana completed a years-long code migration in 2 weeks with Codex",
   "date": "Tue, 18 Aug 2026 07:00:00 GMT",
-  "summary": "Asana used OpenAI Codex to replace an outdated testing system in two weeks, completing work expected to take five years for about $12K."
+  "summary": "Asana used OpenAI Codex to replace an outdated testing system in two weeks, with about $12K in model and infrastructure costs."
  },
  "https://openai.com/index/the-defenders-window": {
   "title": "The Defender’s Window",

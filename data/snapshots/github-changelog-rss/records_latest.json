@@ -1,4 +1,19 @@
 {
+ "https://github.blog/changelog/2026-09-25-enterprise-managed-settings-in-product-validator": {
+  "title": "Enterprise managed settings in-product validator",
+  "date": "Fri, 25 Sep 2026 23:24:57 +0000",
+  "summary": "You can now use an in-product validator for enterprise managed settings for GitHub Copilot. The validator detects malformed JSON, unsupported configurations, invalid team mappings, and other errors that can prevent&#8230;\nThe post Enterprise managed settings in-product validator appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-09-25-usage-metrics-api-adds-pull-request-review-stages": {
+  "title": "Usage metrics API adds pull request review stages",
+  "date": "Fri, 25 Sep 2026 21:09:40 +0000",
+  "summary": "The enterprise and organization repository-level Copilot usage metrics reports now break down how long pull requests spend in each stage of review. A new pull_request_review_times array on each repos-1-day row&#8230;\nThe post Usage metrics API adds pull request review stages appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-09-25-personal-saved-views-for-repository-issues-and-more": {
+  "title": "Private saved views for repository issues and “Relates to” issue relationship is generally available",
+  "date": "Fri, 25 Sep 2026 19:05:03 +0000",
+  "summary": "Private saved views for repository issues Repository issues pages now support private saved views, making it easier to create and save personalized views of your issues. &#8220;Relates to&#8221; issue relationship&#8230;\nThe post Private saved views for repository issues and “Relates to” issue relationship is generally available appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-09-25-changes-to-query-results-in-the-github-actions-api-and-ui": {
   "title": "Changes to query results in the GitHub Actions API and UI",
   "date": "Fri, 25 Sep 2026 18:17:06 +0000",
@@ -33,20 +48,5 @@
   "title": "Require proof of presence for high-impact actions",
   "date": "Thu, 24 Sep 2026 20:28:33 +0000",
   "summary": "You can now require an interactive re-authentication or a multi-factor challenge before members take high-impact actions on GitHub Enterprise Cloud accounts. Proof of presence is an expansion of GitHub&#8217;s sudo&#8230;\nThe post Require proof of presence for high-impact actions appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-09-24-expired-github-actions-artifacts-no-longer-shown-in-ui-and-api": {
-  "title": "Expired GitHub Actions artifacts no longer shown in UI and API",
-  "date": "Thu, 24 Sep 2026 19:13:02 +0000",
-  "summary": "Expired artifacts are no longer displayed in the GitHub Actions run summary or returned by the REST API. Previously, an expired artifact remained visible with an &#8220;Expired&#8221; pill, even though&#8230;\nThe post Expired GitHub Actions artifacts no longer shown in UI and API appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-09-23-copilot-code-review-more-ways-to-request-and-configure-reviews": {
-  "title": "More ways to request and configure Copilot code reviews",
-  "date": "Wed, 23 Sep 2026 21:25:58 +0000",
-  "summary": "GitHub Copilot code review now offers additional personal configurations to an expanded set of Copilot plans and an enterprise-level default setting. These improvements are now generally available: A dedicated personal&#8230;\nThe post More ways to request and configure Copilot code reviews appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-09-23-node-20-is-no-longer-available-in-github-actions": {
-  "title": "Node 20 is no longer available in GitHub Actions",
-  "date": "Wed, 23 Sep 2026 20:46:07 +0000",
-  "summary": "This is the final notification that Node 20 is no longer available on GitHub Actions runners. Runners now use Node 24 for JavaScript actions. The temporary ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION opt-out is no&#8230;\nThe post Node 20 is no longer available in GitHub Actions appeared first on The GitHub Blog."
  }
 }
