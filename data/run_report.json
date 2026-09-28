@@ -1,5 +1,5 @@
 {
- "run_at": "2026-09-27T21:18:40Z",
+ "run_at": "2026-09-28T05:19:54Z",
  "results": [
   {
    "id": "anthropic-pricing",
@@ -16,9 +16,9 @@
   {
    "id": "openrouter-models",
    "ok": true,
-   "http_chars": 751691,
+   "http_chars": 751796,
    "changed": true,
-   "changes": 9,
+   "changes": 24,
    "announcements": 0
   },
   {
@@ -36,7 +36,7 @@
   {
    "id": "google-gemini-pricing",
    "ok": true,
-   "http_chars": 257045,
+   "http_chars": 257049,
    "changed": true,
    "changes": 0,
    "announcements": 0
@@ -76,7 +76,7 @@
   {
    "id": "gemini-release-notes",
    "ok": true,
-   "http_chars": 169196,
+   "http_chars": 169200,
    "changed": true,
    "changes": 0,
    "announcements": 0
