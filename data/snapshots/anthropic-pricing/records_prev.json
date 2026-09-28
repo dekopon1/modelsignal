@@ -84,6 +84,13 @@
    "Cache hits and refreshes": "$1.50 / MTok",
    "Output tokens": "$75 / MTok"
   },
+  "Claude Sonnet 5.5": {
+   "Base input tokens": "$2 / MTok",
+   "5m cache writes": "$2.50 / MTok",
+   "1h cache writes": "$4 / MTok",
+   "Cache hits and refreshes": "$0.20 / MTok",
+   "Output tokens": "$10 / MTok"
+  },
   "Claude Sonnet 5": {
    "Base input tokens": "$2 / MTok<sup>3</sup>",
    "5m cache writes": "$2.50 / MTok",
@@ -257,6 +264,10 @@
    "Batch input": "$7.50 / MTok",
    "Batch output": "$37.50 / MTok"
   },
+  "Claude Sonnet 5.5": {
+   "Batch input": "$1 / MTok",
+   "Batch output": "$5 / MTok"
+  },
   "Claude Sonnet 5": {
    "Batch input": "$1 / MTok",
    "Batch output": "$5 / MTok"
@@ -314,6 +325,9 @@
   "Claude Opus 4 (retired, except on Google Cloud)": {
    "Tool use system prompt tokens: auto, none": "313 tokens",
    "Tool use system prompt tokens: any, tool": "315 tokens"
+  },
+  "Claude Sonnet 5.5": {
+   "Tool use system prompt tokens: auto, none": "286 tokens"
   },
   "Claude Sonnet 5": {
    "Tool use system prompt tokens: auto, none": "354 tokens",
