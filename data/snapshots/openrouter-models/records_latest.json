@@ -183,14 +183,14 @@
   "~deepseek/deepseek-pro-latest": {
    "name": "DeepSeek: DeepSeek Pro Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.2259",
+   "prompt_per_mtok": "0.1581",
    "completion_per_mtok": "1.9584"
   },
   "~deepseek/deepseek-flash-latest": {
    "name": "DeepSeek: DeepSeek Flash Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.06",
-   "completion_per_mtok": "0.39"
+   "prompt_per_mtok": "0.02",
+   "completion_per_mtok": "0.6"
   },
   "inference-net/schematron-v2-turbo": {
    "name": "Inference.net: Schematron V2 Turbo",
@@ -371,8 +371,8 @@
   "~z-ai/glm-flash-latest": {
    "name": "Z.ai: GLM Flash Latest",
    "context_length": "1310720",
-   "prompt_per_mtok": "0.045",
-   "completion_per_mtok": "0.14"
+   "prompt_per_mtok": "0.02",
+   "completion_per_mtok": "0.3"
   },
   "qwen/qwen3.8-flash": {
    "name": "Qwen: Qwen3.8 Flash",
@@ -419,8 +419,8 @@
   "~z-ai/glm-latest": {
    "name": "Z.ai: GLM Latest",
    "context_length": "1310720",
-   "prompt_per_mtok": "0.15",
-   "completion_per_mtok": "3.3"
+   "prompt_per_mtok": "0.2",
+   "completion_per_mtok": "3.4"
   },
   "tencent/hy-mt2-7b": {
    "name": "Tencent: Hy-MT2-7B",
@@ -443,8 +443,8 @@
   "qwen/qwen3.8-27b": {
    "name": "Qwen: Qwen3.8 27B",
    "context_length": "1000000",
-   "prompt_per_mtok": "0.42",
-   "completion_per_mtok": "3"
+   "prompt_per_mtok": "0.0539",
+   "completion_per_mtok": "4.4"
   },
   "qwen/qwen3.8-27b:free": {
    "name": "Qwen: Qwen3.8 27B (free)",
@@ -493,7 +493,7 @@
   "deepseek/deepseek-v4-pro-0813": {
    "name": "DeepSeek: DeepSeek V4 Pro 0813",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.3915",
+   "prompt_per_mtok": "0.4",
    "completion_per_mtok": "4.2"
   },
   "x-ai/grok-4.6": {
@@ -547,13 +547,13 @@
   "~deepseek/deepseek-v4-flash-latest": {
    "name": "DeepSeek: DeepSeek V4 Flash Latest",
    "context_length": "1310720",
-   "prompt_per_mtok": "0.019",
-   "completion_per_mtok": "0.3"
+   "prompt_per_mtok": "0.012",
+   "completion_per_mtok": "0.5"
   },
   "deepseek/deepseek-v4-flash-0731": {
    "name": "DeepSeek: DeepSeek V4 Flash 0731",
    "context_length": "1310720",
-   "prompt_per_mtok": "0.021",
+   "prompt_per_mtok": "0.018",
    "completion_per_mtok": "0.32"
   },
   "thinkingmachines/inkling-small": {
@@ -779,8 +779,8 @@
   "tencent/hy3": {
    "name": "Tencent: Hy3",
    "context_length": "262144",
-   "prompt_per_mtok": "0.0825",
-   "completion_per_mtok": "0.33"
+   "prompt_per_mtok": "0.132",
+   "completion_per_mtok": "0.528"
   },
   "poolside/laguna-xs-2.1": {
    "name": "Poolside: Laguna XS 2.1",
@@ -840,8 +840,8 @@
   "z-ai/glm-5.2": {
    "name": "Z.ai: GLM 5.2",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.6496",
-   "completion_per_mtok": "2.0416"
+   "prompt_per_mtok": "0.3249",
+   "completion_per_mtok": "4.4"
   },
   "openrouter/fusion": {
    "name": "OpenRouter: Fusion",
@@ -1031,8 +1031,8 @@
   "~moonshotai/kimi-latest": {
    "name": "MoonshotAI: Kimi Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.875",
-   "completion_per_mtok": "11.2"
+   "prompt_per_mtok": "0.4",
+   "completion_per_mtok": "10"
   },
   "~google/gemini-flash-latest": {
    "name": "Google: Gemini Flash Latest",
@@ -1104,14 +1104,14 @@
   "deepseek/deepseek-v4-pro": {
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.783",
-   "completion_per_mtok": "1.566"
+   "prompt_per_mtok": "0.9553",
+   "completion_per_mtok": "1.9105"
   },
   "deepseek/deepseek-v4-flash": {
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0489",
-   "completion_per_mtok": "0.0977"
+   "prompt_per_mtok": "0.14",
+   "completion_per_mtok": "0.28"
   },
   "tencent/hy3-preview": {
    "name": "Tencent: Hy3 preview",
@@ -1170,8 +1170,8 @@
   "z-ai/glm-5.1": {
    "name": "Z.ai: GLM 5.1",
    "context_length": "204800",
-   "prompt_per_mtok": "0.9646",
-   "completion_per_mtok": "3.0316"
+   "prompt_per_mtok": "1.4",
+   "completion_per_mtok": "4.4"
   },
   "google/gemma-4-26b-a4b-it": {
    "name": "Google: Gemma 4 26B A4B ",
@@ -1248,8 +1248,8 @@
   "minimax/minimax-m2.7": {
    "name": "MiniMax: MiniMax M2.7",
    "context_length": "204800",
-   "prompt_per_mtok": "0.3",
-   "completion_per_mtok": "1.2"
+   "prompt_per_mtok": "0.21",
+   "completion_per_mtok": "0.84"
   },
   "openai/gpt-5.4-nano": {
    "name": "OpenAI: GPT-5.4 Nano",
@@ -1874,8 +1874,8 @@
   "deepseek/deepseek-v3.2-exp": {
    "name": "DeepSeek: DeepSeek V3.2 Exp",
    "context_length": "163840",
-   "prompt_per_mtok": "0.1344",
-   "completion_per_mtok": "0.2016"
+   "prompt_per_mtok": "0.27",
+   "completion_per_mtok": "0.41"
   },
   "thedrummer/cydonia-24b-v4.1": {
    "name": "TheDrummer: Cydonia 24B V4.1",
@@ -1916,7 +1916,7 @@
   "deepseek/deepseek-v3.1-terminus": {
    "name": "DeepSeek: DeepSeek V3.1 Terminus",
    "context_length": "163840",
-   "prompt_per_mtok": "0.27",
+   "prompt_per_mtok": "0.3",
    "completion_per_mtok": "1"
   },
   "qwen/qwen3-coder-flash": {
@@ -2078,8 +2078,8 @@
   "qwen/qwen3-30b-a3b-instruct-2507": {
    "name": "Qwen: Qwen3 30B A3B Instruct 2507",
    "context_length": "262144",
-   "prompt_per_mtok": "0.1",
-   "completion_per_mtok": "0.3"
+   "prompt_per_mtok": "0.0481",
+   "completion_per_mtok": "0.193"
   },
   "z-ai/glm-4.5": {
    "name": "Z.ai: GLM 4.5",
@@ -2247,8 +2247,8 @@
   "qwen/qwen3-30b-a3b": {
    "name": "Qwen: Qwen3 30B A3B",
    "context_length": "131072",
-   "prompt_per_mtok": "0.12",
-   "completion_per_mtok": "0.5"
+   "prompt_per_mtok": "0.13",
+   "completion_per_mtok": "0.52"
   },
   "qwen/qwen3-8b": {
    "name": "Qwen: Qwen3 8B",
