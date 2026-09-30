@@ -1,4 +1,24 @@
 {
+ "https://github.blog/changelog/2026-09-30-opt-in-dist-tag-permissions-for-npm-trusted-publishing": {
+  "title": "Opt-in dist-tag permissions for npm trusted publishing",
+  "date": "Wed, 30 Sep 2026 21:03:09 +0000",
+  "summary": "Trusted publishing configurations for npm can now be granted permission to manage dist-tags (e.g., promoting a version to latest, updating next and beta pointers) using short-lived OIDC credentials instead of&#8230;\nThe post Opt-in dist-tag permissions for npm trusted publishing appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-09-30-github-advanced-security-trials-for-github-team": {
+  "title": "GitHub Advanced Security trials for GitHub Team",
+  "date": "Wed, 30 Sep 2026 16:48:24 +0000",
+  "summary": "GitHub Team customers can now start self-serve trials of GitHub Advanced Security to evaluate GitHub Code Security and GitHub Secret Protection. Start a trial from your organization&#8217;s Overview page, Billing&#8230;\nThe post GitHub Advanced Security trials for GitHub Team appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-09-30-hydrafusion-in-vs-code-and-the-github-copilot-app": {
+  "title": "HydraFusion in VS Code and the GitHub Copilot app",
+  "date": "Wed, 30 Sep 2026 14:31:19 +0000",
+  "summary": "The HydraFusion research preview is now available in Visual Studio Code and the GitHub Copilot app, expanding beyond Copilot CLI. HydraFusion appears in the model picker, but rather than being&#8230;\nThe post HydraFusion in VS Code and the GitHub Copilot app appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-09-30-x25519-only-tls-ends-for-ghe-com-on-september-15": {
+  "title": "X25519-only TLS ends for GHE.com on October 7",
+  "date": "Wed, 30 Sep 2026 13:30:24 +0000",
+  "summary": "Beginning October 7, 2026, GitHub Enterprise Cloud with data residency will no longer accept TLS connections from clients that offer only X25519 for key agreement. Most customers don&#8217;t need to&#8230;\nThe post X25519-only TLS ends for GHE.com on October 7 appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-09-29-repository-custom-runner-settings-for-dependabot": {
   "title": "Repository custom runner settings for Dependabot",
   "date": "Tue, 29 Sep 2026 19:10:00 +0000",
@@ -28,25 +48,5 @@
   "title": "Enterprise managed settings in-product validator",
   "date": "Fri, 25 Sep 2026 23:24:57 +0000",
   "summary": "You can now use an in-product validator for enterprise managed settings for GitHub Copilot. The validator detects malformed JSON, unsupported configurations, invalid team mappings, and other errors that can prevent&#8230;\nThe post Enterprise managed settings in-product validator appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-09-25-usage-metrics-api-adds-pull-request-review-stages": {
-  "title": "Usage metrics API adds pull request review stages",
-  "date": "Fri, 25 Sep 2026 21:09:40 +0000",
-  "summary": "The enterprise and organization repository-level Copilot usage metrics reports now break down how long pull requests spend in each stage of review. A new pull_request_review_times array on each repos-1-day row&#8230;\nThe post Usage metrics API adds pull request review stages appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-09-25-personal-saved-views-for-repository-issues-and-more": {
-  "title": "Private saved views for repository issues and “Relates to” issue relationship is generally available",
-  "date": "Fri, 25 Sep 2026 19:05:03 +0000",
-  "summary": "Private saved views for repository issues Repository issues pages now support private saved views, making it easier to create and save personalized views of your issues. &#8220;Relates to&#8221; issue relationship&#8230;\nThe post Private saved views for repository issues and “Relates to” issue relationship is generally available appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-09-25-changes-to-query-results-in-the-github-actions-api-and-ui": {
-  "title": "Changes to query results in the GitHub Actions API and UI",
-  "date": "Fri, 25 Sep 2026 18:17:06 +0000",
-  "summary": "Queries for workflow runs in the GitHub Actions API and UI now return a less precise but more accurate count of records when you search by workflow, event, status, branch,&#8230;\nThe post Changes to query results in the GitHub Actions API and UI appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-09-25-agentic-autofix-now-uses-copilot-memory": {
-  "title": "Agentic autofix now uses Copilot Memory",
-  "date": "Fri, 25 Sep 2026 17:25:50 +0000",
-  "summary": "Agentic autofix now uses Copilot Memory for customers who&#8217;ve enabled it. When you use agentic autofix, it reviews existing memories for context that can help resolve security alerts. When it&#8230;\nThe post Agentic autofix now uses Copilot Memory appeared first on The GitHub Blog."
  }
 }

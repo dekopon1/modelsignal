@@ -1,5 +1,5 @@
 {
- "run_at": "2026-09-30T12:30:28Z",
+ "run_at": "2026-09-30T22:12:44Z",
  "results": [
   {
    "id": "anthropic-pricing",
@@ -11,14 +11,16 @@
    "id": "anthropic-limits",
    "ok": true,
    "http_chars": 34771,
-   "changed": false
+   "changed": true,
+   "changes": 0,
+   "announcements": 0
   },
   {
    "id": "openrouter-models",
    "ok": true,
-   "http_chars": 762022,
+   "http_chars": 762773,
    "changed": true,
-   "changes": 20,
+   "changes": 7,
    "announcements": 0
   },
   {
@@ -31,9 +33,7 @@
    "id": "mistral-models",
    "ok": true,
    "http_chars": 1312734,
-   "changed": true,
-   "changes": 321,
-   "announcements": 0
+   "changed": false
   },
   {
    "id": "google-gemini-pricing",
@@ -46,7 +46,7 @@
   {
    "id": "github-copilot-plans",
    "ok": true,
-   "http_chars": 1069750,
+   "http_chars": 1068947,
    "changed": true,
    "changes": 0,
    "announcements": 0
@@ -54,7 +54,7 @@
   {
    "id": "github-copilot-premium",
    "ok": true,
-   "http_chars": 602094,
+   "http_chars": 601351,
    "changed": true,
    "changes": 0,
    "announcements": 0
@@ -62,22 +62,26 @@
   {
    "id": "anthropic-changelog",
    "ok": true,
-   "http_chars": 115260,
-   "changed": false
+   "http_chars": 115693,
+   "changed": true,
+   "changes": 0,
+   "announcements": 1
   },
   {
    "id": "github-changelog-rss",
    "ok": true,
-   "http_chars": 37782,
-   "changed": false
+   "http_chars": 37365,
+   "changed": true,
+   "changes": 0,
+   "announcements": 4
   },
   {
    "id": "openai-news-rss",
    "ok": true,
-   "http_chars": 753626,
+   "http_chars": 754928,
    "changed": true,
    "changes": 0,
-   "announcements": 0
+   "announcements": 2
   },
   {
    "id": "gemini-release-notes",
