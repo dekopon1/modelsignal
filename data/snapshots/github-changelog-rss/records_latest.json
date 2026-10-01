@@ -1,52 +1,52 @@
 {
- "https://github.blog/changelog/2026-09-30-opt-in-dist-tag-permissions-for-npm-trusted-publishing": {
-  "title": "Opt-in dist-tag permissions for npm trusted publishing",
-  "date": "Wed, 30 Sep 2026 21:03:09 +0000",
-  "summary": "Trusted publishing configurations for npm can now be granted permission to manage dist-tags (e.g., promoting a version to latest, updating next and beta pointers) using short-lived OIDC credentials instead of&#8230;\nThe post Opt-in dist-tag permissions for npm trusted publishing appeared first on The GitHub Blog."
+ "https://github.blog/changelog/2026-10-01-rate-limits-for-private-vulnerability-reports": {
+  "title": "Rate limits for private vulnerability reports",
+  "date": "Thu, 01 Oct 2026 19:57:39 +0000",
+  "summary": "Open source maintainers are receiving more low-quality and automated vulnerability reports, which can bury the reports that matter. Rate limits cap how many new reports a single account can submit&#8230;\nThe post Rate limits for private vulnerability reports appeared first on The GitHub Blog."
  },
- "https://github.blog/changelog/2026-09-30-github-advanced-security-trials-for-github-team": {
-  "title": "GitHub Advanced Security trials for GitHub Team",
-  "date": "Wed, 30 Sep 2026 16:48:24 +0000",
-  "summary": "GitHub Team customers can now start self-serve trials of GitHub Advanced Security to evaluate GitHub Code Security and GitHub Secret Protection. Start a trial from your organization&#8217;s Overview page, Billing&#8230;\nThe post GitHub Advanced Security trials for GitHub Team appeared first on The GitHub Blog."
+ "https://github.blog/changelog/2026-10-01-structured-forms-for-private-vulnerability-reports": {
+  "title": "Structured forms for private vulnerability reports",
+  "date": "Thu, 01 Oct 2026 19:57:28 +0000",
+  "summary": "Private vulnerability reports can now use a structured form that asks reporters for the details you need to assess a vulnerability, including a reproducible proof of concept. A single free-text&#8230;\nThe post Structured forms for private vulnerability reports appeared first on The GitHub Blog."
  },
- "https://github.blog/changelog/2026-09-30-hydrafusion-in-vs-code-and-the-github-copilot-app": {
-  "title": "HydraFusion in VS Code and the GitHub Copilot app",
-  "date": "Wed, 30 Sep 2026 14:31:19 +0000",
-  "summary": "The HydraFusion research preview is now available in Visual Studio Code and the GitHub Copilot app, expanding beyond Copilot CLI. HydraFusion appears in the model picker, but rather than being&#8230;\nThe post HydraFusion in VS Code and the GitHub Copilot app appeared first on The GitHub Blog."
+ "https://github.blog/changelog/2026-10-01-github-copilot-can-now-interact-with-desktop-apps": {
+  "title": "GitHub Copilot can now interact with desktop apps with computer use",
+  "date": "Thu, 01 Oct 2026 19:11:26 +0000",
+  "summary": "Computer use is now available in public preview in GitHub Copilot CLI and the GitHub Copilot app on macOS and Windows. Copilot can interact with desktop applications on your behalf&#8230;\nThe post GitHub Copilot can now interact with desktop apps with computer use appeared first on The GitHub Blog."
  },
- "https://github.blog/changelog/2026-09-30-x25519-only-tls-ends-for-ghe-com-on-september-15": {
-  "title": "X25519-only TLS ends for GHE.com on October 7",
-  "date": "Wed, 30 Sep 2026 13:30:24 +0000",
-  "summary": "Beginning October 7, 2026, GitHub Enterprise Cloud with data residency will no longer accept TLS connections from clients that offer only X25519 for key agreement. Most customers don&#8217;t need to&#8230;\nThe post X25519-only TLS ends for GHE.com on October 7 appeared first on The GitHub Blog."
+ "https://github.blog/changelog/2026-10-01-github-copilot-in-vs-code-september-2026-releases": {
+  "title": "GitHub Copilot in VS Code, September 2026 releases",
+  "date": "Thu, 01 Oct 2026 19:09:10 +0000",
+  "summary": "This changelog covers VS Code v1.136 through v1.140, shipped throughout September 2026. September&#8217;s releases streamline agent-driven development from implementation through pull request merge. Automations handle repeatable tasks, agent merge helps&#8230;\nThe post GitHub Copilot in VS Code, September 2026 releases appeared first on The GitHub Blog."
  },
- "https://github.blog/changelog/2026-09-29-repository-custom-runner-settings-for-dependabot": {
-  "title": "Repository custom runner settings for Dependabot",
-  "date": "Tue, 29 Sep 2026 19:10:00 +0000",
-  "summary": "As a repository administrator, you can now configure the runner type, optional custom label, and optional runner group for Dependabot version and security updates. This extends the runner configuration already&#8230;\nThe post Repository custom runner settings for Dependabot appeared first on The GitHub Blog."
+ "https://github.blog/changelog/2026-10-01-accessibility-statements-highlighted-on-repository-overview": {
+  "title": "Accessibility statements highlighted on repository overview",
+  "date": "Thu, 01 Oct 2026 19:04:32 +0000",
+  "summary": "You can now find an ACCESSIBILITY.md file in your repository&#8217;s root, the .github/ directory, or the docs/ directory highlighted on the repository overview. You can also add or propose an&#8230;\nThe post Accessibility statements highlighted on repository overview appeared first on The GitHub Blog."
  },
- "https://github.blog/changelog/2026-09-29-bring-business-context-with-external-custom-properties": {
-  "title": "Bring business context with external custom properties",
-  "date": "Tue, 29 Sep 2026 18:40:27 +0000",
-  "summary": "You can now seamlessly bring business context about your repositories from an external system of record (e.g., a configuration management database (CMDB), an internal developer portal, or an in-house system)&#8230;\nThe post Bring business context with external custom properties appeared first on The GitHub Blog."
+ "https://github.blog/changelog/2026-10-01-actions-retention-now-covers-checks-runs-and-statuses": {
+  "title": "Actions retention now covers checks, runs, and statuses",
+  "date": "Thu, 01 Oct 2026 17:59:54 +0000",
+  "summary": "As previously announced, checks, workflow runs, and statuses are now governed by the same GitHub Actions retention setting that controls how long artifacts and logs are kept. These records are&#8230;\nThe post Actions retention now covers checks, runs, and statuses appeared first on The GitHub Blog."
  },
- "https://github.blog/changelog/2026-09-29-gpt-6-1-sol-in-github-copilot": {
-  "title": "GPT-6.1 Sol in GitHub Copilot",
-  "date": "Tue, 29 Sep 2026 17:02:27 +0000",
-  "summary": "GPT-6.1 Sol, the latest model from OpenAI, is now generally available and rolling out in GitHub Copilot. You can use it for agentic coding and terminal workflows with strong multistep&#8230;\nThe post GPT-6.1 Sol in GitHub Copilot appeared first on The GitHub Blog."
+ "https://github.blog/changelog/2026-10-01-scheduled-code-scanning-skips-inactive-repositories": {
+  "title": "Scheduled code scanning skips inactive repositories",
+  "date": "Thu, 01 Oct 2026 16:49:15 +0000",
+  "summary": "Weekly scheduled scans for code scanning default setup and GitHub Code Quality now start only after a push or pull request triggers an analysis, rather than counting every kind of&#8230;\nThe post Scheduled code scanning skips inactive repositories appeared first on The GitHub Blog."
  },
- "https://github.blog/changelog/2026-09-28-self-hosted-runner-version-enforcement-date-has-moved": {
-  "title": "Self-hosted runner version enforcement date has moved",
-  "date": "Mon, 28 Sep 2026 19:22:46 +0000",
-  "summary": "The enforcement date for GitHub Actions minimum version requirements for self-hosted runners on GitHub Enterprise Cloud has changed. The change ships Monday, September 28, 2026, and full enforcement now begins&#8230;\nThe post Self-hosted runner version enforcement date has moved appeared first on The GitHub Blog."
+ "https://github.blog/changelog/2026-10-01-code-coverage-uploads-no-longer-fail-ci-for-new-branches": {
+  "title": "Code coverage uploads no longer fail CI for new branches",
+  "date": "Thu, 01 Oct 2026 16:49:05 +0000",
+  "summary": "Code coverage uploads from the GitHub Code Quality upload-code-coverage action no longer fail CI when you push a branch that doesn&#8217;t yet have an open pull request. Previously, the coverage&#8230;\nThe post Code coverage uploads no longer fail CI for new branches appeared first on The GitHub Blog."
  },
- "https://github.blog/changelog/2026-09-28-claude-sonnet-5-5-in-github-copilot": {
-  "title": "Claude Sonnet 5.5 in GitHub Copilot",
-  "date": "Mon, 28 Sep 2026 18:03:57 +0000",
-  "summary": "Claude Sonnet 5.5, Anthropic&#8217;s newest Sonnet model, is now generally available in GitHub Copilot. It is designed for well-scoped everyday work like building features and fixing bugs. In our early&#8230;\nThe post Claude Sonnet 5.5 in GitHub Copilot appeared first on The GitHub Blog."
+ "https://github.blog/changelog/2026-10-01-dynamic-workflows-in-copilot-cli-and-the-copilot-app": {
+  "title": "Dynamic workflows in Copilot CLI and the Copilot app",
+  "date": "Thu, 01 Oct 2026 16:30:10 +0000",
+  "summary": "Dynamic workflows are now available in Copilot CLI, the GitHub Copilot app, and the GitHub Copilot SDK. These let you define an orchestration in code to get the reliability and&#8230;\nThe post Dynamic workflows in Copilot CLI and the Copilot app appeared first on The GitHub Blog."
  },
- "https://github.blog/changelog/2026-09-25-enterprise-managed-settings-in-product-validator": {
-  "title": "Enterprise managed settings in-product validator",
-  "date": "Fri, 25 Sep 2026 23:24:57 +0000",
-  "summary": "You can now use an in-product validator for enterprise managed settings for GitHub Copilot. The validator detects malformed JSON, unsupported configurations, invalid team mappings, and other errors that can prevent&#8230;\nThe post Enterprise managed settings in-product validator appeared first on The GitHub Blog."
+ "https://github.blog/changelog/2026-10-01-new-dashboard-experience-now-the-default": {
+  "title": "New dashboard experience now the default",
+  "date": "Thu, 01 Oct 2026 16:14:56 +0000",
+  "summary": "The new dashboard experience, previously available as a feature preview, is now the default view for everyone. The redesigned dashboard helps you focus on the work that matters most and&#8230;\nThe post New dashboard experience now the default appeared first on The GitHub Blog."
  }
 }

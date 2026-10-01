@@ -1,5 +1,17 @@
 {
  "models": {
+  "apodex/apodex-1.1-mini:free": {
+   "name": "Apodex: Apodex 1.1 Mini (free)",
+   "context_length": "262144",
+   "prompt_per_mtok": "0",
+   "completion_per_mtok": "0"
+  },
+  "unbiased/pareto-26.10-preview": {
+   "name": "Pareto 26.10 Preview",
+   "context_length": "1048576",
+   "prompt_per_mtok": "0.8",
+   "completion_per_mtok": "3.2"
+  },
   "openai/gpt-6.1-sol-pro": {
    "name": "OpenAI: GPT-6.1 Sol Pro",
    "context_length": "1050000",
@@ -195,13 +207,13 @@
   "~deepseek/deepseek-pro-latest": {
    "name": "DeepSeek: DeepSeek Pro Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.1853",
-   "completion_per_mtok": "3.5"
+   "prompt_per_mtok": "0.1531",
+   "completion_per_mtok": "0.4594"
   },
   "~deepseek/deepseek-flash-latest": {
    "name": "DeepSeek: DeepSeek Flash Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0243",
+   "prompt_per_mtok": "0.0264",
    "completion_per_mtok": "0.6"
   },
   "inference-net/schematron-v2-turbo": {
@@ -371,8 +383,8 @@
   "tencent/hy4-preview": {
    "name": "Tencent: Hy4 preview",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.834",
-   "completion_per_mtok": "2.501"
+   "prompt_per_mtok": "0.7506",
+   "completion_per_mtok": "2.2509"
   },
   "inclusionai/ling-3.0-flash-fin": {
    "name": "inclusionAI: Ling 3.0 Flash Fin",
@@ -431,8 +443,8 @@
   "~z-ai/glm-latest": {
    "name": "Z.ai: GLM Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.06",
-   "completion_per_mtok": "2.694"
+   "prompt_per_mtok": "0.106",
+   "completion_per_mtok": "2.653"
   },
   "tencent/hy-mt2-7b": {
    "name": "Tencent: Hy-MT2-7B",
@@ -671,7 +683,7 @@
   "moonshotai/kimi-k3": {
    "name": "MoonshotAI: Kimi K3",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.673",
+   "prompt_per_mtok": "0.415",
    "completion_per_mtok": "10"
   },
   "moonshotai/kimi-k3:batch": {
@@ -791,8 +803,8 @@
   "tencent/hy3": {
    "name": "Tencent: Hy3",
    "context_length": "262144",
-   "prompt_per_mtok": "0.132",
-   "completion_per_mtok": "0.528"
+   "prompt_per_mtok": "0.0825",
+   "completion_per_mtok": "0.33"
   },
   "poolside/laguna-xs-2.1": {
    "name": "Poolside: Laguna XS 2.1",
@@ -1043,7 +1055,7 @@
   "~moonshotai/kimi-latest": {
    "name": "MoonshotAI: Kimi Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.673",
+   "prompt_per_mtok": "0.415",
    "completion_per_mtok": "10"
   },
   "~google/gemini-flash-latest": {
@@ -1188,8 +1200,8 @@
   "google/gemma-4-26b-a4b-it": {
    "name": "Google: Gemma 4 26B A4B ",
    "context_length": "262144",
-   "prompt_per_mtok": "0.09",
-   "completion_per_mtok": "0.3"
+   "prompt_per_mtok": "0.0765",
+   "completion_per_mtok": "0.255"
   },
   "google/gemma-4-26b-a4b-it:free": {
    "name": "Google: Gemma 4 26B A4B  (free)",
