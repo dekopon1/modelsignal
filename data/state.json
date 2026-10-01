@@ -2,84 +2,84 @@
  "anthropic-pricing": {
   "hash": "88466da1482ad15c",
   "last_snapshot": "snapshots/anthropic-pricing/2026-09-28T231415Z.txt.gz",
-  "last_checked": "2026-09-30T22:12:45Z",
+  "last_checked": "2026-10-01T05:47:48Z",
   "last_changed": "2026-09-28T23:14:15Z",
   "first_seen": "2026-08-22T20:02:52Z"
  },
  "anthropic-limits": {
   "hash": "0bd9a0a21a12f1c0",
   "last_snapshot": "snapshots/anthropic-limits/2026-09-30T221245Z.txt.gz",
-  "last_checked": "2026-09-30T22:12:45Z",
+  "last_checked": "2026-10-01T05:47:48Z",
   "last_changed": "2026-09-28T23:14:15Z",
   "first_seen": "2026-08-22T20:02:52Z"
  },
  "openrouter-models": {
-  "hash": "e691a01915b8d846",
-  "last_snapshot": "snapshots/openrouter-models/2026-09-30T221245Z.txt.gz",
-  "last_checked": "2026-09-30T22:12:45Z",
-  "last_changed": "2026-09-30T22:12:45Z",
+  "hash": "c1e255e383952e5c",
+  "last_snapshot": "snapshots/openrouter-models/2026-10-01T054748Z.txt.gz",
+  "last_checked": "2026-10-01T05:47:48Z",
+  "last_changed": "2026-10-01T05:47:48Z",
   "first_seen": "2026-08-22T20:02:52Z"
  },
  "deepseek-pricing": {
   "hash": "6c1bd295a987eb8d",
   "last_snapshot": "snapshots/deepseek-pricing/2026-09-24T212909Z.txt.gz",
-  "last_checked": "2026-09-30T22:12:46Z",
+  "last_checked": "2026-10-01T05:47:49Z",
   "last_changed": "2026-09-24T21:29:09Z",
   "first_seen": "2026-08-22T20:02:54Z"
  },
  "mistral-models": {
   "hash": "2a04dce4d148cfd6",
   "last_snapshot": "snapshots/mistral-models/2026-09-30T123032Z.txt.gz",
-  "last_checked": "2026-09-30T22:12:47Z",
+  "last_checked": "2026-10-01T05:47:49Z",
   "last_changed": "2026-09-30T12:30:32Z",
   "first_seen": "2026-08-22T20:02:54Z"
  },
  "google-gemini-pricing": {
-  "hash": "b2d3a5d5ec2b7e85",
-  "last_snapshot": "snapshots/google-gemini-pricing/2026-09-30T221247Z.txt.gz",
-  "last_checked": "2026-09-30T22:12:47Z",
-  "last_changed": "2026-09-24T17:07:39Z",
+  "hash": "f92e007e54cbcf1b",
+  "last_snapshot": "snapshots/google-gemini-pricing/2026-10-01T054750Z.txt.gz",
+  "last_checked": "2026-10-01T05:47:50Z",
+  "last_changed": "2026-10-01T05:47:50Z",
   "first_seen": "2026-08-22T20:02:55Z"
  },
  "github-copilot-plans": {
-  "hash": "edbf8ee031e96189",
-  "last_snapshot": "snapshots/github-copilot-plans/2026-09-30T221248Z.txt.gz",
-  "last_checked": "2026-09-30T22:12:48Z",
+  "hash": "e27ab596ad907af3",
+  "last_snapshot": "snapshots/github-copilot-plans/2026-10-01T054750Z.txt.gz",
+  "last_checked": "2026-10-01T05:47:50Z",
   "last_changed": null,
   "first_seen": "2026-08-22T20:02:55Z"
  },
  "github-copilot-premium": {
-  "hash": "3311f960ed9f67c4",
-  "last_snapshot": "snapshots/github-copilot-premium/2026-09-30T221248Z.txt.gz",
-  "last_checked": "2026-09-30T22:12:48Z",
+  "hash": "87357d7ac2c32880",
+  "last_snapshot": "snapshots/github-copilot-premium/2026-10-01T054750Z.txt.gz",
+  "last_checked": "2026-10-01T05:47:51Z",
   "last_changed": "2026-08-31T22:48:41Z",
   "first_seen": "2026-08-22T20:02:56Z"
  },
  "anthropic-changelog": {
   "hash": "be87d4cf40805cc7",
   "last_snapshot": "snapshots/anthropic-changelog/2026-09-30T221249Z.txt.gz",
-  "last_checked": "2026-09-30T22:12:49Z",
+  "last_checked": "2026-10-01T05:47:51Z",
   "last_changed": "2026-09-30T22:12:49Z",
   "first_seen": "2026-08-22T20:02:56Z"
  },
  "github-changelog-rss": {
   "hash": "01f7a4cd74debabb",
   "last_snapshot": "snapshots/github-changelog-rss/2026-09-30T221249Z.txt.gz",
-  "last_checked": "2026-09-30T22:12:49Z",
+  "last_checked": "2026-10-01T05:47:51Z",
   "last_changed": "2026-09-30T22:12:49Z",
   "first_seen": "2026-08-22T20:02:56Z"
  },
  "openai-news-rss": {
-  "hash": "d85bb7f7c31da96f",
-  "last_snapshot": "snapshots/openai-news-rss/2026-09-30T221249Z.txt.gz",
-  "last_checked": "2026-09-30T22:12:49Z",
+  "hash": "e15f60d7935d41cd",
+  "last_snapshot": "snapshots/openai-news-rss/2026-10-01T054751Z.txt.gz",
+  "last_checked": "2026-10-01T05:47:51Z",
   "last_changed": "2026-09-30T22:12:49Z",
   "first_seen": "2026-08-22T20:02:57Z"
  },
  "gemini-release-notes": {
-  "hash": "b55db85fea86575f",
-  "last_snapshot": "snapshots/gemini-release-notes/2026-09-30T221249Z.txt.gz",
-  "last_checked": "2026-09-30T22:12:49Z",
+  "hash": "fb3b28c7dc59820f",
+  "last_snapshot": "snapshots/gemini-release-notes/2026-10-01T054751Z.txt.gz",
+  "last_checked": "2026-10-01T05:47:51Z",
   "last_changed": "2026-09-23T16:54:59Z",
   "first_seen": "2026-08-22T20:02:57Z"
  }

@@ -284,20 +284,6 @@
  "Gemini Embedding 2": {},
  "Gemini Robotics ER 2 Preview": {},
  "Gemini Robotics ER 2 Streaming Preview": {},
- "Gemini 2.5 Computer Use Preview": {
-  "Input price": {
-   "Free Tier": "Not available",
-   "Paid Tier, per 1M tokens in USD": "$1.25, prompts <= 200k tokens$2.50, prompts > 200k token"
-  },
-  "Output price": {
-   "Free Tier": "Not available",
-   "Paid Tier, per 1M tokens in USD": "$10.00, prompts <= 200k tokens$15.00, prompts > 200k"
-  },
-  "Used to improve our products": {
-   "Free Tier": "Yes",
-   "Paid Tier, per 1M tokens in USD": "No"
-  }
- },
  "Gemma 4": {
   "Input price": {
    "Free Tier": "Free of charge",
@@ -347,7 +333,7 @@
   },
   "Computer use": {
    "Free Tier": "Not available",
-   "Paid Tier, per 1M tokens in USD": "Charged as regular tokens per model pricing (e.g., standard Gemini 3.5 Flash pricing). See the Gemini 2.5 Computer Use Preview pricing table for legacy model rates."
+   "Paid Tier, per 1M tokens in USD": "Charged as regular tokens per model pricing (e.g., standard Gemini 3.8 Flash pricing)."
   },
   "File search": {
    "Free Tier": "Free of charge",
