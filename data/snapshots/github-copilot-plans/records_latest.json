@@ -74,7 +74,6 @@
  "Inline suggestions and Copilot Chat": {},
  "Models": {
   "Claude Haiku 4.5": {},
-  "Claude Opus 4.7": {},
   "Claude Opus 4.8": {},
   "Claude Opus 4.8 (fast mode) (preview)": {},
   "Claude Opus 5": {},
@@ -84,8 +83,6 @@
   "Claude Sonnet 4.6": {},
   "Claude Sonnet 5": {},
   "Claude Sonnet 5.5": {},
-  "Gemini 3.5 Flash": {},
-  "Gemini 3.6 Flash": {},
   "Gemini 3.7 Flash": {},
   "Gemini 3.8 Flash": {},
   "GPT-5 mini": {},
@@ -104,7 +101,6 @@
   "Grok 4.5": {},
   "Grok 4.6": {},
   "Grok 4.7": {},
-  "Kimi K2.7 Code": {},
   "Kimi K3": {},
   "MAI-Code-1.1-Flash": {}
  },

@@ -1,4 +1,24 @@
 {
+ "https://github.blog/changelog/2026-10-02-selected-models-in-github-copilot-deprecated": {
+  "title": "Selected models in GitHub Copilot deprecated",
+  "date": "Fri, 02 Oct 2026 18:24:19 +0000",
+  "summary": "As of today, October 2, 2026, we have deprecated the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). Model&#8230;\nThe post Selected models in GitHub Copilot deprecated appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-10-02-new-fields-for-securityadvisory-graphql-api": {
+  "title": "New fields for SecurityAdvisory GraphQL API",
+  "date": "Fri, 02 Oct 2026 13:18:00 +0000",
+  "summary": "You can now read more of the GitHub Advisory Database directly from the GraphQL API without falling back to the REST API. The SecurityAdvisory object gained five new fields: cveId:&#8230;\nThe post New fields for SecurityAdvisory GraphQL API appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-10-02-confidential-comments-on-repository-security-advisories": {
+  "title": "Confidential comments on repository security advisories",
+  "date": "Fri, 02 Oct 2026 13:15:40 +0000",
+  "summary": "You can now post confidential comments on repository security advisories. Confidential comments are visible only to people with write access to the repository, so you can discuss a report with&#8230;\nThe post Confidential comments on repository security advisories appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-10-02-repository-security-advisory-comments-api-in-public-preview": {
+  "title": "Repository security advisory comments API in public preview",
+  "date": "Fri, 02 Oct 2026 13:15:25 +0000",
+  "summary": "You can now read, add, and edit comments on repository security advisories using the REST API, including advisories created from private vulnerability reports. Until now, the discussion on an advisory&#8230;\nThe post Repository security advisory comments API in public preview appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-10-01-rate-limits-for-private-vulnerability-reports": {
   "title": "Rate limits for private vulnerability reports",
   "date": "Thu, 01 Oct 2026 19:57:39 +0000",
@@ -28,25 +48,5 @@
   "title": "Accessibility statements highlighted on repository overview",
   "date": "Thu, 01 Oct 2026 19:04:32 +0000",
   "summary": "You can now find an ACCESSIBILITY.md file in your repository&#8217;s root, the .github/ directory, or the docs/ directory highlighted on the repository overview. You can also add or propose an&#8230;\nThe post Accessibility statements highlighted on repository overview appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-10-01-actions-retention-now-covers-checks-runs-and-statuses": {
-  "title": "Actions retention now covers checks, runs, and statuses",
-  "date": "Thu, 01 Oct 2026 17:59:54 +0000",
-  "summary": "As previously announced, checks, workflow runs, and statuses are now governed by the same GitHub Actions retention setting that controls how long artifacts and logs are kept. These records are&#8230;\nThe post Actions retention now covers checks, runs, and statuses appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-10-01-scheduled-code-scanning-skips-inactive-repositories": {
-  "title": "Scheduled code scanning skips inactive repositories",
-  "date": "Thu, 01 Oct 2026 16:49:15 +0000",
-  "summary": "Weekly scheduled scans for code scanning default setup and GitHub Code Quality now start only after a push or pull request triggers an analysis, rather than counting every kind of&#8230;\nThe post Scheduled code scanning skips inactive repositories appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-10-01-code-coverage-uploads-no-longer-fail-ci-for-new-branches": {
-  "title": "Code coverage uploads no longer fail CI for new branches",
-  "date": "Thu, 01 Oct 2026 16:49:05 +0000",
-  "summary": "Code coverage uploads from the GitHub Code Quality upload-code-coverage action no longer fail CI when you push a branch that doesn&#8217;t yet have an open pull request. Previously, the coverage&#8230;\nThe post Code coverage uploads no longer fail CI for new branches appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-10-01-dynamic-workflows-in-copilot-cli-and-the-copilot-app": {
-  "title": "Dynamic workflows in Copilot CLI and the Copilot app",
-  "date": "Thu, 01 Oct 2026 16:30:10 +0000",
-  "summary": "Dynamic workflows are now available in Copilot CLI, the GitHub Copilot app, and the GitHub Copilot SDK. These let you define an orchestration in code to get the reliability and&#8230;\nThe post Dynamic workflows in Copilot CLI and the Copilot app appeared first on The GitHub Blog."
  }
 }
