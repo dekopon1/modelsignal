@@ -14,6 +14,11 @@
   "date": "Thu, 01 Oct 2026 19:11:26 +0000",
   "summary": "Computer use is now available in public preview in GitHub Copilot CLI and the GitHub Copilot app on macOS and Windows. Copilot can interact with desktop applications on your behalf&#8230;\nThe post GitHub Copilot can now interact with desktop apps with computer use appeared first on The GitHub Blog."
  },
+ "https://github.blog/changelog/2026-10-01-github-actions-macos-14-runner-image-retirement": {
+  "title": "GitHub Actions: macOS 14 runner image retirement",
+  "date": "Thu, 01 Oct 2026 19:11:23 +0000",
+  "summary": "The macOS 14 runner image will be retired on November 2, 2026. To raise awareness of the upcoming removal, jobs using macOS 14 will temporarily fail during the following scheduled&#8230;\nThe post GitHub Actions: macOS 14 runner image retirement appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-10-01-github-copilot-in-vs-code-september-2026-releases": {
   "title": "GitHub Copilot in VS Code, September 2026 releases",
   "date": "Thu, 01 Oct 2026 19:09:10 +0000",
@@ -43,10 +48,5 @@
   "title": "Dynamic workflows in Copilot CLI and the Copilot app",
   "date": "Thu, 01 Oct 2026 16:30:10 +0000",
   "summary": "Dynamic workflows are now available in Copilot CLI, the GitHub Copilot app, and the GitHub Copilot SDK. These let you define an orchestration in code to get the reliability and&#8230;\nThe post Dynamic workflows in Copilot CLI and the Copilot app appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-10-01-new-dashboard-experience-now-the-default": {
-  "title": "New dashboard experience now the default",
-  "date": "Thu, 01 Oct 2026 16:14:56 +0000",
-  "summary": "The new dashboard experience, previously available as a feature preview, is now the default view for everyone. The redesigned dashboard helps you focus on the work that matters most and&#8230;\nThe post New dashboard experience now the default appeared first on The GitHub Blog."
  }
 }
