@@ -219,8 +219,8 @@
   "~deepseek/deepseek-pro-latest": {
    "name": "DeepSeek: DeepSeek Pro Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.11",
-   "completion_per_mtok": "2.7"
+   "prompt_per_mtok": "0.12",
+   "completion_per_mtok": "4.2"
   },
   "~deepseek/deepseek-flash-latest": {
    "name": "DeepSeek: DeepSeek Flash Latest",
@@ -583,13 +583,13 @@
   "~deepseek/deepseek-v4-flash-latest": {
    "name": "DeepSeek: DeepSeek V4 Flash Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0154",
+   "prompt_per_mtok": "0.0188",
    "completion_per_mtok": "1.28"
   },
   "deepseek/deepseek-v4-flash-0731": {
    "name": "DeepSeek: DeepSeek V4 Flash 0731",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0154",
+   "prompt_per_mtok": "0.0188",
    "completion_per_mtok": "1.28"
   },
   "thinkingmachines/inkling-small": {
@@ -1067,7 +1067,7 @@
   "~moonshotai/kimi-latest": {
    "name": "MoonshotAI: Kimi Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.69",
+   "prompt_per_mtok": "0.9895",
    "completion_per_mtok": "13"
   },
   "~google/gemini-flash-latest": {
