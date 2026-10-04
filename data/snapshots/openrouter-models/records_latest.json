@@ -219,14 +219,14 @@
   "~deepseek/deepseek-pro-latest": {
    "name": "DeepSeek: DeepSeek Pro Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.136",
+   "prompt_per_mtok": "0.1901",
    "completion_per_mtok": "4.2"
   },
   "~deepseek/deepseek-flash-latest": {
    "name": "DeepSeek: DeepSeek Flash Latest",
    "context_length": "1048576",
    "prompt_per_mtok": "0.003",
-   "completion_per_mtok": "1.2"
+   "completion_per_mtok": "2.4"
   },
   "inference-net/schematron-v2-turbo": {
    "name": "Inference.net: Schematron V2 Turbo",
@@ -286,7 +286,7 @@
    "name": "DeepSeek: DeepSeek V4.1 Flash",
    "context_length": "1048576",
    "prompt_per_mtok": "0.003",
-   "completion_per_mtok": "1.2"
+   "completion_per_mtok": "2.4"
   },
   "deepseek/deepseek-v4.1-flash:batch": {
    "name": "DeepSeek: DeepSeek V4.1 Flash (batch)",
@@ -456,7 +456,7 @@
    "name": "Z.ai: GLM Latest",
    "context_length": "1048576",
    "prompt_per_mtok": "0.05",
-   "completion_per_mtok": "4.4"
+   "completion_per_mtok": "5"
   },
   "tencent/hy-mt2-7b": {
    "name": "Tencent: Hy-MT2-7B",
@@ -479,8 +479,8 @@
   "qwen/qwen3.8-27b": {
    "name": "Qwen: Qwen3.8 27B",
    "context_length": "1000000",
-   "prompt_per_mtok": "0.42",
-   "completion_per_mtok": "3"
+   "prompt_per_mtok": "0.425",
+   "completion_per_mtok": "2.55"
   },
   "qwen/qwen3.8-27b:free": {
    "name": "Qwen: Qwen3.8 27B (free)",
@@ -529,8 +529,8 @@
   "deepseek/deepseek-v4-pro-0813": {
    "name": "DeepSeek: DeepSeek V4 Pro 0813",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.17",
-   "completion_per_mtok": "4.2"
+   "prompt_per_mtok": "0.85",
+   "completion_per_mtok": "5"
   },
   "x-ai/grok-4.6": {
    "name": "SpaceXAI: Grok 4.6",
@@ -1067,7 +1067,7 @@
   "~moonshotai/kimi-latest": {
    "name": "MoonshotAI: Kimi Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.576",
+   "prompt_per_mtok": "0.6371",
    "completion_per_mtok": "13"
   },
   "~google/gemini-flash-latest": {
