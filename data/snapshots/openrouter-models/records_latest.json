@@ -219,14 +219,14 @@
   "~deepseek/deepseek-pro-latest": {
    "name": "DeepSeek: DeepSeek Pro Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.2178",
+   "prompt_per_mtok": "0.136",
    "completion_per_mtok": "4.2"
   },
   "~deepseek/deepseek-flash-latest": {
    "name": "DeepSeek: DeepSeek Flash Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.02",
-   "completion_per_mtok": "0.4"
+   "prompt_per_mtok": "0.003",
+   "completion_per_mtok": "1.2"
   },
   "inference-net/schematron-v2-turbo": {
    "name": "Inference.net: Schematron V2 Turbo",
@@ -285,7 +285,7 @@
   "deepseek/deepseek-v4.1-flash": {
    "name": "DeepSeek: DeepSeek V4.1 Flash",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.3",
+   "prompt_per_mtok": "0.003",
    "completion_per_mtok": "1.2"
   },
   "deepseek/deepseek-v4.1-flash:batch": {
@@ -395,8 +395,8 @@
   "tencent/hy4-preview": {
    "name": "Tencent: Hy4 preview",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.7506",
-   "completion_per_mtok": "2.2509"
+   "prompt_per_mtok": "0.834",
+   "completion_per_mtok": "2.501"
   },
   "inclusionai/ling-3.0-flash-fin": {
    "name": "inclusionAI: Ling 3.0 Flash Fin",
@@ -407,7 +407,7 @@
   "~z-ai/glm-flash-latest": {
    "name": "Z.ai: GLM Flash Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0337",
+   "prompt_per_mtok": "0.0352",
    "completion_per_mtok": "0.5"
   },
   "qwen/qwen3.8-flash": {
@@ -455,7 +455,7 @@
   "~z-ai/glm-latest": {
    "name": "Z.ai: GLM Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.1",
+   "prompt_per_mtok": "0.05",
    "completion_per_mtok": "4.4"
   },
   "tencent/hy-mt2-7b": {
@@ -467,8 +467,8 @@
   "z-ai/glm-5.3": {
    "name": "Z.ai: GLM 5.3",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.22",
-   "completion_per_mtok": "3.39"
+   "prompt_per_mtok": "1.4",
+   "completion_per_mtok": "4.4"
   },
   "z-ai/glm-5.3:batch": {
    "name": "Z.ai: GLM 5.3 (batch)",
@@ -529,7 +529,7 @@
   "deepseek/deepseek-v4-pro-0813": {
    "name": "DeepSeek: DeepSeek V4 Pro 0813",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.22",
+   "prompt_per_mtok": "0.17",
    "completion_per_mtok": "4.2"
   },
   "x-ai/grok-4.6": {
@@ -583,13 +583,13 @@
   "~deepseek/deepseek-v4-flash-latest": {
    "name": "DeepSeek: DeepSeek V4 Flash Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0188",
+   "prompt_per_mtok": "0.0152",
    "completion_per_mtok": "1.28"
   },
   "deepseek/deepseek-v4-flash-0731": {
    "name": "DeepSeek: DeepSeek V4 Flash 0731",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0188",
+   "prompt_per_mtok": "0.0152",
    "completion_per_mtok": "1.28"
   },
   "thinkingmachines/inkling-small": {
@@ -815,8 +815,8 @@
   "tencent/hy3": {
    "name": "Tencent: Hy3",
    "context_length": "262144",
-   "prompt_per_mtok": "0.0825",
-   "completion_per_mtok": "0.33"
+   "prompt_per_mtok": "0.132",
+   "completion_per_mtok": "0.528"
   },
   "poolside/laguna-xs-2.1": {
    "name": "Poolside: Laguna XS 2.1",
@@ -876,8 +876,8 @@
   "z-ai/glm-5.2": {
    "name": "Z.ai: GLM 5.2",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.41",
-   "completion_per_mtok": "3.99"
+   "prompt_per_mtok": "0.38",
+   "completion_per_mtok": "3.49"
   },
   "openrouter/fusion": {
    "name": "OpenRouter: Fusion",
@@ -1067,8 +1067,8 @@
   "~moonshotai/kimi-latest": {
    "name": "MoonshotAI: Kimi Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.65",
-   "completion_per_mtok": "10.331"
+   "prompt_per_mtok": "0.576",
+   "completion_per_mtok": "13"
   },
   "~google/gemini-flash-latest": {
    "name": "Google: Gemini Flash Latest",
@@ -1146,8 +1146,8 @@
   "deepseek/deepseek-v4-flash": {
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.028",
-   "completion_per_mtok": "0.056"
+   "prompt_per_mtok": "0.0224",
+   "completion_per_mtok": "1.28"
   },
   "tencent/hy3-preview": {
    "name": "Tencent: Hy3 preview",
@@ -2391,8 +2391,8 @@
   "deepseek/deepseek-chat-v3-0324": {
    "name": "DeepSeek: DeepSeek V3 0324",
    "context_length": "163840",
-   "prompt_per_mtok": "0.29",
-   "completion_per_mtok": "1.14"
+   "prompt_per_mtok": "0.25",
+   "completion_per_mtok": "1"
   },
   "openai/o1-pro": {
    "name": "OpenAI: o1-pro",
@@ -2559,8 +2559,8 @@
   "meta-llama/llama-3.3-70b-instruct": {
    "name": "Meta: Llama 3.3 70B Instruct",
    "context_length": "131072",
-   "prompt_per_mtok": "0.1",
-   "completion_per_mtok": "0.32"
+   "prompt_per_mtok": "0.22",
+   "completion_per_mtok": "0.5"
   },
   "amazon/nova-lite-v1": {
    "name": "Amazon: Nova Lite 1.0",
