@@ -1,5 +1,17 @@
 {
  "models": {
+  "google/gemini-nano-banana-2.1": {
+   "name": "Google: Nano Banana 2.1",
+   "context_length": "65536",
+   "prompt_per_mtok": "1.5",
+   "completion_per_mtok": "7.5"
+  },
+  "mistralai/mistral-large-4-0": {
+   "name": "Mistral: Mistral Large 4",
+   "context_length": "524288",
+   "prompt_per_mtok": "0.68",
+   "completion_per_mtok": "2.09"
+  },
   "inclusionai/ling-3.1-flash": {
    "name": "inclusionAI: Ling 3.1 Flash",
    "context_length": "262144",
@@ -213,13 +225,13 @@
   "~deepseek/deepseek-pro-latest": {
    "name": "DeepSeek: DeepSeek Pro Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.2531",
+   "prompt_per_mtok": "0.2514",
    "completion_per_mtok": "4.2"
   },
   "~deepseek/deepseek-flash-latest": {
    "name": "DeepSeek: DeepSeek Flash Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.045",
+   "prompt_per_mtok": "0.004",
    "completion_per_mtok": "1.2"
   },
   "inference-net/schematron-v2-turbo": {
@@ -279,8 +291,8 @@
   "deepseek/deepseek-v4.1-flash": {
    "name": "DeepSeek: DeepSeek V4.1 Flash",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.055",
-   "completion_per_mtok": "1.32"
+   "prompt_per_mtok": "0.3",
+   "completion_per_mtok": "1.2"
   },
   "deepseek/deepseek-v4.1-flash:batch": {
    "name": "DeepSeek: DeepSeek V4.1 Flash (batch)",
@@ -389,8 +401,8 @@
   "tencent/hy4-preview": {
    "name": "Tencent: Hy4 preview",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.834",
-   "completion_per_mtok": "2.501"
+   "prompt_per_mtok": "0.7506",
+   "completion_per_mtok": "2.2509"
   },
   "inclusionai/ling-3.0-flash-fin": {
    "name": "inclusionAI: Ling 3.0 Flash Fin",
@@ -401,8 +413,8 @@
   "~z-ai/glm-flash-latest": {
    "name": "Z.ai: GLM Flash Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0317",
-   "completion_per_mtok": "0.5"
+   "prompt_per_mtok": "0.0235",
+   "completion_per_mtok": "0.6875"
   },
   "qwen/qwen3.8-flash": {
    "name": "Qwen: Qwen3.8 Flash",
@@ -571,13 +583,13 @@
   "~deepseek/deepseek-v4-flash-latest": {
    "name": "DeepSeek: DeepSeek V4 Flash Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0079",
+   "prompt_per_mtok": "0.0133",
    "completion_per_mtok": "1.28"
   },
   "deepseek/deepseek-v4-flash-0731": {
    "name": "DeepSeek: DeepSeek V4 Flash 0731",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0079",
+   "prompt_per_mtok": "0.0133",
    "completion_per_mtok": "1.28"
   },
   "thinkingmachines/inkling-small": {
@@ -683,8 +695,8 @@
   "moonshotai/kimi-k3": {
    "name": "MoonshotAI: Kimi K3",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.95",
-   "completion_per_mtok": "14"
+   "prompt_per_mtok": "0.99",
+   "completion_per_mtok": "15"
   },
   "moonshotai/kimi-k3:batch": {
    "name": "MoonshotAI: Kimi K3 (batch)",
@@ -803,8 +815,8 @@
   "tencent/hy3": {
    "name": "Tencent: Hy3",
    "context_length": "262144",
-   "prompt_per_mtok": "0.132",
-   "completion_per_mtok": "0.528"
+   "prompt_per_mtok": "0.0825",
+   "completion_per_mtok": "0.33"
   },
   "poolside/laguna-xs-2.1": {
    "name": "Poolside: Laguna XS 2.1",
@@ -864,7 +876,7 @@
   "z-ai/glm-5.2": {
    "name": "Z.ai: GLM 5.2",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.112",
+   "prompt_per_mtok": "0.152",
    "completion_per_mtok": "12"
   },
   "openrouter/fusion": {
@@ -1134,7 +1146,7 @@
   "deepseek/deepseek-v4-flash": {
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0082",
+   "prompt_per_mtok": "0.0264",
    "completion_per_mtok": "1.28"
   },
   "tencent/hy3-preview": {
@@ -1200,8 +1212,8 @@
   "google/gemma-4-26b-a4b-it": {
    "name": "Google: Gemma 4 26B A4B ",
    "context_length": "262144",
-   "prompt_per_mtok": "0.09",
-   "completion_per_mtok": "0.3"
+   "prompt_per_mtok": "0.0765",
+   "completion_per_mtok": "0.255"
   },
   "google/gemma-4-26b-a4b-it:free": {
    "name": "Google: Gemma 4 26B A4B  (free)",

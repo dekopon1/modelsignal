@@ -1,4 +1,9 @@
 {
+ "https://github.blog/changelog/2026-10-06-stacked-pull-requests-generally-available": {
+  "title": "Stacked pull requests generally available",
+  "date": "Tue, 06 Oct 2026 20:16:41 +0000",
+  "summary": "GitHub stacked pull requests are now generally available. Break large changes into smaller, focused pull requests that you can review independently and merge together. Since the feature went into public&#8230;\nThe post Stacked pull requests generally available appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-10-06-code-scanning-ai-scan-enablement-status-in-security-overview": {
   "title": "Code scanning AI Scan enablement status in security overview",
   "date": "Tue, 06 Oct 2026 10:23:38 +0000",
@@ -43,10 +48,5 @@
   "title": "Confidential comments on repository security advisories",
   "date": "Fri, 02 Oct 2026 13:15:40 +0000",
   "summary": "You can now post confidential comments on repository security advisories. Confidential comments are visible only to people with write access to the repository, so you can discuss a report with&#8230;\nThe post Confidential comments on repository security advisories appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-10-02-repository-security-advisory-comments-api-in-public-preview": {
-  "title": "Repository security advisory comments API in public preview",
-  "date": "Fri, 02 Oct 2026 13:15:25 +0000",
-  "summary": "You can now read, add, and edit comments on repository security advisories using the REST API, including advisories created from private vulnerability reports. Until now, the discussion on an advisory&#8230;\nThe post Repository security advisory comments API in public preview appeared first on The GitHub Blog."
  }
 }
