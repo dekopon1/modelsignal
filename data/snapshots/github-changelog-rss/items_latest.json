@@ -1,4 +1,9 @@
 {
+ "https://github.blog/changelog/2026-10-05-secret-scanning-adds-detectors-for-lovable-supabase-and-more": {
+  "title": "Secret scanning adds detectors for Lovable, Supabase, and more",
+  "date": "Mon, 05 Oct 2026 22:42:14 +0000",
+  "summary": "Secret scanning now detects new secret types from Lovable Labs, Pydantic Services Inc., and Supabase. New secret scanning partner The following provider joined the secret scanning partnership program. When one&#8230;\nThe post Secret scanning adds detectors for Lovable, Supabase, and more appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-10-02-stateless-github-app-installation-tokens-rolled-out": {
   "title": "Stateless GitHub App installation tokens rolled out",
   "date": "Fri, 02 Oct 2026 22:18:23 +0000",
@@ -8,6 +13,16 @@
   "title": "Copilot code review: API support and new default effort level",
   "date": "Fri, 02 Oct 2026 19:13:50 +0000",
   "summary": "You can now request a GitHub Copilot code review through the REST and GraphQL APIs and set the review effort level for each request. Balanced is also now the default&#8230;\nThe post Copilot code review: API support and new default effort level appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-10-02-unvalidated-npm-trusted-publishing-configurations-now-expire": {
+  "title": "Unvalidated npm trusted publishing configurations now expire",
+  "date": "Fri, 02 Oct 2026 19:07:04 +0000",
+  "summary": "Unvalidated npm trusted publishing configurations now expire 48 hours after creation and can no longer authorize publishing. This limits the risk of trusting a repository or project name that changes&#8230;\nThe post Unvalidated npm trusted publishing configurations now expire appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-10-02-npm-staged-publishing-now-supports-creating-new-packages": {
+  "title": "npm staged publishing now supports creating new packages",
+  "date": "Fri, 02 Oct 2026 19:05:17 +0000",
+  "summary": "You can now create a new npm package with npm stage publish, using a local session or a granular access token, including a stage-only token. This lets you create packages&#8230;\nThe post npm staged publishing now supports creating new packages appeared first on The GitHub Blog."
  },
  "https://github.blog/changelog/2026-10-02-selected-models-in-github-copilot-deprecated": {
   "title": "Selected models in GitHub Copilot deprecated",
@@ -33,20 +48,5 @@
   "title": "Rate limits for private vulnerability reports",
   "date": "Thu, 01 Oct 2026 19:57:39 +0000",
   "summary": "Open source maintainers are receiving more low-quality and automated vulnerability reports, which can bury the reports that matter. Rate limits cap how many new reports a single account can submit&#8230;\nThe post Rate limits for private vulnerability reports appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-10-01-structured-forms-for-private-vulnerability-reports": {
-  "title": "Structured forms for private vulnerability reports",
-  "date": "Thu, 01 Oct 2026 19:57:28 +0000",
-  "summary": "Private vulnerability reports can now use a structured form that asks reporters for the details you need to assess a vulnerability, including a reproducible proof of concept. A single free-text&#8230;\nThe post Structured forms for private vulnerability reports appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-10-01-github-copilot-can-now-interact-with-desktop-apps": {
-  "title": "GitHub Copilot can now interact with desktop apps with computer use",
-  "date": "Thu, 01 Oct 2026 19:11:26 +0000",
-  "summary": "Computer use is now available in public preview in GitHub Copilot CLI and the GitHub Copilot app on macOS and Windows. Copilot can interact with desktop applications on your behalf&#8230;\nThe post GitHub Copilot can now interact with desktop apps with computer use appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-10-01-github-actions-macos-14-runner-image-retirement": {
-  "title": "GitHub Actions: macOS 14 runner image retirement",
-  "date": "Thu, 01 Oct 2026 19:11:23 +0000",
-  "summary": "The macOS 14 runner image will be retired on November 2, 2026. To raise awareness of the upcoming removal, jobs using macOS 14 will temporarily fail during the following scheduled&#8230;\nThe post GitHub Actions: macOS 14 runner image retirement appeared first on The GitHub Blog."
  }
 }
