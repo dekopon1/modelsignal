@@ -74,6 +74,7 @@
  "Inline suggestions and Copilot Chat": {},
  "Models": {
   "Claude Haiku 4.5": {},
+  "Claude Haiku 5.5": {},
   "Claude Opus 4.8": {},
   "Claude Opus 4.8 (fast mode) (preview)": {},
   "Claude Opus 5": {},
