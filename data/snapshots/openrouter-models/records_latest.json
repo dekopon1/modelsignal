@@ -225,8 +225,8 @@
   "~deepseek/deepseek-pro-latest": {
    "name": "DeepSeek: DeepSeek Pro Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.3",
-   "completion_per_mtok": "4.2"
+   "prompt_per_mtok": "0.4",
+   "completion_per_mtok": "4.3"
   },
   "~deepseek/deepseek-flash-latest": {
    "name": "DeepSeek: DeepSeek Flash Latest",
@@ -291,7 +291,7 @@
   "deepseek/deepseek-v4.1-flash": {
    "name": "DeepSeek: DeepSeek V4.1 Flash",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.3",
+   "prompt_per_mtok": "0.05",
    "completion_per_mtok": "1.2"
   },
   "deepseek/deepseek-v4.1-flash:batch": {
@@ -413,7 +413,7 @@
   "~z-ai/glm-flash-latest": {
    "name": "Z.ai: GLM Flash Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0278",
+   "prompt_per_mtok": "0.0317",
    "completion_per_mtok": "0.5"
   },
   "qwen/qwen3.8-flash": {
@@ -461,8 +461,8 @@
   "~z-ai/glm-latest": {
    "name": "Z.ai: GLM Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.03",
-   "completion_per_mtok": "12"
+   "prompt_per_mtok": "0.063",
+   "completion_per_mtok": "6.3"
   },
   "tencent/hy-mt2-7b": {
    "name": "Tencent: Hy-MT2-7B",
@@ -870,8 +870,8 @@
   "z-ai/glm-5.2": {
    "name": "Z.ai: GLM 5.2",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0744",
-   "completion_per_mtok": "12"
+   "prompt_per_mtok": "0.171",
+   "completion_per_mtok": "7.2"
   },
   "openrouter/fusion": {
    "name": "OpenRouter: Fusion",
@@ -1061,8 +1061,8 @@
   "~moonshotai/kimi-latest": {
    "name": "MoonshotAI: Kimi Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.475",
-   "completion_per_mtok": "13.013"
+   "prompt_per_mtok": "0.61",
+   "completion_per_mtok": "13"
   },
   "~google/gemini-flash-latest": {
    "name": "Google: Gemini Flash Latest",
@@ -1182,8 +1182,8 @@
   "moonshotai/kimi-k2.6": {
    "name": "MoonshotAI: Kimi K2.6",
    "context_length": "262144",
-   "prompt_per_mtok": "0.95",
-   "completion_per_mtok": "4"
+   "prompt_per_mtok": "0.465",
+   "completion_per_mtok": "2.45"
   },
   "anthropic/claude-opus-4.7": {
    "name": "Anthropic: Claude Opus 4.7",
@@ -1206,8 +1206,8 @@
   "google/gemma-4-26b-a4b-it": {
    "name": "Google: Gemma 4 26B A4B ",
    "context_length": "262144",
-   "prompt_per_mtok": "0.0765",
-   "completion_per_mtok": "0.255"
+   "prompt_per_mtok": "0.09",
+   "completion_per_mtok": "0.3"
   },
   "google/gemma-4-26b-a4b-it:free": {
    "name": "Google: Gemma 4 26B A4B  (free)",
