@@ -1,4 +1,19 @@
 {
+ "https://github.blog/changelog/2026-10-08-triage-role-users-or-higher-can-now-archive-pull-requests": {
+  "title": "Triage role users or higher can now archive pull requests",
+  "date": "Thu, 08 Oct 2026 19:01:42 +0000",
+  "summary": "Users with the triage role or higher in a repository can now archive and unarchive pull requests. Previously, archiving was limited to repository administrators, requiring trusted triagers to hand routine&#8230;\nThe post Triage role users or higher can now archive pull requests appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-10-08-screen-readers-can-navigate-timelines-as-lists": {
+  "title": "Screen readers can navigate timelines as lists",
+  "date": "Thu, 08 Oct 2026 16:00:56 +0000",
+  "summary": "Screen readers can now navigate issue and pull request timelines as a list. When you move through a timeline, assistive technology can announce the list structure, item count, current position,&#8230;\nThe post Screen readers can navigate timelines as lists appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-10-08-draft-pull-requests-count-toward-pull-request-limits": {
+  "title": "Draft pull requests count toward pull request limits",
+  "date": "Thu, 08 Oct 2026 14:25:53 +0000",
+  "summary": "Maintainers are seeing more low-quality contributions in their repositories and need better ways to manage them. You can now configure pull request limits to also include draft pull requests. Previously,&#8230;\nThe post Draft pull requests count toward pull request limits appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-10-07-claude-haiku-5-5-in-github-copilot": {
   "title": "Claude Haiku 5.5 in GitHub Copilot",
   "date": "Wed, 07 Oct 2026 20:12:18 +0000",
@@ -33,20 +48,5 @@
   "title": "Code scanning AI Scan enablement status in security overview",
   "date": "Tue, 06 Oct 2026 10:23:38 +0000",
   "summary": "Organization and enterprise administrators can now see AI Scan for pull requests enablement status in the security overview coverage view. The code scanning summary shows enabled and not enabled repository&#8230;\nThe post Code scanning AI Scan enablement status in security overview appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-10-05-secret-scanning-adds-detectors-for-lovable-supabase-and-more": {
-  "title": "Secret scanning adds detectors for Lovable, Supabase, and more",
-  "date": "Mon, 05 Oct 2026 22:42:14 +0000",
-  "summary": "Secret scanning now detects new secret types from Lovable Labs, Pydantic Services Inc., and Supabase. New secret scanning partner The following provider joined the secret scanning partnership program. When one&#8230;\nThe post Secret scanning adds detectors for Lovable, Supabase, and more appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-10-02-stateless-github-app-installation-tokens-rolled-out": {
-  "title": "Stateless GitHub App installation tokens rolled out",
-  "date": "Fri, 02 Oct 2026 22:18:23 +0000",
-  "summary": "The staged rollout of the stateless GitHub App installation token format, which began on April 27, 2026, is complete. By default, all newly minted GitHub App installation tokens will be&#8230;\nThe post Stateless GitHub App installation tokens rolled out appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-10-02-copilot-code-review-api-support-and-new-default-effort-level": {
-  "title": "Copilot code review: API support and new default effort level",
-  "date": "Fri, 02 Oct 2026 19:13:50 +0000",
-  "summary": "You can now request a GitHub Copilot code review through the REST and GraphQL APIs and set the review effort level for each request. Balanced is also now the default&#8230;\nThe post Copilot code review: API support and new default effort level appeared first on The GitHub Blog."
  }
 }
