@@ -140,7 +140,7 @@
    "Cache hits and refreshes": "$0.10 / MTok",
    "Output tokens": "$5 / MTok"
   },
-  "Claude Haiku 3.5 (retired, except on Bedrock and Google Cloud)": {
+  "Claude Haiku 3.5 (retired, except on Google Cloud)": {
    "Base input tokens": "$0.80 / MTok",
    "5m cache writes": "$1 / MTok",
    "1h cache writes": "$1.60 / MTok",
@@ -310,7 +310,7 @@
    "Batch input": "$0.50 / MTok",
    "Batch output": "$2.50 / MTok"
   },
-  "Claude Haiku 3.5 (retired, except on Bedrock and Google Cloud)": {
+  "Claude Haiku 3.5 (retired, except on Google Cloud)": {
    "Batch input": "$0.40 / MTok",
    "Batch output": "$2 / MTok"
   }
@@ -375,7 +375,7 @@
    "Tool use system prompt tokens: auto, none": "496 tokens",
    "Tool use system prompt tokens: any, tool": "588 tokens"
   },
-  "Claude Haiku 3.5 (retired, except on Bedrock and Google Cloud)": {
+  "Claude Haiku 3.5 (retired, except on Google Cloud)": {
    "Tool use system prompt tokens: auto, none": "264 tokens",
    "Tool use system prompt tokens: any, tool": "355 tokens"
   }

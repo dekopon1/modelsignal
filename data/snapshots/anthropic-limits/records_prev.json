@@ -60,7 +60,7 @@
    "Maximum input tokens per minute (ITPM)": "10,000,000",
    "Maximum output tokens per minute (OTPM)": "2,000,000"
   },
-  "Claude Haiku 3.5 (retired, except on Bedrock and Google Cloud)": {
+  "Claude Haiku 3.5 (retired, except on Google Cloud)": {
    "Maximum requests per minute (RPM)": "4,000",
    "Maximum input tokens per minute (ITPM)": "400,0004",
    "Maximum output tokens per minute (OTPM)": "80,000"
