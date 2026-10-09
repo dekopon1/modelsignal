@@ -382,17 +382,20 @@
  },
  "Specific tool pricing": {},
  "Bash tool": {
-  "Claude Opus 5, Claude Opus 4.8, and Claude Opus 4.7": {
+  "Claude 4.7 and later models and Claude Mythos Preview": {
    "Additional input tokens": "325 tokens"
   },
-  "Claude Opus 4.6, Claude Sonnet 4.6, and earlier": {
+  "Claude 4.6 and earlier models": {
    "Additional input tokens": "244 tokens"
   }
  },
  "Code execution tool": {},
  "Text editor tool": {
-  "text_editor_20250429 (Claude 4.x)": {
-   "Additional input tokens": "700 tokens"
+  "text_editor_20250728 (Claude 4.7 and later models and Claude Mythos Preview)": {
+   "Additional input tokens": "974 tokens"
+  },
+  "text_editor_20250728 (Claude 4.6 and earlier models)": {
+   "Additional input tokens": "745 tokens"
   }
  },
  "Web search tool": {},

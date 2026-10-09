@@ -1,4 +1,14 @@
 {
+ "https://github.blog/changelog/2026-10-09-codeql-2-27-2-improves-c-go-rust-and-javascript-analysis": {
+  "title": "CodeQL 2.27.2 improves C++, Go, Rust, and JavaScript analysis",
+  "date": "Fri, 09 Oct 2026 21:32:54 +0000",
+  "summary": "CodeQL 2.27.2 is now available, adding a C++ regular-expression parser and analysis improvements across several languages. CodeQL is the static analysis engine behind GitHub code scanning, which helps you find&#8230;\nThe post CodeQL 2.27.2 improves C++, Go, Rust, and JavaScript analysis appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-10-08-copilot-code-review-new-organization-billing-options-and-controls": {
+  "title": "Copilot code review: New organization billing options and controls",
+  "date": "Thu, 08 Oct 2026 19:43:05 +0000",
+  "summary": "This release adds new billing and license controls for Copilot code review admins: Billing: Organization owners can bill Copilot code reviews from members with a Copilot license to the organization&#8217;s&#8230;\nThe post Copilot code review: New organization billing options and controls appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-10-08-triage-role-users-or-higher-can-now-archive-pull-requests": {
   "title": "Triage role users or higher can now archive pull requests",
   "date": "Thu, 08 Oct 2026 19:01:42 +0000",
@@ -38,15 +48,5 @@
   "title": "Update your IDE to restore agent activity in Copilot usage metrics",
   "date": "Tue, 06 Oct 2026 23:43:00 +0000",
   "summary": "If your Copilot usage metrics have shown agent activity or agent lines of code falling while Copilot usage kept growing, we&#8217;ve found the cause, and a fix is rolling out&#8230;\nThe post Update your IDE to restore agent activity in Copilot usage metrics appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-10-06-stacked-pull-requests-generally-available": {
-  "title": "Stacked pull requests generally available",
-  "date": "Tue, 06 Oct 2026 20:16:41 +0000",
-  "summary": "GitHub stacked pull requests are now generally available. Break large changes into smaller, focused pull requests that you can review independently and merge together. Since the feature went into public&#8230;\nThe post Stacked pull requests generally available appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-10-06-code-scanning-ai-scan-enablement-status-in-security-overview": {
-  "title": "Code scanning AI Scan enablement status in security overview",
-  "date": "Tue, 06 Oct 2026 10:23:38 +0000",
-  "summary": "Organization and enterprise administrators can now see AI Scan for pull requests enablement status in the security overview coverage view. The code scanning summary shows enabled and not enabled repository&#8230;\nThe post Code scanning AI Scan enablement status in security overview appeared first on The GitHub Blog."
  }
 }
