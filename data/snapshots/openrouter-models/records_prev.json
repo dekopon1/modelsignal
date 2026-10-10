@@ -255,13 +255,13 @@
   "~deepseek/deepseek-pro-latest": {
    "name": "DeepSeek: DeepSeek Pro Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.3",
-   "completion_per_mtok": "5"
+   "prompt_per_mtok": "0.22",
+   "completion_per_mtok": "4"
   },
   "~deepseek/deepseek-flash-latest": {
    "name": "DeepSeek: DeepSeek Flash Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0044",
+   "prompt_per_mtok": "0.0001",
    "completion_per_mtok": "0.6"
   },
   "inference-net/schematron-v2-turbo": {
@@ -577,8 +577,8 @@
   "nvidia/nemotron-3.5-lightning": {
    "name": "NVIDIA: Nemotron 3.5 Lightning",
    "context_length": "262144",
-   "prompt_per_mtok": "0.0469",
-   "completion_per_mtok": "0.134"
+   "prompt_per_mtok": "0.07",
+   "completion_per_mtok": "0.2"
   },
   "nvidia/nemotron-3.5-lightning:free": {
    "name": "NVIDIA: Nemotron 3.5 Lightning (free)",
@@ -613,13 +613,13 @@
   "~deepseek/deepseek-v4-flash-latest": {
    "name": "DeepSeek: DeepSeek V4 Flash Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0052",
+   "prompt_per_mtok": "0.0116",
    "completion_per_mtok": "1.28"
   },
   "deepseek/deepseek-v4-flash-0731": {
    "name": "DeepSeek: DeepSeek V4 Flash 0731",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0052",
+   "prompt_per_mtok": "0.0116",
    "completion_per_mtok": "1.28"
   },
   "thinkingmachines/inkling-small": {
@@ -1091,8 +1091,8 @@
   "~moonshotai/kimi-latest": {
    "name": "MoonshotAI: Kimi Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.49",
-   "completion_per_mtok": "14.9"
+   "prompt_per_mtok": "0.31",
+   "completion_per_mtok": "14.89"
   },
   "~google/gemini-flash-latest": {
    "name": "Google: Gemini Flash Latest",
@@ -1164,7 +1164,7 @@
   "deepseek/deepseek-v4-flash": {
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0091",
+   "prompt_per_mtok": "0.0216",
    "completion_per_mtok": "1.28"
   },
   "tencent/hy3-preview": {
@@ -2253,8 +2253,8 @@
   "qwen/qwen3-14b": {
    "name": "Qwen: Qwen3 14B",
    "context_length": "40960",
-   "prompt_per_mtok": "0.1",
-   "completion_per_mtok": "0.22"
+   "prompt_per_mtok": "0.12",
+   "completion_per_mtok": "0.24"
   },
   "qwen/qwen3-32b": {
    "name": "Qwen: Qwen3 32B",
