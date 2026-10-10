@@ -1,4 +1,9 @@
 {
+ "https://github.blog/changelog/2026-10-09-github-copilot-weekly-releases-october-5": {
+  "title": "GitHub Copilot weekly releases — October 5",
+  "date": "Fri, 09 Oct 2026 22:58:23 +0000",
+  "summary": "This week&#8217;s updates make Copilot easier to use across accounts and environments, with more control over what agents can access and how you manage their work. GitHub Copilot Claude Haiku&#8230;\nThe post GitHub Copilot weekly releases — October 5 appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-10-09-codeql-2-27-2-improves-c-go-rust-and-javascript-analysis": {
   "title": "CodeQL 2.27.2 improves C++, Go, Rust, and JavaScript analysis",
   "date": "Fri, 09 Oct 2026 21:32:54 +0000",
@@ -43,10 +48,5 @@
   "title": "Discover local models in GitHub Copilot CLI",
   "date": "Wed, 07 Oct 2026 15:46:13 +0000",
   "summary": "GitHub Copilot CLI makes it easier to choose a local model without leaving your existing workflow. Starting in CLI version 1.0.94-0, use /model to discover supported models from a running&#8230;\nThe post Discover local models in GitHub Copilot CLI appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-10-06-update-your-ide-to-restore-agent-activity-in-copilot-usage-metrics": {
-  "title": "Update your IDE to restore agent activity in Copilot usage metrics",
-  "date": "Tue, 06 Oct 2026 23:43:00 +0000",
-  "summary": "If your Copilot usage metrics have shown agent activity or agent lines of code falling while Copilot usage kept growing, we&#8217;ve found the cause, and a fix is rolling out&#8230;\nThe post Update your IDE to restore agent activity in Copilot usage metrics appeared first on The GitHub Blog."
  }
 }
