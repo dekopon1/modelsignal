@@ -431,8 +431,8 @@
   "tencent/hy4-preview": {
    "name": "Tencent: Hy4 preview",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.7506",
-   "completion_per_mtok": "2.2509"
+   "prompt_per_mtok": "0.834",
+   "completion_per_mtok": "2.501"
   },
   "inclusionai/ling-3.0-flash-fin": {
    "name": "inclusionAI: Ling 3.0 Flash Fin",
@@ -443,7 +443,7 @@
   "~z-ai/glm-flash-latest": {
    "name": "Z.ai: GLM Flash Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.03",
+   "prompt_per_mtok": "0.04",
    "completion_per_mtok": "0.5"
   },
   "qwen/qwen3.8-flash": {
@@ -491,7 +491,7 @@
   "~z-ai/glm-latest": {
    "name": "Z.ai: GLM Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.039",
+   "prompt_per_mtok": "0.07",
    "completion_per_mtok": "4.8"
   },
   "tencent/hy-mt2-7b": {
@@ -503,7 +503,7 @@
   "z-ai/glm-5.3": {
    "name": "Z.ai: GLM 5.3",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.039",
+   "prompt_per_mtok": "0.07",
    "completion_per_mtok": "4.8"
   },
   "z-ai/glm-5.3:batch": {
@@ -515,8 +515,8 @@
   "qwen/qwen3.8-27b": {
    "name": "Qwen: Qwen3.8 27B",
    "context_length": "1000000",
-   "prompt_per_mtok": "0.425",
-   "completion_per_mtok": "2.55"
+   "prompt_per_mtok": "0.04",
+   "completion_per_mtok": "2.3"
   },
   "dots-studio/dots-3-note-preview:free": {
    "name": "Dots Studio: Dots3-Note Preview (free)",
@@ -613,14 +613,14 @@
   "~deepseek/deepseek-v4-flash-latest": {
    "name": "DeepSeek: DeepSeek V4 Flash Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0095",
-   "completion_per_mtok": "1.28"
+   "prompt_per_mtok": "0.0161",
+   "completion_per_mtok": "0.64"
   },
   "deepseek/deepseek-v4-flash-0731": {
    "name": "DeepSeek: DeepSeek V4 Flash 0731",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0095",
-   "completion_per_mtok": "1.28"
+   "prompt_per_mtok": "0.0161",
+   "completion_per_mtok": "0.64"
   },
   "thinkingmachines/inkling-small": {
    "name": "Thinking Machines: Inkling Small",
@@ -726,7 +726,7 @@
    "name": "MoonshotAI: Kimi K3",
    "context_length": "1048576",
    "prompt_per_mtok": "0.8",
-   "completion_per_mtok": "15"
+   "completion_per_mtok": "10"
   },
   "moonshotai/kimi-k3:batch": {
    "name": "MoonshotAI: Kimi K3 (batch)",
@@ -839,8 +839,8 @@
   "tencent/hy3": {
    "name": "Tencent: Hy3",
    "context_length": "262144",
-   "prompt_per_mtok": "0.0825",
-   "completion_per_mtok": "0.33"
+   "prompt_per_mtok": "0.132",
+   "completion_per_mtok": "0.528"
   },
   "poolside/laguna-xs-2.1": {
    "name": "Poolside: Laguna XS 2.1",
@@ -1091,8 +1091,8 @@
   "~moonshotai/kimi-latest": {
    "name": "MoonshotAI: Kimi Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.289",
-   "completion_per_mtok": "14.9"
+   "prompt_per_mtok": "0.44",
+   "completion_per_mtok": "14.89"
   },
   "~google/gemini-flash-latest": {
    "name": "Google: Gemini Flash Latest",
@@ -1206,8 +1206,8 @@
   "moonshotai/kimi-k2.6": {
    "name": "MoonshotAI: Kimi K2.6",
    "context_length": "262144",
-   "prompt_per_mtok": "0.4344",
-   "completion_per_mtok": "2.45"
+   "prompt_per_mtok": "0.65",
+   "completion_per_mtok": "3.41"
   },
   "anthropic/claude-opus-4.7": {
    "name": "Anthropic: Claude Opus 4.7",
