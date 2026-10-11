@@ -261,8 +261,8 @@
   "~deepseek/deepseek-flash-latest": {
    "name": "DeepSeek: DeepSeek Flash Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0001",
-   "completion_per_mtok": "0.6"
+   "prompt_per_mtok": "0.0348",
+   "completion_per_mtok": "0.1392"
   },
   "inference-net/schematron-v2-turbo": {
    "name": "Inference.net: Schematron V2 Turbo",
@@ -491,7 +491,7 @@
   "~z-ai/glm-latest": {
    "name": "Z.ai: GLM Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.07",
+   "prompt_per_mtok": "0.039",
    "completion_per_mtok": "4.8"
   },
   "tencent/hy-mt2-7b": {
@@ -503,7 +503,7 @@
   "z-ai/glm-5.3": {
    "name": "Z.ai: GLM 5.3",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.07",
+   "prompt_per_mtok": "0.039",
    "completion_per_mtok": "4.8"
   },
   "z-ai/glm-5.3:batch": {
@@ -613,13 +613,13 @@
   "~deepseek/deepseek-v4-flash-latest": {
    "name": "DeepSeek: DeepSeek V4 Flash Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0161",
+   "prompt_per_mtok": "0.018",
    "completion_per_mtok": "0.64"
   },
   "deepseek/deepseek-v4-flash-0731": {
    "name": "DeepSeek: DeepSeek V4 Flash 0731",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0161",
+   "prompt_per_mtok": "0.018",
    "completion_per_mtok": "0.64"
   },
   "thinkingmachines/inkling-small": {
@@ -948,8 +948,8 @@
   "nvidia/nemotron-3-ultra-550b-a55b": {
    "name": "NVIDIA: Nemotron 3 Ultra",
    "context_length": "262144",
-   "prompt_per_mtok": "0.5",
-   "completion_per_mtok": "2.2"
+   "prompt_per_mtok": "0.6",
+   "completion_per_mtok": "2.4"
   },
   "nvidia/nemotron-3-ultra-550b-a55b:free": {
    "name": "NVIDIA: Nemotron 3 Ultra (free)",
@@ -1091,8 +1091,8 @@
   "~moonshotai/kimi-latest": {
    "name": "MoonshotAI: Kimi Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.44",
-   "completion_per_mtok": "14.89"
+   "prompt_per_mtok": "0.75",
+   "completion_per_mtok": "14.9"
   },
   "~google/gemini-flash-latest": {
    "name": "Google: Gemini Flash Latest",
