@@ -1,4 +1,29 @@
 {
+ "https://github.blog/changelog/2026-10-13-gemini-4-argon-in-github-copilot": {
+  "title": "Gemini 4 Argon in GitHub Copilot",
+  "date": "Tue, 13 Oct 2026 18:39:56 +0000",
+  "summary": "Gemini 4 Argon, Google&#8217;s newest frontier model, is now generally available in GitHub Copilot. It is designed for complex coding, agentic, and reasoning tasks. In early testing, Gemini 4 Argon&#8230;\nThe post Gemini 4 Argon in GitHub Copilot appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-10-13-audit-github-code-quality-finding-dismissals-and-reopenings": {
+  "title": "Audit GitHub Code Quality finding dismissals and reopenings",
+  "date": "Tue, 13 Oct 2026 17:58:36 +0000",
+  "summary": "You can now review manual dismissals and reopenings of GitHub Code Quality findings in your organization or enterprise audit log. Findings may appear in either your repository&#8217;s default-branch backlog or&#8230;\nThe post Audit GitHub Code Quality finding dismissals and reopenings appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-10-13-secret-scanning-blocks-anthropic-keys-by-default-adds-salesforce": {
+  "title": "Secret scanning blocks Anthropic keys by default, adds Salesforce",
+  "date": "Tue, 13 Oct 2026 16:12:36 +0000",
+  "summary": "Secret scanning now detects new secret types from Salesforce, Anthropic, and Cloudsmith, with the new Anthropic secret types blocked with push protection by default. New secret scanning partner Salesforce is&#8230;\nThe post Secret scanning blocks Anthropic keys by default, adds Salesforce appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-10-13-enterprise-managed-settings-enforcement-updates": {
+  "title": "Enterprise managed settings enforcement updates",
+  "date": "Tue, 13 Oct 2026 15:20:10 +0000",
+  "summary": "Enterprise administrators can now require supported GitHub Copilot clients to retrieve current server-managed settings at startup instead of relying on a cached policy. We are also adding minimum client version&#8230;\nThe post Enterprise managed settings enforcement updates appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-10-13-improved-detection-for-withdrawn-dependabot-alerts": {
+  "title": "Improved detection for withdrawn Dependabot alerts",
+  "date": "Tue, 13 Oct 2026 14:03:57 +0000",
+  "summary": "You can now more easily detect withdrawn Dependabot alerts. Dependabot withdraws and removes an alert when the advisory or vulnerability that produced it is no longer valid. Two changes help&#8230;\nThe post Improved detection for withdrawn Dependabot alerts appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-10-13-search-and-filter-for-budgets-now-available": {
   "title": "Search and filter for budgets now available",
   "date": "Tue, 13 Oct 2026 12:06:09 +0000",
@@ -23,30 +48,5 @@
   "title": "Anonymous organization-level registries for Dependabot",
   "date": "Mon, 12 Oct 2026 14:04:16 +0000",
   "summary": "You can now select Anonymous as the authentication method for an organization-level private registry. Use it for registries that Dependabot can reach without credentials, such as an internal package mirror&#8230;\nThe post Anonymous organization-level registries for Dependabot appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-10-10-new-controls-and-chat-improvements-in-copilot-for-jetbrains": {
-  "title": "New controls and chat improvements in Copilot for JetBrains",
-  "date": "Sat, 10 Oct 2026 18:53:39 +0000",
-  "summary": "This update brings more control over default models and MCP server in GitHub Copilot for JetBrains. It also makes diagnostics easier to address, improves chat navigation and account controls, and&#8230;\nThe post New controls and chat improvements in Copilot for JetBrains appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-10-09-github-copilot-weekly-releases-october-5": {
-  "title": "GitHub Copilot weekly releases — October 5",
-  "date": "Fri, 09 Oct 2026 22:58:23 +0000",
-  "summary": "This week&#8217;s updates make Copilot easier to use across accounts and environments, with more control over what agents can access and how you manage their work. GitHub Copilot Claude Haiku&#8230;\nThe post GitHub Copilot weekly releases — October 5 appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-10-09-codeql-2-27-2-improves-c-go-rust-and-javascript-analysis": {
-  "title": "CodeQL 2.27.2 improves C++, Go, Rust, and JavaScript analysis",
-  "date": "Fri, 09 Oct 2026 21:32:54 +0000",
-  "summary": "CodeQL 2.27.2 is now available, adding a C++ regular-expression parser and analysis improvements across several languages. CodeQL is the static analysis engine behind GitHub code scanning, which helps you find&#8230;\nThe post CodeQL 2.27.2 improves C++, Go, Rust, and JavaScript analysis appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-10-08-copilot-code-review-new-organization-billing-options-and-controls": {
-  "title": "Copilot code review: New organization billing options and controls",
-  "date": "Thu, 08 Oct 2026 19:43:05 +0000",
-  "summary": "This release adds new billing and license controls for Copilot code review admins: Billing: Organization owners can bill Copilot code reviews from members with a Copilot license to the organization&#8217;s&#8230;\nThe post Copilot code review: New organization billing options and controls appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-10-08-triage-role-users-or-higher-can-now-archive-pull-requests": {
-  "title": "Triage role users or higher can now archive pull requests",
-  "date": "Thu, 08 Oct 2026 19:01:42 +0000",
-  "summary": "Users with the triage role or higher in a repository can now archive and unarchive pull requests. Previously, archiving was limited to repository administrators, requiring trusted triagers to hand routine&#8230;\nThe post Triage role users or higher can now archive pull requests appeared first on The GitHub Blog."
  }
 }

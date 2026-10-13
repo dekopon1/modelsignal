@@ -1,5 +1,25 @@
 {
  "models": {
+  "liquid/lfm-2.5-24b-a2b": {
+   "name": "LiquidAI: LFM2.5-24B-A2B",
+   "context_length": "128000",
+   "prompt_per_mtok": "0.05",
+   "completion_per_mtok": "0.7"
+  },
+  "google/gemini-4-argon": {
+   "name": "Google: Gemini 4 Argon",
+   "context_length": "1048576",
+   "prompt_per_mtok": "2",
+   "completion_per_mtok": "10",
+   "image_per_mtok": "2"
+  },
+  "google/gemini-4-argon:batch": {
+   "name": "Google: Gemini 4 Argon (batch)",
+   "context_length": "1048576",
+   "prompt_per_mtok": "1",
+   "completion_per_mtok": "5",
+   "image_per_mtok": "1"
+  },
   "scaledown/summarize": {
    "name": "ScaleDown: Summarize",
    "context_length": "1000000",
@@ -51,14 +71,8 @@
   "inclusionai/ling-3.1-flash": {
    "name": "inclusionAI: Ling 3.1 Flash",
    "context_length": "262144",
-   "prompt_per_mtok": "0",
-   "completion_per_mtok": "0"
-  },
-  "apodex/apodex-1.1-mini:free": {
-   "name": "Apodex: Apodex 1.1 Mini (free)",
-   "context_length": "262144",
-   "prompt_per_mtok": "0",
-   "completion_per_mtok": "0"
+   "prompt_per_mtok": "0.075",
+   "completion_per_mtok": "0.225"
   },
   "unbiased/pareto-26.10-preview": {
    "name": "Pareto 26.10 Preview",
@@ -273,14 +287,14 @@
   "~deepseek/deepseek-pro-latest": {
    "name": "DeepSeek: DeepSeek Pro Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.2495",
-   "completion_per_mtok": "0.7484"
+   "prompt_per_mtok": "0.1817",
+   "completion_per_mtok": "8"
   },
   "~deepseek/deepseek-flash-latest": {
    "name": "DeepSeek: DeepSeek Flash Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0438",
-   "completion_per_mtok": "0.1752"
+   "prompt_per_mtok": "0.0441",
+   "completion_per_mtok": "0.765"
   },
   "inference-net/schematron-v2-turbo": {
    "name": "Inference.net: Schematron V2 Turbo",
@@ -332,15 +346,15 @@
   },
   "inclusionai/ling-3.0-flash-vl": {
    "name": "inclusionAI: Ling 3.0 Flash VL",
-   "context_length": "262144",
-   "prompt_per_mtok": "0.021",
-   "completion_per_mtok": "0.0616"
+   "context_length": "131072",
+   "prompt_per_mtok": "0.06",
+   "completion_per_mtok": "0.18"
   },
   "deepseek/deepseek-v4.1-flash": {
    "name": "DeepSeek: DeepSeek V4.1 Flash",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0438",
-   "completion_per_mtok": "0.1752"
+   "prompt_per_mtok": "0.0441",
+   "completion_per_mtok": "0.765"
   },
   "deepseek/deepseek-v4.1-flash:batch": {
    "name": "DeepSeek: DeepSeek V4.1 Flash (batch)",
@@ -389,12 +403,6 @@
    "context_length": "1050000",
    "prompt_per_mtok": "5",
    "completion_per_mtok": "25"
-  },
-  "inclusionai/ling-3.0-flash-sante": {
-   "name": "inclusionAI: Ling 3.0 Flash Sante",
-   "context_length": "262144",
-   "prompt_per_mtok": "0.042",
-   "completion_per_mtok": "0.1232"
   },
   "qwen/qwen3.8-max-0902": {
    "name": "Qwen: Qwen3.8 Max (0902)",
@@ -449,19 +457,13 @@
   "tencent/hy4-preview": {
    "name": "Tencent: Hy4 preview",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.834",
-   "completion_per_mtok": "2.501"
-  },
-  "inclusionai/ling-3.0-flash-fin": {
-   "name": "inclusionAI: Ling 3.0 Flash Fin",
-   "context_length": "262144",
-   "prompt_per_mtok": "0.042",
-   "completion_per_mtok": "0.1232"
+   "prompt_per_mtok": "0.7506",
+   "completion_per_mtok": "2.2509"
   },
   "~z-ai/glm-flash-latest": {
    "name": "Z.ai: GLM Flash Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0261",
+   "prompt_per_mtok": "0.0297",
    "completion_per_mtok": "0.9"
   },
   "qwen/qwen3.8-flash": {
@@ -473,7 +475,7 @@
   "z-ai/glm-5.3-flash": {
    "name": "Z.ai: GLM 5.3 Flash",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0261",
+   "prompt_per_mtok": "0.0297",
    "completion_per_mtok": "0.9"
   },
   "z-ai/glm-5.3-flash:batch": {
@@ -509,8 +511,8 @@
   "~z-ai/glm-latest": {
    "name": "Z.ai: GLM Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.055",
-   "completion_per_mtok": "5"
+   "prompt_per_mtok": "0.063",
+   "completion_per_mtok": "4.4"
   },
   "tencent/hy-mt2-7b": {
    "name": "Tencent: Hy-MT2-7B",
@@ -857,8 +859,8 @@
   "tencent/hy3": {
    "name": "Tencent: Hy3",
    "context_length": "262144",
-   "prompt_per_mtok": "0.132",
-   "completion_per_mtok": "0.528"
+   "prompt_per_mtok": "0.0825",
+   "completion_per_mtok": "0.33"
   },
   "poolside/laguna-xs-2.1": {
    "name": "Poolside: Laguna XS 2.1",
@@ -918,7 +920,7 @@
   "z-ai/glm-5.2": {
    "name": "Z.ai: GLM 5.2",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.06",
+   "prompt_per_mtok": "0.08",
    "completion_per_mtok": "7"
   },
   "openrouter/fusion": {
@@ -1109,8 +1111,8 @@
   "~moonshotai/kimi-latest": {
    "name": "MoonshotAI: Kimi Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.73",
-   "completion_per_mtok": "10"
+   "prompt_per_mtok": "0.72",
+   "completion_per_mtok": "24"
   },
   "~google/gemini-flash-latest": {
    "name": "Google: Gemini Flash Latest",
@@ -1176,14 +1178,14 @@
   "deepseek/deepseek-v4-pro": {
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.4427",
-   "completion_per_mtok": "0.8853"
+   "prompt_per_mtok": "0.3887",
+   "completion_per_mtok": "0.7774"
   },
   "deepseek/deepseek-v4-flash": {
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.05",
-   "completion_per_mtok": "1.28"
+   "prompt_per_mtok": "0.091",
+   "completion_per_mtok": "0.182"
   },
   "tencent/hy3-preview": {
    "name": "Tencent: Hy3 preview",
@@ -1248,8 +1250,8 @@
   "google/gemma-4-26b-a4b-it": {
    "name": "Google: Gemma 4 26B A4B ",
    "context_length": "262144",
-   "prompt_per_mtok": "0.09",
-   "completion_per_mtok": "0.3"
+   "prompt_per_mtok": "0.0765",
+   "completion_per_mtok": "0.255"
   },
   "google/gemma-4-26b-a4b-it:free": {
    "name": "Google: Gemma 4 26B A4B  (free)",
@@ -1441,8 +1443,8 @@
   "qwen/qwen3.5-35b-a3b": {
    "name": "Qwen: Qwen3.5-35B-A3B",
    "context_length": "262144",
-   "prompt_per_mtok": "0.08",
-   "completion_per_mtok": "0.75"
+   "prompt_per_mtok": "0.15",
+   "completion_per_mtok": "1"
   },
   "qwen/qwen3.5-27b": {
    "name": "Qwen: Qwen3.5-27B",
