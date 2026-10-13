@@ -1,5 +1,17 @@
 {
  "models": {
+  "scaledown/summarize": {
+   "name": "ScaleDown: Summarize",
+   "context_length": "1000000",
+   "prompt_per_mtok": "0.04",
+   "completion_per_mtok": "0"
+  },
+  "scaledown/extract": {
+   "name": "ScaleDown: Extract",
+   "context_length": "1000000",
+   "prompt_per_mtok": "0.04",
+   "completion_per_mtok": "0"
+  },
   "meta/muse-wonder": {
    "name": "Meta: Muse Wonder",
    "context_length": "1048576",
@@ -267,8 +279,8 @@
   "~deepseek/deepseek-flash-latest": {
    "name": "DeepSeek: DeepSeek Flash Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0441",
-   "completion_per_mtok": "0.891"
+   "prompt_per_mtok": "0.0438",
+   "completion_per_mtok": "0.1752"
   },
   "inference-net/schematron-v2-turbo": {
    "name": "Inference.net: Schematron V2 Turbo",
@@ -327,8 +339,8 @@
   "deepseek/deepseek-v4.1-flash": {
    "name": "DeepSeek: DeepSeek V4.1 Flash",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.15",
-   "completion_per_mtok": "0.6"
+   "prompt_per_mtok": "0.0438",
+   "completion_per_mtok": "0.1752"
   },
   "deepseek/deepseek-v4.1-flash:batch": {
    "name": "DeepSeek: DeepSeek V4.1 Flash (batch)",
@@ -1164,13 +1176,13 @@
   "deepseek/deepseek-v4-pro": {
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.4124",
-   "completion_per_mtok": "0.8248"
+   "prompt_per_mtok": "0.4427",
+   "completion_per_mtok": "0.8853"
   },
   "deepseek/deepseek-v4-flash": {
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0048",
+   "prompt_per_mtok": "0.05",
    "completion_per_mtok": "1.28"
   },
   "tencent/hy3-preview": {
@@ -1236,8 +1248,8 @@
   "google/gemma-4-26b-a4b-it": {
    "name": "Google: Gemma 4 26B A4B ",
    "context_length": "262144",
-   "prompt_per_mtok": "0.0765",
-   "completion_per_mtok": "0.255"
+   "prompt_per_mtok": "0.09",
+   "completion_per_mtok": "0.3"
   },
   "google/gemma-4-26b-a4b-it:free": {
    "name": "Google: Gemma 4 26B A4B  (free)",
