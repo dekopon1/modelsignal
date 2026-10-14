@@ -1,8 +1,13 @@
 {
+ "https://github.blog/changelog/2026-10-14-hydrafusion-updates-and-new-max-option": {
+  "title": "HydraFusion updates and new Max option",
+  "date": "Wed, 14 Oct 2026 20:01:35 +0000",
+  "summary": "HydraFusion has an updated model pool, improved orchestration workflows, and introduces HydraFusion Max. Both HydraFusion and HydraFusion Max are available across VS Code, the GitHub Copilot app, and GitHub Copilot&#8230;\nThe post HydraFusion updates and new Max option appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-10-14-github-actions-workflow-lockfiles-in-public-preview": {
   "title": "GitHub Actions workflow lockfiles in public preview",
   "date": "Wed, 14 Oct 2026 13:49:15 +0000",
-  "summary": "GitHub Actions workflow dependency lockfiles are now in public preview for GitHub Enterprise Cloud and GitHub Enterprise Cloud with data residency. Tags and branches can move after you review a&#8230;\nThe post GitHub Actions workflow lockfiles in public preview appeared first on The GitHub Blog."
+  "summary": "GitHub Actions workflow dependency lockfiles are now in public preview for GitHub Enterprise Cloud, GitHub Enterprise Cloud with data residency, Team, and Free plans. Tags and branches can move after&#8230;\nThe post GitHub Actions workflow lockfiles in public preview appeared first on The GitHub Blog."
  },
  "https://github.blog/changelog/2026-10-13-github-app-improvements-for-least-privilege-and-management": {
   "title": "GitHub App improvements for least privilege and management",
@@ -43,10 +48,5 @@
   "title": "Code scanning AI Scan metrics in security overview",
   "date": "Tue, 13 Oct 2026 12:03:17 +0000",
   "summary": "Organization and enterprise administrators can now observe the impact of AI Scan for pull requests in security overview. New metrics show how many AI Scan findings were generated, resolved, the&#8230;\nThe post Code scanning AI Scan metrics in security overview appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-10-12-client-telemetry-user-attribution-and-configurable-capture": {
-  "title": "Client telemetry user attribution and configurable capture",
-  "date": "Mon, 12 Oct 2026 22:38:00 +0000",
-  "summary": "Enterprise administrators can now use telemetry in managed settings to attribute GitHub Copilot activity to a user without collecting their prompts, responses, or tool content. The telemetry.capture.identity setting adds three&#8230;\nThe post Client telemetry user attribution and configurable capture appeared first on The GitHub Blog."
  }
 }
