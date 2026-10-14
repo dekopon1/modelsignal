@@ -293,7 +293,7 @@
   "~deepseek/deepseek-pro-latest": {
    "name": "DeepSeek: DeepSeek Pro Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.225",
+   "prompt_per_mtok": "0.1307",
    "completion_per_mtok": "8"
   },
   "~deepseek/deepseek-flash-latest": {
@@ -463,8 +463,8 @@
   "tencent/hy4-preview": {
    "name": "Tencent: Hy4 preview",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.834",
-   "completion_per_mtok": "2.501"
+   "prompt_per_mtok": "0.7506",
+   "completion_per_mtok": "2.2509"
   },
   "~z-ai/glm-flash-latest": {
    "name": "Z.ai: GLM Flash Latest",
@@ -481,8 +481,8 @@
   "z-ai/glm-5.3-flash": {
    "name": "Z.ai: GLM 5.3 Flash",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.036",
-   "completion_per_mtok": "0.9"
+   "prompt_per_mtok": "0.15",
+   "completion_per_mtok": "0.5"
   },
   "z-ai/glm-5.3-flash:batch": {
    "name": "Z.ai: GLM 5.3 Flash (batch)",
@@ -517,7 +517,7 @@
   "~z-ai/glm-latest": {
    "name": "Z.ai: GLM Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0576",
+   "prompt_per_mtok": "0.063",
    "completion_per_mtok": "4.4"
   },
   "tencent/hy-mt2-7b": {
@@ -751,7 +751,7 @@
   "moonshotai/kimi-k3": {
    "name": "MoonshotAI: Kimi K3",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.7",
+   "prompt_per_mtok": "0.5",
    "completion_per_mtok": "15"
   },
   "moonshotai/kimi-k3:batch": {
@@ -865,8 +865,8 @@
   "tencent/hy3": {
    "name": "Tencent: Hy3",
    "context_length": "262144",
-   "prompt_per_mtok": "0.132",
-   "completion_per_mtok": "0.528"
+   "prompt_per_mtok": "0.0825",
+   "completion_per_mtok": "0.33"
   },
   "poolside/laguna-xs-2.1": {
    "name": "Poolside: Laguna XS 2.1",
@@ -1117,7 +1117,7 @@
   "~moonshotai/kimi-latest": {
    "name": "MoonshotAI: Kimi Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.536",
+   "prompt_per_mtok": "0.4",
    "completion_per_mtok": "14"
   },
   "~google/gemini-flash-latest": {
@@ -1184,8 +1184,8 @@
   "deepseek/deepseek-v4-pro": {
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.9553",
-   "completion_per_mtok": "1.9105"
+   "prompt_per_mtok": "0.4106",
+   "completion_per_mtok": "0.8213"
   },
   "deepseek/deepseek-v4-flash": {
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
