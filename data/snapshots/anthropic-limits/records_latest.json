@@ -95,7 +95,7 @@
  "Setting lower limits for Workspaces": {},
  "Response headers": {
   "retry-after": {
-   "Description": "The number of seconds to wait until you can retry the request. Earlier retries will fail. Not sent with the spend-cap 429 (see Reaching your spend cap)."
+   "Description": "The number of seconds to wait until you can retry the request. Earlier retries will fail. Not every 429 carries it; the spend-cap 429 never does (see Reaching your spend cap)."
   },
   "anthropic-ratelimit-requests-limit": {
    "Description": "The maximum number of requests allowed within any rate limit period."
