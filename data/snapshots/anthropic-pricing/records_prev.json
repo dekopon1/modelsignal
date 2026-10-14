@@ -419,27 +419,27 @@
  },
  "Worked example": {
   "Input tokens": {
-   "Calculation": "50,000 × $5 / 1,000,000",
-   "Cost": "$0.25"
+   "Calculation": "50,000 × $4 / 1,000,000",
+   "Cost": "$0.20"
   },
   "Output tokens": {
-   "Calculation": "15,000 × $25 / 1,000,000",
-   "Cost": "$0.375"
+   "Calculation": "15,000 × $20 / 1,000,000",
+   "Cost": "$0.30"
   },
   "Session runtime": {
    "Calculation": "1.0 hour × $0.08",
    "Cost": "$0.08"
   },
   "Total": {
-   "Cost": "$0.525"
+   "Cost": "$0.428"
   },
   "Uncached input tokens": {
-   "Calculation": "10,000 × $5 / 1,000,000",
-   "Cost": "$0.05"
+   "Calculation": "10,000 × $4 / 1,000,000",
+   "Cost": "$0.04"
   },
   "Cache read tokens": {
-   "Calculation": "40,000 × $5 × 0.1 / 1,000,000",
-   "Cost": "$0.02"
+   "Calculation": "40,000 × $4 × 0.05 / 1,000,000",
+   "Cost": "$0.008"
   }
  },
  "Additional pricing considerations": {},
