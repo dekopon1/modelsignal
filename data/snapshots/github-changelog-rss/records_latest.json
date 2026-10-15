@@ -1,4 +1,14 @@
 {
+ "https://github.blog/changelog/2026-10-15-download-github-code-quality-license-usage-as-a-csv": {
+  "title": "Download GitHub Code Quality license usage as a CSV",
+  "date": "Thu, 15 Oct 2026 20:11:26 +0000",
+  "summary": "You can now download a CSV report of your GitHub Code Quality license usage to reconcile your license count with your own records. The report includes: Each active committer who&#8230;\nThe post Download GitHub Code Quality license usage as a CSV appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november": {
+  "title": "Upcoming deprecation of selected GitHub Copilot models in mid-November",
+  "date": "Thu, 15 Oct 2026 19:35:13 +0000",
+  "summary": "We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on November 16th, 2026: Model Deprecation date&#8230;\nThe post Upcoming deprecation of selected GitHub Copilot models in mid-November appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-10-15-ai-scan-for-pull-requests-generally-available": {
   "title": "AI Scan for pull requests generally available",
   "date": "Thu, 15 Oct 2026 15:04:51 +0000",
@@ -38,15 +48,5 @@
   "title": "Audit GitHub Code Quality finding dismissals and reopenings",
   "date": "Tue, 13 Oct 2026 17:58:36 +0000",
   "summary": "You can now review manual dismissals and reopenings of GitHub Code Quality findings in your organization or enterprise audit log. Findings may appear in either your repository&#8217;s default-branch backlog or&#8230;\nThe post Audit GitHub Code Quality finding dismissals and reopenings appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-10-13-secret-scanning-blocks-anthropic-keys-by-default-adds-salesforce": {
-  "title": "Secret scanning blocks Anthropic keys by default, adds Salesforce",
-  "date": "Tue, 13 Oct 2026 16:12:36 +0000",
-  "summary": "Secret scanning now detects new secret types from Salesforce, Anthropic, and Cloudsmith, with the new Anthropic secret types blocked with push protection by default. New secret scanning partner Salesforce is&#8230;\nThe post Secret scanning blocks Anthropic keys by default, adds Salesforce appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-10-13-enterprise-managed-settings-enforcement-updates": {
-  "title": "Enterprise managed settings enforcement updates",
-  "date": "Tue, 13 Oct 2026 15:20:10 +0000",
-  "summary": "Enterprise administrators can now require supported GitHub Copilot clients to retrieve current server-managed settings at startup instead of relying on a cached policy. We are also adding minimum client version&#8230;\nThe post Enterprise managed settings enforcement updates appeared first on The GitHub Blog."
  }
 }
