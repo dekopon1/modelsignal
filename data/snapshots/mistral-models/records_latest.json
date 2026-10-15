@@ -27,6 +27,11 @@
  "Moderation and safety models": {},
  "Shieldstral 1.0": {},
  "Mistral Moderation 2": {},
+ "Time series models": {},
+ "Timestral 1.0": {},
+ "Timestral 1.0 123M": {},
+ "Timestral 1.0 28M": {},
+ "Timestral 1.0 5M": {},
  "Deprecated": {},
  "Deprecated & retired models": {
   "Leanstral 1.5 ↗": {
