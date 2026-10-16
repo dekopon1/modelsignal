@@ -69,5 +69,15 @@
    "deepseek-v4-pro": "500"
   }
  },
+ "Search & Fetch Pricing​": {
+  "Search": {
+   "Unit": "Per 1,000 successful requests",
+   "Price": "$0.75"
+  },
+  "Fetch": {
+   "Unit": "Per 1,000 successful requests",
+   "Price": "$0.75"
+  }
+ },
  "Deduction Rules​": {}
 }
