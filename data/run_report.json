@@ -1,5 +1,5 @@
 {
- "run_at": "2026-10-16T16:35:26Z",
+ "run_at": "2026-10-16T21:03:57Z",
  "results": [
   {
    "id": "anthropic-pricing",
@@ -16,26 +16,22 @@
   {
    "id": "openrouter-models",
    "ok": true,
-   "http_chars": 779603,
+   "http_chars": 780935,
    "changed": true,
-   "changes": 17,
+   "changes": 16,
    "announcements": 0
   },
   {
    "id": "deepseek-pricing",
    "ok": true,
    "http_chars": 25201,
-   "changed": true,
-   "changes": 2,
-   "announcements": 0
+   "changed": false
   },
   {
    "id": "mistral-models",
    "ok": true,
    "http_chars": 1332510,
-   "changed": true,
-   "changes": 0,
-   "announcements": 0
+   "changed": false
   },
   {
    "id": "google-gemini-pricing",
@@ -71,22 +67,20 @@
    "id": "github-changelog-rss",
    "ok": true,
    "http_chars": 44153,
-   "changed": true,
-   "changes": 0,
-   "announcements": 2
+   "changed": false
   },
   {
    "id": "openai-news-rss",
    "ok": true,
-   "http_chars": 787929,
+   "http_chars": 788552,
    "changed": true,
    "changes": 0,
-   "announcements": 0
+   "announcements": 1
   },
   {
    "id": "gemini-release-notes",
    "ok": true,
-   "http_chars": 174666,
+   "http_chars": 174662,
    "changed": true,
    "changes": 0,
    "announcements": 0
