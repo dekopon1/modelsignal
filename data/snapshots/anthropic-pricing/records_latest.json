@@ -221,12 +221,12 @@
  "Data residency pricing": {},
  "Fast mode pricing": {
   "Claude Opus 5.5": {
-   "Input": "$8 / MTok",
-   "Output": "$40 / MTok"
+   "Input": "$8 USD / MTok",
+   "Output": "$40 USD / MTok"
   },
   "Claude Opus 5 / Claude Opus 4.8": {
-   "Input": "$10 / MTok",
-   "Output": "$50 / MTok"
+   "Input": "$10 USD / MTok",
+   "Output": "$50 USD / MTok"
   }
  },
  "Batch processing": {

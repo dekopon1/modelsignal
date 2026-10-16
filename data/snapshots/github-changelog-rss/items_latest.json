@@ -1,4 +1,9 @@
 {
+ "https://github.blog/changelog/2026-10-15-copilot-in-slack-and-teams-adds-model-and-repository-updates": {
+  "title": "Multi-repo support and other improvements for GitHub Copilot in Slack and Microsoft Teams",
+  "date": "Fri, 16 Oct 2026 02:16:35 +0000",
+  "summary": "Multi-repo support in Slack and Microsoft Teams GitHub Copilot in Slack and Microsoft Teams now supports working across multiple repositories in a single conversation. Whether you&#8217;re tracking pull requests, investigating&#8230;\nThe post Multi-repo support and other improvements for GitHub Copilot in Slack and Microsoft Teams appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-10-15-download-github-code-quality-license-usage-as-a-csv": {
   "title": "Download GitHub Code Quality license usage as a CSV",
   "date": "Thu, 15 Oct 2026 20:11:26 +0000",
@@ -43,10 +48,5 @@
   "title": "Gemini 4 Argon in GitHub Copilot",
   "date": "Tue, 13 Oct 2026 18:39:56 +0000",
   "summary": "Gemini 4 Argon, Google&#8217;s newest frontier model, is now generally available in GitHub Copilot. It is designed for complex coding, agentic, and reasoning tasks. In early testing, Gemini 4 Argon&#8230;\nThe post Gemini 4 Argon in GitHub Copilot appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-10-13-audit-github-code-quality-finding-dismissals-and-reopenings": {
-  "title": "Audit GitHub Code Quality finding dismissals and reopenings",
-  "date": "Tue, 13 Oct 2026 17:58:36 +0000",
-  "summary": "You can now review manual dismissals and reopenings of GitHub Code Quality findings in your organization or enterprise audit log. Findings may appear in either your repository&#8217;s default-branch backlog or&#8230;\nThe post Audit GitHub Code Quality finding dismissals and reopenings appeared first on The GitHub Blog."
  }
 }
