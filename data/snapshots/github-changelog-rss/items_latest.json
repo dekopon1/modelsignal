@@ -10,9 +10,9 @@
   "summary": "You can now use the generally available Xcode 27 runner image to build and test your Apple applications in GitHub Actions. Previously in public preview, this GitHub-hosted image runs on&#8230;\nThe post Xcode 27 runner image generally available appeared first on The GitHub Blog."
  },
  "https://github.blog/changelog/2026-10-15-copilot-in-slack-and-teams-adds-model-and-repository-updates": {
-  "title": "Multi-repo support and other improvements for GitHub in Slack and Teams",
+  "title": "Multi-repository support and other improvements for GitHub in Slack and Teams",
   "date": "Fri, 16 Oct 2026 02:16:35 +0000",
-  "summary": "Multi-repo support in Slack and Teams GitHub Copilot in Slack and Teams now supports working across multiple repositories in a single conversation. Whether you&#8217;re tracking pull requests, investigating issues, or&#8230;\nThe post Multi-repo support and other improvements for GitHub in Slack and Teams appeared first on The GitHub Blog."
+  "summary": "@GitHub in Slack and Teams now supports working across multiple repositories in a single conversation. Whether you&#8217;re creating issues, opening pull requests, or investigating bugs, you can work across repositories&#8230;\nThe post Multi-repository support and other improvements for GitHub in Slack and Teams appeared first on The GitHub Blog."
  },
  "https://github.blog/changelog/2026-10-15-download-github-code-quality-license-usage-as-a-csv": {
   "title": "Download GitHub Code Quality license usage as a CSV",
