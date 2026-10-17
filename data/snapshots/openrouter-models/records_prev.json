@@ -341,14 +341,14 @@
   "~deepseek/deepseek-pro-latest": {
    "name": "DeepSeek: DeepSeek Pro Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.1233",
-   "completion_per_mtok": "0.3831"
+   "prompt_per_mtok": "0.12",
+   "completion_per_mtok": "8"
   },
   "~deepseek/deepseek-flash-latest": {
    "name": "DeepSeek: DeepSeek Flash Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.15",
-   "completion_per_mtok": "0.6"
+   "prompt_per_mtok": "0.1",
+   "completion_per_mtok": "0.5"
   },
   "inference-net/schematron-v2-turbo": {
    "name": "Inference.net: Schematron V2 Turbo",
@@ -407,8 +407,8 @@
   "deepseek/deepseek-v4.1-flash": {
    "name": "DeepSeek: DeepSeek V4.1 Flash",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0153",
-   "completion_per_mtok": "0.594"
+   "prompt_per_mtok": "0.15",
+   "completion_per_mtok": "0.6"
   },
   "deepseek/deepseek-v4.1-flash:batch": {
    "name": "DeepSeek: DeepSeek V4.1 Flash (batch)",
@@ -517,8 +517,8 @@
   "~z-ai/glm-flash-latest": {
    "name": "Z.ai: GLM Flash Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0238",
-   "completion_per_mtok": "0.3966"
+   "prompt_per_mtok": "0.06",
+   "completion_per_mtok": "1.6"
   },
   "qwen/qwen3.8-flash": {
    "name": "Qwen: Qwen3.8 Flash",
@@ -529,8 +529,8 @@
   "z-ai/glm-5.3-flash": {
    "name": "Z.ai: GLM 5.3 Flash",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0238",
-   "completion_per_mtok": "0.3966"
+   "prompt_per_mtok": "0.15",
+   "completion_per_mtok": "0.5"
   },
   "z-ai/glm-5.3-flash:batch": {
    "name": "Z.ai: GLM 5.3 Flash (batch)",
@@ -565,8 +565,8 @@
   "~z-ai/glm-latest": {
    "name": "Z.ai: GLM Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.069",
-   "completion_per_mtok": "3.939"
+   "prompt_per_mtok": "0.0632",
+   "completion_per_mtok": "4.4"
   },
   "tencent/hy-mt2-7b": {
    "name": "Tencent: Hy-MT2-7B",
@@ -687,14 +687,14 @@
   "~deepseek/deepseek-v4-flash-latest": {
    "name": "DeepSeek: DeepSeek V4 Flash Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0079",
-   "completion_per_mtok": "0.2829"
+   "prompt_per_mtok": "0.0146",
+   "completion_per_mtok": "1.28"
   },
   "deepseek/deepseek-v4-flash-0731": {
    "name": "DeepSeek: DeepSeek V4 Flash 0731",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0079",
-   "completion_per_mtok": "0.2829"
+   "prompt_per_mtok": "0.0146",
+   "completion_per_mtok": "1.28"
   },
   "thinkingmachines/inkling-small": {
    "name": "Thinking Machines: Inkling Small",
@@ -1172,7 +1172,7 @@
    "name": "MoonshotAI: Kimi Latest",
    "context_length": "1048576",
    "prompt_per_mtok": "0.27",
-   "completion_per_mtok": "13.9778"
+   "completion_per_mtok": "14"
   },
   "~google/gemini-flash-latest": {
    "name": "Google: Gemini Flash Latest",
