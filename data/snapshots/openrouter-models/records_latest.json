@@ -413,7 +413,7 @@
   "deepseek/deepseek-v4.1-flash": {
    "name": "DeepSeek: DeepSeek V4.1 Flash",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.04",
+   "prompt_per_mtok": "0.0608",
    "completion_per_mtok": "0.144"
   },
   "deepseek/deepseek-v4.1-flash:batch": {
@@ -517,8 +517,8 @@
   "tencent/hy4-preview": {
    "name": "Tencent: Hy4 preview",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.834",
-   "completion_per_mtok": "2.501"
+   "prompt_per_mtok": "0.7506",
+   "completion_per_mtok": "2.2509"
   },
   "~z-ai/glm-flash-latest": {
    "name": "Z.ai: GLM Flash Latest",
@@ -584,7 +584,7 @@
    "name": "Z.ai: GLM 5.3",
    "context_length": "1048576",
    "prompt_per_mtok": "0.079",
-   "completion_per_mtok": "1.8"
+   "completion_per_mtok": "1"
   },
   "z-ai/glm-5.3:batch": {
    "name": "Z.ai: GLM 5.3 (batch)",
@@ -693,13 +693,13 @@
   "~deepseek/deepseek-v4-flash-latest": {
    "name": "DeepSeek: DeepSeek V4 Flash Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0069",
-   "completion_per_mtok": "0.1436"
+   "prompt_per_mtok": "0.0052",
+   "completion_per_mtok": "0.144"
   },
   "deepseek/deepseek-v4-flash-0731": {
    "name": "DeepSeek: DeepSeek V4 Flash 0731",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0086",
+   "prompt_per_mtok": "0.0065",
    "completion_per_mtok": "0.45"
   },
   "thinkingmachines/inkling-small": {
@@ -805,7 +805,7 @@
   "moonshotai/kimi-k3": {
    "name": "MoonshotAI: Kimi K3",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.304",
+   "prompt_per_mtok": "0.249",
    "completion_per_mtok": "11.936"
   },
   "moonshotai/kimi-k3:batch": {
@@ -919,8 +919,8 @@
   "tencent/hy3": {
    "name": "Tencent: Hy3",
    "context_length": "262144",
-   "prompt_per_mtok": "0.132",
-   "completion_per_mtok": "0.528"
+   "prompt_per_mtok": "0.0825",
+   "completion_per_mtok": "0.33"
   },
   "poolside/laguna-xs-2.1": {
    "name": "Poolside: Laguna XS 2.1",
@@ -1177,8 +1177,8 @@
   "~moonshotai/kimi-latest": {
    "name": "MoonshotAI: Kimi Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.25",
-   "completion_per_mtok": "8"
+   "prompt_per_mtok": "0.249",
+   "completion_per_mtok": "11.936"
   },
   "~google/gemini-flash-latest": {
    "name": "Google: Gemini Flash Latest",
