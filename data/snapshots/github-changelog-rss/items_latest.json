@@ -1,4 +1,9 @@
 {
+ "https://github.blog/changelog/2026-10-19-codeql-changes-for-macos-27-xcode-27-and-swift-6-4": {
+  "title": "CodeQL changes for macOS 27, Xcode 27, and Swift 6.4",
+  "date": "Mon, 19 Oct 2026 10:29:09 +0000",
+  "summary": "Starting with macOS 27 and Xcode 27, Apple no longer includes Intel (x86_64) code in some of the system binaries and libraries that CodeQL relies on to trace builds. As&#8230;\nThe post CodeQL changes for macOS 27, Xcode 27, and Swift 6.4 appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-10-16-open-source-license-compliance-generally-available": {
   "title": "Open source license compliance generally available",
   "date": "Fri, 16 Oct 2026 14:00:32 +0000",
@@ -43,10 +48,5 @@
   "title": "HydraFusion updates and new Max option",
   "date": "Wed, 14 Oct 2026 20:01:35 +0000",
   "summary": "HydraFusion has an updated model pool, improved orchestration workflows, and introduces HydraFusion Max. Both HydraFusion and HydraFusion Max are available across VS Code, the GitHub Copilot app, and GitHub Copilot&#8230;\nThe post HydraFusion updates and new Max option appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-10-14-github-actions-workflow-lockfiles-in-public-preview": {
-  "title": "GitHub Actions workflow lockfiles in public preview",
-  "date": "Wed, 14 Oct 2026 13:49:15 +0000",
-  "summary": "GitHub Actions workflow dependency lockfiles are now in public preview for GitHub Enterprise Cloud, GitHub Enterprise Cloud with data residency, Team, and Free plans. Tags and branches can move after&#8230;\nThe post GitHub Actions workflow lockfiles in public preview appeared first on The GitHub Blog."
  }
 }
