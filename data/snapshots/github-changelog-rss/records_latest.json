@@ -1,4 +1,9 @@
 {
+ "https://github.blog/changelog/2026-10-19-some-git-over-https-may-temporarily-require-authentication": {
+  "title": "Some Git over HTTPS may temporarily require authentication",
+  "date": "Mon, 19 Oct 2026 10:37:30 +0000",
+  "summary": "During periods of unusual traffic, GitHub may temporarily require authentication for some clones and fetches of public repositories over HTTPS to help protect github.com&#8217;s availability. If an operation is affected,&#8230;\nThe post Some Git over HTTPS may temporarily require authentication appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-10-19-codeql-changes-for-macos-27-xcode-27-and-swift-6-4": {
   "title": "CodeQL changes for macOS 27, Xcode 27, and Swift 6.4",
   "date": "Mon, 19 Oct 2026 10:29:09 +0000",
@@ -43,10 +48,5 @@
   "title": "Email notifications for repository push events have been retired",
   "date": "Thu, 15 Oct 2026 13:42:19 +0000",
   "summary": "As of October 15, 2026, email notifications for repository push events have been retired and are no longer sent. We shut down this feature to help prevent spam and abuse.&#8230;\nThe post Email notifications for repository push events have been retired appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-10-14-hydrafusion-updates-and-new-max-option": {
-  "title": "HydraFusion updates and new Max option",
-  "date": "Wed, 14 Oct 2026 20:01:35 +0000",
-  "summary": "HydraFusion has an updated model pool, improved orchestration workflows, and introduces HydraFusion Max. Both HydraFusion and HydraFusion Max are available across VS Code, the GitHub Copilot app, and GitHub Copilot&#8230;\nThe post HydraFusion updates and new Max option appeared first on The GitHub Blog."
  }
 }
