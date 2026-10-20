@@ -359,14 +359,14 @@
   "~deepseek/deepseek-pro-latest": {
    "name": "DeepSeek: DeepSeek Pro Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.2016",
+   "prompt_per_mtok": "0.225",
    "completion_per_mtok": "8"
   },
   "~deepseek/deepseek-flash-latest": {
    "name": "DeepSeek: DeepSeek Flash Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.05",
-   "completion_per_mtok": "0.024"
+   "prompt_per_mtok": "0.07",
+   "completion_per_mtok": "0.5"
   },
   "inference-net/schematron-v2-turbo": {
    "name": "Inference.net: Schematron V2 Turbo",
@@ -425,8 +425,8 @@
   "deepseek/deepseek-v4.1-flash": {
    "name": "DeepSeek: DeepSeek V4.1 Flash",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0352",
-   "completion_per_mtok": "0.0112"
+   "prompt_per_mtok": "0.056",
+   "completion_per_mtok": "0.12"
   },
   "deepseek/deepseek-v4.1-flash:batch": {
    "name": "DeepSeek: DeepSeek V4.1 Flash (batch)",
@@ -535,7 +535,7 @@
   "~z-ai/glm-flash-latest": {
    "name": "Z.ai: GLM Flash Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.048",
+   "prompt_per_mtok": "0.0375",
    "completion_per_mtok": "0.16"
   },
   "qwen/qwen3.8-flash": {
@@ -547,7 +547,7 @@
   "z-ai/glm-5.3-flash": {
    "name": "Z.ai: GLM 5.3 Flash",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.048",
+   "prompt_per_mtok": "0.0375",
    "completion_per_mtok": "0.16"
   },
   "z-ai/glm-5.3-flash:batch": {
@@ -607,8 +607,8 @@
   "qwen/qwen3.8-27b": {
    "name": "Qwen: Qwen3.8 27B",
    "context_length": "1000000",
-   "prompt_per_mtok": "0.24",
-   "completion_per_mtok": "2.2"
+   "prompt_per_mtok": "0.04",
+   "completion_per_mtok": "1.35"
   },
   "dots-studio/dots-3-note-preview:free": {
    "name": "Dots Studio: Dots3-Note Preview (free)",
@@ -1328,8 +1328,8 @@
   "google/gemma-4-26b-a4b-it": {
    "name": "Google: Gemma 4 26B A4B ",
    "context_length": "262144",
-   "prompt_per_mtok": "0.0765",
-   "completion_per_mtok": "0.255"
+   "prompt_per_mtok": "0.09",
+   "completion_per_mtok": "0.3"
   },
   "google/gemma-4-26b-a4b-it:free": {
    "name": "Google: Gemma 4 26B A4B  (free)",
