@@ -1,4 +1,9 @@
 {
+ "https://github.blog/changelog/2026-10-20-dependabot-now-supports-npm-12-pnpm-11-and-12-and-bun-1-4": {
+  "title": "Dependabot now supports npm 12, pnpm 11 and 12, and Bun 1.4",
+  "date": "Tue, 20 Oct 2026 13:52:38 +0000",
+  "summary": "You can now upgrade your projects to npm 12, pnpm 11 or 12, or Bun 1.4 and keep receiving Dependabot updates. Support for these package manager versions is available to&#8230;\nThe post Dependabot now supports npm 12, pnpm 11 and 12, and Bun 1.4 appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-10-19-copilot-model-policy-api-for-enterprise-orgs-and-teams": {
   "title": "Copilot model policy API for enterprise, orgs, and teams",
   "date": "Mon, 19 Oct 2026 21:32:18 +0000",
@@ -43,10 +48,5 @@
   "title": "Upcoming deprecation of selected GitHub Copilot models in mid-November",
   "date": "Thu, 15 Oct 2026 19:35:13 +0000",
   "summary": "We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on November 16th, 2026: Model Deprecation date&#8230;\nThe post Upcoming deprecation of selected GitHub Copilot models in mid-November appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-10-15-ai-scan-for-pull-requests-generally-available": {
-  "title": "AI Scan for pull requests generally available",
-  "date": "Thu, 15 Oct 2026 15:04:51 +0000",
-  "summary": "Code scanning AI Scan for pull requests is now generally available. It complements CodeQL by finding vulnerabilities in pull request changes for languages and frameworks that CodeQL does not currently&#8230;\nThe post AI Scan for pull requests generally available appeared first on The GitHub Blog."
  }
 }
