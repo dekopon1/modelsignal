@@ -1,4 +1,14 @@
 {
+ "https://github.blog/changelog/2026-10-19-copilot-model-policy-api-for-enterprise-orgs-and-teams": {
+  "title": "Copilot model policy API for enterprise, orgs, and teams",
+  "date": "Mon, 19 Oct 2026 21:32:18 +0000",
+  "summary": "You can now use the REST API to retrieve and update Copilot model policies for enterprises, enterprise teams, enterprise apps, and organizations. What&#8217;s new GET and PATCH endpoints are now&#8230;\nThe post Copilot model policy API for enterprise, orgs, and teams appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-10-19-github-copilot-models-deprecated-on-october-19-2026": {
+  "title": "GitHub Copilot models deprecated on October 19, 2026",
+  "date": "Mon, 19 Oct 2026 21:27:10 +0000",
+  "summary": "As of today, October 19, 2026, we have deprecated the following models across most GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). These&#8230;\nThe post GitHub Copilot models deprecated on October 19, 2026 appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-10-19-some-git-over-https-may-temporarily-require-authentication": {
   "title": "Some Git over HTTPS may temporarily require authentication",
   "date": "Mon, 19 Oct 2026 10:37:30 +0000",
@@ -38,15 +48,5 @@
   "title": "AI Scan for pull requests generally available",
   "date": "Thu, 15 Oct 2026 15:04:51 +0000",
   "summary": "Code scanning AI Scan for pull requests is now generally available. It complements CodeQL by finding vulnerabilities in pull request changes for languages and frameworks that CodeQL does not currently&#8230;\nThe post AI Scan for pull requests generally available appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-10-15-agentic-autofix-for-code-scanning-alerts-general-availability": {
-  "title": "Agentic autofix for code scanning alerts general availability",
-  "date": "Thu, 15 Oct 2026 13:49:20 +0000",
-  "summary": "Agentic autofix for code scanning alerts is now generally available. It remediates alerts by working across your codebase the way a developer would: it explores relevant files, proposes a fix,&#8230;\nThe post Agentic autofix for code scanning alerts general availability appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-10-15-email-notifications-for-repository-push-events-have-been-retired": {
-  "title": "Email notifications for repository push events have been retired",
-  "date": "Thu, 15 Oct 2026 13:42:19 +0000",
-  "summary": "As of October 15, 2026, email notifications for repository push events have been retired and are no longer sent. We shut down this feature to help prevent spam and abuse.&#8230;\nThe post Email notifications for repository push events have been retired appeared first on The GitHub Blog."
  }
 }
