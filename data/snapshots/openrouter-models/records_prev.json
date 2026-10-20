@@ -149,8 +149,8 @@
   "mistralai/mistral-large-4-0": {
    "name": "Mistral: Mistral Large 4",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.68",
-   "completion_per_mtok": "2.09"
+   "prompt_per_mtok": "1.36",
+   "completion_per_mtok": "4.18"
   },
   "inclusionai/ling-3.1-flash": {
    "name": "inclusionAI: Ling 3.1 Flash",
@@ -535,8 +535,8 @@
   "~z-ai/glm-flash-latest": {
    "name": "Z.ai: GLM Flash Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.048",
-   "completion_per_mtok": "0.16"
+   "prompt_per_mtok": "0.0471",
+   "completion_per_mtok": "0.12"
   },
   "qwen/qwen3.8-flash": {
    "name": "Qwen: Qwen3.8 Flash",
@@ -547,8 +547,8 @@
   "z-ai/glm-5.3-flash": {
    "name": "Z.ai: GLM 5.3 Flash",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.048",
-   "completion_per_mtok": "0.16"
+   "prompt_per_mtok": "0.0471",
+   "completion_per_mtok": "0.12"
   },
   "z-ai/glm-5.3-flash:batch": {
    "name": "Z.ai: GLM 5.3 Flash (batch)",
@@ -705,7 +705,7 @@
   "~deepseek/deepseek-v4-flash-latest": {
    "name": "DeepSeek: DeepSeek V4 Flash Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0039",
+   "prompt_per_mtok": "0.0168",
    "completion_per_mtok": "0.12"
   },
   "deepseek/deepseek-v4-flash-0731": {
@@ -1190,7 +1190,7 @@
    "name": "MoonshotAI: Kimi Latest",
    "context_length": "1048576",
    "prompt_per_mtok": "0.238",
-   "completion_per_mtok": "16"
+   "completion_per_mtok": "24"
   },
   "~google/gemini-flash-latest": {
    "name": "Google: Gemini Flash Latest",
@@ -1256,8 +1256,8 @@
   "deepseek/deepseek-v4-pro": {
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.3988",
-   "completion_per_mtok": "0.7976"
+   "prompt_per_mtok": "0.3548",
+   "completion_per_mtok": "0.7096"
   },
   "deepseek/deepseek-v4-flash": {
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
@@ -1328,8 +1328,8 @@
   "google/gemma-4-26b-a4b-it": {
    "name": "Google: Gemma 4 26B A4B ",
    "context_length": "262144",
-   "prompt_per_mtok": "0.09",
-   "completion_per_mtok": "0.3"
+   "prompt_per_mtok": "0.0765",
+   "completion_per_mtok": "0.255"
   },
   "google/gemma-4-26b-a4b-it:free": {
    "name": "Google: Gemma 4 26B A4B  (free)",
@@ -1521,7 +1521,7 @@
   "qwen/qwen3.5-35b-a3b": {
    "name": "Qwen: Qwen3.5-35B-A3B",
    "context_length": "262144",
-   "prompt_per_mtok": "0.15",
+   "prompt_per_mtok": "0.14",
    "completion_per_mtok": "1"
   },
   "qwen/qwen3.5-27b": {

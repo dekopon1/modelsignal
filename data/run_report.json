@@ -1,5 +1,5 @@
 {
- "run_at": "2026-10-20T16:59:40Z",
+ "run_at": "2026-10-20T21:34:43Z",
  "results": [
   {
    "id": "anthropic-pricing",
@@ -11,16 +11,14 @@
    "id": "anthropic-limits",
    "ok": true,
    "http_chars": 36050,
-   "changed": true,
-   "changes": 0,
-   "announcements": 0
+   "changed": false
   },
   {
    "id": "openrouter-models",
    "ok": true,
-   "http_chars": 785234,
+   "http_chars": 785245,
    "changed": true,
-   "changes": 10,
+   "changes": 11,
    "announcements": 0
   },
   {
@@ -32,7 +30,7 @@
   {
    "id": "mistral-models",
    "ok": true,
-   "http_chars": 1431399,
+   "http_chars": 1427387,
    "changed": true,
    "changes": 0,
    "announcements": 0
@@ -40,7 +38,7 @@
   {
    "id": "google-gemini-pricing",
    "ok": true,
-   "http_chars": 258276,
+   "http_chars": 258272,
    "changed": true,
    "changes": 0,
    "announcements": 0
@@ -48,7 +46,7 @@
   {
    "id": "github-copilot-plans",
    "ok": true,
-   "http_chars": 1021868,
+   "http_chars": 1021876,
    "changed": true,
    "changes": 0,
    "announcements": 0
@@ -56,7 +54,7 @@
   {
    "id": "github-copilot-premium",
    "ok": true,
-   "http_chars": 602652,
+   "http_chars": 602660,
    "changed": true,
    "changes": 0,
    "announcements": 0
@@ -64,29 +62,31 @@
   {
    "id": "anthropic-changelog",
    "ok": true,
-   "http_chars": 127195,
-   "changed": false
-  },
-  {
-   "id": "github-changelog-rss",
-   "ok": true,
-   "http_chars": 36583,
+   "http_chars": 127358,
    "changed": true,
    "changes": 0,
    "announcements": 1
   },
   {
-   "id": "openai-news-rss",
+   "id": "github-changelog-rss",
    "ok": true,
-   "http_chars": 790322,
+   "http_chars": 40027,
    "changed": true,
    "changes": 0,
-   "announcements": 0
+   "announcements": 4
+  },
+  {
+   "id": "openai-news-rss",
+   "ok": true,
+   "http_chars": 791487,
+   "changed": true,
+   "changes": 0,
+   "announcements": 2
   },
   {
    "id": "gemini-release-notes",
    "ok": true,
-   "http_chars": 174666,
+   "http_chars": 174662,
    "changed": true,
    "changes": 0,
    "announcements": 0
