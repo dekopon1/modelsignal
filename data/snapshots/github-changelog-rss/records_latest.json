@@ -1,4 +1,9 @@
 {
+ "https://github.blog/changelog/2026-10-21-github-cli-opt-in-to-expiring-auto-refreshing-oauth-tokens": {
+  "title": "GitHub CLI: Opt in to expiring, auto-refreshing OAuth tokens",
+  "date": "Wed, 21 Oct 2026 16:43:23 +0000",
+  "summary": "You can now use expiring, automatically refreshing OAuth credentials in GitHub CLI as part of a public preview. When you opt in, gh stores an expiring access token alongside a&#8230;\nThe post GitHub CLI: Opt in to expiring, auto-refreshing OAuth tokens appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-10-20-bulk-migrate-branch-protections-to-rulesets-for-a-repository": {
   "title": "Bulk migrate branch protections to rulesets for a repository",
   "date": "Tue, 20 Oct 2026 18:06:21 +0000",
@@ -43,10 +48,5 @@
   "title": "CodeQL changes for macOS 27, Xcode 27, and Swift 6.4",
   "date": "Mon, 19 Oct 2026 10:29:09 +0000",
   "summary": "Starting with macOS 27 and Xcode 27, Apple no longer includes Intel (x86_64) code in some of the system binaries and libraries that CodeQL relies on to trace builds. As&#8230;\nThe post CodeQL changes for macOS 27, Xcode 27, and Swift 6.4 appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-10-16-open-source-license-compliance-generally-available": {
-  "title": "Open source license compliance generally available",
-  "date": "Fri, 16 Oct 2026 14:00:32 +0000",
-  "summary": "Enterprises can now manage their dependencies&#8217; licenses at scale with sophisticated, ruleset-based checks that enforce a centralized policy. Open source license compliance is now generally available for GitHub Enterprise Cloud&#8230;\nThe post Open source license compliance generally available appeared first on The GitHub Blog."
  }
 }
