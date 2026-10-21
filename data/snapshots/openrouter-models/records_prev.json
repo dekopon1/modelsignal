@@ -359,7 +359,7 @@
   "~deepseek/deepseek-pro-latest": {
    "name": "DeepSeek: DeepSeek Pro Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.1307",
+   "prompt_per_mtok": "0.225",
    "completion_per_mtok": "8"
   },
   "~deepseek/deepseek-flash-latest": {
@@ -425,8 +425,8 @@
   "deepseek/deepseek-v4.1-flash": {
    "name": "DeepSeek: DeepSeek V4.1 Flash",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0283",
-   "completion_per_mtok": "0.12"
+   "prompt_per_mtok": "0.049",
+   "completion_per_mtok": "0.525"
   },
   "deepseek/deepseek-v4.1-flash:batch": {
    "name": "DeepSeek: DeepSeek V4.1 Flash (batch)",
@@ -529,14 +529,14 @@
   "tencent/hy4-preview": {
    "name": "Tencent: Hy4 preview",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.7506",
-   "completion_per_mtok": "2.2509"
+   "prompt_per_mtok": "0.834",
+   "completion_per_mtok": "2.501"
   },
   "~z-ai/glm-flash-latest": {
    "name": "Z.ai: GLM Flash Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0471",
-   "completion_per_mtok": "0.12"
+   "prompt_per_mtok": "0.0517",
+   "completion_per_mtok": "0.525"
   },
   "qwen/qwen3.8-flash": {
    "name": "Qwen: Qwen3.8 Flash",
@@ -547,8 +547,8 @@
   "z-ai/glm-5.3-flash": {
    "name": "Z.ai: GLM 5.3 Flash",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0471",
-   "completion_per_mtok": "0.12"
+   "prompt_per_mtok": "0.15",
+   "completion_per_mtok": "0.5"
   },
   "z-ai/glm-5.3-flash:batch": {
    "name": "Z.ai: GLM 5.3 Flash (batch)",
@@ -705,14 +705,14 @@
   "~deepseek/deepseek-v4-flash-latest": {
    "name": "DeepSeek: DeepSeek V4 Flash Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0168",
-   "completion_per_mtok": "0.12"
+   "prompt_per_mtok": "0.021",
+   "completion_per_mtok": "0.528"
   },
   "deepseek/deepseek-v4-flash-0731": {
    "name": "DeepSeek: DeepSeek V4 Flash 0731",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.1298",
-   "completion_per_mtok": "0.3894"
+   "prompt_per_mtok": "0.44",
+   "completion_per_mtok": "1.32"
   },
   "thinkingmachines/inkling-small": {
    "name": "Thinking Machines: Inkling Small",
@@ -931,8 +931,8 @@
   "tencent/hy3": {
    "name": "Tencent: Hy3",
    "context_length": "262144",
-   "prompt_per_mtok": "0.0825",
-   "completion_per_mtok": "0.33"
+   "prompt_per_mtok": "0.132",
+   "completion_per_mtok": "0.528"
   },
   "poolside/laguna-xs-2.1": {
    "name": "Poolside: Laguna XS 2.1",
@@ -992,8 +992,8 @@
   "z-ai/glm-5.2": {
    "name": "Z.ai: GLM 5.2",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.62",
-   "completion_per_mtok": "2.42"
+   "prompt_per_mtok": "0.0341",
+   "completion_per_mtok": "7"
   },
   "openrouter/fusion": {
    "name": "OpenRouter: Fusion",
@@ -1190,7 +1190,7 @@
    "name": "MoonshotAI: Kimi Latest",
    "context_length": "1048576",
    "prompt_per_mtok": "0.238",
-   "completion_per_mtok": "24"
+   "completion_per_mtok": "16"
   },
   "~google/gemini-flash-latest": {
    "name": "Google: Gemini Flash Latest",
@@ -1256,8 +1256,8 @@
   "deepseek/deepseek-v4-pro": {
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.3548",
-   "completion_per_mtok": "0.7096"
+   "prompt_per_mtok": "0.9553",
+   "completion_per_mtok": "1.9105"
   },
   "deepseek/deepseek-v4-flash": {
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
@@ -1274,14 +1274,14 @@
   "xiaomi/mimo-v2.5-pro": {
    "name": "Xiaomi: MiMo-V2.5-Pro",
    "context_length": "1050000",
-   "prompt_per_mtok": "0.435",
-   "completion_per_mtok": "0.87"
+   "prompt_per_mtok": "0.3045",
+   "completion_per_mtok": "0.609"
   },
   "xiaomi/mimo-v2.5": {
    "name": "Xiaomi: MiMo-V2.5",
    "context_length": "1050000",
-   "prompt_per_mtok": "0.14",
-   "completion_per_mtok": "0.28"
+   "prompt_per_mtok": "0.119",
+   "completion_per_mtok": "0.238"
   },
   "openai/gpt-5.4-image-2": {
    "name": "OpenAI: GPT-5.4 Image 2",
@@ -1322,8 +1322,8 @@
   "z-ai/glm-5.1": {
    "name": "Z.ai: GLM 5.1",
    "context_length": "204800",
-   "prompt_per_mtok": "0.966",
-   "completion_per_mtok": "3.036"
+   "prompt_per_mtok": "1.4",
+   "completion_per_mtok": "4.4"
   },
   "google/gemma-4-26b-a4b-it": {
    "name": "Google: Gemma 4 26B A4B ",
@@ -1448,8 +1448,8 @@
   "nvidia/nemotron-3-super-120b-a12b": {
    "name": "NVIDIA: Nemotron 3 Super",
    "context_length": "262144",
-   "prompt_per_mtok": "0.08",
-   "completion_per_mtok": "0.45"
+   "prompt_per_mtok": "0.3",
+   "completion_per_mtok": "2.4"
   },
   "nvidia/nemotron-3-super-120b-a12b:free": {
    "name": "NVIDIA: Nemotron 3 Super (free)",
@@ -1466,8 +1466,8 @@
   "qwen/qwen3.5-9b": {
    "name": "Qwen: Qwen3.5-9B",
    "context_length": "262144",
-   "prompt_per_mtok": "0.1",
-   "completion_per_mtok": "0.15"
+   "prompt_per_mtok": "0.08",
+   "completion_per_mtok": "0.13"
   },
   "openai/gpt-5.4-pro": {
    "name": "OpenAI: GPT-5.4 Pro",
@@ -2050,7 +2050,7 @@
   "qwen/qwen3-next-80b-a3b-instruct": {
    "name": "Qwen: Qwen3 Next 80B A3B Instruct",
    "context_length": "262144",
-   "prompt_per_mtok": "0.1",
+   "prompt_per_mtok": "0.09",
    "completion_per_mtok": "1.1"
   },
   "moonshotai/kimi-k2-0905": {
