@@ -154,10 +154,10 @@
    "Details": "Claude Consumption Unit (CCU)"
   },
   "CCU price": {
-   "Details": "$0.01 per CCU (fixed; discounts apply at token-to-CCU conversion, not to the CCU price)"
+   "Details": "$0.01 USD per CCU (fixed; discounts apply at token-to-CCU conversion, not to the CCU price)"
   },
   "Conversion": {
-   "Details": "Token usage rated in USD at standard per-model, per-feature rates (same as Claude API pricing), then converted to CCUs at $0.01 per CCU"
+   "Details": "Token usage rated in USD at standard per-model, per-feature rates (same as Claude API pricing), then converted to CCUs at $0.01 USD per CCU"
   },
   "Billing cadence": {
    "Details": "Hourly metering to AWS Marketplace; monthly invoices"
@@ -182,10 +182,10 @@
    "Details": "Claude Consumption Unit (CCU)"
   },
   "CCU price": {
-   "Details": "$0.01 per CCU (fixed; discounts apply at token-to-CCU conversion, not to the CCU price)"
+   "Details": "$0.01 USD per CCU (fixed; discounts apply at token-to-CCU conversion, not to the CCU price)"
   },
   "Conversion": {
-   "Details": "Token usage rated in USD at standard per-model, per-feature rates (same as Claude API pricing), then converted to CCUs at $0.01 per CCU"
+   "Details": "Token usage rated in USD at standard per-model, per-feature rates (same as Claude API pricing), then converted to CCUs at $0.01 USD per CCU"
   },
   "Billing cadence": {
    "Details": "Hourly metering to the Azure Marketplace; monthly invoices"
@@ -413,33 +413,33 @@
  },
  "Session runtime": {
   "Session runtime": {
-   "Rate": "$0.08 per session-hour",
+   "Rate": "$0.08 USD per session-hour",
    "Metering": "running status duration"
   }
  },
  "Worked example": {
   "Input tokens": {
    "Calculation": "50,000 × $4 / 1,000,000",
-   "Cost": "$0.20"
+   "Cost": "$0.20 USD"
   },
   "Output tokens": {
    "Calculation": "15,000 × $20 / 1,000,000",
-   "Cost": "$0.30"
+   "Cost": "$0.30 USD"
   },
   "Session runtime": {
    "Calculation": "1.0 hour × $0.08",
-   "Cost": "$0.08"
+   "Cost": "$0.08 USD"
   },
   "Total": {
-   "Cost": "$0.428"
+   "Cost": "$0.428 USD"
   },
   "Uncached input tokens": {
    "Calculation": "10,000 × $4 / 1,000,000",
-   "Cost": "$0.04"
+   "Cost": "$0.04 USD"
   },
   "Cache read tokens": {
    "Calculation": "40,000 × $4 × 0.05 / 1,000,000",
-   "Cost": "$0.008"
+   "Cost": "$0.008 USD"
   }
  },
  "Additional pricing considerations": {},
