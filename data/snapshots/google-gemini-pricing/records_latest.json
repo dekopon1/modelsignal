@@ -6,12 +6,12 @@
  "Gemini 4 Argon": {},
  "Standard": {
   "Input price": {
-   "Free Tier": "Not available | Free of charge | Free of charge | Free of charge | Free of charge | Free of charge | Free of charge | Free of charge | Free of charge | Not available | Not available | Not available | Not available | Not available | Not available | Free of charge | Free of charge | Free of charge | Free of charge | Not available | Free of charge | Free of charge | Not available | Free of charge | Not available | Free of charge | Free of charge",
-   "Paid Tier, per 1M tokens in USD": "$2.00 through November 30, 2026.$4.00 starting December 1, 2026. | $0.75 through December 31, 2026.$1.50 starting January 1, 2027. | $0.75 through December 31, 2026.$1.50 starting January 1, 2027. | $0.75 (text)$3.00 or $0.005/min (audio)$1.00 or $0.002/min (image/video) | $3.50 or $0.0053/min* (audio) | $3.50 or $0.005/min* (audio) | $2.00 or $0.003/min* (audio) | $0.30 (text / image / video / audio) | $0.25 (text / image / video)$0.50 (audio) | $1.50 (text / image / video / audio) | $1.50 (text / image / video / audio) | $2.00, prompts <= 200k tokens$4.00, prompts > 200k tokens | $1.50 (text/image/video) | $0.50 (text/image) | $0.25 (text/image/video) | $0.50 (text) through December 31, 2026.$1.00 (text) starting January 1, 2027. | $0.50 (text) through December 31, 2026.$1.00 (text) starting January 1, 2027. | $1.00 (text) | $0.50 (text / image / video)$1.00 (audio) | $2.00 (text/image), equivalent to $0.0011 per image* | $1.25, prompts <= 200k tokens$2.50, prompts > 200k tokens | $0.30 (text / image / video)$1.00 (audio) | $0.30 (text / image) | $0.50 (text) | $1.00 (text) | $1.00 (text / image / video / audio) through December 31, 2026.$2.00 (text / image / video / audio) starting January 1, 2027. | $1.00 (text / image / video / audio) through December 31, 2026.$2.00 (text / image / video / audio) starting January 1, 2027."
+   "Free Tier": "Not available | Free of charge | Free of charge | Free of charge | Free of charge | Free of charge | Free of charge | Free of charge | Free of charge | Not available | Not available | Not available | Not available | Not available | Free of charge | Free of charge | Free of charge | Free of charge | Not available | Free of charge | Free of charge | Not available | Free of charge | Not available | Free of charge | Free of charge",
+   "Paid Tier, per 1M tokens in USD": "$2.00 through November 30, 2026.$4.00 starting December 1, 2026. | $0.75 through December 31, 2026.$1.50 starting January 1, 2027. | $0.75 through December 31, 2026.$1.50 starting January 1, 2027. | $0.75 (text)$3.00 or $0.005/min (audio)$1.00 or $0.002/min (image/video) | $3.50 or $0.0053/min* (audio) | $3.50 or $0.005/min* (audio) | $2.00 or $0.003/min* (audio) | $0.30 (text / image / video / audio) | $0.25 (text / image / video)$0.50 (audio) | $1.50 (text / image / video / audio) | $2.00, prompts <= 200k tokens$4.00, prompts > 200k tokens | $1.50 (text/image/video) | $0.50 (text/image) | $0.25 (text/image/video) | $0.50 (text) through December 31, 2026.$1.00 (text) starting January 1, 2027. | $0.50 (text) through December 31, 2026.$1.00 (text) starting January 1, 2027. | $1.00 (text) | $0.50 (text / image / video)$1.00 (audio) | $2.00 (text/image), equivalent to $0.0011 per image* | $1.25, prompts <= 200k tokens$2.50, prompts > 200k tokens | $0.30 (text / image / video)$1.00 (audio) | $0.30 (text / image) | $0.50 (text) | $1.00 (text) | $1.00 (text / image / video / audio) through December 31, 2026.$2.00 (text / image / video / audio) starting January 1, 2027. | $1.00 (text / image / video / audio) through December 31, 2026.$2.00 (text / image / video / audio) starting January 1, 2027."
   },
   "Output price (including thinking tokens)": {
-   "Free Tier": "Not available | Free of charge | Free of charge | Free of charge | Free of charge | Free of charge | Free of charge | Free of charge | Free of charge | Not available | Not available | Not available | Free of charge | Free of charge | Free of charge | Free of charge | Free of charge",
-   "Paid Tier, per 1M tokens in USD": "$10.00 through November 30, 2026.$20.00 starting December 1, 2026. | $3.75 through December 31, 2026.$7.50 starting January 1, 2027. | $3.75 through December 31, 2026.$7.50 starting January 1, 2027. | $4.50 (text)$12.00 or $0.018/min (audio) | $21.00 or $0.0315/min* (audio) | $21.00 or $0.004/min* (text) | $12.00 or $0.002/min* (text) | $2.50 | $1.50 | $9.00 (text)$17.50 (video)* | $9.00 (text)$17.50 (video)* | $12.00, prompts <= 200k tokens$18.00, prompts > 200k | $3.00 | $10.00, prompts <= 200k tokens$15.00, prompts > 200k | $2.50 | $0.40 | $5.00 through December 31, 2026.$10.00 starting January 1, 2027."
+   "Free Tier": "Not available | Free of charge | Free of charge | Free of charge | Free of charge | Free of charge | Free of charge | Free of charge | Free of charge | Not available | Not available | Free of charge | Free of charge | Free of charge | Free of charge | Free of charge",
+   "Paid Tier, per 1M tokens in USD": "$10.00 through November 30, 2026.$20.00 starting December 1, 2026. | $3.75 through December 31, 2026.$7.50 starting January 1, 2027. | $3.75 through December 31, 2026.$7.50 starting January 1, 2027. | $4.50 (text)$12.00 or $0.018/min (audio) | $21.00 or $0.0315/min* (audio) | $21.00 or $0.004/min* (text) | $12.00 or $0.002/min* (text) | $2.50 | $1.50 | $9.00 (text)$17.50 (video)* | $12.00, prompts <= 200k tokens$18.00, prompts > 200k | $3.00 | $10.00, prompts <= 200k tokens$15.00, prompts > 200k | $2.50 | $0.40 | $5.00 through December 31, 2026.$10.00 starting January 1, 2027."
   },
   "Context caching price": {
    "Free Tier": "Not available | Free of charge | Free of charge | Not available | Not available | Not available | Free of charge | Not available | Not available | Not available | Not available",
@@ -26,7 +26,7 @@
    "Paid Tier, per 1M tokens in USD": "5,000 requests per month (free, shared across all Gemini 3 and newer models), then $14 / 1,000 search queries. | 10,000 RPD (free), then $25 / 1,000 grounded prompts | 1,500 RPD (free), then $25 / 1,000 grounded prompts | 1,500 RPD (free), then $25 / 1,000 grounded prompts"
   },
   "Used to improve our products": {
-   "Free Tier": "Not available | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | N/A | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Not available | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes",
+   "Free Tier": "Not available | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | N/A | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Not available | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes",
    "Paid Tier, per 1M tokens in USD": "No"
   },
   "Grounding with Google Search": {
@@ -227,7 +227,6 @@
  "Gemini 3.5 Flash-Lite": {},
  "Gemini 3.1 Flash-Lite": {},
  "Gemini Omni Flash": {},
- "Gemini Omni Flash Preview": {},
  "Gemini 3.1 Pro Preview": {},
  "Gemini Nano Banana 2.1 🍌": {},
  "Gemini 3.1 Flash Image (Nano Banana 2) 🍌": {},
@@ -257,24 +256,6 @@
  "Gemini 2.5 Flash Image (Nano Banana) 🍌": {},
  "Gemini 2.5 Flash Preview TTS": {},
  "Gemini 2.5 Pro Preview TTS": {},
- "Veo 3.1": {
-  "Veo 3.1 Standard video with audio price (default)": {
-   "Free Tier": "Not available",
-   "Paid Tier, per second in USD": "$0.40 (720p and 1080p)$0.60 (4k)"
-  },
-  "Veo 3.1 Fast video with audio price (default)": {
-   "Free Tier": "Not available",
-   "Paid Tier, per second in USD": "$0.10 (720p)$0.12 (1080p)$0.30 (4k)"
-  },
-  "Veo 3.1 Lite video with audio price (default)": {
-   "Free Tier": "Not available",
-   "Paid Tier, per second in USD": "$0.05 (720p)$0.08 (1080p)(4k output not supported)"
-  },
-  "Used to improve our products": {
-   "Free Tier": "Yes",
-   "Paid Tier, per second in USD": "No"
-  }
- },
  "Lyria 3.5": {
   "Lyria 3.5 (Full Song)": {
    "Free Tier": "Not available",
