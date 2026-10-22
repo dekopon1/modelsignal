@@ -33,7 +33,7 @@
   "reflection/beam-1.0-501b-a23b": {
    "name": "Reflection: Beam 1.0 501B A23B",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.3",
+   "prompt_per_mtok": "0.25",
    "completion_per_mtok": "1"
   },
   "inception/mercury-3": {
@@ -365,8 +365,8 @@
   "~deepseek/deepseek-pro-latest": {
    "name": "DeepSeek: DeepSeek Pro Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.2235",
-   "completion_per_mtok": "8"
+   "prompt_per_mtok": "0.25",
+   "completion_per_mtok": "5"
   },
   "~deepseek/deepseek-flash-latest": {
    "name": "DeepSeek: DeepSeek Flash Latest",
@@ -541,8 +541,8 @@
   "~z-ai/glm-flash-latest": {
    "name": "Z.ai: GLM Flash Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0154",
-   "completion_per_mtok": "0.1443"
+   "prompt_per_mtok": "0.0052",
+   "completion_per_mtok": "0.1985"
   },
   "qwen/qwen3.8-flash": {
    "name": "Qwen: Qwen3.8 Flash",
@@ -553,8 +553,8 @@
   "z-ai/glm-5.3-flash": {
    "name": "Z.ai: GLM 5.3 Flash",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0154",
-   "completion_per_mtok": "0.1443"
+   "prompt_per_mtok": "0.0052",
+   "completion_per_mtok": "0.1985"
   },
   "z-ai/glm-5.3-flash:batch": {
    "name": "Z.ai: GLM 5.3 Flash (batch)",
@@ -1334,8 +1334,8 @@
   "google/gemma-4-26b-a4b-it": {
    "name": "Google: Gemma 4 26B A4B ",
    "context_length": "262144",
-   "prompt_per_mtok": "0.0765",
-   "completion_per_mtok": "0.255"
+   "prompt_per_mtok": "0.09",
+   "completion_per_mtok": "0.3"
   },
   "google/gemma-4-26b-a4b-it:free": {
    "name": "Google: Gemma 4 26B A4B  (free)",
