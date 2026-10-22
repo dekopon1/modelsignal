@@ -1,4 +1,29 @@
 {
+ "https://github.blog/changelog/2026-10-22-global-default-for-copilot-features-generally-available": {
+  "title": "Global default for Copilot features generally available",
+  "date": "Thu, 22 Oct 2026 20:44:28 +0000",
+  "summary": "In September, we announced a global default policy for generally available GitHub Copilot features and supported client capabilities on Copilot Business and Copilot Enterprise plans. Starting today, we&#8217;re gradually rolling&#8230;\nThe post Global default for Copilot features generally available appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-10-22-meta-api-endpoints-updated-for-actions-blob-storage": {
+  "title": "Meta API endpoints updated for Actions blob storage",
+  "date": "Thu, 22 Oct 2026 18:14:16 +0000",
+  "summary": "We&#8217;re adding blob storage endpoints for GitHub Actions on github.com as part of our ongoing work to improve capacity and reliability. The meta API now includes these new endpoints. If&#8230;\nThe post Meta API endpoints updated for Actions blob storage appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-10-22-public-monitoring-now-available-with-data-residency": {
+  "title": "Public monitoring now available with data residency",
+  "date": "Thu, 22 Oct 2026 18:12:58 +0000",
+  "summary": "Public monitoring is now available in public preview for GitHub Enterprise Cloud with data residency (GHEC DR). Public monitoring with data residency Public monitoring extends secret scanning beyond internal repositories&#8230;\nThe post Public monitoring now available with data residency appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-10-22-pull-requests-saved-whitespace-preferences-and-improved-split-view": {
+  "title": "Pull requests: Saved whitespace preferences and improved split view",
+  "date": "Thu, 22 Oct 2026 17:24:56 +0000",
+  "summary": "Two improvements make it easier to review pull requests in the &#8220;Files changed&#8221; page: You can save your whitespace visibility preference across pull requests New and deleted files now use&#8230;\nThe post Pull requests: Saved whitespace preferences and improved split view appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-10-22-industry-comparisons-in-the-copilot-impact-dashboard": {
+  "title": "Industry comparisons in the Copilot impact dashboard",
+  "date": "Thu, 22 Oct 2026 16:28:24 +0000",
+  "summary": "The Copilot impact dashboard now includes an &#8220;Industry comparison&#8221; section. Enterprises, and organizations that aren&#8217;t owned by an enterprise, can compare their Copilot agentic adoption and leverage with aggregated benchmarks&#8230;\nThe post Industry comparisons in the Copilot impact dashboard appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-10-21-github-cli-opt-in-to-expiring-auto-refreshing-oauth-tokens": {
   "title": "GitHub CLI: Opt in to expiring, auto-refreshing OAuth tokens",
   "date": "Wed, 21 Oct 2026 16:43:23 +0000",
@@ -23,30 +48,5 @@
   "title": "GitHub package firewall in public preview",
   "date": "Tue, 20 Oct 2026 16:11:53 +0000",
   "summary": "Editor&#8217;s note (October 21, 2026): Rewrote the changelog for clarity and added imagery. There&#8217;s been a recent flood of malware attacks that exploit systems at package installation time. Agents and&#8230;\nThe post GitHub package firewall in public preview appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-10-20-dependabot-now-supports-npm-12-pnpm-11-and-12-and-bun-1-4": {
-  "title": "Dependabot now supports npm 12, pnpm 11 and 12, and Bun 1.4",
-  "date": "Tue, 20 Oct 2026 13:52:38 +0000",
-  "summary": "You can now upgrade your projects to npm 12, pnpm 11 or 12, or Bun 1.4 and keep receiving Dependabot updates. Support for these package manager versions is available to&#8230;\nThe post Dependabot now supports npm 12, pnpm 11 and 12, and Bun 1.4 appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-10-19-copilot-model-policy-api-for-enterprise-orgs-and-teams": {
-  "title": "Copilot model policy API for enterprise, orgs, and teams",
-  "date": "Mon, 19 Oct 2026 21:32:18 +0000",
-  "summary": "You can now use the REST API to retrieve and update Copilot model policies for enterprises, enterprise teams, agent apps, and organizations. What&#8217;s new GET and PATCH endpoints are now&#8230;\nThe post Copilot model policy API for enterprise, orgs, and teams appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-10-19-github-copilot-models-deprecated-on-october-19-2026": {
-  "title": "GitHub Copilot models deprecated on October 19, 2026",
-  "date": "Mon, 19 Oct 2026 21:27:10 +0000",
-  "summary": "As of today, October 19, 2026, we have deprecated the following models across most GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). These&#8230;\nThe post GitHub Copilot models deprecated on October 19, 2026 appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-10-19-some-git-over-https-may-temporarily-require-authentication": {
-  "title": "Some Git over HTTPS may temporarily require authentication",
-  "date": "Mon, 19 Oct 2026 10:37:30 +0000",
-  "summary": "During periods of unusual traffic, GitHub may temporarily require authentication for some clones and fetches of public repositories over HTTPS to help protect github.com&#8217;s availability. If an operation is affected,&#8230;\nThe post Some Git over HTTPS may temporarily require authentication appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-10-19-codeql-changes-for-macos-27-xcode-27-and-swift-6-4": {
-  "title": "CodeQL changes for macOS 27, Xcode 27, and Swift 6.4",
-  "date": "Mon, 19 Oct 2026 10:29:09 +0000",
-  "summary": "Starting with macOS 27 and Xcode 27, Apple no longer includes Intel (x86_64) code in some of the system binaries and libraries that CodeQL relies on to trace builds. As&#8230;\nThe post CodeQL changes for macOS 27, Xcode 27, and Swift 6.4 appeared first on The GitHub Blog."
  }
 }
