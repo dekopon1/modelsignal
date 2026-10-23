@@ -1,4 +1,9 @@
 {
+ "https://github.blog/changelog/2026-10-23-enterprise-installations-for-github-apps-generally-available": {
+  "title": "Enterprise installations for GitHub Apps generally available",
+  "date": "Fri, 23 Oct 2026 15:03:30 +0000",
+  "summary": "Installing GitHub Apps on your enterprise is now generally available. You can replace classic PATs with GitHub Apps in more of your enterprise and organization automation with the expanded API&#8230;\nThe post Enterprise installations for GitHub Apps generally available appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-10-22-github-copilot-in-visual-studio-september-update-2": {
   "title": "GitHub Copilot in Visual Studio — September update",
   "date": "Fri, 23 Oct 2026 00:17:51 +0000",
@@ -43,10 +48,5 @@
   "title": "Bulk migrate branch protections to rulesets for a repository",
   "date": "Tue, 20 Oct 2026 18:06:21 +0000",
   "summary": "You can now convert all branch protection rules of a repository to rulesets in a single action. This is an extension of the ability to convert a single branch protection&#8230;\nThe post Bulk migrate branch protections to rulesets for a repository appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-10-20-updates-to-github-secret-scanning": {
-  "title": "Updates to GitHub secret scanning",
-  "date": "Tue, 20 Oct 2026 18:03:55 +0000",
-  "summary": "This update covers improvements and bug fixes for GitHub secret scanning. Update to audit log events On November 12, 2026, the business field in affected secret_scanning_alert.* and secret_scanning_push_protection.bypass audit log&#8230;\nThe post Updates to GitHub secret scanning appeared first on The GitHub Blog."
  }
 }

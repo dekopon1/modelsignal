@@ -1,26 +1,22 @@
 {
- "run_at": "2026-10-23T11:34:05Z",
+ "run_at": "2026-10-23T17:03:25Z",
  "results": [
   {
    "id": "anthropic-pricing",
    "ok": true,
    "http_chars": 53380,
-   "changed": true,
-   "changes": 0,
-   "announcements": 0
+   "changed": false
   },
   {
    "id": "anthropic-limits",
    "ok": true,
    "http_chars": 37360,
-   "changed": true,
-   "changes": 0,
-   "announcements": 0
+   "changed": false
   },
   {
    "id": "openrouter-models",
    "ok": true,
-   "http_chars": 789780,
+   "http_chars": 790273,
    "changed": true,
    "changes": 6,
    "announcements": 0
@@ -65,20 +61,20 @@
    "id": "anthropic-changelog",
    "ok": true,
    "http_chars": 132805,
-   "changed": true,
-   "changes": 0,
-   "announcements": 0
+   "changed": false
   },
   {
    "id": "github-changelog-rss",
    "ok": true,
-   "http_chars": 47217,
-   "changed": false
+   "http_chars": 53322,
+   "changed": true,
+   "changes": 0,
+   "announcements": 1
   },
   {
    "id": "openai-news-rss",
    "ok": true,
-   "http_chars": 799961,
+   "http_chars": 800622,
    "changed": true,
    "changes": 0,
    "announcements": 1
@@ -86,7 +82,7 @@
   {
    "id": "gemini-release-notes",
    "ok": true,
-   "http_chars": 174662,
+   "http_chars": 174666,
    "changed": true,
    "changes": 0,
    "announcements": 0
