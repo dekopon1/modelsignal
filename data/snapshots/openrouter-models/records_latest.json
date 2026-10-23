@@ -365,7 +365,7 @@
   "~deepseek/deepseek-pro-latest": {
    "name": "DeepSeek: DeepSeek Pro Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.2247",
+   "prompt_per_mtok": "0.2565",
    "completion_per_mtok": "8"
   },
   "~deepseek/deepseek-flash-latest": {
@@ -431,8 +431,8 @@
   "deepseek/deepseek-v4.1-flash": {
    "name": "DeepSeek: DeepSeek V4.1 Flash",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.165",
-   "completion_per_mtok": "0.66"
+   "prompt_per_mtok": "0.3",
+   "completion_per_mtok": "1.2"
   },
   "deepseek/deepseek-v4.1-flash:batch": {
    "name": "DeepSeek: DeepSeek V4.1 Flash (batch)",
@@ -1195,8 +1195,8 @@
   "~moonshotai/kimi-latest": {
    "name": "MoonshotAI: Kimi Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.239",
-   "completion_per_mtok": "11.936"
+   "prompt_per_mtok": "0.238",
+   "completion_per_mtok": "16"
   },
   "~google/gemini-flash-latest": {
    "name": "Google: Gemini Flash Latest",
@@ -1334,8 +1334,8 @@
   "google/gemma-4-26b-a4b-it": {
    "name": "Google: Gemma 4 26B A4B ",
    "context_length": "262144",
-   "prompt_per_mtok": "0.0765",
-   "completion_per_mtok": "0.255"
+   "prompt_per_mtok": "0.09",
+   "completion_per_mtok": "0.3"
   },
   "google/gemma-4-26b-a4b-it:free": {
    "name": "Google: Gemma 4 26B A4B  (free)",
@@ -1472,8 +1472,8 @@
   "qwen/qwen3.5-9b": {
    "name": "Qwen: Qwen3.5-9B",
    "context_length": "262144",
-   "prompt_per_mtok": "0.08",
-   "completion_per_mtok": "0.13"
+   "prompt_per_mtok": "0.17",
+   "completion_per_mtok": "0.25"
   },
   "openai/gpt-5.4-pro": {
    "name": "OpenAI: GPT-5.4 Pro",
