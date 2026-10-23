@@ -8,7 +8,7 @@
   },
   "minimax/minimax-m3.1-flash": {
    "name": "MiniMax: MiniMax M3.1 Flash",
-   "context_length": "1000000",
+   "context_length": "1048576",
    "prompt_per_mtok": "0.15",
    "completion_per_mtok": "0.6"
   },
@@ -365,7 +365,7 @@
   "~deepseek/deepseek-pro-latest": {
    "name": "DeepSeek: DeepSeek Pro Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.1307",
+   "prompt_per_mtok": "0.2247",
    "completion_per_mtok": "8"
   },
   "~deepseek/deepseek-flash-latest": {
@@ -431,8 +431,8 @@
   "deepseek/deepseek-v4.1-flash": {
    "name": "DeepSeek: DeepSeek V4.1 Flash",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.3",
-   "completion_per_mtok": "1.2"
+   "prompt_per_mtok": "0.165",
+   "completion_per_mtok": "0.66"
   },
   "deepseek/deepseek-v4.1-flash:batch": {
    "name": "DeepSeek: DeepSeek V4.1 Flash (batch)",
@@ -535,8 +535,8 @@
   "tencent/hy4-preview": {
    "name": "Tencent: Hy4 preview",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.7506",
-   "completion_per_mtok": "2.2509"
+   "prompt_per_mtok": "0.834",
+   "completion_per_mtok": "2.501"
   },
   "~z-ai/glm-flash-latest": {
    "name": "Z.ai: GLM Flash Latest",
@@ -601,8 +601,8 @@
   "z-ai/glm-5.3": {
    "name": "Z.ai: GLM 5.3",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.7",
-   "completion_per_mtok": "2.2"
+   "prompt_per_mtok": "0.079",
+   "completion_per_mtok": "1.4"
   },
   "z-ai/glm-5.3:batch": {
    "name": "Z.ai: GLM 5.3 (batch)",
@@ -613,8 +613,8 @@
   "qwen/qwen3.8-27b": {
    "name": "Qwen: Qwen3.8 27B",
    "context_length": "1000000",
-   "prompt_per_mtok": "0.04",
-   "completion_per_mtok": "1.35"
+   "prompt_per_mtok": "0.2",
+   "completion_per_mtok": "2.5"
   },
   "dots-studio/dots-3-note-preview:free": {
    "name": "Dots Studio: Dots3-Note Preview (free)",
@@ -711,14 +711,14 @@
   "~deepseek/deepseek-v4-flash-latest": {
    "name": "DeepSeek: DeepSeek V4 Flash Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0422",
-   "completion_per_mtok": "0.1729"
+   "prompt_per_mtok": "0.0475",
+   "completion_per_mtok": "0.1568"
   },
   "deepseek/deepseek-v4-flash-0731": {
    "name": "DeepSeek: DeepSeek V4 Flash 0731",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0444",
-   "completion_per_mtok": "0.1333"
+   "prompt_per_mtok": "0.44",
+   "completion_per_mtok": "1.32"
   },
   "thinkingmachines/inkling-small": {
    "name": "Thinking Machines: Inkling Small",
@@ -937,8 +937,8 @@
   "tencent/hy3": {
    "name": "Tencent: Hy3",
    "context_length": "262144",
-   "prompt_per_mtok": "0.0825",
-   "completion_per_mtok": "0.33"
+   "prompt_per_mtok": "0.132",
+   "completion_per_mtok": "0.528"
   },
   "poolside/laguna-xs-2.1": {
    "name": "Poolside: Laguna XS 2.1",
@@ -1195,8 +1195,8 @@
   "~moonshotai/kimi-latest": {
    "name": "MoonshotAI: Kimi Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.238",
-   "completion_per_mtok": "24"
+   "prompt_per_mtok": "0.239",
+   "completion_per_mtok": "11.936"
   },
   "~google/gemini-flash-latest": {
    "name": "Google: Gemini Flash Latest",
@@ -1262,8 +1262,8 @@
   "deepseek/deepseek-v4-pro": {
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.4427",
-   "completion_per_mtok": "0.8853"
+   "prompt_per_mtok": "0.9553",
+   "completion_per_mtok": "1.9105"
   },
   "deepseek/deepseek-v4-flash": {
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
@@ -1539,8 +1539,8 @@
   "qwen/qwen3.5-122b-a10b": {
    "name": "Qwen: Qwen3.5-122B-A10B",
    "context_length": "262144",
-   "prompt_per_mtok": "0.26",
-   "completion_per_mtok": "2.08"
+   "prompt_per_mtok": "0.4",
+   "completion_per_mtok": "3.2"
   },
   "qwen/qwen3.5-flash-02-23": {
    "name": "Qwen: Qwen3.5-Flash",
@@ -2267,8 +2267,8 @@
   "mistralai/mistral-small-3.2-24b-instruct": {
    "name": "Mistral: Mistral Small 3.2 24B",
    "context_length": "256000",
-   "prompt_per_mtok": "0.0938",
-   "completion_per_mtok": "0.25"
+   "prompt_per_mtok": "0.075",
+   "completion_per_mtok": "0.2"
   },
   "minimax/minimax-m1": {
    "name": "MiniMax: MiniMax M1",

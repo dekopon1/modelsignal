@@ -70,14 +70,14 @@
    "Cache hits and refreshes": "$0.50 / MTok",
    "Output tokens": "$25 / MTok"
   },
-  "Claude Opus 4.1 (retired, except on Bedrock and Google Cloud)": {
+  "Claude Opus 4.1 (retired, except on Bedrock and Claude Models on Google Cloud (Google managed))": {
    "Base input tokens": "$15 / MTok",
    "5m cache writes": "$18.75 / MTok",
    "1h cache writes": "$30 / MTok",
    "Cache hits and refreshes": "$1.50 / MTok",
    "Output tokens": "$75 / MTok"
   },
-  "Claude Opus 4 (retired, except on Google Cloud)": {
+  "Claude Opus 4 (retired, except on Claude Models on Google Cloud (Google managed))": {
    "Base input tokens": "$15 / MTok",
    "5m cache writes": "$18.75 / MTok",
    "1h cache writes": "$30 / MTok",
@@ -112,7 +112,7 @@
    "Cache hits and refreshes": "$0.30 / MTok",
    "Output tokens": "$15 / MTok"
   },
-  "Claude Sonnet 4 (retired, except on Bedrock and Google Cloud)": {
+  "Claude Sonnet 4 (retired, except on Bedrock and Claude Models on Google Cloud (Google managed))": {
    "Base input tokens": "$3 / MTok",
    "5m cache writes": "$3.75 / MTok",
    "1h cache writes": "$6 / MTok",
@@ -140,7 +140,7 @@
    "Cache hits and refreshes": "$0.10 / MTok",
    "Output tokens": "$5 / MTok"
   },
-  "Claude Haiku 3.5 (retired, except on Google Cloud)": {
+  "Claude Haiku 3.5 (retired, except on Claude Models on Google Cloud (Google managed))": {
    "Base input tokens": "$0.80 / MTok",
    "5m cache writes": "$1 / MTok",
    "1h cache writes": "$1.60 / MTok",
@@ -270,11 +270,11 @@
    "Batch input": "$2.50 / MTok",
    "Batch output": "$12.50 / MTok"
   },
-  "Claude Opus 4.1 (retired, except on Bedrock and Google Cloud)": {
+  "Claude Opus 4.1 (retired, except on Bedrock and Claude Models on Google Cloud (Google managed))": {
    "Batch input": "$7.50 / MTok",
    "Batch output": "$37.50 / MTok"
   },
-  "Claude Opus 4 (retired, except on Google Cloud)": {
+  "Claude Opus 4 (retired, except on Claude Models on Google Cloud (Google managed))": {
    "Batch input": "$7.50 / MTok",
    "Batch output": "$37.50 / MTok"
   },
@@ -294,7 +294,7 @@
    "Batch input": "$1.50 / MTok",
    "Batch output": "$7.50 / MTok"
   },
-  "Claude Sonnet 4 (retired, except on Bedrock and Google Cloud)": {
+  "Claude Sonnet 4 (retired, except on Bedrock and Claude Models on Google Cloud (Google managed))": {
    "Batch input": "$1.50 / MTok",
    "Batch output": "$7.50 / MTok"
   },
@@ -310,7 +310,7 @@
    "Batch input": "$0.50 / MTok",
    "Batch output": "$2.50 / MTok"
   },
-  "Claude Haiku 3.5 (retired, except on Google Cloud)": {
+  "Claude Haiku 3.5 (retired, except on Claude Models on Google Cloud (Google managed))": {
    "Batch input": "$0.40 / MTok",
    "Batch output": "$2 / MTok"
   }
@@ -340,11 +340,11 @@
    "Tool use system prompt tokens: auto, none": "496 tokens",
    "Tool use system prompt tokens: any, tool": "588 tokens"
   },
-  "Claude Opus 4.1 (retired, except on Bedrock and Google Cloud)": {
+  "Claude Opus 4.1 (retired, except on Bedrock and Claude Models on Google Cloud (Google managed))": {
    "Tool use system prompt tokens: auto, none": "313 tokens",
    "Tool use system prompt tokens: any, tool": "315 tokens"
   },
-  "Claude Opus 4 (retired, except on Google Cloud)": {
+  "Claude Opus 4 (retired, except on Claude Models on Google Cloud (Google managed))": {
    "Tool use system prompt tokens: auto, none": "313 tokens",
    "Tool use system prompt tokens: any, tool": "315 tokens"
   },
@@ -363,7 +363,7 @@
    "Tool use system prompt tokens: auto, none": "496 tokens",
    "Tool use system prompt tokens: any, tool": "588 tokens"
   },
-  "Claude Sonnet 4 (retired, except on Bedrock and Google Cloud)": {
+  "Claude Sonnet 4 (retired, except on Bedrock and Claude Models on Google Cloud (Google managed))": {
    "Tool use system prompt tokens: auto, none": "313 tokens",
    "Tool use system prompt tokens: any, tool": "315 tokens"
   },
@@ -375,7 +375,7 @@
    "Tool use system prompt tokens: auto, none": "496 tokens",
    "Tool use system prompt tokens: any, tool": "588 tokens"
   },
-  "Claude Haiku 3.5 (retired, except on Google Cloud)": {
+  "Claude Haiku 3.5 (retired, except on Claude Models on Google Cloud (Google managed))": {
    "Tool use system prompt tokens: auto, none": "264 tokens",
    "Tool use system prompt tokens: any, tool": "355 tokens"
   }
