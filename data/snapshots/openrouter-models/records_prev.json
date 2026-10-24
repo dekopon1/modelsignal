@@ -541,13 +541,13 @@
   "tencent/hy4-preview": {
    "name": "Tencent: Hy4 preview",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.834",
-   "completion_per_mtok": "2.501"
+   "prompt_per_mtok": "0.7506",
+   "completion_per_mtok": "2.2509"
   },
   "~z-ai/glm-flash-latest": {
    "name": "Z.ai: GLM Flash Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0511",
+   "prompt_per_mtok": "0.0507",
    "completion_per_mtok": "0.0702"
   },
   "qwen/qwen3.8-flash": {
@@ -607,8 +607,8 @@
   "z-ai/glm-5.3": {
    "name": "Z.ai: GLM 5.3",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.079",
-   "completion_per_mtok": "1.4"
+   "prompt_per_mtok": "0.0908",
+   "completion_per_mtok": "1.61"
   },
   "z-ai/glm-5.3:batch": {
    "name": "Z.ai: GLM 5.3 (batch)",
@@ -943,8 +943,8 @@
   "tencent/hy3": {
    "name": "Tencent: Hy3",
    "context_length": "262144",
-   "prompt_per_mtok": "0.132",
-   "completion_per_mtok": "0.528"
+   "prompt_per_mtok": "0.0825",
+   "completion_per_mtok": "0.33"
   },
   "poolside/laguna-xs-2.1": {
    "name": "Poolside: Laguna XS 2.1",
@@ -2795,12 +2795,6 @@
    "prompt_per_mtok": "-1000000",
    "completion_per_mtok": "-1000000"
   },
-  "openai/gpt-3.5-turbo-instruct": {
-   "name": "OpenAI: GPT-3.5 Turbo Instruct",
-   "context_length": "4095",
-   "prompt_per_mtok": "1.5",
-   "completion_per_mtok": "2"
-  },
   "openai/gpt-3.5-turbo-16k": {
    "name": "OpenAI: GPT-3.5 Turbo 16k",
    "context_length": "16385",
@@ -2824,18 +2818,6 @@
    "context_length": "8192",
    "prompt_per_mtok": "0.08",
    "completion_per_mtok": "0.11"
-  },
-  "openai/gpt-3.5-turbo": {
-   "name": "OpenAI: GPT-3.5 Turbo",
-   "context_length": "16385",
-   "prompt_per_mtok": "0.5",
-   "completion_per_mtok": "1.5"
-  },
-  "openai/gpt-3.5-turbo:batch": {
-   "name": "OpenAI: GPT-3.5 Turbo (batch)",
-   "context_length": "16385",
-   "prompt_per_mtok": "0.25",
-   "completion_per_mtok": "0.75"
   },
   "openai/gpt-4": {
    "name": "OpenAI: GPT-4",
