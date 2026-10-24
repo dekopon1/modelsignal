@@ -595,8 +595,8 @@
   "~z-ai/glm-latest": {
    "name": "Z.ai: GLM Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.079",
-   "completion_per_mtok": "1.4"
+   "prompt_per_mtok": "0.075",
+   "completion_per_mtok": "4.295"
   },
   "tencent/hy-mt2-7b": {
    "name": "Tencent: Hy-MT2-7B",
@@ -1201,8 +1201,8 @@
   "~moonshotai/kimi-latest": {
    "name": "MoonshotAI: Kimi Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.238",
-   "completion_per_mtok": "16"
+   "prompt_per_mtok": "0.19",
+   "completion_per_mtok": "8.94"
   },
   "~google/gemini-flash-latest": {
    "name": "Google: Gemini Flash Latest",
@@ -1268,8 +1268,8 @@
   "deepseek/deepseek-v4-pro": {
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.5812",
-   "completion_per_mtok": "1.1623"
+   "prompt_per_mtok": "0.3377",
+   "completion_per_mtok": "0.6755"
   },
   "deepseek/deepseek-v4-flash": {
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
@@ -1614,8 +1614,8 @@
   "minimax/minimax-m2.5": {
    "name": "MiniMax: MiniMax M2.5",
    "context_length": "204800",
-   "prompt_per_mtok": "0.27",
-   "completion_per_mtok": "0.95"
+   "prompt_per_mtok": "0.3",
+   "completion_per_mtok": "1.2"
   },
   "z-ai/glm-5": {
    "name": "Z.ai: GLM 5",
