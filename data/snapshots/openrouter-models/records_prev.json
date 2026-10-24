@@ -377,8 +377,8 @@
   "~deepseek/deepseek-flash-latest": {
    "name": "DeepSeek: DeepSeek Flash Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.07",
-   "completion_per_mtok": "0.5"
+   "prompt_per_mtok": "0.02",
+   "completion_per_mtok": "1"
   },
   "inference-net/schematron-v2-turbo": {
    "name": "Inference.net: Schematron V2 Turbo",
@@ -437,8 +437,8 @@
   "deepseek/deepseek-v4.1-flash": {
    "name": "DeepSeek: DeepSeek V4.1 Flash",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.3",
-   "completion_per_mtok": "1.2"
+   "prompt_per_mtok": "0.02",
+   "completion_per_mtok": "1"
   },
   "deepseek/deepseek-v4.1-flash:batch": {
    "name": "DeepSeek: DeepSeek V4.1 Flash (batch)",
@@ -541,14 +541,14 @@
   "tencent/hy4-preview": {
    "name": "Tencent: Hy4 preview",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.7506",
-   "completion_per_mtok": "2.2509"
+   "prompt_per_mtok": "0.834",
+   "completion_per_mtok": "2.501"
   },
   "~z-ai/glm-flash-latest": {
    "name": "Z.ai: GLM Flash Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0285",
-   "completion_per_mtok": "0.0923"
+   "prompt_per_mtok": "0.0262",
+   "completion_per_mtok": "0.1028"
   },
   "qwen/qwen3.8-flash": {
    "name": "Qwen: Qwen3.8 Flash",
@@ -718,7 +718,7 @@
    "name": "DeepSeek: DeepSeek V4 Flash Latest",
    "context_length": "1048576",
    "prompt_per_mtok": "0.0422",
-   "completion_per_mtok": "0.1729"
+   "completion_per_mtok": "0.1694"
   },
   "deepseek/deepseek-v4-flash-0731": {
    "name": "DeepSeek: DeepSeek V4 Flash 0731",
@@ -943,8 +943,8 @@
   "tencent/hy3": {
    "name": "Tencent: Hy3",
    "context_length": "262144",
-   "prompt_per_mtok": "0.0825",
-   "completion_per_mtok": "0.33"
+   "prompt_per_mtok": "0.132",
+   "completion_per_mtok": "0.528"
   },
   "poolside/laguna-xs-2.1": {
    "name": "Poolside: Laguna XS 2.1",
@@ -1202,7 +1202,7 @@
    "name": "MoonshotAI: Kimi Latest",
    "context_length": "1048576",
    "prompt_per_mtok": "0.238",
-   "completion_per_mtok": "24"
+   "completion_per_mtok": "16"
   },
   "~google/gemini-flash-latest": {
    "name": "Google: Gemini Flash Latest",
@@ -1268,8 +1268,8 @@
   "deepseek/deepseek-v4-pro": {
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.7332",
-   "completion_per_mtok": "1.4665"
+   "prompt_per_mtok": "0.5812",
+   "completion_per_mtok": "1.1623"
   },
   "deepseek/deepseek-v4-flash": {
    "name": "DeepSeek: DeepSeek V4 Flash 0423",

@@ -1,4 +1,24 @@
 {
+ "https://github.blog/changelog/2026-10-23-usage-metrics-api-adds-usage-from-tools-like-opencode": {
+  "title": "Usage metrics API adds usage from tools like OpenCode",
+  "date": "Fri, 23 Oct 2026 23:42:03 +0000",
+  "summary": "The Copilot usage metrics API now reports model usage from more of the tools your developers use with Copilot, including tools like OpenCode that weren&#8217;t previously captured in your reports.&#8230;\nThe post Usage metrics API adds usage from tools like OpenCode appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-10-23-turn-notifications-into-code-with-github-copilot-in-teams": {
+  "title": "Turn notifications into code with GitHub Copilot in Teams",
+  "date": "Fri, 23 Oct 2026 21:29:58 +0000",
+  "summary": "The new GitHub app in Teams brings notifications and Copilot together, helping teams turn issues into fixes and ship code faster without leaving the conversation. Get notified in channels, group&#8230;\nThe post Turn notifications into code with GitHub Copilot in Teams appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-10-23-emu-deletions-fix": {
+  "title": "EMU deletions fix",
+  "date": "Fri, 23 Oct 2026 18:56:18 +0000",
+  "summary": "Between June 1 and June 13, 2026, some Enterprise Managed User accounts that were deprovisioned through SCIM were incorrectly deleted instead of being suspended and obfuscated as expected. As a&#8230;\nThe post EMU deletions fix appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-10-23-public-monitoring-adds-triage-validity-api-and-webhooks": {
+  "title": "Public monitoring adds triage, validity, API, and webhooks",
+  "date": "Fri, 23 Oct 2026 17:17:58 +0000",
+  "summary": "Public monitoring now includes alert management capabilities like automatic validity checks to help you triage and remediate leaked secrets at scale. Alert management with dismissals, timelines, and filtering Always-on validity&#8230;\nThe post Public monitoring adds triage, validity, API, and webhooks appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-10-23-enterprise-installations-for-github-apps-generally-available": {
   "title": "Enterprise installations for GitHub Apps generally available",
   "date": "Fri, 23 Oct 2026 15:03:30 +0000",
@@ -28,25 +48,5 @@
   "title": "Public monitoring now available with data residency",
   "date": "Thu, 22 Oct 2026 18:12:58 +0000",
   "summary": "Public monitoring is now available in public preview for GitHub Enterprise Cloud with data residency (GHEC DR). Public monitoring with data residency Public monitoring extends secret scanning beyond internal repositories&#8230;\nThe post Public monitoring now available with data residency appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-10-22-pull-requests-saved-whitespace-preferences-and-improved-split-view": {
-  "title": "Pull requests: Saved whitespace preferences and improved split view",
-  "date": "Thu, 22 Oct 2026 17:24:56 +0000",
-  "summary": "Two improvements make it easier to review pull requests in the &#8220;Files changed&#8221; page: You can save your whitespace visibility preference across pull requests New and deleted files now use&#8230;\nThe post Pull requests: Saved whitespace preferences and improved split view appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-10-22-industry-comparisons-in-the-copilot-impact-dashboard": {
-  "title": "Industry comparisons in the Copilot impact dashboard",
-  "date": "Thu, 22 Oct 2026 16:28:24 +0000",
-  "summary": "The Copilot impact dashboard now includes an &#8220;Industry comparison&#8221; section. Enterprises, and organizations that aren&#8217;t owned by an enterprise, can compare their Copilot agentic adoption and leverage with aggregated benchmarks&#8230;\nThe post Industry comparisons in the Copilot impact dashboard appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-10-21-github-cli-opt-in-to-expiring-auto-refreshing-oauth-tokens": {
-  "title": "GitHub CLI: Opt in to expiring, auto-refreshing OAuth tokens",
-  "date": "Wed, 21 Oct 2026 16:43:23 +0000",
-  "summary": "You can now use expiring, automatically refreshing OAuth credentials in GitHub CLI as part of a public preview. When you opt in, gh stores an expiring access token alongside a&#8230;\nThe post GitHub CLI: Opt in to expiring, auto-refreshing OAuth tokens appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-10-20-bulk-migrate-branch-protections-to-rulesets-for-a-repository": {
-  "title": "Bulk migrate branch protections to rulesets for a repository",
-  "date": "Tue, 20 Oct 2026 18:06:21 +0000",
-  "summary": "You can now convert all branch protection rules of a repository to rulesets in a single action. This is an extension of the ability to convert a single branch protection&#8230;\nThe post Bulk migrate branch protections to rulesets for a repository appeared first on The GitHub Blog."
  }
 }
