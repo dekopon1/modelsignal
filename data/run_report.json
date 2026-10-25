@@ -1,5 +1,5 @@
 {
- "run_at": "2026-10-25T16:12:24Z",
+ "run_at": "2026-10-25T20:47:47Z",
  "results": [
   {
    "id": "anthropic-pricing",
@@ -16,18 +16,16 @@
   {
    "id": "openrouter-models",
    "ok": true,
-   "http_chars": 790929,
+   "http_chars": 790949,
    "changed": true,
-   "changes": 4,
+   "changes": 2,
    "announcements": 0
   },
   {
    "id": "deepseek-pricing",
    "ok": true,
    "http_chars": 49271,
-   "changed": true,
-   "changes": 0,
-   "announcements": 0
+   "changed": false
   },
   {
    "id": "mistral-models",
@@ -78,7 +76,7 @@
   {
    "id": "gemini-release-notes",
    "ok": true,
-   "http_chars": 174662,
+   "http_chars": 174666,
    "changed": true,
    "changes": 0,
    "announcements": 0
