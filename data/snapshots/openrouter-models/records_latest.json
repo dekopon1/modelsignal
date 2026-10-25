@@ -541,14 +541,14 @@
   "tencent/hy4-preview": {
    "name": "Tencent: Hy4 preview",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.7506",
-   "completion_per_mtok": "2.2509"
+   "prompt_per_mtok": "0.834",
+   "completion_per_mtok": "2.501"
   },
   "~z-ai/glm-flash-latest": {
    "name": "Z.ai: GLM Flash Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0507",
-   "completion_per_mtok": "0.0702"
+   "prompt_per_mtok": "0.0511",
+   "completion_per_mtok": "0.0761"
   },
   "qwen/qwen3.8-flash": {
    "name": "Qwen: Qwen3.8 Flash",
@@ -595,8 +595,8 @@
   "~z-ai/glm-latest": {
    "name": "Z.ai: GLM Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.075",
-   "completion_per_mtok": "4.295"
+   "prompt_per_mtok": "0.0703",
+   "completion_per_mtok": "4.3843"
   },
   "tencent/hy-mt2-7b": {
    "name": "Tencent: Hy-MT2-7B",
@@ -607,8 +607,8 @@
   "z-ai/glm-5.3": {
    "name": "Z.ai: GLM 5.3",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0908",
-   "completion_per_mtok": "1.61"
+   "prompt_per_mtok": "0.079",
+   "completion_per_mtok": "1.4"
   },
   "z-ai/glm-5.3:batch": {
    "name": "Z.ai: GLM 5.3 (batch)",
@@ -672,6 +672,12 @@
    "prompt_per_mtok": "2",
    "completion_per_mtok": "6"
   },
+  "liquid/lfm-2.5-2.6b": {
+   "name": "LiquidAI: LFM2.5-2.6B",
+   "context_length": "128000",
+   "prompt_per_mtok": "0.35",
+   "completion_per_mtok": "0.5"
+  },
   "liquid/lfm-2.5-2.6b:free": {
    "name": "LiquidAI: LFM2.5-2.6B (free)",
    "context_length": "65536",
@@ -718,13 +724,13 @@
    "name": "DeepSeek: DeepSeek V4 Flash Latest",
    "context_length": "1048576",
    "prompt_per_mtok": "0.0422",
-   "completion_per_mtok": "0.1763"
+   "completion_per_mtok": "0.1694"
   },
   "deepseek/deepseek-v4-flash-0731": {
    "name": "DeepSeek: DeepSeek V4 Flash 0731",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0444",
-   "completion_per_mtok": "0.1333"
+   "prompt_per_mtok": "0.0422",
+   "completion_per_mtok": "0.1694"
   },
   "thinkingmachines/inkling-small": {
    "name": "Thinking Machines: Inkling Small",
@@ -943,8 +949,8 @@
   "tencent/hy3": {
    "name": "Tencent: Hy3",
    "context_length": "262144",
-   "prompt_per_mtok": "0.0825",
-   "completion_per_mtok": "0.33"
+   "prompt_per_mtok": "0.132",
+   "completion_per_mtok": "0.528"
   },
   "poolside/laguna-xs-2.1": {
    "name": "Poolside: Laguna XS 2.1",
@@ -2648,8 +2654,8 @@
   "meta-llama/llama-3.2-3b-instruct": {
    "name": "Meta: Llama 3.2 3B Instruct",
    "context_length": "131072",
-   "prompt_per_mtok": "0.0509",
-   "completion_per_mtok": "0.335"
+   "prompt_per_mtok": "0.05",
+   "completion_per_mtok": "0.33"
   },
   "qwen/qwen-2.5-72b-instruct": {
    "name": "Qwen2.5 72B Instruct",

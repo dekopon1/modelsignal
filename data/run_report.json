@@ -1,5 +1,5 @@
 {
- "run_at": "2026-10-24T20:45:06Z",
+ "run_at": "2026-10-25T04:36:44Z",
  "results": [
   {
    "id": "anthropic-pricing",
@@ -16,9 +16,9 @@
   {
    "id": "openrouter-models",
    "ok": true,
-   "http_chars": 788867,
+   "http_chars": 790668,
    "changed": true,
-   "changes": 5,
+   "changes": 10,
    "announcements": 0
   },
   {
