@@ -1,4 +1,9 @@
 {
+ "https://github.blog/changelog/2026-10-26-gpt-6-1-terra-in-github-copilot": {
+  "title": "GPT-6.1 Terra in GitHub Copilot",
+  "date": "Mon, 26 Oct 2026 19:15:53 +0000",
+  "summary": "GPT-6.1 Terra, OpenAI&#8217;s newest model, is now generally available in GitHub Copilot. It is designed for everyday agentic coding and terminal work at a lower cost than GPT-6.1 Sol. In&#8230;\nThe post GPT-6.1 Terra in GitHub Copilot appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-10-23-usage-metrics-api-adds-usage-from-tools-like-opencode": {
   "title": "Usage metrics API adds usage from tools like OpenCode",
   "date": "Fri, 23 Oct 2026 23:42:03 +0000",
@@ -43,10 +48,5 @@
   "title": "Meta API endpoints updated for Actions blob storage",
   "date": "Thu, 22 Oct 2026 18:14:16 +0000",
   "summary": "We&#8217;re adding blob storage endpoints for GitHub Actions on github.com as part of our ongoing work to improve capacity and reliability. The meta API now includes these new endpoints. If&#8230;\nThe post Meta API endpoints updated for Actions blob storage appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-10-22-public-monitoring-now-available-with-data-residency": {
-  "title": "Public monitoring now available with data residency",
-  "date": "Thu, 22 Oct 2026 18:12:58 +0000",
-  "summary": "Public monitoring is now available in public preview for GitHub Enterprise Cloud with data residency (GHEC DR). Public monitoring with data residency Public monitoring extends secret scanning beyond internal repositories&#8230;\nThe post Public monitoring now available with data residency appeared first on The GitHub Blog."
  }
 }
