@@ -1,4 +1,9 @@
 {
+ "https://github.blog/changelog/2026-10-27-github-copilot-supports-server-to-server-authentication": {
+  "title": "GitHub Copilot supports server-to-server authentication",
+  "date": "Tue, 27 Oct 2026 21:36:55 +0000",
+  "summary": "GitHub Copilot now supports server-to-server authentication for GitHub Apps installed on organizations, available in public preview. Services and agents built with the GitHub Copilot SDK can now make requests on&#8230;\nThe post GitHub Copilot supports server-to-server authentication appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-10-26-github-copilot-assisted-permissions-generally-available": {
   "title": "GitHub Copilot assisted permissions generally available",
   "date": "Mon, 26 Oct 2026 22:31:30 +0000",
@@ -43,10 +48,5 @@
   "title": "Custom skills, agents, and MCP servers in usage metrics API",
   "date": "Thu, 22 Oct 2026 22:19:17 +0000",
   "summary": "Copilot usage metrics now show the names of the skills, custom agents, Model Context Protocol (MCP) servers, slash commands, and plugins that your organization creates, instead of grouping them under&#8230;\nThe post Custom skills, agents, and MCP servers in usage metrics API appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-10-22-global-default-for-copilot-features-generally-available": {
-  "title": "Global default for Copilot features generally available",
-  "date": "Thu, 22 Oct 2026 20:44:28 +0000",
-  "summary": "In September, we announced a global default policy for generally available GitHub Copilot features and supported client capabilities on Copilot Business and Copilot Enterprise plans. Starting today, we&#8217;re gradually rolling&#8230;\nThe post Global default for Copilot features generally available appeared first on The GitHub Blog."
  }
 }
