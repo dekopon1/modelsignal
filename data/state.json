@@ -1,85 +1,85 @@
 {
  "anthropic-pricing": {
-  "hash": "160e77ba715391c8",
-  "last_snapshot": "snapshots/anthropic-pricing/2026-10-23T113405Z.txt.gz",
-  "last_checked": "2026-10-27T12:06:26Z",
-  "last_changed": "2026-10-23T04:44:57Z",
+  "hash": "1b5a15d1465ca426",
+  "last_snapshot": "snapshots/anthropic-pricing/2026-10-27T175804Z.txt.gz",
+  "last_checked": "2026-10-27T17:58:04Z",
+  "last_changed": "2026-10-27T17:58:04Z",
   "first_seen": "2026-08-22T20:02:52Z"
  },
  "anthropic-limits": {
-  "hash": "3e3499215bf5fc56",
-  "last_snapshot": "snapshots/anthropic-limits/2026-10-23T113405Z.txt.gz",
-  "last_checked": "2026-10-27T12:06:26Z",
+  "hash": "c896b4ff2b16e26d",
+  "last_snapshot": "snapshots/anthropic-limits/2026-10-27T175804Z.txt.gz",
+  "last_checked": "2026-10-27T17:58:04Z",
   "last_changed": "2026-10-22T21:32:42Z",
   "first_seen": "2026-08-22T20:02:52Z"
  },
  "openrouter-models": {
-  "hash": "287974f020618cee",
-  "last_snapshot": "snapshots/openrouter-models/2026-10-27T120626Z.txt.gz",
-  "last_checked": "2026-10-27T12:06:26Z",
-  "last_changed": "2026-10-27T12:06:26Z",
+  "hash": "3334f34caca8f016",
+  "last_snapshot": "snapshots/openrouter-models/2026-10-27T175804Z.txt.gz",
+  "last_checked": "2026-10-27T17:58:04Z",
+  "last_changed": "2026-10-27T17:58:04Z",
   "first_seen": "2026-08-22T20:02:52Z"
  },
  "deepseek-pricing": {
   "hash": "fcad9bd71d0bf986",
   "last_snapshot": "snapshots/deepseek-pricing/2026-10-27T045914Z.txt.gz",
-  "last_checked": "2026-10-27T12:06:26Z",
+  "last_checked": "2026-10-27T17:58:05Z",
   "last_changed": "2026-10-21T21:39:48Z",
   "first_seen": "2026-08-22T20:02:54Z"
  },
  "mistral-models": {
-  "hash": "ae0348b40e9284d5",
-  "last_snapshot": "snapshots/mistral-models/2026-10-27T120627Z.txt.gz",
-  "last_checked": "2026-10-27T12:06:27Z",
+  "hash": "9a56432eb21b8fa5",
+  "last_snapshot": "snapshots/mistral-models/2026-10-27T175805Z.txt.gz",
+  "last_checked": "2026-10-27T17:58:05Z",
   "last_changed": "2026-09-30T12:30:32Z",
   "first_seen": "2026-08-22T20:02:54Z"
  },
  "google-gemini-pricing": {
-  "hash": "460d801476b1b985",
-  "last_snapshot": "snapshots/google-gemini-pricing/2026-10-27T120627Z.txt.gz",
-  "last_checked": "2026-10-27T12:06:27Z",
+  "hash": "d52614d77e4928d8",
+  "last_snapshot": "snapshots/google-gemini-pricing/2026-10-27T175805Z.txt.gz",
+  "last_checked": "2026-10-27T17:58:05Z",
   "last_changed": "2026-10-22T17:07:41Z",
   "first_seen": "2026-08-22T20:02:55Z"
  },
  "github-copilot-plans": {
-  "hash": "5401572efa38d843",
-  "last_snapshot": "snapshots/github-copilot-plans/2026-10-27T120627Z.txt.gz",
-  "last_checked": "2026-10-27T12:06:27Z",
+  "hash": "d15dd10e44941161",
+  "last_snapshot": "snapshots/github-copilot-plans/2026-10-27T175805Z.txt.gz",
+  "last_checked": "2026-10-27T17:58:06Z",
   "last_changed": null,
   "first_seen": "2026-08-22T20:02:55Z"
  },
  "github-copilot-premium": {
-  "hash": "aeecb4057cd2f6fd",
-  "last_snapshot": "snapshots/github-copilot-premium/2026-10-27T120628Z.txt.gz",
-  "last_checked": "2026-10-27T12:06:29Z",
+  "hash": "323d25f062a9f866",
+  "last_snapshot": "snapshots/github-copilot-premium/2026-10-27T175806Z.txt.gz",
+  "last_checked": "2026-10-27T17:58:06Z",
   "last_changed": "2026-08-31T22:48:41Z",
   "first_seen": "2026-08-22T20:02:56Z"
  },
  "anthropic-changelog": {
-  "hash": "87103471347b416a",
-  "last_snapshot": "snapshots/anthropic-changelog/2026-10-26T223746Z.txt.gz",
-  "last_checked": "2026-10-27T12:06:29Z",
+  "hash": "9cdc3cee76757da1",
+  "last_snapshot": "snapshots/anthropic-changelog/2026-10-27T175806Z.txt.gz",
+  "last_checked": "2026-10-27T17:58:06Z",
   "last_changed": "2026-10-26T22:37:46Z",
   "first_seen": "2026-08-22T20:02:56Z"
  },
  "github-changelog-rss": {
   "hash": "6860b25d779e251e",
   "last_snapshot": "snapshots/github-changelog-rss/2026-10-27T045917Z.txt.gz",
-  "last_checked": "2026-10-27T12:06:29Z",
+  "last_checked": "2026-10-27T17:58:07Z",
   "last_changed": "2026-10-27T04:59:17Z",
   "first_seen": "2026-08-22T20:02:56Z"
  },
  "openai-news-rss": {
-  "hash": "e0fe58d16c785027",
-  "last_snapshot": "snapshots/openai-news-rss/2026-10-27T120629Z.txt.gz",
-  "last_checked": "2026-10-27T12:06:29Z",
-  "last_changed": "2026-10-26T22:37:47Z",
+  "hash": "bf5ec64b06963a29",
+  "last_snapshot": "snapshots/openai-news-rss/2026-10-27T175807Z.txt.gz",
+  "last_checked": "2026-10-27T17:58:07Z",
+  "last_changed": "2026-10-27T17:58:07Z",
   "first_seen": "2026-08-22T20:02:57Z"
  },
  "gemini-release-notes": {
-  "hash": "feaca0b1415be640",
-  "last_snapshot": "snapshots/gemini-release-notes/2026-10-27T120630Z.txt.gz",
-  "last_checked": "2026-10-27T12:06:30Z",
+  "hash": "ef32cdff79e0df79",
+  "last_snapshot": "snapshots/gemini-release-notes/2026-10-27T175807Z.txt.gz",
+  "last_checked": "2026-10-27T17:58:07Z",
   "last_changed": "2026-10-26T12:55:46Z",
   "first_seen": "2026-08-22T20:02:57Z"
  }

@@ -405,10 +405,10 @@
  "Claude Managed Agents pricing": {},
  "Tokens": {
   "Batch API discount": {
-   "Why it doesn't apply": "Sessions are stateful and interactive. There is no batch mode."
+   "Why it doesn’t apply": "Sessions are stateful and interactive. There is no batch mode."
   },
   "Cloud platform pricing": {
-   "Why it doesn't apply": "Not available on partner-operated cloud platforms."
+   "Why it doesn’t apply": "Not available on partner-operated cloud platforms."
   }
  },
  "Session runtime": {
