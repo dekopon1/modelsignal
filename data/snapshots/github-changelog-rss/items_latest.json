@@ -1,4 +1,9 @@
 {
+ "https://github.blog/changelog/2026-10-26-github-copilot-assisted-permissions-generally-available": {
+  "title": "GitHub Copilot assisted permissions generally available",
+  "date": "Mon, 26 Oct 2026 22:31:30 +0000",
+  "summary": "Assisted permissions are now generally available in GitHub Copilot CLI, GitHub Copilot app, and Visual Studio Code. When Copilot requests permission to run a command, access a file system path,&#8230;\nThe post GitHub Copilot assisted permissions generally available appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-10-26-gpt-6-1-terra-in-github-copilot": {
   "title": "GPT-6.1 Terra in GitHub Copilot",
   "date": "Mon, 26 Oct 2026 19:15:53 +0000",
@@ -43,10 +48,5 @@
   "title": "Global default for Copilot features generally available",
   "date": "Thu, 22 Oct 2026 20:44:28 +0000",
   "summary": "In September, we announced a global default policy for generally available GitHub Copilot features and supported client capabilities on Copilot Business and Copilot Enterprise plans. Starting today, we&#8217;re gradually rolling&#8230;\nThe post Global default for Copilot features generally available appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-10-22-meta-api-endpoints-updated-for-actions-blob-storage": {
-  "title": "Meta API endpoints updated for Actions blob storage",
-  "date": "Thu, 22 Oct 2026 18:14:16 +0000",
-  "summary": "We&#8217;re adding blob storage endpoints for GitHub Actions on github.com as part of our ongoing work to improve capacity and reliability. The meta API now includes these new endpoints. If&#8230;\nThe post Meta API endpoints updated for Actions blob storage appeared first on The GitHub Blog."
  }
 }
