@@ -40,6 +40,11 @@
    "Pricing": "$39 USD per granted seat per month",
    "GitHub AI Credits": "Total per user per month: 3,900",
    "Models": "Priority access to premium models"
+  },
+  "Copilot access": {
+   "Pricing": "$0 for licensed users of GitHub Enterprise Cloud $10 USD per user per month for Copilot Standalone (users with no GitHub Enterprise Cloud license)",
+   "GitHub AI Credits": "No included allowance",
+   "Models": "Priority access to premium models"
   }
  },
  "Individual plans": {},
@@ -103,7 +108,7 @@
   "MAI-Code-1.1-Flash": {}
  },
  "Agents": {
-  "Copilot cloud agent": {},
+  "Copilot in the cloud": {},
   "Agent mode": {},
   "Copilot code review": {
    "Copilot Free": "Only \"Review selection\" in VS Code"
@@ -125,10 +130,11 @@
   "Audit logs": {},
   "Content exclusion": {},
   "Copilot CLI": {},
-  "The Copilot app": {},
-  "GitHub Spark (public preview)": {}
+  "The Copilot app": {}
  },
  "Organization and enterprise plans": {},
+ "How the billing models differ": {},
+ "Inline suggestions and GitHub Copilot in the cloud": {},
  "Further reading": {},
  "Footnotes": {},
  "Help and support": {},

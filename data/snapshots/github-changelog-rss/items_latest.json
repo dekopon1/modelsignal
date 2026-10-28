@@ -1,52 +1,52 @@
 {
- "https://github.blog/changelog/2026-10-27-github-copilot-supports-server-to-server-authentication": {
-  "title": "GitHub Copilot supports server-to-server authentication",
-  "date": "Tue, 27 Oct 2026 21:36:55 +0000",
-  "summary": "GitHub Copilot now supports server-to-server authentication for GitHub Apps installed on organizations, available in public preview. Services and agents built with the GitHub Copilot SDK can now make requests on&#8230;\nThe post GitHub Copilot supports server-to-server authentication appeared first on The GitHub Blog."
+ "https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion": {
+  "title": "Route and orchestrate models with GitHub Copilot Fusion",
+  "date": "Wed, 28 Oct 2026 16:00:00 +0000",
+  "summary": "GitHub Copilot Fusion is generally available. Instead of picking a model for each task, choose Copilot Fusion and let Copilot intelligently route and orchestrate which models it uses for you.&#8230;\nThe post Route and orchestrate models with GitHub Copilot Fusion appeared first on The GitHub Blog."
  },
- "https://github.blog/changelog/2026-10-26-github-copilot-assisted-permissions-generally-available": {
-  "title": "GitHub Copilot assisted permissions generally available",
-  "date": "Mon, 26 Oct 2026 22:31:30 +0000",
-  "summary": "Assisted permissions are now generally available in GitHub Copilot CLI, GitHub Copilot app, and Visual Studio Code. When Copilot requests permission to run a command, access a file system path,&#8230;\nThe post GitHub Copilot assisted permissions generally available appeared first on The GitHub Blog."
+ "https://github.blog/changelog/2026-10-28-github-copilot-app-universe-releases": {
+  "title": "GitHub Copilot app, Universe releases",
+  "date": "Wed, 28 Oct 2026 15:55:00 +0000",
+  "summary": "Work doesn&#8217;t always fit in a single repository or session. A feature can span several repositories. A launch plan can pull in specs, designs, and assets without touching a repository&#8230;\nThe post GitHub Copilot app, Universe releases appeared first on The GitHub Blog."
  },
- "https://github.blog/changelog/2026-10-26-gpt-6-1-terra-in-github-copilot": {
-  "title": "GPT-6.1 Terra in GitHub Copilot",
-  "date": "Mon, 26 Oct 2026 19:15:53 +0000",
-  "summary": "GPT-6.1 Terra, OpenAI&#8217;s newest model, is now generally available in GitHub Copilot. It is designed for everyday agentic coding and terminal work at a lower cost than GPT-6.1 Sol. In&#8230;\nThe post GPT-6.1 Terra in GitHub Copilot appeared first on The GitHub Blog."
+ "https://github.blog/changelog/2026-10-28-github-enterprise-now-includes-access-to-github-copilot": {
+  "title": "GitHub Enterprise now includes access to GitHub Copilot",
+  "date": "Wed, 28 Oct 2026 15:50:00 +0000",
+  "summary": "Enterprises working with a GitHub or Microsoft account team can now get Copilot included with GitHub Enterprise for every licensed user. Previously, you had to manage two things: how many&#8230;\nThe post GitHub Enterprise now includes access to GitHub Copilot appeared first on The GitHub Blog."
  },
- "https://github.blog/changelog/2026-10-23-usage-metrics-api-adds-usage-from-tools-like-opencode": {
-  "title": "Usage metrics API adds usage from tools like OpenCode",
-  "date": "Fri, 23 Oct 2026 23:42:03 +0000",
-  "summary": "The Copilot usage metrics API now reports model usage from more of the tools your developers use with Copilot, including tools like OpenCode that weren&#8217;t previously captured in your reports.&#8230;\nThe post Usage metrics API adds usage from tools like OpenCode appeared first on The GitHub Blog."
+ "https://github.blog/changelog/2026-10-28-security-extension-for-the-github-copilot-app": {
+  "title": "Security extension for the GitHub Copilot app",
+  "date": "Wed, 28 Oct 2026 15:45:00 +0000",
+  "summary": "You can now work through your repository&#8217;s GitHub code scanning alerts without leaving the GitHub Copilot app. The new GitHub security extension, now in public preview, lets you find the&#8230;\nThe post Security extension for the GitHub Copilot app appeared first on The GitHub Blog."
  },
- "https://github.blog/changelog/2026-10-23-turn-notifications-into-code-with-github-copilot-in-teams": {
-  "title": "Turn notifications into code with GitHub Copilot in Teams",
-  "date": "Fri, 23 Oct 2026 21:29:58 +0000",
-  "summary": "The new GitHub app in Teams brings notifications and Copilot together, helping teams turn issues into fixes and ship code faster without leaving the conversation. Get notified in channels, group&#8230;\nThe post Turn notifications into code with GitHub Copilot in Teams appeared first on The GitHub Blog."
+ "https://github.blog/changelog/2026-10-28-github-intelligence-puts-your-code-context-and-history-to-work": {
+  "title": "GitHub intelligence puts your code, context, and history to work",
+  "date": "Wed, 28 Oct 2026 15:40:00 +0000",
+  "summary": "Agents should understand more than your codebase&#8212;they should understand how your team works. Your preferences, repository conventions, skills, and custom instructions guide how changes should be made, while code in&#8230;\nThe post GitHub intelligence puts your code, context, and history to work appeared first on The GitHub Blog."
  },
- "https://github.blog/changelog/2026-10-23-emu-deletions-fix": {
-  "title": "EMU deletions fix",
-  "date": "Fri, 23 Oct 2026 18:56:18 +0000",
-  "summary": "Between June 1 and June 13, 2026, some Enterprise Managed User accounts that were deprovisioned through SCIM were incorrectly deleted instead of being suspended and obfuscated as expected. As a&#8230;\nThe post EMU deletions fix appeared first on The GitHub Blog."
+ "https://github.blog/changelog/2026-10-28-build-shared-workflows-for-your-team-with-copilot-automations": {
+  "title": "Build shared workflows for your team with Copilot Automations",
+  "date": "Wed, 28 Oct 2026 15:35:00 +0000",
+  "summary": "Shared Copilot Automations are rolling out, enabling teams to build and maintain AI-powered workflows together. With Copilot Automations, you can combine prompts, triggers, and tools to design workflows around the&#8230;\nThe post Build shared workflows for your team with Copilot Automations appeared first on The GitHub Blog."
  },
- "https://github.blog/changelog/2026-10-23-public-monitoring-adds-triage-validity-api-and-webhooks": {
-  "title": "Public monitoring adds triage, validity, API, and webhooks",
-  "date": "Fri, 23 Oct 2026 17:17:58 +0000",
-  "summary": "Public monitoring now includes alert management capabilities like automatic validity checks to help you triage and remediate leaked secrets at scale. Alert management with dismissals, timelines, and filtering Always-on validity&#8230;\nThe post Public monitoring adds triage, validity, API, and webhooks appeared first on The GitHub Blog."
+ "https://github.blog/changelog/2026-10-28-github-copilot-in-vs-code-universe-releases": {
+  "title": "GitHub Copilot in VS Code, Universe releases",
+  "date": "Wed, 28 Oct 2026 15:33:00 +0000",
+  "summary": "This year, we focused on giving you more choice in how you work with GitHub Copilot in Visual Studio Code: which models you use, where your agents run, and how&#8230;\nThe post GitHub Copilot in VS Code, Universe releases appeared first on The GitHub Blog."
  },
- "https://github.blog/changelog/2026-10-23-enterprise-installations-for-github-apps-generally-available": {
-  "title": "Enterprise installations for GitHub Apps generally available",
-  "date": "Fri, 23 Oct 2026 15:03:30 +0000",
-  "summary": "Installing GitHub Apps on your enterprise is now generally available. You can replace classic PATs with GitHub Apps in more of your enterprise and organization automation with the expanded API&#8230;\nThe post Enterprise installations for GitHub Apps generally available appeared first on The GitHub Blog."
+ "https://github.blog/changelog/2026-10-28-generate-and-edit-images-directly-in-copilot": {
+  "title": "Generate and edit images directly in Copilot",
+  "date": "Wed, 28 Oct 2026 15:30:55 +0000",
+  "summary": "You can now generate and edit images using natural language in GitHub Copilot. When you ask for an image, your selected reasoning model calls a dedicated image-generation tool powered by&#8230;\nThe post Generate and edit images directly in Copilot appeared first on The GitHub Blog."
  },
- "https://github.blog/changelog/2026-10-22-github-copilot-in-visual-studio-september-update-2": {
-  "title": "GitHub Copilot in Visual Studio — September update",
-  "date": "Fri, 23 Oct 2026 00:17:51 +0000",
-  "summary": "September 2026 brought deeper visibility into your work: explore pull requests without leaving chat, bring the AI model your team trusts, and fix vulnerable packages the moment Visual Studio flags&#8230;\nThe post GitHub Copilot in Visual Studio — September update appeared first on The GitHub Blog."
+ "https://github.blog/changelog/2026-10-28-github-copilot-fusion-now-supports-selection-of-local-models": {
+  "title": "GitHub Copilot Fusion now supports selection of local models",
+  "date": "Wed, 28 Oct 2026 15:30:42 +0000",
+  "summary": "Today we are shipping intelligent routing for local models into experimental preview. GitHub Copilot Fusion can now choose between supported on-device models and cloud models, enabling intelligent local model routing&#8230;\nThe post GitHub Copilot Fusion now supports selection of local models appeared first on The GitHub Blog."
  },
- "https://github.blog/changelog/2026-10-22-custom-skills-agents-and-mcp-servers-in-usage-metrics-api": {
-  "title": "Custom skills, agents, and MCP servers in usage metrics API",
-  "date": "Thu, 22 Oct 2026 22:19:17 +0000",
-  "summary": "Copilot usage metrics now show the names of the skills, custom agents, Model Context Protocol (MCP) servers, slash commands, and plugins that your organization creates, instead of grouping them under&#8230;\nThe post Custom skills, agents, and MCP servers in usage metrics API appeared first on The GitHub Blog."
+ "https://github.blog/changelog/2026-10-28-github-agentic-workflows-generally-available": {
+  "title": "GitHub Agentic Workflows generally available",
+  "date": "Wed, 28 Oct 2026 15:30:15 +0000",
+  "summary": "GitHub Agentic Workflows, an open source project from GitHub Next, is now generally available. With agentic workflows, you can automate reasoning-based tasks like issue triage, CI failure analysis, documentation updates,&#8230;\nThe post GitHub Agentic Workflows generally available appeared first on The GitHub Blog."
  }
 }

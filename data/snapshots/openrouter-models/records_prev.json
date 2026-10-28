@@ -1,5 +1,11 @@
 {
  "models": {
+  "particle-ai/particle-1": {
+   "name": "Particle AI: Particle-1",
+   "context_length": "1048576",
+   "prompt_per_mtok": "0.25",
+   "completion_per_mtok": "1"
+  },
   "openai/gpt-6.1-terra-pro": {
    "name": "OpenAI: GPT-6.1 Terra Pro",
    "context_length": "1050000",
@@ -401,13 +407,13 @@
   "~deepseek/deepseek-pro-latest": {
    "name": "DeepSeek: DeepSeek Pro Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.2542",
+   "prompt_per_mtok": "0.1035",
    "completion_per_mtok": "8"
   },
   "~deepseek/deepseek-flash-latest": {
    "name": "DeepSeek: DeepSeek Flash Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0115",
+   "prompt_per_mtok": "0.0138",
    "completion_per_mtok": "1.8"
   },
   "inference-net/schematron-v2-turbo": {
@@ -467,8 +473,8 @@
   "deepseek/deepseek-v4.1-flash": {
    "name": "DeepSeek: DeepSeek V4.1 Flash",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.14",
-   "completion_per_mtok": "0.42"
+   "prompt_per_mtok": "0.045",
+   "completion_per_mtok": "0.5"
   },
   "deepseek/deepseek-v4.1-flash:batch": {
    "name": "DeepSeek: DeepSeek V4.1 Flash (batch)",
@@ -566,19 +572,19 @@
    "name": "IBM: Granite 4.2 8B",
    "context_length": "131072",
    "prompt_per_mtok": "0.06",
-   "completion_per_mtok": "0.25"
+   "completion_per_mtok": "0.15"
   },
   "tencent/hy4-preview": {
    "name": "Tencent: Hy4 preview",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.834",
-   "completion_per_mtok": "2.501"
+   "prompt_per_mtok": "0.7506",
+   "completion_per_mtok": "2.2509"
   },
   "~z-ai/glm-flash-latest": {
    "name": "Z.ai: GLM Flash Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0237",
-   "completion_per_mtok": "0.1324"
+   "prompt_per_mtok": "0.0313",
+   "completion_per_mtok": "0.0923"
   },
   "qwen/qwen3.8-flash": {
    "name": "Qwen: Qwen3.8 Flash",
@@ -589,8 +595,8 @@
   "z-ai/glm-5.3-flash": {
    "name": "Z.ai: GLM 5.3 Flash",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.15",
-   "completion_per_mtok": "0.5"
+   "prompt_per_mtok": "0.0313",
+   "completion_per_mtok": "0.0923"
   },
   "z-ai/glm-5.3-flash:batch": {
    "name": "Z.ai: GLM 5.3 Flash (batch)",
@@ -649,8 +655,8 @@
   "qwen/qwen3.8-27b": {
    "name": "Qwen: Qwen3.8 27B",
    "context_length": "1000000",
-   "prompt_per_mtok": "0.039",
-   "completion_per_mtok": "1.25"
+   "prompt_per_mtok": "0.2",
+   "completion_per_mtok": "2.5"
   },
   "dots-studio/dots-3-note-preview:free": {
    "name": "Dots Studio: Dots3-Note Preview (free)",
@@ -753,8 +759,8 @@
   "~deepseek/deepseek-v4-flash-latest": {
    "name": "DeepSeek: DeepSeek V4 Flash Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0475",
-   "completion_per_mtok": "0.1568"
+   "prompt_per_mtok": "0.0422",
+   "completion_per_mtok": "0.1694"
   },
   "deepseek/deepseek-v4-flash-0731": {
    "name": "DeepSeek: DeepSeek V4 Flash 0731",
@@ -865,7 +871,7 @@
   "moonshotai/kimi-k3": {
    "name": "MoonshotAI: Kimi K3",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.169",
+   "prompt_per_mtok": "0.192",
    "completion_per_mtok": "20"
   },
   "moonshotai/kimi-k3:batch": {
@@ -979,8 +985,8 @@
   "tencent/hy3": {
    "name": "Tencent: Hy3",
    "context_length": "262144",
-   "prompt_per_mtok": "0.132",
-   "completion_per_mtok": "0.528"
+   "prompt_per_mtok": "0.0825",
+   "completion_per_mtok": "0.33"
   },
   "poolside/laguna-xs-2.1": {
    "name": "Poolside: Laguna XS 2.1",
@@ -1040,8 +1046,8 @@
   "z-ai/glm-5.2": {
    "name": "Z.ai: GLM 5.2",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.014",
-   "completion_per_mtok": "7"
+   "prompt_per_mtok": "0.006",
+   "completion_per_mtok": "5.4"
   },
   "openrouter/fusion": {
    "name": "OpenRouter: Fusion",
@@ -1237,8 +1243,8 @@
   "~moonshotai/kimi-latest": {
    "name": "MoonshotAI: Kimi Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.169",
-   "completion_per_mtok": "20"
+   "prompt_per_mtok": "0.1824",
+   "completion_per_mtok": "9.3388"
   },
   "~google/gemini-flash-latest": {
    "name": "Google: Gemini Flash Latest",
@@ -1304,8 +1310,8 @@
   "deepseek/deepseek-v4-pro": {
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.8973",
-   "completion_per_mtok": "1.7946"
+   "prompt_per_mtok": "0.889",
+   "completion_per_mtok": "1.7779"
   },
   "deepseek/deepseek-v4-flash": {
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
@@ -1376,8 +1382,8 @@
   "google/gemma-4-26b-a4b-it": {
    "name": "Google: Gemma 4 26B A4B ",
    "context_length": "262144",
-   "prompt_per_mtok": "0.09",
-   "completion_per_mtok": "0.3"
+   "prompt_per_mtok": "0.0765",
+   "completion_per_mtok": "0.255"
   },
   "google/gemma-4-26b-a4b-it:free": {
    "name": "Google: Gemma 4 26B A4B  (free)",
@@ -1483,7 +1489,7 @@
   },
   "nvidia/nemotron-3-super-120b-a12b": {
    "name": "NVIDIA: Nemotron 3 Super",
-   "context_length": "262144",
+   "context_length": "1048576",
    "prompt_per_mtok": "0.3",
    "completion_per_mtok": "2.4"
   },
@@ -2053,12 +2059,6 @@
    "prompt_per_mtok": "0.195",
    "completion_per_mtok": "0.975"
   },
-  "qwen/qwen3-next-80b-a3b-thinking": {
-   "name": "Qwen: Qwen3 Next 80B A3B Thinking",
-   "context_length": "262144",
-   "prompt_per_mtok": "0.15",
-   "completion_per_mtok": "1.2"
-  },
   "qwen/qwen3-next-80b-a3b-instruct": {
    "name": "Qwen: Qwen3 Next 80B A3B Instruct",
    "context_length": "262144",
@@ -2333,12 +2333,6 @@
    "prompt_per_mtok": "0.08",
    "completion_per_mtok": "0.28"
   },
-  "openai/o4-mini-high": {
-   "name": "OpenAI: o4 Mini High",
-   "context_length": "200000",
-   "prompt_per_mtok": "1.1",
-   "completion_per_mtok": "4.4"
-  },
   "openai/o3": {
    "name": "OpenAI: o3",
    "context_length": "200000",
@@ -2350,12 +2344,6 @@
    "context_length": "200000",
    "prompt_per_mtok": "1",
    "completion_per_mtok": "4"
-  },
-  "openai/o4-mini": {
-   "name": "OpenAI: o4 Mini",
-   "context_length": "200000",
-   "prompt_per_mtok": "1.1",
-   "completion_per_mtok": "4.4"
   },
   "openai/o4-mini:batch": {
    "name": "OpenAI: o4 Mini (batch)",
@@ -2416,12 +2404,6 @@
    "context_length": "163840",
    "prompt_per_mtok": "0.29",
    "completion_per_mtok": "1.14"
-  },
-  "openai/o1-pro": {
-   "name": "OpenAI: o1-pro",
-   "context_length": "200000",
-   "prompt_per_mtok": "150",
-   "completion_per_mtok": "600"
   },
   "mistralai/mistral-small-3.1-24b-instruct": {
    "name": "Mistral: Mistral Small 3.1 24B",
@@ -2489,12 +2471,6 @@
    "prompt_per_mtok": "0.2",
    "completion_per_mtok": "0.6"
   },
-  "openai/o3-mini-high": {
-   "name": "OpenAI: o3 Mini High",
-   "context_length": "200000",
-   "prompt_per_mtok": "1.1",
-   "completion_per_mtok": "4.4"
-  },
   "aion-labs/aion-rp-llama-3.1-8b": {
    "name": "AionLabs: Aion-RP 1.0 (8B)",
    "context_length": "32768",
@@ -2512,12 +2488,6 @@
    "context_length": "1000000",
    "prompt_per_mtok": "0.26",
    "completion_per_mtok": "0.78"
-  },
-  "openai/o3-mini": {
-   "name": "OpenAI: o3 Mini",
-   "context_length": "200000",
-   "prompt_per_mtok": "1.1",
-   "completion_per_mtok": "4.4"
   },
   "openai/o3-mini:batch": {
    "name": "OpenAI: o3 Mini (batch)",
@@ -2554,12 +2524,6 @@
    "context_length": "163840",
    "prompt_per_mtok": "0.2574",
    "completion_per_mtok": "1.0287"
-  },
-  "openai/o1": {
-   "name": "OpenAI: o1",
-   "context_length": "200000",
-   "prompt_per_mtok": "15",
-   "completion_per_mtok": "60"
   },
   "cohere/command-r7b-12-2024": {
    "name": "Cohere: Command R7B (12-2024)",
@@ -2696,8 +2660,8 @@
   "meta-llama/llama-3.1-8b-instruct": {
    "name": "Meta: Llama 3.1 8B Instruct",
    "context_length": "131072",
-   "prompt_per_mtok": "0.02",
-   "completion_per_mtok": "0.04"
+   "prompt_per_mtok": "0.05",
+   "completion_per_mtok": "0.08"
   },
   "mistralai/mistral-nemo": {
    "name": "Mistral: Mistral Nemo",
@@ -2752,12 +2716,6 @@
    "context_length": "65536",
    "prompt_per_mtok": "2",
    "completion_per_mtok": "6"
-  },
-  "openai/gpt-4-turbo": {
-   "name": "OpenAI: GPT-4 Turbo",
-   "context_length": "128000",
-   "prompt_per_mtok": "10",
-   "completion_per_mtok": "30"
   },
   "openai/gpt-4-turbo:batch": {
    "name": "OpenAI: GPT-4 Turbo (batch)",
