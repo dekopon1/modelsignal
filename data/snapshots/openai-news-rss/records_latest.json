@@ -169,15 +169,15 @@
   "date": "Fri, 16 Oct 2026 19:00:00 GMT",
   "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors."
  },
- "https://openai.com/index/localiza-generative-ai": {
-  "title": "How Localiza reorganized work around generative AI",
-  "date": "Fri, 16 Oct 2026 00:00:00 GMT",
-  "summary": "See how Localiza uses ChatGPT Enterprise, the OpenAI API, Codex, and 60+ specialized agents to reorganize work and build AI-native mobility experiences."
- },
  "https://openai.com/index/grupo-boticario": {
   "title": "How Grupo Boticário uses AI to strengthen human connections",
   "date": "Fri, 16 Oct 2026 00:00:00 GMT",
   "summary": "Almost 50 years after starting in a compounding pharmacy in Paraná, the group operates a proprietary agent platform that autonomously resolves up to 80% of resellers’ operational requests—enabling the sales force to take on an advisory role."
+ },
+ "https://openai.com/index/localiza-generative-ai": {
+  "title": "How Localiza reorganized work around generative AI",
+  "date": "Fri, 16 Oct 2026 00:00:00 GMT",
+  "summary": "See how Localiza uses ChatGPT Enterprise, the OpenAI API, Codex, and 60+ specialized agents to reorganize work and build AI-native mobility experiences."
  },
  "https://openai.com/index/stack-overflow-chatgpt-plugin": {
   "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
@@ -234,15 +234,15 @@
   "date": "Tue, 13 Oct 2026 12:00:00 GMT",
   "summary": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live."
  },
- "https://openai.com/index/sophos": {
-  "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
-  "date": "Fri, 09 Oct 2026 07:00:00 GMT",
-  "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight."
- },
  "https://openai.com/index/asana-browser-agent": {
   "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
   "date": "Fri, 09 Oct 2026 07:00:00 GMT",
   "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models."
+ },
+ "https://openai.com/index/sophos": {
+  "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+  "date": "Fri, 09 Oct 2026 07:00:00 GMT",
+  "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight."
  },
  "https://openai.com/index/oracle": {
   "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
@@ -359,15 +359,15 @@
   "date": "Tue, 29 Sep 2026 00:00:00 GMT",
   "summary": "Dots by OpenAI are proactive assistants that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward."
  },
- "https://openai.com/index/towards-safety-cases-for-frontier-ai-training": {
-  "title": "Towards safety cases for frontier AI training",
-  "date": "Mon, 28 Sep 2026 19:00:00 GMT",
-  "summary": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents"
- },
  "https://openai.com/index/how-we-will-do-better-for-australia": {
   "title": "How we will do better for Australia",
   "date": "Mon, 28 Sep 2026 19:00:00 GMT",
   "summary": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences."
+ },
+ "https://openai.com/index/towards-safety-cases-for-frontier-ai-training": {
+  "title": "Towards safety cases for frontier AI training",
+  "date": "Mon, 28 Sep 2026 19:00:00 GMT",
+  "summary": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents"
  },
  "https://openai.com/index/lenfest-ai-collaborative-expansion": {
   "title": "The Lenfest Institute grows landmark program with expanded OpenAI support",
@@ -409,16 +409,6 @@
   "date": "Wed, 23 Sep 2026 13:00:00 GMT",
   "summary": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure."
  },
- "https://openai.com/index/harvey-from-context-to-confidence-with-astra": {
-  "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
-  "date": "Wed, 23 Sep 2026 12:00:00 GMT",
-  "summary": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy."
- },
- "https://openai.com/index/ringg": {
-  "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-  "date": "Wed, 23 Sep 2026 12:00:00 GMT",
-  "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1."
- },
  "https://openai.com/index/sam-altman-un-security-council-remarks": {
   "title": "Sam Altman’s remarks at the United Nations Security Council",
   "date": "Wed, 23 Sep 2026 12:00:00 GMT",
@@ -428,6 +418,16 @@
   "title": "How invideo improves color grading 3x with GPT‑6 Astra",
   "date": "Wed, 23 Sep 2026 12:00:00 GMT",
   "summary": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day."
+ },
+ "https://openai.com/index/ringg": {
+  "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+  "date": "Wed, 23 Sep 2026 12:00:00 GMT",
+  "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1."
+ },
+ "https://openai.com/index/harvey-from-context-to-confidence-with-astra": {
+  "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
+  "date": "Wed, 23 Sep 2026 12:00:00 GMT",
+  "summary": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy."
  },
  "https://openai.com/index/introducing-mentalhealthbench": {
   "title": "Introducing MentalHealthBench",
@@ -469,15 +469,15 @@
   "date": "Tue, 22 Sep 2026 00:00:00 GMT",
   "summary": "OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and safeguards."
  },
- "https://openai.com/index/advisory-group-on-mathematics-and-ai": {
-  "title": "Advisory Group on Mathematics and Artificial Intelligence",
-  "date": "Mon, 21 Sep 2026 12:00:00 GMT",
-  "summary": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results."
- },
  "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra": {
   "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
   "date": "Mon, 21 Sep 2026 12:00:00 GMT",
   "summary": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster."
+ },
+ "https://openai.com/index/advisory-group-on-mathematics-and-ai": {
+  "title": "Advisory Group on Mathematics and Artificial Intelligence",
+  "date": "Mon, 21 Sep 2026 12:00:00 GMT",
+  "summary": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results."
  },
  "https://openai.com/index/building-standards-next-phase-ai": {
   "title": "Building standards for the next phase of AI",

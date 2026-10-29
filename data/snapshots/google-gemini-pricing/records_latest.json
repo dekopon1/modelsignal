@@ -19,7 +19,7 @@
   },
   "Grounding with Google Search*": {
    "Free Tier": "Not available | Not available** | Supported | Not available** | Not available** | Not available** | Not available**",
-   "Paid Tier, per 1M tokens in USD": "5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests."
+   "Paid Tier, per 1M tokens in USD": "5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests (subject to a daily cap of 1,500 requests per day)."
   },
   "Grounding with Google Maps": {
    "Free Tier": "Not available | Not available** | Not available** | Not available** | Not available** | Not available** | Not available | 500 RPD | 500 RPD",
@@ -31,7 +31,7 @@
   },
   "Grounding with Google Search": {
    "Free Tier": "Not Supported | Not available | Free of charge, up to 500 RPD (limit shared with Flash-Lite RPD) | Free of charge, up to 500 RPD (limit shared with Flash RPD) | Not available | Not available",
-   "Paid Tier, per 1M tokens in USD": "1,500 RPD (free), then $35 / 1,000 grounded prompts | 1,500 RPD (free, limit shared with Flash-Lite RPD), then $35 / 1,000 grounded prompts | 1,500 RPD (free, limit shared with Flash RPD), then $35 / 1,000 grounded prompts | 5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests. | 5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests."
+   "Paid Tier, per 1M tokens in USD": "1,500 RPD (free), then $35 / 1,000 grounded prompts | 1,500 RPD (free, limit shared with Flash-Lite RPD), then $35 / 1,000 grounded prompts | 1,500 RPD (free, limit shared with Flash RPD), then $35 / 1,000 grounded prompts | 5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests (subject to a daily cap of 1,500 requests per day). | 5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests (subject to a daily cap of 1,500 requests per day)."
   },
   "Output price": {
    "Free Tier": "Not available | Free of charge | Free of charge | Free of charge | Not available | Not available | Free of charge | Not available | Free of charge",
@@ -39,11 +39,11 @@
   },
   "Grounding with Google Web and Image Search**": {
    "Free Tier": "Not available | Not available***",
-   "Paid Tier, per 1M tokens in USD": "5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests for text and image-based grounding."
+   "Paid Tier, per 1M tokens in USD": "5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests for text and image-based grounding (subject to a daily cap of 1,500 requests per day)."
   },
   "Grounding with Google Search***": {
    "Free Tier": "Not available****",
-   "Paid Tier, per 1M tokens in USD": "5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests."
+   "Paid Tier, per 1M tokens in USD": "5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests (subject to a daily cap of 1,500 requests per day)."
   },
   "Input price (text, image, video)": {
    "Free Tier": "Free of charge",
@@ -85,7 +85,7 @@
   },
   "Grounding with Google Search*": {
    "Free Tier": "Not available**",
-   "Paid Tier, per 1M tokens in USD": "5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests."
+   "Paid Tier, per 1M tokens in USD": "5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests (subject to a daily cap of 1,500 requests per day)."
   },
   "Grounding with Google Maps": {
    "Free Tier": "Not available** | Not available | Not available | Not available",
@@ -97,7 +97,7 @@
   },
   "Grounding with Google Search": {
    "Free Tier": "Not available",
-   "Paid Tier, per 1M tokens in USD": "1,500 RPD (free), then $35 / 1,000 grounded prompts | 1,500 RPD (free, limit shared with Flash-Lite RPD), then $35 / 1,000 grounded prompts | 1,500 RPD (free, limit shared with Flash RPD), then $35 / 1,000 grounded prompts | 5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests."
+   "Paid Tier, per 1M tokens in USD": "1,500 RPD (free), then $35 / 1,000 grounded prompts | 1,500 RPD (free, limit shared with Flash-Lite RPD), then $35 / 1,000 grounded prompts | 1,500 RPD (free, limit shared with Flash RPD), then $35 / 1,000 grounded prompts | 5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests (subject to a daily cap of 1,500 requests per day)."
   },
   "Input price (text, image, video)": {
    "Free Tier": "Not available",
@@ -139,7 +139,7 @@
   },
   "Grounding with Google Search*": {
    "Free Tier": "Not available**",
-   "Paid Tier, per 1M tokens in USD": "5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests."
+   "Paid Tier, per 1M tokens in USD": "5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests (subject to a daily cap of 1,500 requests per day)."
   },
   "Grounding with Google Maps": {
    "Free Tier": "Not available** | Not available | Not available | Not available",
@@ -173,7 +173,7 @@
   },
   "Grounding with Google Search*": {
    "Free Tier": "Not available | Not available** | Not available** | Not available** | Not available** | Not available** | Not available**",
-   "Paid Tier, per 1M tokens in USD": "5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests."
+   "Paid Tier, per 1M tokens in USD": "5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests (subject to a daily cap of 1,500 requests per day)."
   },
   "Grounding with Google Maps": {
    "Free Tier": "Not available | Not available** | Not available** | Not available** | Not available** | Not available** | Not available** | Not available | 500 RPD | 500 RPD",
@@ -189,7 +189,7 @@
   },
   "Grounding with Google Search***": {
    "Free Tier": "Not available****",
-   "Paid Tier, per 1M tokens in USD": "5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests."
+   "Paid Tier, per 1M tokens in USD": "5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests (subject to a daily cap of 1,500 requests per day)."
   },
   "Grounding with Google Search": {
    "Free Tier": "Not available | Free of charge, up to 500 RPD (limit shared with Flash-Lite RPD) | Free of charge, up to 500 RPD (limit shared with Flash RPD)",
@@ -317,7 +317,7 @@
  "Pricing for tools": {
   "Google Search": {
    "Free Tier": "500 RPD free (limit shared for Flash and Flash-Lite).Not available for Pro.",
-   "Paid Tier, per 1M tokens in USD": "Gemini 2.5 models: 1,500 RPD free (limit shared for Flash and Flash-Lite).Then $35 / 1,000 grounded prompts Gemini 3 and newer models: 5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests."
+   "Paid Tier, per 1M tokens in USD": "Gemini 2.5 models: 1,500 RPD free (limit shared for Flash and Flash-Lite).Then $35 / 1,000 grounded prompts Gemini 3 and newer models: 5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests. Subject to a default daily cap of 1,500 requests per day (RPD) per project on the Gemini Developer API."
   },
   "Google Maps": {
    "Free Tier": "500 RPDNot available for Pro.",
