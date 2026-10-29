@@ -172,7 +172,7 @@
   },
   "stepfun/step-5-preview": {
    "name": "StepFun: Step 5 Preview",
-   "context_length": "1000000",
+   "context_length": "1048576",
    "prompt_per_mtok": "1",
    "completion_per_mtok": "2.7"
   },
@@ -197,8 +197,8 @@
   "mistralai/mistral-large-4-0": {
    "name": "Mistral: Mistral Large 4",
    "context_length": "1048576",
-   "prompt_per_mtok": "1.36",
-   "completion_per_mtok": "4.18"
+   "prompt_per_mtok": "0.7",
+   "completion_per_mtok": "2.1"
   },
   "inclusionai/ling-3.1-flash": {
    "name": "inclusionAI: Ling 3.1 Flash",
@@ -413,8 +413,8 @@
   "~deepseek/deepseek-flash-latest": {
    "name": "DeepSeek: DeepSeek Flash Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0233",
-   "completion_per_mtok": "1.8"
+   "prompt_per_mtok": "0.044",
+   "completion_per_mtok": "0.383"
   },
   "inference-net/schematron-v2-turbo": {
    "name": "Inference.net: Schematron V2 Turbo",
@@ -577,14 +577,14 @@
   "tencent/hy4-preview": {
    "name": "Tencent: Hy4 preview",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.834",
-   "completion_per_mtok": "2.501"
+   "prompt_per_mtok": "0.7506",
+   "completion_per_mtok": "2.2509"
   },
   "~z-ai/glm-flash-latest": {
    "name": "Z.ai: GLM Flash Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0457",
-   "completion_per_mtok": "0.0742"
+   "prompt_per_mtok": "0.0503",
+   "completion_per_mtok": "0.0701"
   },
   "qwen/qwen3.8-flash": {
    "name": "Qwen: Qwen3.8 Flash",
@@ -595,8 +595,8 @@
   "z-ai/glm-5.3-flash": {
    "name": "Z.ai: GLM 5.3 Flash",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0457",
-   "completion_per_mtok": "0.0742"
+   "prompt_per_mtok": "0.15",
+   "completion_per_mtok": "0.5"
   },
   "z-ai/glm-5.3-flash:batch": {
    "name": "Z.ai: GLM 5.3 Flash (batch)",
@@ -655,8 +655,8 @@
   "qwen/qwen3.8-27b": {
    "name": "Qwen: Qwen3.8 27B",
    "context_length": "1000000",
-   "prompt_per_mtok": "0.039",
-   "completion_per_mtok": "1.25"
+   "prompt_per_mtok": "0.2",
+   "completion_per_mtok": "2.5"
   },
   "dots-studio/dots-3-note-preview:free": {
    "name": "Dots Studio: Dots3-Note Preview (free)",
@@ -759,8 +759,8 @@
   "~deepseek/deepseek-v4-flash-latest": {
    "name": "DeepSeek: DeepSeek V4 Flash Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.057",
-   "completion_per_mtok": "0.1341"
+   "prompt_per_mtok": "0.0424",
+   "completion_per_mtok": "0.3"
   },
   "deepseek/deepseek-v4-flash-0731": {
    "name": "DeepSeek: DeepSeek V4 Flash 0731",
@@ -985,8 +985,8 @@
   "tencent/hy3": {
    "name": "Tencent: Hy3",
    "context_length": "262144",
-   "prompt_per_mtok": "0.132",
-   "completion_per_mtok": "0.528"
+   "prompt_per_mtok": "0.0825",
+   "completion_per_mtok": "0.33"
   },
   "poolside/laguna-xs-2.1": {
    "name": "Poolside: Laguna XS 2.1",
@@ -1243,7 +1243,7 @@
   "~moonshotai/kimi-latest": {
    "name": "MoonshotAI: Kimi Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.1824",
+   "prompt_per_mtok": "0.1719",
    "completion_per_mtok": "9.3388"
   },
   "~google/gemini-flash-latest": {
@@ -1310,8 +1310,8 @@
   "deepseek/deepseek-v4-pro": {
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.894",
-   "completion_per_mtok": "1.788"
+   "prompt_per_mtok": "1.6",
+   "completion_per_mtok": "3.2"
   },
   "deepseek/deepseek-v4-flash": {
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
@@ -1382,8 +1382,8 @@
   "google/gemma-4-26b-a4b-it": {
    "name": "Google: Gemma 4 26B A4B ",
    "context_length": "262144",
-   "prompt_per_mtok": "0.09",
-   "completion_per_mtok": "0.3"
+   "prompt_per_mtok": "0.0765",
+   "completion_per_mtok": "0.255"
   },
   "google/gemma-4-26b-a4b-it:free": {
    "name": "Google: Gemma 4 26B A4B  (free)",
@@ -1682,12 +1682,6 @@
    "context_length": "262144",
    "prompt_per_mtok": "0.5",
    "completion_per_mtok": "2.5"
-  },
-  "upstage/solar-pro-3": {
-   "name": "Upstage: Solar Pro 3",
-   "context_length": "131072",
-   "prompt_per_mtok": "0.15",
-   "completion_per_mtok": "0.6"
   },
   "minimax/minimax-m2-her": {
    "name": "MiniMax: MiniMax M2-her",
