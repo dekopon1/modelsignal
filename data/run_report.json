@@ -1,5 +1,5 @@
 {
- "run_at": "2026-10-30T12:49:20Z",
+ "run_at": "2026-10-30T22:15:30Z",
  "results": [
   {
    "id": "anthropic-pricing",
@@ -10,37 +10,37 @@
   {
    "id": "anthropic-limits",
    "ok": true,
-   "http_chars": 37360,
-   "changed": false
+   "http_chars": 37458,
+   "changed": true,
+   "changes": 7,
+   "announcements": 0
   },
   {
    "id": "openrouter-models",
    "ok": true,
-   "http_chars": 769160,
+   "http_chars": 809928,
    "changed": true,
-   "changes": 14,
+   "changes": 15,
    "announcements": 0
   },
   {
    "id": "deepseek-pricing",
    "ok": true,
    "http_chars": 27739,
-   "changed": true,
-   "changes": 0,
-   "announcements": 0
+   "changed": false
   },
   {
    "id": "mistral-models",
    "ok": true,
-   "http_chars": 813063,
+   "http_chars": 809968,
    "changed": true,
-   "changes": 0,
+   "changes": 5,
    "announcements": 0
   },
   {
    "id": "google-gemini-pricing",
    "ok": true,
-   "http_chars": 259801,
+   "http_chars": 259805,
    "changed": true,
    "changes": 0,
    "announcements": 0
@@ -48,7 +48,7 @@
   {
    "id": "github-copilot-plans",
    "ok": true,
-   "http_chars": 1044956,
+   "http_chars": 1044986,
    "changed": true,
    "changes": 0,
    "announcements": 0
@@ -56,7 +56,7 @@
   {
    "id": "github-copilot-premium",
    "ok": true,
-   "http_chars": 616500,
+   "http_chars": 617305,
    "changed": true,
    "changes": 0,
    "announcements": 0
@@ -64,22 +64,26 @@
   {
    "id": "anthropic-changelog",
    "ok": true,
-   "http_chars": 134974,
-   "changed": false
+   "http_chars": 135542,
+   "changed": true,
+   "changes": 0,
+   "announcements": 1
   },
   {
    "id": "github-changelog-rss",
    "ok": true,
    "http_chars": 66745,
-   "changed": false
+   "changed": true,
+   "changes": 0,
+   "announcements": 0
   },
   {
    "id": "openai-news-rss",
    "ok": true,
-   "http_chars": 812477,
+   "http_chars": 814947,
    "changed": true,
    "changes": 0,
-   "announcements": 0
+   "announcements": 4
   },
   {
    "id": "gemini-release-notes",
@@ -87,7 +91,7 @@
    "http_chars": 176791,
    "changed": true,
    "changes": 0,
-   "announcements": 1
+   "announcements": 0
   }
  ]
 }

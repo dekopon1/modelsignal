@@ -11,19 +11,14 @@
  "Voxtral TTS 3": {},
  "All models": {},
  "Generalist models": {},
- "Mistral Medium 3.5": {},
- "Mistral Large 3": {},
  "Ministral 3 14B": {},
  "Ministral 3 8B": {},
  "Ministral 3 3B": {},
  "OCR models": {},
  "OCR 3": {},
  "Audio models": {},
- "Voxtral TTS": {},
  "Voxtral Small Transcribe 3": {},
  "Voxtral Mini Transcribe Realtime 3": {},
- "Voxtral Mini Transcribe 2": {},
- "Voxtral Mini Transcribe Realtime": {},
  "Voxtral Small": {},
  "Code models": {},
  "Codestral": {},
@@ -40,6 +35,18 @@
  "Timestral 1.0 5M": {},
  "Deprecated": {},
  "Deprecated & retired models": {
+  "Mistral Medium 3.5 ↗": {
+   "5.2": "26.04",
+   "zai-glm-5-2": "mistral-medium-3-5",
+   "9/29/202610/31/2026": "10/31/20264/30/2027",
+   "Z.ai GLM 5.3": "Mistral Large 4"
+  },
+  "Voxtral TTS ↗": {
+   "5.2": "26.03",
+   "zai-glm-5-2": "voxtral-mini-tts-2603",
+   "9/29/202610/31/2026": "10/31/20264/30/2027",
+   "Z.ai GLM 5.3": "Voxtral TTS 3"
+  },
   "Leanstral 1.5 ↗": {
    "5.2": "1.5",
    "zai-glm-5-2": "labs-leanstral-1-5",
@@ -50,6 +57,12 @@
    "zai-glm-5-2": "labs-leanstral-2603",
    "9/29/202610/31/2026": "5/22/20266/30/2026",
    "Z.ai GLM 5.3": "Leanstral 1.5"
+  },
+  "Mistral Large 3 ↗": {
+   "5.2": "25.12",
+   "zai-glm-5-2": "mistral-large-2512",
+   "9/29/202610/31/2026": "10/31/20264/30/2027",
+   "Z.ai GLM 5.3": "Mistral Large 4"
   },
   "Mistral Medium 3.1 ↗": {
    "5.2": "25.08",
@@ -74,6 +87,18 @@
    "zai-glm-5-2": "voxtral-mini-2507",
    "9/29/202610/31/2026": "2/27/20265/31/2026",
    "Z.ai GLM 5.3": "Voxtral Mini Transcribe 2"
+  },
+  "Voxtral Mini Transcribe 2 ↗": {
+   "5.2": "26.02",
+   "zai-glm-5-2": "voxtral-mini-2602",
+   "9/29/202610/31/2026": "10/31/20264/30/2027",
+   "Z.ai GLM 5.3": "Voxtral Mini Transcribe 3"
+  },
+  "Voxtral Mini Transcribe Realtime ↗": {
+   "5.2": "26.02",
+   "zai-glm-5-2": "voxtral-mini-transcribe-realtime-2602",
+   "9/29/202610/31/2026": "10/31/20264/30/2027",
+   "Z.ai GLM 5.3": "Voxtral Mini Transcribe Realtime 3"
   },
   "Devstral 2 ↗": {
    "5.2": "25.12",

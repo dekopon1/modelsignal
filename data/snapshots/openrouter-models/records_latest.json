@@ -3,8 +3,8 @@
   "particle-ai/particle-1": {
    "name": "Particle AI: Particle-1",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.25",
-   "completion_per_mtok": "1"
+   "prompt_per_mtok": "0.05",
+   "completion_per_mtok": "0.5"
   },
   "openai/gpt-6.1-terra-pro": {
    "name": "OpenAI: GPT-6.1 Terra Pro",
@@ -45,8 +45,8 @@
   "minimax/minimax-m3.1-flash": {
    "name": "MiniMax: MiniMax M3.1 Flash",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.15",
-   "completion_per_mtok": "0.6"
+   "prompt_per_mtok": "0.075",
+   "completion_per_mtok": "0.3"
   },
   "deepseek/deepseek-v4.1-flash-1017": {
    "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
@@ -242,12 +242,6 @@
    "prompt_per_mtok": "1",
    "completion_per_mtok": "5"
   },
-  "typesafe/jev-router": {
-   "name": "TypeSafe: Jev Router",
-   "context_length": "1000000",
-   "prompt_per_mtok": "-1000000",
-   "completion_per_mtok": "-1000000"
-  },
   "perceptron/perceptron-mk1.5": {
    "name": "Perceptron: Perceptron Mk1.5",
    "context_length": "36864",
@@ -356,12 +350,6 @@
    "prompt_per_mtok": "2",
    "completion_per_mtok": "10"
   },
-  "nvidia/switchyard": {
-   "name": "NVIDIA: Switchyard",
-   "context_length": "1000000",
-   "prompt_per_mtok": "-1000000",
-   "completion_per_mtok": "-1000000"
-  },
   "xiaomi/mimo-v2.6-pro-ultraspeed": {
    "name": "Xiaomi: MiMo-V2.6-Pro-UltraSpeed",
    "context_length": "1048576",
@@ -413,8 +401,8 @@
   "~deepseek/deepseek-flash-latest": {
    "name": "DeepSeek: DeepSeek Flash Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.031",
-   "completion_per_mtok": "0.27"
+   "prompt_per_mtok": "0.022",
+   "completion_per_mtok": "0.192"
   },
   "inference-net/schematron-v2-turbo": {
    "name": "Inference.net: Schematron V2 Turbo",
@@ -577,14 +565,14 @@
   "tencent/hy4-preview": {
    "name": "Tencent: Hy4 preview",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.834",
-   "completion_per_mtok": "2.501"
+   "prompt_per_mtok": "0.7506",
+   "completion_per_mtok": "2.2509"
   },
   "~z-ai/glm-flash-latest": {
    "name": "Z.ai: GLM Flash Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0207",
-   "completion_per_mtok": "0.0625"
+   "prompt_per_mtok": "0.0197",
+   "completion_per_mtok": "0.1324"
   },
   "qwen/qwen3.8-flash": {
    "name": "Qwen: Qwen3.8 Flash",
@@ -595,8 +583,8 @@
   "z-ai/glm-5.3-flash": {
    "name": "Z.ai: GLM 5.3 Flash",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.15",
-   "completion_per_mtok": "0.5"
+   "prompt_per_mtok": "0.0197",
+   "completion_per_mtok": "0.1324"
   },
   "z-ai/glm-5.3-flash:batch": {
    "name": "Z.ai: GLM 5.3 Flash (batch)",
@@ -759,7 +747,7 @@
   "~deepseek/deepseek-v4-flash-latest": {
    "name": "DeepSeek: DeepSeek V4 Flash Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0522",
+   "prompt_per_mtok": "0.0486",
    "completion_per_mtok": "0.3"
   },
   "deepseek/deepseek-v4-flash-0731": {
@@ -861,12 +849,6 @@
    "context_length": "1048576",
    "prompt_per_mtok": "0",
    "completion_per_mtok": "0"
-  },
-  "openrouter/auto-beta": {
-   "name": "Auto Router (Beta)",
-   "context_length": "2000000",
-   "prompt_per_mtok": "-1000000",
-   "completion_per_mtok": "-1000000"
   },
   "moonshotai/kimi-k3": {
    "name": "MoonshotAI: Kimi K3",
@@ -985,8 +967,8 @@
   "tencent/hy3": {
    "name": "Tencent: Hy3",
    "context_length": "262144",
-   "prompt_per_mtok": "0.132",
-   "completion_per_mtok": "0.528"
+   "prompt_per_mtok": "0.0825",
+   "completion_per_mtok": "0.33"
   },
   "poolside/laguna-xs-2.1": {
    "name": "Poolside: Laguna XS 2.1",
@@ -1048,12 +1030,6 @@
    "context_length": "1048576",
    "prompt_per_mtok": "0.006",
    "completion_per_mtok": "7"
-  },
-  "openrouter/fusion": {
-   "name": "OpenRouter: Fusion",
-   "context_length": "1000000",
-   "prompt_per_mtok": "-1000000",
-   "completion_per_mtok": "-1000000"
   },
   "moonshotai/kimi-k2.7-code": {
    "name": "MoonshotAI: Kimi K2.7 Code",
@@ -1243,8 +1219,8 @@
   "~moonshotai/kimi-latest": {
    "name": "MoonshotAI: Kimi Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.1615",
-   "completion_per_mtok": "10.5572"
+   "prompt_per_mtok": "0.1634",
+   "completion_per_mtok": "10.1522"
   },
   "~google/gemini-flash-latest": {
    "name": "Google: Gemini Flash Latest",
@@ -1310,8 +1286,8 @@
   "deepseek/deepseek-v4-pro": {
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.8162",
-   "completion_per_mtok": "1.6325"
+   "prompt_per_mtok": "1.6",
+   "completion_per_mtok": "3.2"
   },
   "deepseek/deepseek-v4-flash": {
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
@@ -1349,12 +1325,6 @@
    "prompt_per_mtok": "4",
    "completion_per_mtok": "20"
   },
-  "openrouter/pareto-code": {
-   "name": "Pareto Code Router",
-   "context_length": "2000000",
-   "prompt_per_mtok": "-1000000",
-   "completion_per_mtok": "-1000000"
-  },
   "moonshotai/kimi-k2.6": {
    "name": "MoonshotAI: Kimi K2.6",
    "context_length": "262144",
@@ -1382,8 +1352,8 @@
   "google/gemma-4-26b-a4b-it": {
    "name": "Google: Gemma 4 26B A4B ",
    "context_length": "262144",
-   "prompt_per_mtok": "0.09",
-   "completion_per_mtok": "0.3"
+   "prompt_per_mtok": "0.0675",
+   "completion_per_mtok": "0.225"
   },
   "google/gemma-4-26b-a4b-it:free": {
    "name": "Google: Gemma 4 26B A4B  (free)",
@@ -1665,12 +1635,6 @@
    "prompt_per_mtok": "0.12",
    "completion_per_mtok": "0.8"
   },
-  "openrouter/free": {
-   "name": "Free Models Router",
-   "context_length": "200000",
-   "prompt_per_mtok": "0",
-   "completion_per_mtok": "0"
-  },
   "stepfun/step-3.5-flash": {
    "name": "StepFun: Step 3.5 Flash",
    "context_length": "262144",
@@ -1810,12 +1774,6 @@
    "context_length": "131072",
    "prompt_per_mtok": "0.3",
    "completion_per_mtok": "0.9"
-  },
-  "openrouter/bodybuilder": {
-   "name": "Body Builder (beta)",
-   "context_length": "128000",
-   "prompt_per_mtok": "-1000000",
-   "completion_per_mtok": "-1000000"
   },
   "openai/gpt-5.1-codex-max": {
    "name": "OpenAI: GPT-5.1-Codex-Max",
@@ -2729,12 +2687,6 @@
    "prompt_per_mtok": "1",
    "completion_per_mtok": "2"
   },
-  "openrouter/auto": {
-   "name": "Auto Router",
-   "context_length": "2000000",
-   "prompt_per_mtok": "-1000000",
-   "completion_per_mtok": "-1000000"
-  },
   "openai/gpt-3.5-turbo-16k": {
    "name": "OpenAI: GPT-3.5 Turbo 16k",
    "context_length": "16385",
@@ -2764,6 +2716,54 @@
    "context_length": "8191",
    "prompt_per_mtok": "30",
    "completion_per_mtok": "60"
+  },
+  "typesafe/jev-router": {
+   "name": "TypeSafe: Jev Router",
+   "context_length": "1000000",
+   "prompt_per_mtok": "-1000000",
+   "completion_per_mtok": "-1000000"
+  },
+  "nvidia/switchyard": {
+   "name": "NVIDIA: Switchyard",
+   "context_length": "1000000",
+   "prompt_per_mtok": "-1000000",
+   "completion_per_mtok": "-1000000"
+  },
+  "openrouter/auto-beta": {
+   "name": "Auto Router (Beta)",
+   "context_length": "2000000",
+   "prompt_per_mtok": "-1000000",
+   "completion_per_mtok": "-1000000"
+  },
+  "openrouter/fusion": {
+   "name": "OpenRouter: Fusion",
+   "context_length": "1000000",
+   "prompt_per_mtok": "-1000000",
+   "completion_per_mtok": "-1000000"
+  },
+  "openrouter/pareto-code": {
+   "name": "Pareto Code Router",
+   "context_length": "2000000",
+   "prompt_per_mtok": "-1000000",
+   "completion_per_mtok": "-1000000"
+  },
+  "openrouter/free": {
+   "name": "Free Models Router",
+   "context_length": "200000",
+   "prompt_per_mtok": "0",
+   "completion_per_mtok": "0"
+  },
+  "openrouter/bodybuilder": {
+   "name": "Body Builder (beta)",
+   "context_length": "128000",
+   "prompt_per_mtok": "-1000000",
+   "completion_per_mtok": "-1000000"
+  },
+  "openrouter/auto": {
+   "name": "Auto Router",
+   "context_length": "2000000",
+   "prompt_per_mtok": "-1000000",
+   "completion_per_mtok": "-1000000"
   }
  }
 }
