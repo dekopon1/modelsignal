@@ -413,8 +413,8 @@
   "~deepseek/deepseek-flash-latest": {
    "name": "DeepSeek: DeepSeek Flash Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0339",
-   "completion_per_mtok": "1.14"
+   "prompt_per_mtok": "0.031",
+   "completion_per_mtok": "0.27"
   },
   "inference-net/schematron-v2-turbo": {
    "name": "Inference.net: Schematron V2 Turbo",
@@ -583,8 +583,8 @@
   "~z-ai/glm-flash-latest": {
    "name": "Z.ai: GLM Flash Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0481",
-   "completion_per_mtok": "0.0687"
+   "prompt_per_mtok": "0.0207",
+   "completion_per_mtok": "0.0625"
   },
   "qwen/qwen3.8-flash": {
    "name": "Qwen: Qwen3.8 Flash",
@@ -595,8 +595,8 @@
   "z-ai/glm-5.3-flash": {
    "name": "Z.ai: GLM 5.3 Flash",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0481",
-   "completion_per_mtok": "0.0687"
+   "prompt_per_mtok": "0.15",
+   "completion_per_mtok": "0.5"
   },
   "z-ai/glm-5.3-flash:batch": {
    "name": "Z.ai: GLM 5.3 Flash (batch)",
@@ -759,8 +759,8 @@
   "~deepseek/deepseek-v4-flash-latest": {
    "name": "DeepSeek: DeepSeek V4 Flash Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0462",
-   "completion_per_mtok": "0.1518"
+   "prompt_per_mtok": "0.0522",
+   "completion_per_mtok": "0.3"
   },
   "deepseek/deepseek-v4-flash-0731": {
    "name": "DeepSeek: DeepSeek V4 Flash 0731",
@@ -1058,8 +1058,8 @@
   "moonshotai/kimi-k2.7-code": {
    "name": "MoonshotAI: Kimi K2.7 Code",
    "context_length": "262144",
-   "prompt_per_mtok": "0.56",
-   "completion_per_mtok": "3.1"
+   "prompt_per_mtok": "0.6",
+   "completion_per_mtok": "3.5"
   },
   "~anthropic/claude-fable-latest": {
    "name": "Anthropic: Claude Fable Latest",
@@ -1243,8 +1243,8 @@
   "~moonshotai/kimi-latest": {
    "name": "MoonshotAI: Kimi Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.1824",
-   "completion_per_mtok": "9.3388"
+   "prompt_per_mtok": "0.1615",
+   "completion_per_mtok": "10.5572"
   },
   "~google/gemini-flash-latest": {
    "name": "Google: Gemini Flash Latest",
@@ -1382,8 +1382,8 @@
   "google/gemma-4-26b-a4b-it": {
    "name": "Google: Gemma 4 26B A4B ",
    "context_length": "262144",
-   "prompt_per_mtok": "0.0765",
-   "completion_per_mtok": "0.255"
+   "prompt_per_mtok": "0.09",
+   "completion_per_mtok": "0.3"
   },
   "google/gemma-4-26b-a4b-it:free": {
    "name": "Google: Gemma 4 26B A4B  (free)",
@@ -1856,8 +1856,8 @@
   "deepseek/deepseek-v3.2": {
    "name": "DeepSeek: DeepSeek V3.2",
    "context_length": "163840",
-   "prompt_per_mtok": "0.28",
-   "completion_per_mtok": "0.42"
+   "prompt_per_mtok": "0.26",
+   "completion_per_mtok": "0.38"
   },
   "anthropic/claude-opus-4.5": {
    "name": "Anthropic: Claude Opus 4.5",
