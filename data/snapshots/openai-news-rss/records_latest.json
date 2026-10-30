@@ -424,25 +424,25 @@
   "date": "Wed, 23 Sep 2026 13:00:00 GMT",
   "summary": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure."
  },
- "https://openai.com/index/harvey-from-context-to-confidence-with-astra": {
-  "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
-  "date": "Wed, 23 Sep 2026 12:00:00 GMT",
-  "summary": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy."
- },
  "https://openai.com/index/sam-altman-un-security-council-remarks": {
   "title": "Sam Altman’s remarks at the United Nations Security Council",
   "date": "Wed, 23 Sep 2026 12:00:00 GMT",
   "summary": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council."
+ },
+ "https://openai.com/index/invideo-builds-with-gpt-6-astra": {
+  "title": "How invideo improves color grading 3x with GPT‑6 Astra",
+  "date": "Wed, 23 Sep 2026 12:00:00 GMT",
+  "summary": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day."
  },
  "https://openai.com/index/ringg": {
   "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
   "date": "Wed, 23 Sep 2026 12:00:00 GMT",
   "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1."
  },
- "https://openai.com/index/invideo-builds-with-gpt-6-astra": {
-  "title": "How invideo improves color grading 3x with GPT‑6 Astra",
+ "https://openai.com/index/harvey-from-context-to-confidence-with-astra": {
+  "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
   "date": "Wed, 23 Sep 2026 12:00:00 GMT",
-  "summary": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day."
+  "summary": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy."
  },
  "https://openai.com/index/introducing-mentalhealthbench": {
   "title": "Introducing MentalHealthBench",
@@ -594,15 +594,15 @@
   "date": "Thu, 10 Sep 2026 07:00:00 GMT",
   "summary": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support."
  },
- "https://openai.com/index/introducing-the-agents-api": {
-  "title": "Introducing the Agents API",
-  "date": "Thu, 10 Sep 2026 00:00:00 GMT",
-  "summary": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use."
- },
  "https://openai.com/index/introducing-gpt-live-1-in-the-api": {
   "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
   "date": "Thu, 10 Sep 2026 00:00:00 GMT",
   "summary": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support."
+ },
+ "https://openai.com/index/introducing-the-agents-api": {
+  "title": "Introducing the Agents API",
+  "date": "Thu, 10 Sep 2026 00:00:00 GMT",
+  "summary": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use."
  },
  "https://openai.com/index/ai-policy-window": {
   "title": "The AI policy window is open. We need to act.",
@@ -919,30 +919,30 @@
   "date": "Mon, 10 Aug 2026 17:00:00 GMT",
   "summary": "OpenAI CFO Sarah Friar shares five lessons for building an AI-native finance function, from automated forecasting to stronger controls and AI ROI."
  },
- "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands": {
-  "title": "Putting frontier cyber models in more trusted hands",
-  "date": "Mon, 10 Aug 2026 10:00:00 GMT",
-  "summary": "Approved Daybreak partners can use OpenAI’s frontier cyber models to deliver authorized, governed cybersecurity services to customers."
- },
  "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows": {
   "title": "Expanding Daybreak as the Cyber Defense Window Narrows",
   "date": "Mon, 10 Aug 2026 10:00:00 GMT",
   "summary": "Meet GPT-5.6-Cyber, OpenAI’s cybersecurity-specific model available through Daybreak Red for authorized vulnerability research, exploit validation, and security testing."
  },
- "https://openai.com/index/premium-seats-chatgpt-business": {
-  "title": "Premium seats are coming to ChatGPT Business",
+ "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands": {
+  "title": "Putting frontier cyber models in more trusted hands",
+  "date": "Mon, 10 Aug 2026 10:00:00 GMT",
+  "summary": "Approved Daybreak partners can use OpenAI’s frontier cyber models to deliver authorized, governed cybersecurity services to customers."
+ },
+ "https://openai.com/index/virgin-atlantic/chatgpt-work": {
+  "title": "Virgin Atlantic sharpens customer journeys with ChatGPT Work",
   "date": "Mon, 10 Aug 2026 00:00:00 GMT",
-  "summary": "Premium seats are now available on ChatGPT Business, with 5x more usage, no five-hour usage limit, and flexible seat options for every teammate."
+  "summary": "Virgin Atlantic is accelerating research, product planning, and decision-making with ChatGPT Work, helping teams connect signals across the customer journey."
  },
  "https://openai.com/index/zapier": {
   "title": "How Zapier transformed core marketing processes with ChatGPT Work",
   "date": "Mon, 10 Aug 2026 00:00:00 GMT",
   "summary": "The enterprise marketing team at Zapier uses ChatGPT Work to reduce the number of drop-offs in its lead funnel, build campaign assets, and automate reporting."
  },
- "https://openai.com/index/virgin-atlantic/chatgpt-work": {
-  "title": "Virgin Atlantic sharpens customer journeys with ChatGPT Work",
+ "https://openai.com/index/premium-seats-chatgpt-business": {
+  "title": "Premium seats are coming to ChatGPT Business",
   "date": "Mon, 10 Aug 2026 00:00:00 GMT",
-  "summary": "Virgin Atlantic is accelerating research, product planning, and decision-making with ChatGPT Work, helping teams connect signals across the customer journey."
+  "summary": "Premium seats are now available on ChatGPT Business, with 5x more usage, no five-hour usage limit, and flexible seat options for every teammate."
  },
  "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities": {
   "title": "Responding to the next frontier of critical cyber capabilities",
@@ -1139,15 +1139,15 @@
   "date": "Tue, 14 Jul 2026 10:00:00 GMT",
   "summary": "Learn how enterprises can manage AI investments in the agentic era by measuring useful work per dollar, improving efficiency, and scaling high-value workflows."
  },
- "https://openai.com/academy/chatgpt-work/how-sales-teams-use-codex": {
-  "title": "Sales workflows with ChatGPT Work",
-  "date": "Tue, 14 Jul 2026 00:00:00 GMT",
-  "summary": "Learn practical ChatGPT Work workflows for pipeline briefs, meeting prep, account plans, forecast reviews, and deal diagnosis."
- },
  "https://openai.com/academy/chatgpt-work/how-data-science-teams-use-codex": {
   "title": "Data science workflows with ChatGPT Work",
   "date": "Tue, 14 Jul 2026 00:00:00 GMT",
   "summary": "Learn practical ChatGPT Work workflows for root-cause briefs, KPI memos, scoped analyses, and dashboard specifications."
+ },
+ "https://openai.com/academy/chatgpt-work/how-sales-teams-use-codex": {
+  "title": "Sales workflows with ChatGPT Work",
+  "date": "Tue, 14 Jul 2026 00:00:00 GMT",
+  "summary": "Learn practical ChatGPT Work workflows for pipeline briefs, meeting prep, account plans, forecast reviews, and deal diagnosis."
  },
  "https://openai.com/index/deutsche-telekom": {
   "title": "How Deutsche Telekom is rewiring telecommunications with AI",
@@ -1199,25 +1199,20 @@
   "date": "Wed, 08 Jul 2026 00:00:00 GMT",
   "summary": "A new generation of voice models for natural human-AI interaction, now powering ChatGPT Voice."
  },
- "https://openai.com/index/mufg": {
-  "title": "MUFG aims to become AI-native with OpenAI",
-  "date": "Tue, 07 Jul 2026 00:00:00 GMT",
-  "summary": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale."
- },
  "https://openai.com/index/australian-payments-plus": {
   "title": "Australian Payments Plus moves faster with ChatGPT and Codex",
   "date": "Tue, 07 Jul 2026 00:00:00 GMT",
   "summary": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central."
  },
+ "https://openai.com/index/mufg": {
+  "title": "MUFG aims to become AI-native with OpenAI",
+  "date": "Tue, 07 Jul 2026 00:00:00 GMT",
+  "summary": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale."
+ },
  "https://openai.com/index/how-chatgpt-adoption-has-expanded": {
   "title": "How ChatGPT adoption has expanded",
   "date": "Tue, 30 Jun 2026 09:00:00 GMT",
   "summary": "New OpenAI Signals data shows how ChatGPT adoption is growing globally, with users increasing usage, exploring more capabilities, and driving growth across regions and languages."
- },
- "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug": {
-  "title": "Core dump epidemiology: fixing an 18-year-old bug",
-  "date": "Tue, 30 Jun 2026 00:00:00 GMT",
-  "summary": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug."
  },
  "https://openai.com/index/genebench-pro/case-studies": {
   "title": "Inside Genebench-Pro",
@@ -1228,6 +1223,11 @@
   "title": "Introducing GeneBench-Pro",
   "date": "Tue, 30 Jun 2026 00:00:00 GMT",
   "summary": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets."
+ },
+ "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug": {
+  "title": "Core dump epidemiology: fixing an 18-year-old bug",
+  "date": "Tue, 30 Jun 2026 00:00:00 GMT",
+  "summary": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug."
  },
  "https://openai.com/index/mapping-ai-jobs-transition-eu": {
   "title": "Mapping Europe’s AI Workforce Opportunity",
@@ -1269,15 +1269,15 @@
   "date": "Tue, 23 Jun 2026 00:00:00 GMT",
   "summary": "Discover how Omio uses OpenAI to power conversational travel experiences, accelerate product development, and transform into an AI-native company."
  },
- "https://openai.com/index/patch-the-planet": {
-  "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
-  "date": "Mon, 22 Jun 2026 10:00:00 GMT",
-  "summary": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review."
- },
  "https://openai.com/index/daybreak-securing-the-world": {
   "title": "Daybreak: Tools for securing every organization in the world",
   "date": "Mon, 22 Jun 2026 10:00:00 GMT",
   "summary": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale."
+ },
+ "https://openai.com/index/patch-the-planet": {
+  "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
+  "date": "Mon, 22 Jun 2026 10:00:00 GMT",
+  "summary": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review."
  },
  "https://openai.com/index/codex-maxxing-long-running-work": {
   "title": "Codex-maxxing for long-running work",
@@ -1424,15 +1424,15 @@
   "date": "Wed, 03 Jun 2026 12:00:00 GMT",
   "summary": "See how Wasmer used Codex with GPT-5.5 to build a Node.js runtime for the edge, accelerating development 10x to 20x and shipping in weeks instead of months."
  },
- "https://openai.com/index/public-policy-agenda": {
-  "title": "OpenAI public policy agenda",
-  "date": "Wed, 03 Jun 2026 10:00:00 GMT",
-  "summary": "OpenAI outlines its public policy agenda for AI, including safety, youth protection, workforce transition, and global standards to ensure AI benefits society."
- },
  "https://openai.com/index/frontier-safety-blueprint": {
   "title": "A blueprint for democratic governance of frontier AI",
   "date": "Wed, 03 Jun 2026 10:00:00 GMT",
   "summary": "OpenAI outlines a blueprint for U.S. governance of frontier AI, proposing a federal framework for safety, resilience, and national security."
+ },
+ "https://openai.com/index/public-policy-agenda": {
+  "title": "OpenAI public policy agenda",
+  "date": "Wed, 03 Jun 2026 10:00:00 GMT",
+  "summary": "OpenAI outlines its public policy agenda for AI, including safety, youth protection, workforce transition, and global standards to ensure AI benefits society."
  },
  "https://openai.com/index/travelers": {
   "title": "Travelers deploys AI-powered claims countrywide with OpenAI",
@@ -1474,15 +1474,15 @@
   "date": "Mon, 01 Jun 2026 10:00:00 GMT",
   "summary": "OpenAI frontier models and Codex are now generally available on AWS, giving enterprises a new path to build with OpenAI through the AWS environments, controls, and procurement workflows they already use. Customers can get started with OpenAI on AWS and move faster from evaluation to production."
  },
- "https://openai.com/index/disrupting-malicious-uses-of-ai-data-center-bandwagon": {
-  "title": "“Data Center Bandwagon” Campaign: US-targeted influence activity",
-  "date": "Mon, 01 Jun 2026 00:00:00 GMT",
-  "summary": "OpenAI banned a likely PRC-origin cluster using AI to generate social media content criticizing US data centers and AI infrastructure."
- },
  "https://openai.com/index/disrupting-malicious-uses-of-ai-tech-and-tariffs": {
   "title": "“Tech and Tariffs” Campaign: Influence activity targeting US tech policy",
   "date": "Mon, 01 Jun 2026 00:00:00 GMT",
   "summary": "OpenAI banned likely PRC-origin accounts using AI to create comments and cartoons about US tech policy, tariffs, and trade restrictions."
+ },
+ "https://openai.com/index/disrupting-malicious-uses-of-ai-data-center-bandwagon": {
+  "title": "“Data Center Bandwagon” Campaign: US-targeted influence activity",
+  "date": "Mon, 01 Jun 2026 00:00:00 GMT",
+  "summary": "OpenAI banned a likely PRC-origin cluster using AI to generate social media content criticizing US data centers and AI infrastructure."
  },
  "https://openai.com/index/boston-childrens-hospital": {
   "title": "Boston Children’s uses AI to unlock new diagnoses",
