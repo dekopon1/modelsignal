@@ -45,8 +45,8 @@
   "minimax/minimax-m3.1-flash": {
    "name": "MiniMax: MiniMax M3.1 Flash",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.15",
-   "completion_per_mtok": "0.6"
+   "prompt_per_mtok": "0.075",
+   "completion_per_mtok": "0.3"
   },
   "deepseek/deepseek-v4.1-flash-1017": {
    "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
@@ -565,8 +565,8 @@
   "tencent/hy4-preview": {
    "name": "Tencent: Hy4 preview",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.834",
-   "completion_per_mtok": "2.501"
+   "prompt_per_mtok": "0.7506",
+   "completion_per_mtok": "2.2509"
   },
   "~z-ai/glm-flash-latest": {
    "name": "Z.ai: GLM Flash Latest",
@@ -747,7 +747,7 @@
   "~deepseek/deepseek-v4-flash-latest": {
    "name": "DeepSeek: DeepSeek V4 Flash Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0434",
+   "prompt_per_mtok": "0.059",
    "completion_per_mtok": "0.3"
   },
   "deepseek/deepseek-v4-flash-0731": {
@@ -955,8 +955,8 @@
   "tencent/hy3": {
    "name": "Tencent: Hy3",
    "context_length": "262144",
-   "prompt_per_mtok": "0.132",
-   "completion_per_mtok": "0.528"
+   "prompt_per_mtok": "0.0825",
+   "completion_per_mtok": "0.33"
   },
   "anthropic/claude-sonnet-5": {
    "name": "Anthropic: Claude Sonnet 5",
@@ -2062,8 +2062,8 @@
   "openai/gpt-oss-120b": {
    "name": "OpenAI: gpt-oss-120b",
    "context_length": "131072",
-   "prompt_per_mtok": "0.018",
-   "completion_per_mtok": "0.065"
+   "prompt_per_mtok": "0.016",
+   "completion_per_mtok": "0.061"
   },
   "openai/gpt-oss-120b:batch": {
    "name": "OpenAI: gpt-oss-120b (batch)",
