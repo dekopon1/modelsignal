@@ -1,5 +1,11 @@
 {
  "models": {
+  "z-ai/glm-5.3-flashx-legal": {
+   "name": "Z.ai: GLM 5.3 FlashX Legal",
+   "context_length": "1048576",
+   "prompt_per_mtok": "0.37",
+   "completion_per_mtok": "1.25"
+  },
   "particle-ai/particle-1": {
    "name": "Particle AI: Particle-1",
    "context_length": "1048576",
@@ -45,8 +51,8 @@
   "minimax/minimax-m3.1-flash": {
    "name": "MiniMax: MiniMax M3.1 Flash",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.15",
-   "completion_per_mtok": "0.6"
+   "prompt_per_mtok": "0.075",
+   "completion_per_mtok": "0.3"
   },
   "deepseek/deepseek-v4.1-flash-1017": {
    "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
@@ -642,7 +648,7 @@
   },
   "qwen/qwen3.8-27b": {
    "name": "Qwen: Qwen3.8 27B",
-   "context_length": "1000000",
+   "context_length": "1024000",
    "prompt_per_mtok": "0.15",
    "completion_per_mtok": "1.875"
   },
@@ -1328,8 +1334,8 @@
   "google/gemma-4-26b-a4b-it": {
    "name": "Google: Gemma 4 26B A4B ",
    "context_length": "262144",
-   "prompt_per_mtok": "0.031",
-   "completion_per_mtok": "0.094"
+   "prompt_per_mtok": "0.068",
+   "completion_per_mtok": "0.204"
   },
   "google/gemma-4-26b-a4b-it:free": {
    "name": "Google: Gemma 4 26B A4B  (free)",
@@ -2062,8 +2068,8 @@
   "openai/gpt-oss-120b": {
    "name": "OpenAI: gpt-oss-120b",
    "context_length": "131072",
-   "prompt_per_mtok": "0.025",
-   "completion_per_mtok": "0.094"
+   "prompt_per_mtok": "0.15",
+   "completion_per_mtok": "0.6"
   },
   "openai/gpt-oss-120b:batch": {
    "name": "OpenAI: gpt-oss-120b (batch)",
@@ -2104,8 +2110,8 @@
   "qwen/qwen3-coder-30b-a3b-instruct": {
    "name": "Qwen: Qwen3 Coder 30B A3B Instruct",
    "context_length": "262144",
-   "prompt_per_mtok": "0.15",
-   "completion_per_mtok": "0.6"
+   "prompt_per_mtok": "0.07",
+   "completion_per_mtok": "0.28"
   },
   "qwen/qwen3-30b-a3b-instruct-2507": {
    "name": "Qwen: Qwen3 30B A3B Instruct 2507",
@@ -2554,18 +2560,6 @@
    "context_length": "131072",
    "prompt_per_mtok": "0.85",
    "completion_per_mtok": "0.85"
-  },
-  "nousresearch/hermes-3-llama-3.1-70b": {
-   "name": "Nous: Hermes 3 70B Instruct",
-   "context_length": "131072",
-   "prompt_per_mtok": "0.7",
-   "completion_per_mtok": "0.7"
-  },
-  "nousresearch/hermes-3-llama-3.1-405b": {
-   "name": "Nous: Hermes 3 405B Instruct",
-   "context_length": "131072",
-   "prompt_per_mtok": "1",
-   "completion_per_mtok": "1"
   },
   "sao10k/l3-lunaris-8b": {
    "name": "Sao10K: Llama 3 8B Lunaris",
