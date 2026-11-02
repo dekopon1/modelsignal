@@ -1,5 +1,5 @@
 {
- "run_at": "2026-11-01T21:58:38Z",
+ "run_at": "2026-11-02T05:57:10Z",
  "results": [
   {
    "id": "anthropic-pricing",
@@ -16,15 +16,15 @@
   {
    "id": "openrouter-models",
    "ok": true,
-   "http_chars": 804855,
+   "http_chars": 805248,
    "changed": true,
-   "changes": 3,
+   "changes": 6,
    "announcements": 0
   },
   {
    "id": "deepseek-pricing",
    "ok": true,
-   "http_chars": 51177,
+   "http_chars": 27739,
    "changed": true,
    "changes": 0,
    "announcements": 0
@@ -32,7 +32,7 @@
   {
    "id": "mistral-models",
    "ok": true,
-   "http_chars": 809449,
+   "http_chars": 809968,
    "changed": true,
    "changes": 0,
    "announcements": 0
