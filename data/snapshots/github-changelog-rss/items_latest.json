@@ -1,4 +1,29 @@
 {
+ "https://github.blog/changelog/2026-11-03-dependabot-version-updates-support-agent-package-manager": {
+  "title": "Dependabot version updates support Agent Package Manager",
+  "date": "Tue, 03 Nov 2026 20:24:07 +0000",
+  "summary": "You can now keep your AI agent skills, prompts, and instructions up to date with Dependabot version updates for Agent Package Manager (APM). Dependabot opens pull requests to update supported&#8230;\nThe post Dependabot version updates support Agent Package Manager appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-11-03-look-up-a-resources-cost-center-with-the-github-rest-api": {
+  "title": "Look up a resource&#8217;s cost center with the GitHub REST API",
+  "date": "Tue, 03 Nov 2026 15:27:13 +0000",
+  "summary": "You can now use the GitHub REST API to find which cost center a user, organization, repository, or enterprise team belongs to. Previously, you had to list every cost center&#8230;\nThe post Look up a resource&#8217;s cost center with the GitHub REST API appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air": {
+  "title": "GitHub Copilot is now available in JetBrains Air",
+  "date": "Tue, 03 Nov 2026 15:11:46 +0000",
+  "summary": "You can now delegate coding tasks, guide execution, and review results with GitHub Copilot in JetBrains Air. The integration uses the Agent Client Protocol (ACP) and supports tasks in your&#8230;\nThe post GitHub Copilot is now available in JetBrains Air appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-11-03-codeql-2-27-3-adds-python-3-15-features-and-json-data-extensions": {
+  "title": "CodeQL 2.27.3 adds Python 3.15 features and JSON data extensions",
+  "date": "Tue, 03 Nov 2026 14:56:03 +0000",
+  "summary": "CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We&#8217;ve recently released CodeQL 2.27.3. It supports new Python 3.15 language&#8230;\nThe post CodeQL 2.27.3 adds Python 3.15 features and JSON data extensions appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-11-03-dependabot-now-supports-python-3-15": {
+  "title": "Dependabot now supports Python 3.15",
+  "date": "Tue, 03 Nov 2026 13:49:32 +0000",
+  "summary": "You can now upgrade your projects to Python 3.15 and keep receiving Dependabot updates. Support for Python 3.15 is available to all github.com users and will be included in GitHub&#8230;\nThe post Dependabot now supports Python 3.15 appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-11-02-github-desktop-adds-short-lived-authentication-tokens": {
   "title": "GitHub Desktop adds short-lived authentication tokens",
   "date": "Tue, 03 Nov 2026 07:55:58 +0000",
@@ -23,30 +48,5 @@
   "title": "Route and orchestrate models with GitHub Copilot Fusion",
   "date": "Wed, 28 Oct 2026 16:00:00 +0000",
   "summary": "GitHub Copilot Fusion is generally available. Instead of picking a model for each task, choose Copilot Fusion and let Copilot intelligently route and orchestrate which models it uses for you.&#8230;\nThe post Route and orchestrate models with GitHub Copilot Fusion appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-10-28-github-copilot-app-universe-releases": {
-  "title": "GitHub Copilot app, Universe releases",
-  "date": "Wed, 28 Oct 2026 15:55:00 +0000",
-  "summary": "Work doesn&#8217;t always fit in a single repository or session. A feature can span several repositories. A launch plan can pull in specs, designs, and assets without touching a repository&#8230;\nThe post GitHub Copilot app, Universe releases appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-10-28-github-enterprise-now-includes-access-to-github-copilot": {
-  "title": "GitHub Enterprise now includes access to GitHub Copilot",
-  "date": "Wed, 28 Oct 2026 15:50:00 +0000",
-  "summary": "Enterprises working with a GitHub or Microsoft account team can now get Copilot included with GitHub Enterprise for every licensed user. Previously, you had to manage two things: how many&#8230;\nThe post GitHub Enterprise now includes access to GitHub Copilot appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-10-28-security-extension-for-the-github-copilot-app": {
-  "title": "Security extension for the GitHub Copilot app",
-  "date": "Wed, 28 Oct 2026 15:45:00 +0000",
-  "summary": "You can now work through your repository&#8217;s GitHub code scanning alerts without leaving the GitHub Copilot app. The new GitHub security extension, now in public preview, lets you find the&#8230;\nThe post Security extension for the GitHub Copilot app appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-10-28-github-intelligence-puts-your-code-context-and-history-to-work": {
-  "title": "GitHub intelligence puts your code, context, and history to work",
-  "date": "Wed, 28 Oct 2026 15:40:00 +0000",
-  "summary": "Agents should understand more than your codebase&#8212;they should understand how your team works. Your preferences, repository conventions, skills, and custom instructions guide how changes should be made, while code in&#8230;\nThe post GitHub intelligence puts your code, context, and history to work appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-10-28-build-shared-workflows-for-your-team-with-copilot-automations": {
-  "title": "Build shared workflows for your team with Copilot Automations",
-  "date": "Wed, 28 Oct 2026 15:35:00 +0000",
-  "summary": "Shared Copilot Automations are rolling out, enabling teams to build and maintain AI-powered workflows together. With Copilot Automations, you can combine prompts, triggers, and tools to design workflows around the&#8230;\nThe post Build shared workflows for your team with Copilot Automations appeared first on The GitHub Blog."
  }
 }
