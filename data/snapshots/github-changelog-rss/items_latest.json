@@ -1,4 +1,9 @@
 {
+ "https://github.blog/changelog/2026-11-02-github-desktop-adds-short-lived-authentication-tokens": {
+  "title": "GitHub Desktop adds short-lived authentication tokens",
+  "date": "Tue, 03 Nov 2026 07:55:58 +0000",
+  "summary": "When you sign in to GitHub Desktop 3.6.10 or later, eligible accounts can now use short-lived, automatically refreshing authentication tokens. Short-lived access tokens reduce how long a leaked token can&#8230;\nThe post GitHub Desktop adds short-lived authentication tokens appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-11-02-security-risk-assessments-include-repository-protection-status": {
   "title": "Security risk assessments include repository protection status",
   "date": "Mon, 02 Nov 2026 15:47:21 +0000",
@@ -43,10 +48,5 @@
   "title": "Build shared workflows for your team with Copilot Automations",
   "date": "Wed, 28 Oct 2026 15:35:00 +0000",
   "summary": "Shared Copilot Automations are rolling out, enabling teams to build and maintain AI-powered workflows together. With Copilot Automations, you can combine prompts, triggers, and tools to design workflows around the&#8230;\nThe post Build shared workflows for your team with Copilot Automations appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-10-28-github-copilot-in-vs-code-universe-releases": {
-  "title": "GitHub Copilot in VS Code, Universe releases",
-  "date": "Wed, 28 Oct 2026 15:33:00 +0000",
-  "summary": "This year, we focused on giving you more choice in how you work with GitHub Copilot in Visual Studio Code: which models you use, where your agents run, and how&#8230;\nThe post GitHub Copilot in VS Code, Universe releases appeared first on The GitHub Blog."
  }
 }
