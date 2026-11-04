@@ -1,5 +1,11 @@
 {
  "models": {
+  "tencent/hy4": {
+   "name": "Tencent: Hy4",
+   "context_length": "1048576",
+   "prompt_per_mtok": "0.417",
+   "completion_per_mtok": "1.2505"
+  },
   "stealth/crouton-alpha": {
    "name": "Crouton Alpha",
    "context_length": "1048576",
@@ -57,14 +63,14 @@
   "minimax/minimax-m3.1-flash": {
    "name": "MiniMax: MiniMax M3.1 Flash",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.075",
-   "completion_per_mtok": "0.3"
+   "prompt_per_mtok": "0.15",
+   "completion_per_mtok": "0.6"
   },
   "deepseek/deepseek-v4.1-flash-1017": {
    "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.15",
-   "completion_per_mtok": "0.6"
+   "prompt_per_mtok": "0.3",
+   "completion_per_mtok": "1.2"
   },
   "elorian/glimpse": {
    "name": "Elorian: Glimpse",
@@ -419,8 +425,8 @@
   "~deepseek/deepseek-flash-latest": {
    "name": "DeepSeek: DeepSeek Flash Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.035",
-   "completion_per_mtok": "0.315"
+   "prompt_per_mtok": "0.0333",
+   "completion_per_mtok": "0.475"
   },
   "inference-net/schematron-v2-turbo": {
    "name": "Inference.net: Schematron V2 Turbo",
@@ -578,19 +584,19 @@
    "name": "IBM: Granite 4.2 8B",
    "context_length": "131072",
    "prompt_per_mtok": "0.06",
-   "completion_per_mtok": "0.15"
+   "completion_per_mtok": "0.25"
   },
   "tencent/hy4-preview": {
    "name": "Tencent: Hy4 preview",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.7506",
-   "completion_per_mtok": "2.2509"
+   "prompt_per_mtok": "0.834",
+   "completion_per_mtok": "2.501"
   },
   "~z-ai/glm-flash-latest": {
    "name": "Z.ai: GLM Flash Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0313",
-   "completion_per_mtok": "0.0846"
+   "prompt_per_mtok": "0.0269",
+   "completion_per_mtok": "0.0996"
   },
   "qwen/qwen3.8-flash": {
    "name": "Qwen: Qwen3.8 Flash",
@@ -601,8 +607,8 @@
   "z-ai/glm-5.3-flash": {
    "name": "Z.ai: GLM 5.3 Flash",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0313",
-   "completion_per_mtok": "0.0846"
+   "prompt_per_mtok": "0.0269",
+   "completion_per_mtok": "0.0996"
   },
   "z-ai/glm-5.3-flash:batch": {
    "name": "Z.ai: GLM 5.3 Flash (batch)",
@@ -706,7 +712,7 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0813",
    "context_length": "1048576",
    "prompt_per_mtok": "0.115",
-   "completion_per_mtok": "4"
+   "completion_per_mtok": "4.6"
   },
   "x-ai/grok-4.6": {
    "name": "SpaceXAI: Grok 4.6",
@@ -865,8 +871,8 @@
   "moonshotai/kimi-k3": {
    "name": "MoonshotAI: Kimi K3",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.276",
-   "completion_per_mtok": "9.6"
+   "prompt_per_mtok": "0.2",
+   "completion_per_mtok": "16"
   },
   "moonshotai/kimi-k3:batch": {
    "name": "MoonshotAI: Kimi K3 (batch)",
@@ -979,8 +985,8 @@
   "tencent/hy3": {
    "name": "Tencent: Hy3",
    "context_length": "262144",
-   "prompt_per_mtok": "0.0825",
-   "completion_per_mtok": "0.33"
+   "prompt_per_mtok": "0.132",
+   "completion_per_mtok": "0.528"
   },
   "anthropic/claude-sonnet-5": {
    "name": "Anthropic: Claude Sonnet 5",
@@ -1219,8 +1225,8 @@
   "~moonshotai/kimi-latest": {
    "name": "MoonshotAI: Kimi Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.1529",
-   "completion_per_mtok": "10.1551"
+   "prompt_per_mtok": "0.19",
+   "completion_per_mtok": "8.94"
   },
   "~google/gemini-flash-latest": {
    "name": "Google: Gemini Flash Latest",
@@ -1352,8 +1358,8 @@
   "google/gemma-4-26b-a4b-it": {
    "name": "Google: Gemma 4 26B A4B ",
    "context_length": "262144",
-   "prompt_per_mtok": "0.071",
-   "completion_per_mtok": "0.214"
+   "prompt_per_mtok": "0.079",
+   "completion_per_mtok": "0.238"
   },
   "google/gemma-4-26b-a4b-it:free": {
    "name": "Google: Gemma 4 26B A4B  (free)",
@@ -2086,8 +2092,8 @@
   "openai/gpt-oss-120b": {
    "name": "OpenAI: gpt-oss-120b",
    "context_length": "131072",
-   "prompt_per_mtok": "0.029",
-   "completion_per_mtok": "0.109"
+   "prompt_per_mtok": "0.025",
+   "completion_per_mtok": "0.091"
   },
   "openai/gpt-oss-120b:batch": {
    "name": "OpenAI: gpt-oss-120b (batch)",
@@ -2486,8 +2492,8 @@
   "meta-llama/llama-3.3-70b-instruct": {
    "name": "Meta: Llama 3.3 70B Instruct",
    "context_length": "131072",
-   "prompt_per_mtok": "0.2",
-   "completion_per_mtok": "0.52"
+   "prompt_per_mtok": "0.1",
+   "completion_per_mtok": "0.32"
   },
   "amazon/nova-lite-v1": {
    "name": "Amazon: Nova Lite 1.0",
