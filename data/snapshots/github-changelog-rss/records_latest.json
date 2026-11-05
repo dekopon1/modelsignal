@@ -1,4 +1,14 @@
 {
+ "https://github.blog/changelog/2026-11-05-secret-scanning-upgrades-detectors-adds-spacex-as-partner": {
+  "title": "Secret scanning upgrades detectors, adds SpaceX as partner",
+  "date": "Thu, 05 Nov 2026 15:48:50 +0000",
+  "summary": "This update expands secret scanning&#8217;s detection coverage: New partner: SpaceX is now a secret scanning partner. New detector: GitHub now detects starlink_public_api_v2_secret. Upgraded detectors: Alibaba, AWS, Google, OpenVSX, Pydantic Services,&#8230;\nThe post Secret scanning upgrades detectors, adds SpaceX as partner appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview": {
+  "title": "New pull request overview page in public preview",
+  "date": "Thu, 05 Nov 2026 08:00:00 +0000",
+  "summary": "On a long pull request, checking what&#8217;s blocking often means scrolling past dozens of comments and timeline events just to reach the merge box. And once you&#8217;re there, you still&#8230;\nThe post New pull request overview page in public preview appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-11-04-codeql-2-27-4-improves-accuracy-and-query-metadata": {
   "title": "CodeQL 2.27.4 improves accuracy and query metadata",
   "date": "Wed, 04 Nov 2026 20:04:52 +0000",
@@ -38,15 +48,5 @@
   "title": "Dependabot now supports Python 3.15",
   "date": "Tue, 03 Nov 2026 13:49:32 +0000",
   "summary": "You can now upgrade your projects to Python 3.15 and keep receiving Dependabot updates. Support for Python 3.15 is available to all github.com users and will be included in GitHub&#8230;\nThe post Dependabot now supports Python 3.15 appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-11-02-github-desktop-adds-short-lived-authentication-tokens": {
-  "title": "GitHub Desktop adds short-lived authentication tokens",
-  "date": "Tue, 03 Nov 2026 07:55:58 +0000",
-  "summary": "When you sign in to GitHub Desktop 3.6.10 or later, eligible accounts can now use short-lived, automatically refreshing authentication tokens. Short-lived access tokens reduce how long a leaked token can&#8230;\nThe post GitHub Desktop adds short-lived authentication tokens appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-11-02-security-risk-assessments-include-repository-protection-status": {
-  "title": "Security risk assessments include repository protection status",
-  "date": "Mon, 02 Nov 2026 15:47:21 +0000",
-  "summary": "The GitHub code security risk assessment and secret risk assessment now show whether findings are in protected or unprotected repositories, helping you identify where to extend your security coverage. Organization&#8230;\nThe post Security risk assessments include repository protection status appeared first on The GitHub Blog."
  }
 }
