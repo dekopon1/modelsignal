@@ -139,13 +139,6 @@
    "1h cache writes": "$2 / MTok",
    "Cache hits and refreshes": "$0.10 / MTok",
    "Output tokens": "$5 / MTok"
-  },
-  "Claude Haiku 3.5 (retired, except on Claude Models on Google Cloud (Google managed))": {
-   "Base input tokens": "$0.80 / MTok",
-   "5m cache writes": "$1 / MTok",
-   "1h cache writes": "$1.60 / MTok",
-   "Cache hits and refreshes": "$0.08 / MTok",
-   "Output tokens": "$4 / MTok"
   }
  },
  "Cloud platform pricing": {},
@@ -309,10 +302,6 @@
   "Claude Haiku 4.5": {
    "Batch input": "$0.50 / MTok",
    "Batch output": "$2.50 / MTok"
-  },
-  "Claude Haiku 3.5 (retired, except on Claude Models on Google Cloud (Google managed))": {
-   "Batch input": "$0.40 / MTok",
-   "Batch output": "$2 / MTok"
   }
  },
  "Long context pricing": {},
@@ -374,10 +363,6 @@
   "Claude Haiku 4.5": {
    "Tool use system prompt tokens: auto, none": "496 tokens",
    "Tool use system prompt tokens: any, tool": "588 tokens"
-  },
-  "Claude Haiku 3.5 (retired, except on Claude Models on Google Cloud (Google managed))": {
-   "Tool use system prompt tokens: auto, none": "264 tokens",
-   "Tool use system prompt tokens: any, tool": "355 tokens"
   }
  },
  "Specific tool pricing": {},

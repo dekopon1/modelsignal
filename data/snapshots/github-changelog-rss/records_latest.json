@@ -1,4 +1,14 @@
 {
+ "https://github.blog/changelog/2026-11-05-usage-metrics-api-adds-code-review-details-and-addressed-rate": {
+  "title": "Usage metrics API adds code review details and addressed rate",
+  "date": "Fri, 06 Nov 2026 00:19:07 +0000",
+  "summary": "The enterprise and organization repository-level Copilot usage metrics reports now show what happens to Copilot code review feedback. A new copilot_code_review object on each repos-1-day row reports how many Copilot-reviewed&#8230;\nThe post Usage metrics API adds code review details and addressed rate appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-11-05-usage-metrics-api-flags-telemetry-and-version-gaps": {
+  "title": "Usage metrics API flags telemetry and version gaps",
+  "date": "Fri, 06 Nov 2026 00:08:31 +0000",
+  "summary": "The Copilot usage metrics API now shows which users are missing client telemetry or are running IDE or extension versions below the usage metrics minimums. New per-user fields appear in&#8230;\nThe post Usage metrics API flags telemetry and version gaps appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-11-05-secret-scanning-upgrades-detectors-adds-spacex-as-partner": {
   "title": "Secret scanning upgrades detectors, adds SpaceX as partner",
   "date": "Thu, 05 Nov 2026 15:48:50 +0000",
@@ -38,15 +48,5 @@
   "title": "GitHub Copilot is now available in JetBrains Air",
   "date": "Tue, 03 Nov 2026 15:11:46 +0000",
   "summary": "You can now delegate coding tasks, guide execution, and review results with GitHub Copilot in JetBrains Air. The integration uses the Agent Client Protocol (ACP) and supports tasks in your&#8230;\nThe post GitHub Copilot is now available in JetBrains Air appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-11-03-codeql-2-27-3-adds-python-3-15-features-and-json-data-extensions": {
-  "title": "CodeQL 2.27.3 adds Python 3.15 features and JSON data extensions",
-  "date": "Tue, 03 Nov 2026 14:56:03 +0000",
-  "summary": "CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We&#8217;ve recently released CodeQL 2.27.3. It supports new Python 3.15 language&#8230;\nThe post CodeQL 2.27.3 adds Python 3.15 features and JSON data extensions appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-11-03-dependabot-now-supports-python-3-15": {
-  "title": "Dependabot now supports Python 3.15",
-  "date": "Tue, 03 Nov 2026 13:49:32 +0000",
-  "summary": "You can now upgrade your projects to Python 3.15 and keep receiving Dependabot updates. Support for Python 3.15 is available to all github.com users and will be included in GitHub&#8230;\nThe post Dependabot now supports Python 3.15 appeared first on The GitHub Blog."
  }
 }
