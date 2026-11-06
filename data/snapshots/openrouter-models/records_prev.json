@@ -13,7 +13,7 @@
    "completion_per_mtok": "9"
   },
   "ricursiveai/ripple-65b-preview": {
-   "name": "ricursiveAI/Ripple-65B-Preview",
+   "name": "Ricursive: Ripple 65B Preview",
    "context_length": "1048576",
    "prompt_per_mtok": "0.2",
    "completion_per_mtok": "0.6"
@@ -81,14 +81,14 @@
   "minimax/minimax-m3.1-flash": {
    "name": "MiniMax: MiniMax M3.1 Flash",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.15",
-   "completion_per_mtok": "0.6"
+   "prompt_per_mtok": "0.075",
+   "completion_per_mtok": "0.3"
   },
   "deepseek/deepseek-v4.1-flash-1017": {
    "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.3",
-   "completion_per_mtok": "1.2"
+   "prompt_per_mtok": "0.15",
+   "completion_per_mtok": "0.6"
   },
   "elorian/glimpse": {
    "name": "Elorian: Glimpse",
@@ -503,8 +503,8 @@
   "deepseek/deepseek-v4.1-flash": {
    "name": "DeepSeek: DeepSeek V4.1 Flash",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0486",
-   "completion_per_mtok": "0.54"
+   "prompt_per_mtok": "0.051",
+   "completion_per_mtok": "0.567"
   },
   "deepseek/deepseek-v4.1-flash:batch": {
    "name": "DeepSeek: DeepSeek V4.1 Flash (batch)",
@@ -607,8 +607,8 @@
   "tencent/hy4-preview": {
    "name": "Tencent: Hy4 preview",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.834",
-   "completion_per_mtok": "2.501"
+   "prompt_per_mtok": "0.7506",
+   "completion_per_mtok": "2.2509"
   },
   "~z-ai/glm-flash-latest": {
    "name": "Z.ai: GLM Flash Latest",
@@ -688,6 +688,12 @@
    "prompt_per_mtok": "0.15",
    "completion_per_mtok": "1.875"
   },
+  "qwen/qwen3.8-27b:batch": {
+   "name": "Qwen: Qwen3.8 27B (batch)",
+   "context_length": "262144",
+   "prompt_per_mtok": "0.16",
+   "completion_per_mtok": "2"
+  },
   "dots-studio/dots-3-note-preview:free": {
    "name": "Dots Studio: Dots3-Note Preview (free)",
    "context_length": "512000",
@@ -729,8 +735,8 @@
   "deepseek/deepseek-v4-pro-0813": {
    "name": "DeepSeek: DeepSeek V4 Pro 0813",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.111",
-   "completion_per_mtok": "4.44"
+   "prompt_per_mtok": "0.1165",
+   "completion_per_mtok": "4.66"
   },
   "x-ai/grok-4.6": {
    "name": "SpaceXAI: Grok 4.6",
@@ -786,6 +792,12 @@
    "prompt_per_mtok": "0.3",
    "completion_per_mtok": "1.2"
   },
+  "meta/muse-glimmer-30b:batch": {
+   "name": "Meta: Muse Glimmer 30B (batch)",
+   "context_length": "131072",
+   "prompt_per_mtok": "0.24",
+   "completion_per_mtok": "0.96"
+  },
   "inclusionai/ling-3.0-tiny": {
    "name": "inclusionAI: Ling 3.0 Tiny",
    "context_length": "262144",
@@ -801,20 +813,32 @@
   "~deepseek/deepseek-v4-flash-latest": {
    "name": "DeepSeek: DeepSeek V4 Flash Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.059",
+   "prompt_per_mtok": "0.0434",
    "completion_per_mtok": "0.3"
   },
   "deepseek/deepseek-v4-flash-0731": {
    "name": "DeepSeek: DeepSeek V4 Flash 0731",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.059",
+   "prompt_per_mtok": "0.0434",
    "completion_per_mtok": "0.3"
+  },
+  "deepseek/deepseek-v4-flash-0731:batch": {
+   "name": "DeepSeek: DeepSeek V4 Flash 0731 (batch)",
+   "context_length": "1048576",
+   "prompt_per_mtok": "0.048",
+   "completion_per_mtok": "0.144"
   },
   "thinkingmachines/inkling-small": {
    "name": "Thinking Machines: Inkling Small",
    "context_length": "524288",
    "prompt_per_mtok": "0.45",
    "completion_per_mtok": "1.2"
+  },
+  "thinkingmachines/inkling-small:batch": {
+   "name": "Thinking Machines: Inkling Small (batch)",
+   "context_length": "524288",
+   "prompt_per_mtok": "0.36",
+   "completion_per_mtok": "0.96"
   },
   "qwen/qwen3.7-flash": {
    "name": "Qwen: Qwen3.7 Flash",
@@ -997,8 +1021,8 @@
   "tencent/hy3": {
    "name": "Tencent: Hy3",
    "context_length": "262144",
-   "prompt_per_mtok": "0.132",
-   "completion_per_mtok": "0.528"
+   "prompt_per_mtok": "0.0825",
+   "completion_per_mtok": "0.33"
   },
   "anthropic/claude-sonnet-5": {
    "name": "Anthropic: Claude Sonnet 5",
@@ -1079,12 +1103,6 @@
    "prompt_per_mtok": "0.2",
    "completion_per_mtok": "0.2"
   },
-  "nvidia/nemotron-3.5-content-safety:free": {
-   "name": "NVIDIA: Nemotron 3.5 Content Safety (free)",
-   "context_length": "128000",
-   "prompt_per_mtok": "0",
-   "completion_per_mtok": "0"
-  },
   "nvidia/nemotron-3-ultra-550b-a55b": {
    "name": "NVIDIA: Nemotron 3 Ultra",
    "context_length": "262144",
@@ -1114,6 +1132,12 @@
    "context_length": "1048576",
    "prompt_per_mtok": "0.3",
    "completion_per_mtok": "1.2"
+  },
+  "minimax/minimax-m3:batch": {
+   "name": "MiniMax: MiniMax M3 (batch)",
+   "context_length": "524288",
+   "prompt_per_mtok": "0.224",
+   "completion_per_mtok": "0.88"
   },
   "stepfun/step-3.7-flash": {
    "name": "StepFun: Step 3.7 Flash",
@@ -1237,8 +1261,8 @@
   "~moonshotai/kimi-latest": {
    "name": "MoonshotAI: Kimi Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.1624",
-   "completion_per_mtok": "10.1522"
+   "prompt_per_mtok": "0.1824",
+   "completion_per_mtok": "9.3388"
   },
   "~google/gemini-flash-latest": {
    "name": "Google: Gemini Flash Latest",
@@ -1304,8 +1328,8 @@
   "deepseek/deepseek-v4-pro": {
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.9553",
-   "completion_per_mtok": "1.9105"
+   "prompt_per_mtok": "0.7907",
+   "completion_per_mtok": "1.5813"
   },
   "deepseek/deepseek-v4-flash": {
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
@@ -1370,8 +1394,8 @@
   "google/gemma-4-26b-a4b-it": {
    "name": "Google: Gemma 4 26B A4B ",
    "context_length": "262144",
-   "prompt_per_mtok": "0.09",
-   "completion_per_mtok": "0.3"
+   "prompt_per_mtok": "0.0675",
+   "completion_per_mtok": "0.225"
   },
   "google/gemma-4-26b-a4b-it:free": {
    "name": "Google: Gemma 4 26B A4B  (free)",
@@ -1478,8 +1502,8 @@
   "nvidia/nemotron-3-super-120b-a12b": {
    "name": "NVIDIA: Nemotron 3 Super",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.3",
-   "completion_per_mtok": "2.4"
+   "prompt_per_mtok": "0.075",
+   "completion_per_mtok": "0.4"
   },
   "bytedance-seed/seed-2.0-lite": {
    "name": "ByteDance Seed: Seed-2.0-Lite",
@@ -2087,7 +2111,7 @@
    "name": "OpenAI: gpt-oss-120b",
    "context_length": "131072",
    "prompt_per_mtok": "0.021",
-   "completion_per_mtok": "0.077"
+   "completion_per_mtok": "0.078"
   },
   "openai/gpt-oss-120b:batch": {
    "name": "OpenAI: gpt-oss-120b (batch)",
@@ -2468,8 +2492,8 @@
   "deepseek/deepseek-chat": {
    "name": "DeepSeek: DeepSeek V3",
    "context_length": "163840",
-   "prompt_per_mtok": "0.2574",
-   "completion_per_mtok": "1.0287"
+   "prompt_per_mtok": "0.32",
+   "completion_per_mtok": "0.89"
   },
   "cohere/command-r7b-12-2024": {
    "name": "Cohere: Command R7B (12-2024)",
