@@ -1,4 +1,24 @@
 {
+ "https://github.blog/changelog/2026-11-06-copilot-code-review-api-management-and-review-overview-updates": {
+  "title": "Copilot code review: API management and review overview updates",
+  "date": "Sat, 07 Nov 2026 00:27:19 +0000",
+  "summary": "You can now manage GitHub Copilot code review settings through the REST and GraphQL APIs, from enterprise policy down to individual repositories. Copilot&#8217;s review overview comment is now more compact,&#8230;\nThe post Copilot code review: API management and review overview updates appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-11-06-copilot-impact-dashboard-adds-chat-and-vs-code-agent-usage": {
+  "title": "Copilot impact dashboard adds chat and VS Code agent usage",
+  "date": "Fri, 06 Nov 2026 22:17:28 +0000",
+  "summary": "The Agent adoption chart in the Copilot impact dashboard now includes Copilot Chat and the VS Code Agents window, so you can see engagement across nine Copilot experiences. The adoption&#8230;\nThe post Copilot impact dashboard adds chat and VS Code agent usage appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-11-06-github-copilot-weekly-releases-november-2": {
+  "title": "GitHub Copilot weekly releases — November 2",
+  "date": "Fri, 06 Nov 2026 21:00:26 +0000",
+  "summary": "This week, Copilot comes to JetBrains Air and Xcode&#8217;s coding assistant, with updates to help you manage pull requests, settings, and agent sessions. GitHub Copilot app Set up Agent Merge&#8230;\nThe post GitHub Copilot weekly releases — November 2 appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-11-06-github-copilot-in-slack-and-teams-is-generally-available": {
+  "title": "@GitHub in Slack and Teams is generally available and more",
+  "date": "Fri, 06 Nov 2026 20:31:08 +0000",
+  "summary": "Turn conversations into code with @GitHub in Slack and Teams! Investigate bugs, create issues, implement changes, and open pull requests&#8212;all without leaving your conversation. What&#8217;s new Build and review together&#8230;\nThe post @GitHub in Slack and Teams is generally available and more appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-11-05-usage-metrics-api-adds-code-review-details-and-addressed-rate": {
   "title": "Usage metrics API adds code review details and addressed rate",
   "date": "Fri, 06 Nov 2026 00:19:07 +0000",
@@ -28,25 +48,5 @@
   "title": "GitHub Copilot is now available in Xcode&#8217;s coding assistant",
   "date": "Wed, 04 Nov 2026 19:10:40 +0000",
   "summary": "You can now work with GitHub Copilot directly in Xcode&#8217;s built-in coding assistant, bringing Copilot into your native Xcode workflow. The integration is now in public preview, available starting with&#8230;\nThe post GitHub Copilot is now available in Xcode&#8217;s coding assistant appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-11-03-byok-and-enterprise-custom-models-in-the-copilot-usage-api": {
-  "title": "BYOK and enterprise custom models in the Copilot usage API",
-  "date": "Wed, 04 Nov 2026 00:32:19 +0000",
-  "summary": "The Copilot usage metrics API now shows bring your own key (BYOK) usage across GitHub Copilot, so you can separate it from Copilot-hosted model usage. Reports cover two kinds of&#8230;\nThe post BYOK and enterprise custom models in the Copilot usage API appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-11-03-dependabot-version-updates-support-agent-package-manager": {
-  "title": "Dependabot version updates support Agent Package Manager",
-  "date": "Tue, 03 Nov 2026 20:24:07 +0000",
-  "summary": "You can now keep your AI agent skills, prompts, and instructions up to date with Dependabot version updates for Agent Package Manager (APM). Dependabot opens pull requests to update supported&#8230;\nThe post Dependabot version updates support Agent Package Manager appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-11-03-look-up-a-resources-cost-center-with-the-github-rest-api": {
-  "title": "Look up a resource&#8217;s cost center with the GitHub REST API",
-  "date": "Tue, 03 Nov 2026 15:27:13 +0000",
-  "summary": "You can now use the GitHub REST API to find which cost center a user, organization, repository, or enterprise team belongs to. Previously, you had to list every cost center&#8230;\nThe post Look up a resource&#8217;s cost center with the GitHub REST API appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air": {
-  "title": "GitHub Copilot is now available in JetBrains Air",
-  "date": "Tue, 03 Nov 2026 15:11:46 +0000",
-  "summary": "You can now delegate coding tasks, guide execution, and review results with GitHub Copilot in JetBrains Air. The integration uses the Agent Client Protocol (ACP) and supports tasks in your&#8230;\nThe post GitHub Copilot is now available in JetBrains Air appeared first on The GitHub Blog."
  }
 }

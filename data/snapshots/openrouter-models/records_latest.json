@@ -1,5 +1,17 @@
 {
  "models": {
+  "liquid/lfm-3-1.7b": {
+   "name": "LiquidAI: LFM3-1.7B",
+   "context_length": "262144",
+   "prompt_per_mtok": "0.08",
+   "completion_per_mtok": "0.2"
+  },
+  "liquid/lfm-3-1.7b:free": {
+   "name": "LiquidAI: LFM3-1.7B (free)",
+   "context_length": "262144",
+   "prompt_per_mtok": "0",
+   "completion_per_mtok": "0"
+  },
   "google/gemini-omni-1.2-flash": {
    "name": "Google: Gemini Omni 1.2 Flash",
    "context_length": "131072",
@@ -81,8 +93,8 @@
   "minimax/minimax-m3.1-flash": {
    "name": "MiniMax: MiniMax M3.1 Flash",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.075",
-   "completion_per_mtok": "0.3"
+   "prompt_per_mtok": "0.15",
+   "completion_per_mtok": "0.6"
   },
   "deepseek/deepseek-v4.1-flash-1017": {
    "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
@@ -239,8 +251,8 @@
   "inclusionai/ling-3.1-flash": {
    "name": "inclusionAI: Ling 3.1 Flash",
    "context_length": "1000000",
-   "prompt_per_mtok": "0.075",
-   "completion_per_mtok": "0.225"
+   "prompt_per_mtok": "0.045",
+   "completion_per_mtok": "0.135"
   },
   "openai/gpt-6.1-sol-pro": {
    "name": "OpenAI: GPT-6.1 Sol Pro",
@@ -607,13 +619,13 @@
   "tencent/hy4-preview": {
    "name": "Tencent: Hy4 preview",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.7506",
-   "completion_per_mtok": "2.2509"
+   "prompt_per_mtok": "0.834",
+   "completion_per_mtok": "2.501"
   },
   "~z-ai/glm-flash-latest": {
    "name": "Z.ai: GLM Flash Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0284",
+   "prompt_per_mtok": "0.0285",
    "completion_per_mtok": "0.0923"
   },
   "qwen/qwen3.8-flash": {
@@ -813,13 +825,13 @@
   "~deepseek/deepseek-v4-flash-latest": {
    "name": "DeepSeek: DeepSeek V4 Flash Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0434",
+   "prompt_per_mtok": "0.0553",
    "completion_per_mtok": "0.3"
   },
   "deepseek/deepseek-v4-flash-0731": {
    "name": "DeepSeek: DeepSeek V4 Flash 0731",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0434",
+   "prompt_per_mtok": "0.0553",
    "completion_per_mtok": "0.3"
   },
   "deepseek/deepseek-v4-flash-0731:batch": {
@@ -1021,8 +1033,8 @@
   "tencent/hy3": {
    "name": "Tencent: Hy3",
    "context_length": "262144",
-   "prompt_per_mtok": "0.0825",
-   "completion_per_mtok": "0.33"
+   "prompt_per_mtok": "0.132",
+   "completion_per_mtok": "0.528"
   },
   "anthropic/claude-sonnet-5": {
    "name": "Anthropic: Claude Sonnet 5",
@@ -1328,8 +1340,8 @@
   "deepseek/deepseek-v4-pro": {
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.7907",
-   "completion_per_mtok": "1.5813"
+   "prompt_per_mtok": "0.8599",
+   "completion_per_mtok": "1.7198"
   },
   "deepseek/deepseek-v4-flash": {
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
@@ -1650,8 +1662,8 @@
   "minimax/minimax-m2.5": {
    "name": "MiniMax: MiniMax M2.5",
    "context_length": "204800",
-   "prompt_per_mtok": "0.27",
-   "completion_per_mtok": "0.95"
+   "prompt_per_mtok": "0.3",
+   "completion_per_mtok": "1.2"
   },
   "z-ai/glm-5": {
    "name": "Z.ai: GLM 5",
@@ -2110,8 +2122,8 @@
   "openai/gpt-oss-120b": {
    "name": "OpenAI: gpt-oss-120b",
    "context_length": "131072",
-   "prompt_per_mtok": "0.021",
-   "completion_per_mtok": "0.078"
+   "prompt_per_mtok": "0.013",
+   "completion_per_mtok": "0.049"
   },
   "openai/gpt-oss-120b:batch": {
    "name": "OpenAI: gpt-oss-120b (batch)",
