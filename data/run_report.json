@@ -1,42 +1,50 @@
 {
- "run_at": "2026-11-09T06:19:00Z",
+ "run_at": "2026-11-09T22:17:10Z",
  "results": [
   {
    "id": "anthropic-pricing",
    "ok": true,
-   "http_chars": 52614,
-   "changed": false
+   "http_chars": 55180,
+   "changed": true,
+   "changes": 7,
+   "announcements": 0
   },
   {
    "id": "anthropic-limits",
    "ok": true,
-   "http_chars": 31650,
-   "changed": false
+   "http_chars": 32969,
+   "changed": true,
+   "changes": 3,
+   "announcements": 0
   },
   {
    "id": "openrouter-models",
    "ok": true,
-   "http_chars": 829239,
+   "http_chars": 834008,
    "changed": true,
-   "changes": 8,
+   "changes": 26,
    "announcements": 0
   },
   {
    "id": "deepseek-pricing",
    "ok": true,
-   "http_chars": 51177,
-   "changed": false
+   "http_chars": 27473,
+   "changed": true,
+   "changes": 0,
+   "announcements": 0
   },
   {
    "id": "mistral-models",
    "ok": true,
-   "http_chars": 919208,
-   "changed": false
+   "http_chars": 922918,
+   "changed": true,
+   "changes": 0,
+   "announcements": 0
   },
   {
    "id": "google-gemini-pricing",
    "ok": true,
-   "http_chars": 141239,
+   "http_chars": 141294,
    "changed": true,
    "changes": 0,
    "announcements": 0
@@ -44,39 +52,47 @@
   {
    "id": "github-copilot-plans",
    "ok": true,
-   "http_chars": 1044753,
-   "changed": false
-  },
-  {
-   "id": "github-copilot-premium",
-   "ok": true,
-   "http_chars": 617072,
-   "changed": false
-  },
-  {
-   "id": "anthropic-changelog",
-   "ok": true,
-   "http_chars": 138142,
-   "changed": false
-  },
-  {
-   "id": "github-changelog-rss",
-   "ok": true,
-   "http_chars": 59534,
-   "changed": false
-  },
-  {
-   "id": "openai-news-rss",
-   "ok": true,
-   "http_chars": 831044,
+   "http_chars": 1046317,
    "changed": true,
    "changes": 0,
    "announcements": 0
   },
   {
+   "id": "github-copilot-premium",
+   "ok": true,
+   "http_chars": 618636,
+   "changed": true,
+   "changes": 0,
+   "announcements": 0
+  },
+  {
+   "id": "anthropic-changelog",
+   "ok": true,
+   "http_chars": 143335,
+   "changed": true,
+   "changes": 0,
+   "announcements": 1
+  },
+  {
+   "id": "github-changelog-rss",
+   "ok": true,
+   "http_chars": 60859,
+   "changed": true,
+   "changes": 0,
+   "announcements": 1
+  },
+  {
+   "id": "openai-news-rss",
+   "ok": true,
+   "http_chars": 833471,
+   "changed": true,
+   "changes": 0,
+   "announcements": 4
+  },
+  {
    "id": "gemini-release-notes",
    "ok": true,
-   "http_chars": 102866,
+   "http_chars": 102956,
    "changed": true,
    "changes": 0,
    "announcements": 0

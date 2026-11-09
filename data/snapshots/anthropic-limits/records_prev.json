@@ -15,7 +15,12 @@
  "Setting your own spend limit": {},
  "Rate limits": {},
  "Cache-aware ITPM": {
-  "Claude Fable 5.x<sup>1</sup>": {
+  "Claude Fable 5.2": {
+   "Maximum requests per minute (RPM)": "13,000",
+   "Maximum input tokens per minute (ITPM)": "4,000,000",
+   "Maximum output tokens per minute (OTPM)": "800,000"
+  },
+  "Claude Fable 5.1 and Claude Fable 5<sup>1</sup>": {
    "Maximum requests per minute (RPM)": "13,000",
    "Maximum input tokens per minute (ITPM)": "4,000,000",
    "Maximum output tokens per minute (OTPM)": "800,000"

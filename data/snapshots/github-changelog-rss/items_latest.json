@@ -1,4 +1,9 @@
 {
+ "https://github.blog/changelog/2026-11-09-secret-scanning-detects-secrets-in-github-actions-workflow-logs": {
+  "title": "Secret scanning detects secrets in GitHub Actions workflow logs",
+  "date": "Mon, 09 Nov 2026 09:01:37 +0000",
+  "summary": "GitHub secret scanning now detects secrets in GitHub Actions workflow logs, in addition to issues, wikis, discussions, and pull requests. Actions workflow log scanning is available in public preview. How&#8230;\nThe post Secret scanning detects secrets in GitHub Actions workflow logs appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-11-06-copilot-code-review-api-management-and-review-overview-updates": {
   "title": "Copilot code review: API management and review overview updates",
   "date": "Sat, 07 Nov 2026 00:27:19 +0000",
@@ -43,10 +48,5 @@
   "title": "CodeQL 2.27.4 improves accuracy and query metadata",
   "date": "Wed, 04 Nov 2026 20:04:52 +0000",
   "summary": "CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We&#8217;ve recently released CodeQL 2.27.4 with query accuracy improvements across several&#8230;\nThe post CodeQL 2.27.4 improves accuracy and query metadata appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-11-04-github-copilot-is-now-available-in-xcodes-coding-assistant": {
-  "title": "GitHub Copilot is now available in Xcode&#8217;s coding assistant",
-  "date": "Wed, 04 Nov 2026 19:10:40 +0000",
-  "summary": "You can now work with GitHub Copilot directly in Xcode&#8217;s built-in coding assistant, bringing Copilot into your native Xcode workflow. The integration is now in public preview, available starting with&#8230;\nThe post GitHub Copilot is now available in Xcode&#8217;s coding assistant appeared first on The GitHub Blog."
  }
 }

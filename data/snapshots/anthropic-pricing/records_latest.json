@@ -1,5 +1,19 @@
 {
  "Model pricing": {
+  "Claude Fable 5.2": {
+   "Base input tokens": "$8 / MTok",
+   "5m cache writes": "$10 / MTok",
+   "1h cache writes": "$16 / MTok",
+   "Cache hits and refreshes": "$0.20 / MTok<sup>1</sup>",
+   "Output tokens": "$40 / MTok"
+  },
+  "Claude Mythos 5.2 (limited availability)": {
+   "Base input tokens": "$8 / MTok",
+   "5m cache writes": "$10 / MTok",
+   "1h cache writes": "$16 / MTok",
+   "Cache hits and refreshes": "$0.20 / MTok<sup>1</sup>",
+   "Output tokens": "$40 / MTok"
+  },
   "Claude Fable 5.1": {
    "Base input tokens": "$10 / MTok",
    "5m cache writes": "$12.50 / MTok",
@@ -207,12 +221,20 @@
    "Duration": "Cache valid for 1 hour"
   },
   "Cache read (hit)": {
-   "Multiplier": "0.1x base input price (0.025x on Claude Fable 5.1 and Claude Mythos 5.1; 0.05x on Claude Opus 5.5 and Claude Sonnet 5.5)",
+   "Multiplier": "0.1x base input price (0.025x on Claude Fable 5.2, Claude Mythos 5.2, Claude Fable 5.1, and Claude Mythos 5.1; 0.05x on Claude Opus 5.5 and Claude Sonnet 5.5)",
    "Duration": "Same duration as the preceding write"
   }
  },
  "Data residency pricing": {},
  "Fast mode pricing": {
+  "Claude Fable 5.2": {
+   "Input": "$16 USD / MTok",
+   "Output": "$80 USD / MTok"
+  },
+  "Claude Mythos 5.2": {
+   "Input": "$16 USD / MTok",
+   "Output": "$80 USD / MTok"
+  },
   "Claude Opus 5.5": {
    "Input": "$8 USD / MTok",
    "Output": "$40 USD / MTok"
@@ -223,6 +245,14 @@
   }
  },
  "Batch processing": {
+  "Claude Fable 5.2": {
+   "Batch input": "$4 / MTok",
+   "Batch output": "$20 / MTok"
+  },
+  "Claude Mythos 5.2 (limited availability)": {
+   "Batch input": "$4 / MTok",
+   "Batch output": "$20 / MTok"
+  },
   "Claude Fable 5.1": {
    "Batch input": "$5 / MTok",
    "Batch output": "$25 / MTok"
