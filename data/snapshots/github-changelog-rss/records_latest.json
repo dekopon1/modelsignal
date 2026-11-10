@@ -1,4 +1,19 @@
 {
+ "https://github.blog/changelog/2026-11-10-c-language-server-now-auto-configures-msbuild-builds": {
+  "title": "C++ language server now auto-configures MSBuild builds",
+  "date": "Tue, 10 Nov 2026 17:04:10 +0000",
+  "summary": "The Microsoft C++ Language Server for GitHub Copilot CLI now bundles its MSBuild compile commands extractor and invokes it automatically. An agent no longer needs to discover and run a&#8230;\nThe post C++ language server now auto-configures MSBuild builds appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-11-10-dependabot-alerts-will-pause-on-inactive-repositories": {
+  "title": "Dependabot alerts will pause on inactive repositories",
+  "date": "Tue, 10 Nov 2026 14:20:05 +0000",
+  "summary": "Starting December 8, 2026, GitHub will turn off Dependabot alerts on most repositories with no activity in the past year. Their existing alerts are archived, not deleted, and you can&#8230;\nThe post Dependabot alerts will pause on inactive repositories appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-11-10-a-more-informative-github-dashboard": {
+  "title": "A more informative GitHub dashboard",
+  "date": "Tue, 10 Nov 2026 10:34:35 +0000",
+  "summary": "Since the new dashboard experience became the default, we&#8217;ve heard from developers that it used too much space to show too little. Generous padding, wrapped titles, and a low default&#8230;\nThe post A more informative GitHub dashboard appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-11-09-claude-fable-5-2-in-github-copilot": {
   "title": "Claude Fable 5.2 in GitHub Copilot",
   "date": "Mon, 09 Nov 2026 16:46:43 +0000",
@@ -33,20 +48,5 @@
   "title": "Usage metrics API adds code review details and addressed rate",
   "date": "Fri, 06 Nov 2026 00:19:07 +0000",
   "summary": "The enterprise and organization repository-level Copilot usage metrics reports now show what happens to Copilot code review feedback. A new copilot_code_review object on each repos-1-day row reports how many Copilot-reviewed&#8230;\nThe post Usage metrics API adds code review details and addressed rate appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-11-05-usage-metrics-api-flags-telemetry-and-version-gaps": {
-  "title": "Usage metrics API flags telemetry and version gaps",
-  "date": "Fri, 06 Nov 2026 00:08:31 +0000",
-  "summary": "The Copilot usage metrics API now shows which users are missing client telemetry or are running IDE or extension versions below the usage metrics minimums. New per-user fields appear in&#8230;\nThe post Usage metrics API flags telemetry and version gaps appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-11-05-secret-scanning-upgrades-detectors-adds-spacex-as-partner": {
-  "title": "Secret scanning upgrades detectors, adds SpaceX as partner",
-  "date": "Thu, 05 Nov 2026 15:48:50 +0000",
-  "summary": "This update expands secret scanning&#8217;s detection coverage: New partner: SpaceX is now a secret scanning partner. New detector: GitHub now detects starlink_public_api_v2_secret. Upgraded detectors: Alibaba, AWS, Google, OpenVSX, Pydantic Services,&#8230;\nThe post Secret scanning upgrades detectors, adds SpaceX as partner appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview": {
-  "title": "New pull request overview page in public preview",
-  "date": "Thu, 05 Nov 2026 08:00:00 +0000",
-  "summary": "On a long pull request, checking what&#8217;s blocking often means scrolling past dozens of comments and timeline events just to reach the merge box. And once you&#8217;re there, you still&#8230;\nThe post New pull request overview page in public preview appeared first on The GitHub Blog."
  }
 }
