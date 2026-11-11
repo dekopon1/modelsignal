@@ -1,10 +1,10 @@
 {
  "models": {
-  "baidu/ernie-5.5-flash-preview": {
-   "name": "Baidu: ERNIE-5.5-Flash-Preview",
+  "baidu/ernie-5.5-flash-preview:free": {
+   "name": "Baidu: ERNIE-5.5-Flash-Preview (free)",
    "context_length": "1024000",
-   "prompt_per_mtok": "0.28",
-   "completion_per_mtok": "1.13"
+   "prompt_per_mtok": "0",
+   "completion_per_mtok": "0"
   },
   "baidu/ernie-light-dt-1.0-intl": {
    "name": "Baidu: ERNIE-Light-DT-1.0",
@@ -699,7 +699,7 @@
   "z-ai/glm-5.3-flash:batch": {
    "name": "Z.ai: GLM 5.3 Flash (batch)",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.042",
+   "prompt_per_mtok": "0.047",
    "completion_per_mtok": "0.061"
   },
   "meta/muse-spark-1.2-contributor": {
@@ -793,12 +793,6 @@
    "context_length": "1048576",
    "prompt_per_mtok": "2",
    "completion_per_mtok": "6"
-  },
-  "bytedance-seed/seed-2.0-code": {
-   "name": "ByteDance Seed: Seed-2.0-Code",
-   "context_length": "262144",
-   "prompt_per_mtok": "0.5",
-   "completion_per_mtok": "3"
   },
   "deepseek/deepseek-v4-pro-0813": {
    "name": "DeepSeek: DeepSeek V4 Pro 0813",
@@ -1402,8 +1396,8 @@
   "deepseek/deepseek-v4-pro": {
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.9553",
-   "completion_per_mtok": "1.9105"
+   "prompt_per_mtok": "0.8923",
+   "completion_per_mtok": "1.7845"
   },
   "deepseek/deepseek-v4-flash": {
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
@@ -1575,7 +1569,7 @@
   },
   "nvidia/nemotron-3-super-120b-a12b": {
    "name": "NVIDIA: Nemotron 3 Super",
-   "context_length": "1048576",
+   "context_length": "262144",
    "prompt_per_mtok": "0.075",
    "completion_per_mtok": "0.4"
   },
@@ -1718,8 +1712,8 @@
   "minimax/minimax-m2.5": {
    "name": "MiniMax: MiniMax M2.5",
    "context_length": "200000",
-   "prompt_per_mtok": "0.3",
-   "completion_per_mtok": "1.2"
+   "prompt_per_mtok": "0.27",
+   "completion_per_mtok": "1.08"
   },
   "z-ai/glm-5": {
    "name": "Z.ai: GLM 5",
@@ -1786,18 +1780,6 @@
    "context_length": "400000",
    "prompt_per_mtok": "1.75",
    "completion_per_mtok": "14"
-  },
-  "bytedance-seed/seed-1.6-flash": {
-   "name": "ByteDance Seed: Seed 1.6 Flash",
-   "context_length": "262144",
-   "prompt_per_mtok": "0.075",
-   "completion_per_mtok": "0.3"
-  },
-  "bytedance-seed/seed-1.6": {
-   "name": "ByteDance Seed: Seed 1.6",
-   "context_length": "262144",
-   "prompt_per_mtok": "0.25",
-   "completion_per_mtok": "2"
   },
   "z-ai/glm-4.7": {
    "name": "Z.ai: GLM 4.7",
