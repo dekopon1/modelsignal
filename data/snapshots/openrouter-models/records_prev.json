@@ -155,8 +155,8 @@
   "minimax/minimax-m3.1-flash": {
    "name": "MiniMax: MiniMax M3.1 Flash",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.15",
-   "completion_per_mtok": "0.6"
+   "prompt_per_mtok": "0.075",
+   "completion_per_mtok": "0.3"
   },
   "deepseek/deepseek-v4.1-flash-1017": {
    "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
@@ -309,6 +309,12 @@
    "context_length": "1000000",
    "prompt_per_mtok": "0.045",
    "completion_per_mtok": "0.135"
+  },
+  "unbiased/pareto-26.10-preview": {
+   "name": "Pareto 26.10 Preview",
+   "context_length": "1048576",
+   "prompt_per_mtok": "0.8",
+   "completion_per_mtok": "3.2"
   },
   "openai/gpt-6.1-sol-pro": {
    "name": "OpenAI: GPT-6.1 Sol Pro",
@@ -571,8 +577,8 @@
   "deepseek/deepseek-v4.1-flash": {
    "name": "DeepSeek: DeepSeek V4.1 Flash",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.051",
-   "completion_per_mtok": "0.567"
+   "prompt_per_mtok": "0.006",
+   "completion_per_mtok": "0.5"
   },
   "deepseek/deepseek-v4.1-flash:batch": {
    "name": "DeepSeek: DeepSeek V4.1 Flash (batch)",
@@ -670,7 +676,7 @@
    "name": "IBM: Granite 4.2 8B",
    "context_length": "131072",
    "prompt_per_mtok": "0.06",
-   "completion_per_mtok": "0.25"
+   "completion_per_mtok": "0.15"
   },
   "tencent/hy4-preview": {
    "name": "Tencent: Hy4 preview",
@@ -747,8 +753,8 @@
   "z-ai/glm-5.3:batch": {
    "name": "Z.ai: GLM 5.3 (batch)",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.45",
-   "completion_per_mtok": "2"
+   "prompt_per_mtok": "0.35",
+   "completion_per_mtok": "1.075"
   },
   "qwen/qwen3.8-27b": {
    "name": "Qwen: Qwen3.8 27B",
@@ -1047,8 +1053,8 @@
   "openai/gpt-5.6-sol": {
    "name": "OpenAI: GPT-5.6 Sol",
    "context_length": "1050000",
-   "prompt_per_mtok": "4",
-   "completion_per_mtok": "20"
+   "prompt_per_mtok": "4.4",
+   "completion_per_mtok": "22"
   },
   "openai/gpt-5.6-sol:batch": {
    "name": "OpenAI: GPT-5.6 Sol (batch)",
@@ -1138,7 +1144,7 @@
   "z-ai/glm-5.2:batch": {
    "name": "Z.ai: GLM 5.2 (batch)",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.527",
+   "prompt_per_mtok": "0.35",
    "completion_per_mtok": "1.075"
   },
   "moonshotai/kimi-k2.7-code": {
@@ -1396,8 +1402,8 @@
   "deepseek/deepseek-v4-pro": {
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.8923",
-   "completion_per_mtok": "1.7845"
+   "prompt_per_mtok": "0.9553",
+   "completion_per_mtok": "1.9105"
   },
   "deepseek/deepseek-v4-flash": {
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
@@ -1456,8 +1462,8 @@
   "z-ai/glm-5.1": {
    "name": "Z.ai: GLM 5.1",
    "context_length": "204800",
-   "prompt_per_mtok": "1.33",
-   "completion_per_mtok": "4.18"
+   "prompt_per_mtok": "1.4",
+   "completion_per_mtok": "4.4"
   },
   "google/gemma-4-26b-a4b-it": {
    "name": "Google: Gemma 4 26B A4B ",
@@ -2471,7 +2477,7 @@
    "name": "Google: Gemma 3 27B",
    "context_length": "131072",
    "prompt_per_mtok": "0.08",
-   "completion_per_mtok": "0.45"
+   "completion_per_mtok": "0.35"
   },
   "thedrummer/skyfall-36b-v2": {
    "name": "TheDrummer: Skyfall 36B V2",

@@ -1,4 +1,9 @@
 {
+ "https://github.blog/changelog/2026-11-11-issue-types-and-fields-are-available-for-personal-accounts": {
+  "title": "Issue types and fields are available for personal accounts",
+  "date": "Wed, 11 Nov 2026 17:16:46 +0000",
+  "summary": "Issue types and issue fields are now generally available on repositories owned by personal accounts. This brings the same planning capabilities to individual developers and open source maintainers to standardize&#8230;\nThe post Issue types and fields are available for personal accounts appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-11-10-github-app-support-for-enterprise-copilot-seat-management": {
   "title": "GitHub App support for Enterprise Copilot seat management",
   "date": "Wed, 11 Nov 2026 00:10:31 +0000",
@@ -43,10 +48,5 @@
   "title": "Copilot impact dashboard adds chat and VS Code agent usage",
   "date": "Fri, 06 Nov 2026 22:17:28 +0000",
   "summary": "The Agent adoption chart in the Copilot impact dashboard now includes Copilot Chat and the VS Code Agents window, so you can see engagement across nine Copilot experiences. The adoption&#8230;\nThe post Copilot impact dashboard adds chat and VS Code agent usage appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-11-06-github-copilot-weekly-releases-november-2": {
-  "title": "GitHub Copilot weekly releases — November 2",
-  "date": "Fri, 06 Nov 2026 21:00:26 +0000",
-  "summary": "This week, Copilot comes to JetBrains Air and Xcode&#8217;s coding assistant, with updates to help you manage pull requests, settings, and agent sessions. GitHub Copilot app Set up Agent Merge&#8230;\nThe post GitHub Copilot weekly releases — November 2 appeared first on The GitHub Blog."
  }
 }

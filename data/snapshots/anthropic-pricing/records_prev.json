@@ -164,7 +164,7 @@
    "Details": "$0.01 USD per CCU (fixed; discounts apply at token-to-CCU conversion, not to the CCU price)"
   },
   "Conversion": {
-   "Details": "Token usage rated in USD at standard per-model, per-feature rates (same as Claude API pricing), then converted to CCUs at $0.01 USD per CCU"
+   "Details": "Token usage rated in USD at standard per-model, per-feature rates (same as Model pricing), then converted to CCUs at $0.01 USD per CCU"
   },
   "Billing cadence": {
    "Details": "Hourly metering to AWS Marketplace; monthly invoices"
@@ -192,7 +192,7 @@
    "Details": "$0.01 USD per CCU (fixed; discounts apply at token-to-CCU conversion, not to the CCU price)"
   },
   "Conversion": {
-   "Details": "Token usage rated in USD at standard per-model, per-feature rates (same as Claude API pricing), then converted to CCUs at $0.01 USD per CCU"
+   "Details": "Token usage rated in USD at standard per-model, per-feature rates (same as Model pricing), then converted to CCUs at $0.01 USD per CCU"
   },
   "Billing cadence": {
    "Details": "Hourly metering to the Azure Marketplace; monthly invoices"
@@ -221,8 +221,28 @@
    "Duration": "Cache valid for 1 hour"
   },
   "Cache read (hit)": {
-   "Multiplier": "0.1x base input price (0.025x on Claude Fable 5.2, Claude Mythos 5.2, Claude Fable 5.1, and Claude Mythos 5.1; 0.05x on Claude Opus 5.5 and Claude Sonnet 5.5)",
+   "Multiplier": "0.1x base input price on most models",
    "Duration": "Same duration as the preceding write"
+  },
+  "Claude Fable 5.2 and Claude Mythos 5.2": {
+   "Cache hit multiplier": "0.025x",
+   "Cache hit price per million tokens": "$0.20 USD"
+  },
+  "Claude Fable 5.1 and Claude Mythos 5.1": {
+   "Cache hit multiplier": "0.025x",
+   "Cache hit price per million tokens": "$0.25 USD"
+  },
+  "Claude Opus 5.5": {
+   "Cache hit multiplier": "0.05x",
+   "Cache hit price per million tokens": "$0.20 USD"
+  },
+  "Claude Sonnet 5.5": {
+   "Cache hit multiplier": "0.05x",
+   "Cache hit price per million tokens": "$0.10 USD"
+  },
+  "All other models": {
+   "Cache hit multiplier": "0.1x",
+   "Cache hit price per million tokens": "See Model pricing"
   }
  },
  "Data residency pricing": {},
