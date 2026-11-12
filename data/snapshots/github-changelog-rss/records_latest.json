@@ -1,4 +1,19 @@
 {
+ "https://github.blog/changelog/2026-11-12-actions-for-arm32-linux-windows-retirement": {
+  "title": "Actions for ARM32 Linux &#038; Windows retirement",
+  "date": "Thu, 12 Nov 2026 20:59:36 +0000",
+  "summary": "GitHub Actions hosted runners will be ending support for ARM32 job execution on Windows and Linux by 8th Dec 2026. This follows our end of support for node20 where Node&#8230;\nThe post Actions for ARM32 Linux &amp; Windows retirement appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-11-12-secret-scanning-adds-a-detector-for-cloudflare": {
+  "title": "Secret scanning detects Cloudflare service tokens",
+  "date": "Thu, 12 Nov 2026 14:38:25 +0000",
+  "summary": "Secret scanning now detects Cloudflare service tokens. Detectors added Secret scanning now automatically detects the following new secret type in your repositories. Provider Secret type Cloudflare cloudflare_access_service_token Partner secrets are&#8230;\nThe post Secret scanning detects Cloudflare service tokens appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-11-12-public-monitoring-alerts-now-have-direct-links": {
+  "title": "Public monitoring alerts now have direct links",
+  "date": "Thu, 12 Nov 2026 14:37:38 +0000",
+  "summary": "You can now access individual public monitoring alerts with a direct link to each alert. In your enterprise&#8217;s Public monitoring view, click an alert number to open the alert. You&#8230;\nThe post Public monitoring alerts now have direct links appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-11-11-issue-types-and-fields-are-available-for-personal-accounts": {
   "title": "Issue types and fields are available for personal accounts",
   "date": "Wed, 11 Nov 2026 17:16:46 +0000",
@@ -33,20 +48,5 @@
   "title": "Claude Fable 5.2 in GitHub Copilot",
   "date": "Mon, 09 Nov 2026 16:46:43 +0000",
   "summary": "Claude Fable 5.2, Anthropic&#8217;s newest Fable model, is now generally available in GitHub Copilot. You can use it for complex, multistep coding tasks across large codebases. In early testing, Fable&#8230;\nThe post Claude Fable 5.2 in GitHub Copilot appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-11-09-secret-scanning-detects-secrets-in-github-actions-workflow-logs": {
-  "title": "Secret scanning detects secrets in GitHub Actions workflow logs",
-  "date": "Mon, 09 Nov 2026 09:01:37 +0000",
-  "summary": "GitHub secret scanning now detects secrets in GitHub Actions workflow logs, in addition to issues, wikis, discussions, and pull requests. Actions workflow log scanning is available in public preview. How&#8230;\nThe post Secret scanning detects secrets in GitHub Actions workflow logs appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-11-06-copilot-code-review-api-management-and-review-overview-updates": {
-  "title": "Copilot code review: API management and review overview updates",
-  "date": "Sat, 07 Nov 2026 00:27:19 +0000",
-  "summary": "You can now manage GitHub Copilot code review settings through the REST and GraphQL APIs, from enterprise policy down to individual repositories. Copilot&#8217;s review overview comment is now more compact,&#8230;\nThe post Copilot code review: API management and review overview updates appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-11-06-copilot-impact-dashboard-adds-chat-and-vs-code-agent-usage": {
-  "title": "Copilot impact dashboard adds chat and VS Code agent usage",
-  "date": "Fri, 06 Nov 2026 22:17:28 +0000",
-  "summary": "The Agent adoption chart in the Copilot impact dashboard now includes Copilot Chat and the VS Code Agents window, so you can see engagement across nine Copilot experiences. The adoption&#8230;\nThe post Copilot impact dashboard adds chat and VS Code agent usage appeared first on The GitHub Blog."
  }
 }

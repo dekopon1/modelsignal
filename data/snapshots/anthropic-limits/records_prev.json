@@ -66,6 +66,7 @@
    "Maximum output tokens per minute (OTPM)": "2,000,000"
   }
  },
+ "Ramp limits": {},
  "Message Batches API": {
   "1,000": {
    "Maximum batch requests in processing queue": "200,000",
@@ -95,7 +96,7 @@
  "Setting lower limits for workspaces": {},
  "Response headers": {
   "retry-after": {
-   "Description": "The number of seconds to wait until you can retry the request. Earlier retries fail. Not every 429 carries it; the spend-cap 429 never does (see Reaching your spend cap)."
+   "Description": "The number of seconds to wait until you can retry the request. Earlier retries might fail. Not every 429 carries it; the spend-cap 429 never does (see Reaching your spend cap)."
   },
   "anthropic-ratelimit-requests-limit": {
    "Description": "The maximum number of requests allowed within any rate limit period."
