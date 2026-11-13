@@ -69,14 +69,32 @@
    "deepseek-v4-pro": "500"
   }
  },
- "Search & Fetch Pricing​": {
-  "Search": {
-   "Unit": "Per 1,000 successful requests",
+ "Web Search & Fetch Pricing​": {
+  "Search (text, image)": {
+   "Unit": "Per 1,000 searches",
    "Price": "$0.75"
   },
-  "Fetch": {
-   "Unit": "Per 1,000 successful requests",
+  "Web fetch": {
+   "Unit": "Per 1,000 fetches",
    "Price": "$0.75"
+  }
+ },
+ "File Parsing & OCR Pricing​": {
+  "File parsing, OCR API": {
+   "Unit": "Per 1,000 pages",
+   "Price": "$0.225"
+  }
+ },
+ "Speech Pricing​": {
+  "Text to Speech (TTS)": {
+   "Unit": "Per 10,000 characters",
+   "List price": "$0.45",
+   "Limited-time price (50% off)": "$0.225"
+  },
+  "Speech to Text (ASR)": {
+   "Unit": "Per hour of audio",
+   "List price": "$0.116",
+   "Limited-time price (50% off)": "$0.058"
   }
  },
  "Deduction Rules​": {}
