@@ -1,8 +1,18 @@
 {
+ "https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december": {
+  "title": "Upcoming deprecation of selected GitHub Copilot models in December",
+  "date": "Fri, 13 Nov 2026 20:40:05 +0000",
+  "summary": "We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on December 14, 2026: Model Deprecation date&#8230;\nThe post Upcoming deprecation of selected GitHub Copilot models in December appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-11-13-github-enterprise-server-support-in-the-github-copilot-app": {
   "title": "GitHub Enterprise Server support in the GitHub Copilot app",
   "date": "Fri, 13 Nov 2026 18:27:13 +0000",
   "summary": "You can now bring your work on GitHub Enterprise Server (GHES) into the GitHub Copilot app. Add your GHES account to work with remote repositories, issues, and pull requests. This&#8230;\nThe post GitHub Enterprise Server support in the GitHub Copilot app appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot": {
+  "title": "Gemini 4 Hydrogen in GitHub Copilot",
+  "date": "Fri, 13 Nov 2026 18:23:48 +0000",
+  "summary": "Gemini 4 Hydrogen, Google&#8217;s latest Flash model, is now generally available in GitHub Copilot. It is designed for fast, efficient agentic coding, tool use, and multistep workflows, with improved instruction&#8230;\nThe post Gemini 4 Hydrogen in GitHub Copilot appeared first on The GitHub Blog."
  },
  "https://github.blog/changelog/2026-11-13-manage-ai-scan-for-repositories-using-the-rest-api": {
   "title": "Manage AI Scan for repositories using the REST API",
@@ -38,15 +48,5 @@
   "title": "Gemini 4 Carbon in GitHub Copilot",
   "date": "Tue, 10 Nov 2026 19:26:51 +0000",
   "summary": "Gemini 4 Carbon, Google&#8217;s latest model, is now generally available in GitHub Copilot. It is designed for complex coding, agentic, and reasoning tasks, with a focus on secure code generation&#8230;\nThe post Gemini 4 Carbon in GitHub Copilot appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-11-10-c-language-server-now-auto-configures-msbuild-builds": {
-  "title": "C++ language server now auto-configures MSBuild builds",
-  "date": "Tue, 10 Nov 2026 17:04:10 +0000",
-  "summary": "The Microsoft C++ Language Server for GitHub Copilot CLI now bundles its MSBuild compile commands extractor and invokes it automatically. An agent no longer needs to discover and run a&#8230;\nThe post C++ language server now auto-configures MSBuild builds appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-11-10-dependabot-alerts-will-pause-on-inactive-repositories": {
-  "title": "Dependabot alerts will pause on inactive repositories",
-  "date": "Tue, 10 Nov 2026 14:20:05 +0000",
-  "summary": "Starting December 8, 2026, GitHub will turn off Dependabot alerts on most repositories with no activity in the past year. Their existing alerts are archived, not deleted, and you can&#8230;\nThe post Dependabot alerts will pause on inactive repositories appeared first on The GitHub Blog."
  }
 }
