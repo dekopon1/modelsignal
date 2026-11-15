@@ -2,84 +2,84 @@
  "anthropic-pricing": {
   "hash": "644052493d223a0f",
   "last_snapshot": "snapshots/anthropic-pricing/2026-11-12T233507Z.txt.gz",
-  "last_checked": "2026-11-14T22:19:59Z",
+  "last_checked": "2026-11-15T06:23:27Z",
   "last_changed": "2026-11-12T00:38:23Z",
   "first_seen": "2026-08-22T20:02:52Z"
  },
  "anthropic-limits": {
   "hash": "7d6e77656e699646",
   "last_snapshot": "snapshots/anthropic-limits/2026-11-12T233507Z.txt.gz",
-  "last_checked": "2026-11-14T22:19:59Z",
+  "last_checked": "2026-11-15T06:23:27Z",
   "last_changed": "2026-11-12T23:35:07Z",
   "first_seen": "2026-08-22T20:02:52Z"
  },
  "openrouter-models": {
-  "hash": "033539ce4f1546c2",
-  "last_snapshot": "snapshots/openrouter-models/2026-11-14T221959Z.txt.gz",
-  "last_checked": "2026-11-14T22:19:59Z",
-  "last_changed": "2026-11-14T22:19:59Z",
+  "hash": "166394b92eb1e3b5",
+  "last_snapshot": "snapshots/openrouter-models/2026-11-15T062328Z.txt.gz",
+  "last_checked": "2026-11-15T06:23:28Z",
+  "last_changed": "2026-11-15T06:23:28Z",
   "first_seen": "2026-08-22T20:02:52Z"
  },
  "deepseek-pricing": {
   "hash": "6547fc672894a08d",
   "last_snapshot": "snapshots/deepseek-pricing/2026-11-13T193812Z.txt.gz",
-  "last_checked": "2026-11-14T22:20:00Z",
+  "last_checked": "2026-11-15T06:23:31Z",
   "last_changed": "2026-11-13T19:38:12Z",
   "first_seen": "2026-08-22T20:02:54Z"
  },
  "mistral-models": {
   "hash": "5efd1430cd3dd1a9",
   "last_snapshot": "snapshots/mistral-models/2026-11-14T222000Z.txt.gz",
-  "last_checked": "2026-11-14T22:20:00Z",
+  "last_checked": "2026-11-15T06:23:31Z",
   "last_changed": "2026-10-30T22:15:33Z",
   "first_seen": "2026-08-22T20:02:54Z"
  },
  "google-gemini-pricing": {
-  "hash": "d2140b2c3426d689",
-  "last_snapshot": "snapshots/google-gemini-pricing/2026-11-14T222002Z.txt.gz",
-  "last_checked": "2026-11-14T22:20:02Z",
+  "hash": "285d164fc80d8af7",
+  "last_snapshot": "snapshots/google-gemini-pricing/2026-11-15T062332Z.txt.gz",
+  "last_checked": "2026-11-15T06:23:32Z",
   "last_changed": "2026-11-03T00:55:26Z",
   "first_seen": "2026-08-22T20:02:55Z"
  },
  "github-copilot-plans": {
   "hash": "3b5980c6702339b5",
   "last_snapshot": "snapshots/github-copilot-plans/2026-11-14T061547Z.txt.gz",
-  "last_checked": "2026-11-14T22:20:02Z",
+  "last_checked": "2026-11-15T06:23:32Z",
   "last_changed": "2026-10-28T22:31:50Z",
   "first_seen": "2026-08-22T20:02:55Z"
  },
  "github-copilot-premium": {
   "hash": "bb51f5ad20fcd745",
   "last_snapshot": "snapshots/github-copilot-premium/2026-11-14T061547Z.txt.gz",
-  "last_checked": "2026-11-14T22:20:02Z",
+  "last_checked": "2026-11-15T06:23:32Z",
   "last_changed": "2026-08-31T22:48:41Z",
   "first_seen": "2026-08-22T20:02:56Z"
  },
  "anthropic-changelog": {
   "hash": "fed96e1a29e86727",
   "last_snapshot": "snapshots/anthropic-changelog/2026-11-12T233511Z.txt.gz",
-  "last_checked": "2026-11-14T22:20:03Z",
+  "last_checked": "2026-11-15T06:23:33Z",
   "last_changed": "2026-11-12T23:35:11Z",
   "first_seen": "2026-08-22T20:02:56Z"
  },
  "github-changelog-rss": {
   "hash": "0a8efdf22964195d",
   "last_snapshot": "snapshots/github-changelog-rss/2026-11-14T061548Z.txt.gz",
-  "last_checked": "2026-11-14T22:20:03Z",
+  "last_checked": "2026-11-15T06:23:33Z",
   "last_changed": "2026-11-14T06:15:48Z",
   "first_seen": "2026-08-22T20:02:56Z"
  },
  "openai-news-rss": {
-  "hash": "eb74bf5c9ff111d5",
-  "last_snapshot": "snapshots/openai-news-rss/2026-11-14T222003Z.txt.gz",
-  "last_checked": "2026-11-14T22:20:03Z",
+  "hash": "67c1e5c5035e976a",
+  "last_snapshot": "snapshots/openai-news-rss/2026-11-15T062333Z.txt.gz",
+  "last_checked": "2026-11-15T06:23:34Z",
   "last_changed": "2026-11-14T06:15:48Z",
   "first_seen": "2026-08-22T20:02:57Z"
  },
  "gemini-release-notes": {
-  "hash": "2615c5e6c99189c7",
-  "last_snapshot": "snapshots/gemini-release-notes/2026-11-14T222003Z.txt.gz",
-  "last_checked": "2026-11-14T22:20:03Z",
+  "hash": "acdf437d96fb525a",
+  "last_snapshot": "snapshots/gemini-release-notes/2026-11-15T062334Z.txt.gz",
+  "last_checked": "2026-11-15T06:23:34Z",
   "last_changed": "2026-10-30T12:49:24Z",
   "first_seen": "2026-08-22T20:02:57Z"
  }
