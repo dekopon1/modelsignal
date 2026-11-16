@@ -1,4 +1,29 @@
 {
+ "https://github.blog/changelog/2026-11-16-github-copilot-weekly-releases-november-9": {
+  "title": "GitHub Copilot weekly releases — November 9",
+  "date": "Mon, 16 Nov 2026 21:34:53 +0000",
+  "summary": "This week, bring GitHub Enterprise Server repositories into the Copilot app and see which agent sessions need you first in VS Code. You can also try two new models, Claude&#8230;\nThe post GitHub Copilot weekly releases — November 9 appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-11-16-budget-limit-increased-to-40000-budgets-per-account": {
+  "title": "Budget limit increased to 40,000 budgets per account",
+  "date": "Mon, 16 Nov 2026 21:30:49 +0000",
+  "summary": "You can now create up to 40,000 budgets per GitHub Enterprise Cloud account, up from 10,000. If you set budgets for individual users, or manage budgets across many cost centers&#8230;\nThe post Budget limit increased to 40,000 budgets per account appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-11-16-github-copilot-models-deprecated-on-november-16-2026": {
+  "title": "GitHub Copilot models deprecated on November 16, 2026",
+  "date": "Mon, 16 Nov 2026 20:25:20 +0000",
+  "summary": "As of today, November 16, 2026, we have deprecated the following models across most GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). Note&#8230;\nThe post GitHub Copilot models deprecated on November 16, 2026 appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-11-16-bulk-start-ai-scan-for-repositories": {
+  "title": "Bulk start AI Scan for repositories",
+  "date": "Mon, 16 Nov 2026 15:50:22 +0000",
+  "summary": "AI Scan for repositories finds security vulnerabilities on your repository&#8217;s default branch. It covers languages CodeQL doesn&#8217;t support and finds additional issues in languages CodeQL already analyzes. Findings appear in&#8230;\nThe post Bulk start AI Scan for repositories appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-11-16-take-github-mobile-with-you-on-iphone-duo": {
+  "title": "Take GitHub Mobile with you on iPhone Duo",
+  "date": "Mon, 16 Nov 2026 14:30:07 +0000",
+  "summary": "GitHub Mobile now supports iPhone Duo, with a layout that adapts when unfolded and vertical tabs to help you move between key areas like Copilot, Pull Requests, Issues, and Notifications.&#8230;\nThe post Take GitHub Mobile with you on iPhone Duo appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december": {
   "title": "Upcoming deprecation of selected GitHub Copilot models in December",
   "date": "Fri, 13 Nov 2026 20:40:05 +0000",
@@ -23,30 +48,5 @@
   "title": "Actions for ARM32 Linux &#038; Windows retirement",
   "date": "Thu, 12 Nov 2026 20:59:36 +0000",
   "summary": "GitHub Actions hosted runners will be ending support for ARM32 job execution on Windows and Linux by 8th Dec 2026. This follows our end of support for node20 where Node&#8230;\nThe post Actions for ARM32 Linux &amp; Windows retirement appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-11-12-secret-scanning-adds-a-detector-for-cloudflare": {
-  "title": "Secret scanning detects Cloudflare service tokens",
-  "date": "Thu, 12 Nov 2026 14:38:25 +0000",
-  "summary": "Secret scanning now detects Cloudflare service tokens. Detectors added Secret scanning now automatically detects the following new secret type in your repositories. Provider Secret type Cloudflare cloudflare_access_service_token Partner secrets are&#8230;\nThe post Secret scanning detects Cloudflare service tokens appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-11-12-public-monitoring-alerts-now-have-direct-links": {
-  "title": "Public monitoring alerts now have direct links",
-  "date": "Thu, 12 Nov 2026 14:37:38 +0000",
-  "summary": "You can now access individual public monitoring alerts with a direct link to each alert. In your enterprise&#8217;s Public monitoring view, click an alert number to open the alert. You&#8230;\nThe post Public monitoring alerts now have direct links appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-11-11-issue-types-and-fields-are-available-for-personal-accounts": {
-  "title": "Issue types and fields are available for personal accounts",
-  "date": "Wed, 11 Nov 2026 17:16:46 +0000",
-  "summary": "Issue types and issue fields are now generally available on repositories owned by personal accounts. This brings the same planning capabilities to individual developers and open source maintainers to standardize&#8230;\nThe post Issue types and fields are available for personal accounts appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-11-10-github-app-support-for-enterprise-copilot-seat-management": {
-  "title": "GitHub App support for Enterprise Copilot seat management",
-  "date": "Wed, 11 Nov 2026 00:10:31 +0000",
-  "summary": "Enterprise GitHub Apps can now call the enterprise-level Copilot seat management APIs to control which users and enterprise teams are assigned Copilot seats. The Copilot seat management APIs are accessible&#8230;\nThe post GitHub App support for Enterprise Copilot seat management appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-11-10-gemini-4-carbon-in-github-copilot": {
-  "title": "Gemini 4 Carbon in GitHub Copilot",
-  "date": "Tue, 10 Nov 2026 19:26:51 +0000",
-  "summary": "Gemini 4 Carbon, Google&#8217;s latest model, is now generally available in GitHub Copilot. It is designed for complex coding, agentic, and reasoning tasks, with a focus on secure code generation&#8230;\nThe post Gemini 4 Carbon in GitHub Copilot appeared first on The GitHub Blog."
  }
 }
