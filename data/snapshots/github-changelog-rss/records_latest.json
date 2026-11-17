@@ -1,4 +1,9 @@
 {
+ "https://github.blog/changelog/2026-11-16-dependabot-alert-dismissal-requests-now-last-one-year": {
+  "title": "Dependabot alert dismissal requests now last one year",
+  "date": "Tue, 17 Nov 2026 00:09:27 +0000",
+  "summary": "If you use delegated alert dismissal for Dependabot, dismissal requests now stay open for one year instead of one week. Reviewers have more time to respond before a request expires&#8230;\nThe post Dependabot alert dismissal requests now last one year appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-11-16-github-copilot-weekly-releases-november-9": {
   "title": "GitHub Copilot weekly releases — November 9",
   "date": "Mon, 16 Nov 2026 21:34:53 +0000",
@@ -13,6 +18,16 @@
   "title": "GitHub Copilot models deprecated on November 16, 2026",
   "date": "Mon, 16 Nov 2026 20:25:20 +0000",
   "summary": "As of today, November 16, 2026, we have deprecated the following models across most GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). Note&#8230;\nThe post GitHub Copilot models deprecated on November 16, 2026 appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-11-16-control-where-github-copilot-customizations-come-from": {
+  "title": "Control where GitHub Copilot customizations come from",
+  "date": "Mon, 16 Nov 2026 19:48:33 +0000",
+  "summary": "As an enterprise administrator, you can now require selected GitHub Copilot customizations to come from plugins or managed settings, rather than standalone user or project configuration. Combined with marketplace restrictions,&#8230;\nThe post Control where GitHub Copilot customizations come from appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-11-16-vs-code-retires-the-local-harness-in-february-2027": {
+  "title": "VS Code retires the Local harness in February 2027",
+  "date": "Mon, 16 Nov 2026 19:22:56 +0000",
+  "summary": "Visual Studio Code 1.146 deprecates the Local harness, the older software that coordinates the model, context, and tools for GitHub Copilot agent sessions in the editor. The Local harness will&#8230;\nThe post VS Code retires the Local harness in February 2027 appeared first on The GitHub Blog."
  },
  "https://github.blog/changelog/2026-11-16-bulk-start-ai-scan-for-repositories": {
   "title": "Bulk start AI Scan for repositories",
@@ -33,20 +48,5 @@
   "title": "GitHub Enterprise Server support in the GitHub Copilot app",
   "date": "Fri, 13 Nov 2026 18:27:13 +0000",
   "summary": "You can now bring your work on GitHub Enterprise Server (GHES) into the GitHub Copilot app. Add your GHES account to work with remote repositories, issues, and pull requests. This&#8230;\nThe post GitHub Enterprise Server support in the GitHub Copilot app appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot": {
-  "title": "Gemini 4 Hydrogen in GitHub Copilot",
-  "date": "Fri, 13 Nov 2026 18:23:48 +0000",
-  "summary": "Gemini 4 Hydrogen, Google&#8217;s latest Flash model, is now generally available in GitHub Copilot. It is designed for fast, efficient agentic coding, tool use, and multistep workflows, with improved instruction&#8230;\nThe post Gemini 4 Hydrogen in GitHub Copilot appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-11-13-manage-ai-scan-for-repositories-using-the-rest-api": {
-  "title": "Manage AI Scan for repositories using the REST API",
-  "date": "Fri, 13 Nov 2026 12:22:41 +0000",
-  "summary": "You can now turn GitHub code scanning&#8217;s AI Scan for repositories on or off with the REST API at the organization and repository levels. This public preview adds a repository_scan&#8230;\nThe post Manage AI Scan for repositories using the REST API appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-11-12-actions-for-arm32-linux-windows-retirement": {
-  "title": "Actions for ARM32 Linux &#038; Windows retirement",
-  "date": "Thu, 12 Nov 2026 20:59:36 +0000",
-  "summary": "GitHub Actions hosted runners will be ending support for ARM32 job execution on Windows and Linux by 8th Dec 2026. This follows our end of support for node20 where Node&#8230;\nThe post Actions for ARM32 Linux &amp; Windows retirement appeared first on The GitHub Blog."
  }
 }
