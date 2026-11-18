@@ -69,13 +69,13 @@
    "deepseek-v4-pro": "500"
   }
  },
- "Web Search & Fetch Pricing​": {
-  "Search (text, image)": {
-   "Unit": "Per 1,000 searches",
+ "Search & Fetch API Pricing​": {
+  "Search API (text)": {
+   "Unit": "Per 1,000 successful requests",
    "Price": "$0.75"
   },
-  "Web fetch": {
-   "Unit": "Per 1,000 fetches",
+  "Fetch API": {
+   "Unit": "Per 1,000 successful requests",
    "Price": "$0.75"
   }
  },
