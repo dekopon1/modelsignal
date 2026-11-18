@@ -253,14 +253,14 @@
   "minimax/minimax-m3.1-flash": {
    "name": "MiniMax: MiniMax M3.1 Flash",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.15",
-   "completion_per_mtok": "0.6"
+   "prompt_per_mtok": "0.075",
+   "completion_per_mtok": "0.3"
   },
   "deepseek/deepseek-v4.1-flash-1017": {
    "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.036",
-   "completion_per_mtok": "0.5"
+   "prompt_per_mtok": "0.035",
+   "completion_per_mtok": "0.15"
   },
   "deepseek/deepseek-v4.1-flash-1017:batch": {
    "name": "DeepSeek: DeepSeek V4.1 Flash 1017 (batch)",
@@ -615,8 +615,8 @@
   "~deepseek/deepseek-flash-latest": {
    "name": "DeepSeek: DeepSeek Flash Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.036",
-   "completion_per_mtok": "0.5"
+   "prompt_per_mtok": "0.035",
+   "completion_per_mtok": "0.15"
   },
   "inference-net/schematron-v2-turbo": {
    "name": "Inference.net: Schematron V2 Turbo",
@@ -675,8 +675,8 @@
   "deepseek/deepseek-v4.1-flash": {
    "name": "DeepSeek: DeepSeek V4.1 Flash",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.051",
-   "completion_per_mtok": "0.567"
+   "prompt_per_mtok": "0.0507",
+   "completion_per_mtok": "0.2028"
   },
   "deepseek/deepseek-v4.1-flash:batch": {
    "name": "DeepSeek: DeepSeek V4.1 Flash (batch)",
@@ -779,8 +779,8 @@
   "tencent/hy4-preview": {
    "name": "Tencent: Hy4 preview",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.834",
-   "completion_per_mtok": "2.501"
+   "prompt_per_mtok": "0.7506",
+   "completion_per_mtok": "2.2509"
   },
   "~z-ai/glm-flash-latest": {
    "name": "Z.ai: GLM Flash Latest",
@@ -797,8 +797,8 @@
   "z-ai/glm-5.3-flash": {
    "name": "Z.ai: GLM 5.3 Flash",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0399",
-   "completion_per_mtok": "0.0784"
+   "prompt_per_mtok": "0.15",
+   "completion_per_mtok": "0.5"
   },
   "z-ai/glm-5.3-flash:batch": {
    "name": "Z.ai: GLM 5.3 Flash (batch)",
@@ -1175,8 +1175,8 @@
   "tencent/hy3": {
    "name": "Tencent: Hy3",
    "context_length": "262144",
-   "prompt_per_mtok": "0.132",
-   "completion_per_mtok": "0.528"
+   "prompt_per_mtok": "0.0825",
+   "completion_per_mtok": "0.33"
   },
   "anthropic/claude-sonnet-5": {
    "name": "Anthropic: Claude Sonnet 5",
@@ -1224,8 +1224,8 @@
   "z-ai/glm-5.2": {
    "name": "Z.ai: GLM 5.2",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.007",
-   "completion_per_mtok": "6.8"
+   "prompt_per_mtok": "0.62",
+   "completion_per_mtok": "2.42"
   },
   "z-ai/glm-5.2:batch": {
    "name": "Z.ai: GLM 5.2 (batch)",
@@ -1236,8 +1236,8 @@
   "moonshotai/kimi-k2.7-code": {
    "name": "MoonshotAI: Kimi K2.7 Code",
    "context_length": "262144",
-   "prompt_per_mtok": "0.7",
-   "completion_per_mtok": "3.75"
+   "prompt_per_mtok": "0.6",
+   "completion_per_mtok": "3.5"
   },
   "~anthropic/claude-fable-latest": {
    "name": "Anthropic: Claude Fable Latest",
@@ -1505,9 +1505,9 @@
   },
   "xiaomi/mimo-v2.5-pro": {
    "name": "Xiaomi: MiMo-V2.5-Pro",
-   "context_length": "1024000",
-   "prompt_per_mtok": "0.435",
-   "completion_per_mtok": "0.87"
+   "context_length": "262144",
+   "prompt_per_mtok": "0.48",
+   "completion_per_mtok": "1.8"
   },
   "xiaomi/mimo-v2.5": {
    "name": "Xiaomi: MiMo-V2.5",
@@ -1554,8 +1554,8 @@
   "google/gemma-4-26b-a4b-it": {
    "name": "Google: Gemma 4 26B A4B ",
    "context_length": "262144",
-   "prompt_per_mtok": "0.09",
-   "completion_per_mtok": "0.3"
+   "prompt_per_mtok": "0.0765",
+   "completion_per_mtok": "0.255"
   },
   "google/gemma-4-26b-a4b-it:free": {
    "name": "Google: Gemma 4 26B A4B  (free)",
@@ -1674,8 +1674,8 @@
   "qwen/qwen3.5-9b": {
    "name": "Qwen: Qwen3.5-9B",
    "context_length": "262144",
-   "prompt_per_mtok": "0.154",
-   "completion_per_mtok": "0.226"
+   "prompt_per_mtok": "0.17",
+   "completion_per_mtok": "0.25"
   },
   "openai/gpt-5.4-pro": {
    "name": "OpenAI: GPT-5.4 Pro",
@@ -2406,8 +2406,8 @@
   "deepseek/deepseek-r1-0528": {
    "name": "DeepSeek: R1 0528",
    "context_length": "163840",
-   "prompt_per_mtok": "0.5",
-   "completion_per_mtok": "2.15"
+   "prompt_per_mtok": "0.571",
+   "completion_per_mtok": "2.286"
   },
   "mistralai/mistral-medium-3": {
    "name": "Mistral: Mistral Medium 3",

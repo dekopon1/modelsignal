@@ -1,4 +1,14 @@
 {
+ "https://github.blog/changelog/2026-11-18-security-risk-assessments-run-automatically-on-github-team": {
+  "title": "Security risk assessments run automatically on GitHub Team",
+  "date": "Wed, 18 Nov 2026 16:54:26 +0000",
+  "summary": "GitHub security risk assessments now run automatically for organizations on GitHub Team. Organization admins and security managers can review findings from the free assessments to identify exposed credentials and code&#8230;\nThe post Security risk assessments run automatically on GitHub Team appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-11-18-customize-github-copilot-for-your-team": {
+  "title": "Customize GitHub Copilot for your team",
+  "date": "Wed, 18 Nov 2026 16:00:13 +0000",
+  "summary": "You can now share the GitHub Copilot plugins your team relies on without asking every member to repeat the same setup. Team customizations are generally available for organization teams. Team&#8230;\nThe post Customize GitHub Copilot for your team appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-11-17-openais-gpt-6-2-astra-and-gpt-6-2-sol-now-available": {
   "title": "OpenAI&#8217;s GPT-6.2 Astra and GPT-6.2 Sol now available",
   "date": "Tue, 17 Nov 2026 20:20:29 +0000",
@@ -38,15 +48,5 @@
   "title": "GitHub Copilot CLI adds Microsoft Entra sign-in as a preview",
   "date": "Tue, 17 Nov 2026 18:00:35 +0000",
   "summary": "GitHub Copilot CLI now supports Microsoft Entra authentication in public preview. You can sign in with your Microsoft Entra account to silently authenticate to a linked GitHub Enterprise Managed User&#8230;\nThe post GitHub Copilot CLI adds Microsoft Entra sign-in as a preview appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-11-17-track-copilot-code-review-outcomes-in-repository-insights": {
-  "title": "Track Copilot code review outcomes in Repository insights",
-  "date": "Tue, 17 Nov 2026 18:00:35 +0000",
-  "summary": "You can now see how Copilot code review feedback lands in each repository. A new &#8220;Repository insights&#8221; page, the first item in a repository&#8217;s Insights tab, brings Copilot code review&#8230;\nThe post Track Copilot code review outcomes in Repository insights appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-11-17-github-copilot-evals-is-now-in-public-preview": {
-  "title": "GitHub Copilot Evals is now in public preview",
-  "date": "Tue, 17 Nov 2026 18:00:33 +0000",
-  "summary": "You can now use GitHub Copilot Evals to optimize GitHub Copilot for yourself. As your prompts, models, skills, and tools change, are you still getting the most out of Copilot?&#8230;\nThe post GitHub Copilot Evals is now in public preview appeared first on The GitHub Blog."
  }
 }
