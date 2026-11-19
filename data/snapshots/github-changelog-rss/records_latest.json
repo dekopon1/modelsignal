@@ -1,4 +1,19 @@
 {
+ "https://github.blog/changelog/2026-11-18-wait-for-pull-request-events-with-github-cli": {
+  "title": "Wait for pull request events with GitHub CLI",
+  "date": "Thu, 19 Nov 2026 00:00:13 +0000",
+  "summary": "GitHub CLI now supports GitHub Event Streams. With gh v2.105.0, you and your agents can wait for a pull request to change with a single command instead of polling it&#8230;\nThe post Wait for pull request events with GitHub CLI appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-11-18-connect-supabase-box-calendly-and-more-to-copilot": {
+  "title": "Connect Supabase, Box, Calendly, and more to Copilot",
+  "date": "Wed, 18 Nov 2026 22:04:50 +0000",
+  "summary": "You can now connect eight more services to Copilot using GitHub-verified MCP servers, or connectors, available in public preview. They join more than 25 services you can already connect, like&#8230;\nThe post Connect Supabase, Box, Calendly, and more to Copilot appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-11-18-gemini-4-neon-in-github-copilot": {
+  "title": "Gemini 4 Neon in GitHub Copilot",
+  "date": "Wed, 18 Nov 2026 21:49:21 +0000",
+  "summary": "Gemini 4 Neon is now generally available in GitHub Copilot. It is designed for agentic coding, multistep tool use, and knowledge work. According to Google, Gemini 4 Neon delivers quality&#8230;\nThe post Gemini 4 Neon in GitHub Copilot appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-11-18-security-risk-assessments-run-automatically-on-github-team": {
   "title": "Security risk assessments run automatically on GitHub Team",
   "date": "Wed, 18 Nov 2026 16:54:26 +0000",
@@ -33,20 +48,5 @@
   "title": "MAI Code 2 and MAI Code 2 Flash in GitHub Copilot",
   "date": "Tue, 17 Nov 2026 18:01:45 +0000",
   "summary": "The next generation of Microsoft AI (MAI) coding models has arrived in GitHub Copilot. Introducing MAI Code 2 and MAI Code 2 Flash, two new models that represent a major&#8230;\nThe post MAI Code 2 and MAI Code 2 Flash in GitHub Copilot appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-11-17-github-copilot-in-jetbrains-ignite-releases": {
-  "title": "GitHub Copilot in JetBrains, Ignite releases",
-  "date": "Tue, 17 Nov 2026 18:00:59 +0000",
-  "summary": "This update brings remote access, on-device voice dictation, and browser use controls to GitHub Copilot for JetBrains. Copilot users in JetBrains IDEs also get context usage shortcuts, historical diffs, simpler&#8230;\nThe post GitHub Copilot in JetBrains, Ignite releases appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-11-17-monitor-github-copilot-activity-through-microsoft-agent-365": {
-  "title": "Monitor GitHub Copilot activity through Microsoft Agent 365",
-  "date": "Tue, 17 Nov 2026 18:00:59 +0000",
-  "summary": "Enterprises can now stream GitHub Copilot agent activity directly into Microsoft Agent 365. This lets you bring audit data from across GitHub Copilot clients into Microsoft&#8217;s agent control plane, where&#8230;\nThe post Monitor GitHub Copilot activity through Microsoft Agent 365 appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-11-17-github-copilot-cli-adds-microsoft-entra-sign-in-as-a-preview": {
-  "title": "GitHub Copilot CLI adds Microsoft Entra sign-in as a preview",
-  "date": "Tue, 17 Nov 2026 18:00:35 +0000",
-  "summary": "GitHub Copilot CLI now supports Microsoft Entra authentication in public preview. You can sign in with your Microsoft Entra account to silently authenticate to a linked GitHub Enterprise Managed User&#8230;\nThe post GitHub Copilot CLI adds Microsoft Entra sign-in as a preview appeared first on The GitHub Blog."
  }
 }

@@ -1,16 +1,18 @@
 {
- "run_at": "2026-11-18T20:27:40Z",
+ "run_at": "2026-11-19T07:19:30Z",
  "results": [
   {
    "id": "anthropic-pricing",
    "ok": true,
-   "http_chars": 55526,
-   "changed": false
+   "http_chars": 55810,
+   "changed": true,
+   "changes": 0,
+   "announcements": 0
   },
   {
    "id": "anthropic-limits",
    "ok": true,
-   "http_chars": 35271,
+   "http_chars": 36022,
    "changed": true,
    "changes": 0,
    "announcements": 0
@@ -18,7 +20,7 @@
   {
    "id": "openrouter-models",
    "ok": true,
-   "http_chars": 924580,
+   "http_chars": 929780,
    "changed": true,
    "changes": 15,
    "announcements": 0
@@ -27,9 +29,7 @@
    "id": "deepseek-pricing",
    "ok": true,
    "http_chars": 29350,
-   "changed": true,
-   "changes": 0,
-   "announcements": 0
+   "changed": false
   },
   {
    "id": "mistral-models",
@@ -40,7 +40,7 @@
   {
    "id": "google-gemini-pricing",
    "ok": true,
-   "http_chars": 149454,
+   "http_chars": 153798,
    "changed": true,
    "changes": 0,
    "announcements": 0
@@ -48,7 +48,7 @@
   {
    "id": "github-copilot-plans",
    "ok": true,
-   "http_chars": 1092309,
+   "http_chars": 1099469,
    "changed": true,
    "changes": 0,
    "announcements": 0
@@ -65,30 +65,28 @@
    "id": "anthropic-changelog",
    "ok": true,
    "http_chars": 145890,
-   "changed": true,
-   "changes": 0,
-   "announcements": 0
+   "changed": false
   },
   {
    "id": "github-changelog-rss",
    "ok": true,
-   "http_chars": 59653,
+   "http_chars": 53564,
+   "changed": true,
+   "changes": 0,
+   "announcements": 3
+  },
+  {
+   "id": "openai-news-rss",
+   "ok": true,
+   "http_chars": 858176,
    "changed": true,
    "changes": 0,
    "announcements": 2
   },
   {
-   "id": "openai-news-rss",
-   "ok": true,
-   "http_chars": 856941,
-   "changed": true,
-   "changes": 0,
-   "announcements": 5
-  },
-  {
    "id": "gemini-release-notes",
    "ok": true,
-   "http_chars": 107201,
+   "http_chars": 108006,
    "changed": true,
    "changes": 0,
    "announcements": 0
