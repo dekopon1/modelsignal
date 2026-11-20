@@ -1,4 +1,9 @@
 {
+ "https://github.blog/changelog/2026-11-19-improvements-on-the-pull-request-overview-in-public-preview": {
+  "title": "Improvements on the pull request overview in public preview",
+  "date": "Fri, 20 Nov 2026 00:02:21 +0000",
+  "summary": "Your feedback has helped improve the new pull request Overview page since its November 5, 2026 public preview. Here&#8217;s what&#8217;s new! Clearer merge status and next steps Failed optional checks&#8230;\nThe post Improvements on the pull request overview in public preview appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-11-19-enterprise-live-migrations-from-azure-devops-generally-available": {
   "title": "Enterprise Live Migrations from Azure DevOps generally available",
   "date": "Thu, 19 Nov 2026 18:50:57 +0000",
@@ -43,10 +48,5 @@
   "title": "OpenAI&#8217;s GPT-6.2 Astra and GPT-6.2 Sol now available",
   "date": "Tue, 17 Nov 2026 20:20:29 +0000",
   "summary": "OpenAI&#8217;s GPT-6.2 Astra and GPT-6.2 Sol are now generally available in GitHub Copilot. Both models are designed for agentic coding and code review, with stronger coding judgment than earlier GPT-6&#8230;\nThe post OpenAI&#8217;s GPT-6.2 Astra and GPT-6.2 Sol now available appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-11-17-github-copilot-fusion-updates-more-availability-benchmarks-and-models": {
-  "title": "GitHub Copilot Fusion updates: more availability, benchmarks, and models",
-  "date": "Tue, 17 Nov 2026 18:04:48 +0000",
-  "summary": "Today, we&#8217;re expanding GitHub Copilot Fusion with new models, available on more Copilot surfaces, and results on two public Terminal-Bench leaderboards, giving you more ways to use Fusion and compare&#8230;\nThe post GitHub Copilot Fusion updates: more availability, benchmarks, and models appeared first on The GitHub Blog."
  }
 }

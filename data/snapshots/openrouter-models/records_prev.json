@@ -1,5 +1,11 @@
 {
  "models": {
+  "mistralai/pixtral-large-2502": {
+   "name": "Mistral: Pixtral Large 2502",
+   "context_length": "128000",
+   "prompt_per_mtok": "2",
+   "completion_per_mtok": "6"
+  },
   "google/gemini-4-neon": {
    "name": "Google: Gemini 4 Neon",
    "context_length": "1048576",
@@ -207,7 +213,7 @@
   "particle-ai/particle-1": {
    "name": "Particle AI: Particle-1",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.06",
+   "prompt_per_mtok": "0.07",
    "completion_per_mtok": "0.5"
   },
   "particle-ai/particle-1:free": {
@@ -261,20 +267,20 @@
   "minimax/minimax-m3.1-flash": {
    "name": "MiniMax: MiniMax M3.1 Flash",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.075",
-   "completion_per_mtok": "0.3"
+   "prompt_per_mtok": "0.15",
+   "completion_per_mtok": "0.6"
   },
   "deepseek/deepseek-v4.1-flash-1017": {
    "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.15",
-   "completion_per_mtok": "0.6"
+   "prompt_per_mtok": "0.3",
+   "completion_per_mtok": "1.2"
   },
   "deepseek/deepseek-v4.1-flash-1017:batch": {
    "name": "DeepSeek: DeepSeek V4.1 Flash 1017 (batch)",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.036",
-   "completion_per_mtok": "0.15"
+   "prompt_per_mtok": "0.035",
+   "completion_per_mtok": "0.149"
   },
   "elorian/glimpse": {
    "name": "Elorian: Glimpse",
@@ -585,13 +591,13 @@
    "completion_per_mtok": "0.87"
   },
   "x-ai/grok-4.7": {
-   "name": "SpaceXAI: Grok 4.7",
+   "name": "SpaceXSI: Grok 4.7",
    "context_length": "500000",
    "prompt_per_mtok": "2",
    "completion_per_mtok": "6"
   },
   "x-ai/grok-4.7:batch": {
-   "name": "SpaceXAI: Grok 4.7 (batch)",
+   "name": "SpaceXSI: Grok 4.7 (batch)",
    "context_length": "500000",
    "prompt_per_mtok": "1.6",
    "completion_per_mtok": "4.8"
@@ -617,7 +623,7 @@
   "~deepseek/deepseek-pro-latest": {
    "name": "DeepSeek: DeepSeek Pro Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.1211",
+   "prompt_per_mtok": "0.2565",
    "completion_per_mtok": "8"
   },
   "~deepseek/deepseek-flash-latest": {
@@ -683,14 +689,14 @@
   "deepseek/deepseek-v4.1-flash": {
    "name": "DeepSeek: DeepSeek V4.1 Flash",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0507",
-   "completion_per_mtok": "0.2028"
+   "prompt_per_mtok": "0.3",
+   "completion_per_mtok": "1.2"
   },
   "deepseek/deepseek-v4.1-flash:batch": {
    "name": "DeepSeek: DeepSeek V4.1 Flash (batch)",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.112",
-   "completion_per_mtok": "0.336"
+   "prompt_per_mtok": "0.05",
+   "completion_per_mtok": "0.15"
   },
   "nex-agi/nex-n2.5-mini": {
    "name": "Nex AGI: Nex-N2.5-Mini",
@@ -787,8 +793,8 @@
   "tencent/hy4-preview": {
    "name": "Tencent: Hy4 preview",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.7506",
-   "completion_per_mtok": "2.2509"
+   "prompt_per_mtok": "0.834",
+   "completion_per_mtok": "2.501"
   },
   "~z-ai/glm-flash-latest": {
    "name": "Z.ai: GLM Flash Latest",
@@ -805,14 +811,14 @@
   "z-ai/glm-5.3-flash": {
    "name": "Z.ai: GLM 5.3 Flash",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.15",
-   "completion_per_mtok": "0.5"
+   "prompt_per_mtok": "0.0399",
+   "completion_per_mtok": "0.0784"
   },
   "z-ai/glm-5.3-flash:batch": {
    "name": "Z.ai: GLM 5.3 Flash (batch)",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.024",
-   "completion_per_mtok": "0.069"
+   "prompt_per_mtok": "0.023",
+   "completion_per_mtok": "0.068"
   },
   "meta/muse-spark-1.2-contributor": {
    "name": "Meta: Muse Spark 1.2 Contributor",
@@ -859,8 +865,8 @@
   "z-ai/glm-5.3:batch": {
    "name": "Z.ai: GLM 5.3 (batch)",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.281",
-   "completion_per_mtok": "1.25"
+   "prompt_per_mtok": "0.28",
+   "completion_per_mtok": "1.249"
   },
   "qwen/qwen3.8-27b": {
    "name": "Qwen: Qwen3.8 27B",
@@ -909,17 +915,17 @@
   "deepseek/deepseek-v4-pro-0813": {
    "name": "DeepSeek: DeepSeek V4 Pro 0813",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.15",
-   "completion_per_mtok": "6.5"
+   "prompt_per_mtok": "1.32",
+   "completion_per_mtok": "3.96"
   },
   "x-ai/grok-4.6": {
-   "name": "SpaceXAI: Grok 4.6",
+   "name": "SpaceXSI: Grok 4.6",
    "context_length": "500000",
    "prompt_per_mtok": "2",
    "completion_per_mtok": "6"
   },
   "x-ai/grok-4.6:batch": {
-   "name": "SpaceXAI: Grok 4.6 (batch)",
+   "name": "SpaceXSI: Grok 4.6 (batch)",
    "context_length": "500000",
    "prompt_per_mtok": "1.6",
    "completion_per_mtok": "4.8"
@@ -975,13 +981,13 @@
   "~deepseek/deepseek-v4-flash-latest": {
    "name": "DeepSeek: DeepSeek V4 Flash Latest",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.0466",
-   "completion_per_mtok": "0.1399"
+   "prompt_per_mtok": "0.047",
+   "completion_per_mtok": "0.3"
   },
   "deepseek/deepseek-v4-flash-0731": {
    "name": "DeepSeek: DeepSeek V4 Flash 0731",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.062",
+   "prompt_per_mtok": "0.047",
    "completion_per_mtok": "0.3"
   },
   "deepseek/deepseek-v4-flash-0731:batch": {
@@ -1157,7 +1163,7 @@
    "completion_per_mtok": "10"
   },
   "x-ai/grok-4.5": {
-   "name": "SpaceXAI: Grok 4.5",
+   "name": "SpaceXSI: Grok 4.5",
    "context_length": "500000",
    "prompt_per_mtok": "2",
    "completion_per_mtok": "6"
@@ -1183,8 +1189,8 @@
   "tencent/hy3": {
    "name": "Tencent: Hy3",
    "context_length": "262144",
-   "prompt_per_mtok": "0.0825",
-   "completion_per_mtok": "0.33"
+   "prompt_per_mtok": "0.132",
+   "completion_per_mtok": "0.528"
   },
   "anthropic/claude-sonnet-5": {
    "name": "Anthropic: Claude Sonnet 5",
@@ -1223,12 +1229,6 @@
    "completion_per_mtok": "12",
    "image_per_mtok": "2"
   },
-  "cohere/north-mini-code:free": {
-   "name": "Cohere: North Mini Code (free)",
-   "context_length": "256000",
-   "prompt_per_mtok": "0",
-   "completion_per_mtok": "0"
-  },
   "z-ai/glm-5.2": {
    "name": "Z.ai: GLM 5.2",
    "context_length": "1048576",
@@ -1244,8 +1244,8 @@
   "moonshotai/kimi-k2.7-code": {
    "name": "MoonshotAI: Kimi K2.7 Code",
    "context_length": "262144",
-   "prompt_per_mtok": "0.65",
-   "completion_per_mtok": "3.5"
+   "prompt_per_mtok": "0.6",
+   "completion_per_mtok": "3"
   },
   "~anthropic/claude-fable-latest": {
    "name": "Anthropic: Claude Fable Latest",
@@ -1331,12 +1331,6 @@
    "prompt_per_mtok": "1.475",
    "completion_per_mtok": "4.425"
   },
-  "x-ai/grok-build-0.1": {
-   "name": "SpaceXAI: Grok Build 0.1",
-   "context_length": "256000",
-   "prompt_per_mtok": "1",
-   "completion_per_mtok": "2"
-  },
   "google/gemini-3.5-flash": {
    "name": "Google: Gemini 3.5 Flash",
    "context_length": "1048576",
@@ -1378,13 +1372,13 @@
    "completion_per_mtok": "30"
   },
   "x-ai/grok-4.3": {
-   "name": "SpaceXAI: Grok 4.3",
+   "name": "SpaceXSI: Grok 4.3",
    "context_length": "1000000",
    "prompt_per_mtok": "1.25",
    "completion_per_mtok": "2.5"
   },
   "x-ai/grok-4.3:batch": {
-   "name": "SpaceXAI: Grok 4.3 (batch)",
+   "name": "SpaceXSI: Grok 4.3 (batch)",
    "context_length": "1000000",
    "prompt_per_mtok": "1",
    "completion_per_mtok": "2"
@@ -1562,8 +1556,8 @@
   "google/gemma-4-26b-a4b-it": {
    "name": "Google: Gemma 4 26B A4B ",
    "context_length": "262144",
-   "prompt_per_mtok": "0.0765",
-   "completion_per_mtok": "0.255"
+   "prompt_per_mtok": "0.09",
+   "completion_per_mtok": "0.3"
   },
   "google/gemma-4-26b-a4b-it:free": {
    "name": "Google: Gemma 4 26B A4B  (free)",
@@ -1596,13 +1590,13 @@
    "completion_per_mtok": "4"
   },
   "x-ai/grok-4.20-multi-agent": {
-   "name": "SpaceXAI: Grok 4.20 Multi-Agent",
+   "name": "SpaceXSI: Grok 4.20 Multi-Agent",
    "context_length": "2000000",
    "prompt_per_mtok": "1.25",
    "completion_per_mtok": "2.5"
   },
   "x-ai/grok-4.20": {
-   "name": "SpaceXAI: Grok 4.20",
+   "name": "SpaceXSI: Grok 4.20",
    "context_length": "2000000",
    "prompt_per_mtok": "1.25",
    "completion_per_mtok": "2.5"
@@ -1737,8 +1731,8 @@
   "qwen/qwen3.5-27b": {
    "name": "Qwen: Qwen3.5-27B",
    "context_length": "262144",
-   "prompt_per_mtok": "0.195",
-   "completion_per_mtok": "1.56"
+   "prompt_per_mtok": "0.26",
+   "completion_per_mtok": "2.6"
   },
   "qwen/qwen3.5-122b-a10b": {
    "name": "Qwen: Qwen3.5-122B-A10B",
@@ -2248,8 +2242,8 @@
   "openai/gpt-oss-120b": {
    "name": "OpenAI: gpt-oss-120b",
    "context_length": "131072",
-   "prompt_per_mtok": "0.15",
-   "completion_per_mtok": "0.6"
+   "prompt_per_mtok": "0.09",
+   "completion_per_mtok": "0.36"
   },
   "openai/gpt-oss-120b:batch": {
    "name": "OpenAI: gpt-oss-120b (batch)",
@@ -2693,17 +2687,11 @@
    "prompt_per_mtok": "2.5",
    "completion_per_mtok": "5"
   },
-  "meta-llama/llama-3.2-1b-instruct": {
-   "name": "Meta: Llama 3.2 1B Instruct",
-   "context_length": "60000",
-   "prompt_per_mtok": "0.027",
-   "completion_per_mtok": "0.201"
-  },
   "meta-llama/llama-3.2-3b-instruct": {
    "name": "Meta: Llama 3.2 3B Instruct",
    "context_length": "131072",
-   "prompt_per_mtok": "0.0509",
-   "completion_per_mtok": "0.335"
+   "prompt_per_mtok": "0.05",
+   "completion_per_mtok": "0.33"
   },
   "qwen/qwen-2.5-72b-instruct": {
    "name": "Qwen2.5 72B Instruct",
