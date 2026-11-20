@@ -1,4 +1,14 @@
 {
+ "https://github.blog/changelog/2026-11-20-pin-your-favorite-repositories-to-your-dashboard": {
+  "title": "Pin your favorite repositories to your dashboard",
+  "date": "Fri, 20 Nov 2026 14:12:05 +0000",
+  "summary": "Choose which repositories appear on the Dashboard with the new Favorite repositories section. If the new dashboard experience isn&#8217;t enabled, Top repositories remains unchanged. Select Edit or Add repositories to&#8230;\nThe post Pin your favorite repositories to your dashboard appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-11-19-github-desktop-now-supports-multiple-accounts-per-host": {
+  "title": "GitHub Desktop now supports multiple accounts per host",
+  "date": "Fri, 20 Nov 2026 02:06:01 +0000",
+  "summary": "GitHub Desktop now lets you sign in with more than one account on the same host, including GitHub.com, GitHub Enterprise Server, and GHE.com. This has been one of the most&#8230;\nThe post GitHub Desktop now supports multiple accounts per host appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-11-19-improvements-on-the-pull-request-overview-in-public-preview": {
   "title": "Improvements on the pull request overview in public preview",
   "date": "Fri, 20 Nov 2026 00:02:21 +0000",
@@ -38,15 +48,5 @@
   "title": "Security risk assessments run automatically on GitHub Team",
   "date": "Wed, 18 Nov 2026 16:54:26 +0000",
   "summary": "GitHub security risk assessments now run automatically for organizations on GitHub Team. Organization admins and security managers can review findings from the free assessments to identify exposed credentials and code&#8230;\nThe post Security risk assessments run automatically on GitHub Team appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-11-18-customize-github-copilot-for-your-team": {
-  "title": "Customize GitHub Copilot for your team",
-  "date": "Wed, 18 Nov 2026 16:00:13 +0000",
-  "summary": "You can now share the GitHub Copilot plugins your team relies on without asking every member to repeat the same setup. Team customizations are generally available for organization teams. Team&#8230;\nThe post Customize GitHub Copilot for your team appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-11-17-openais-gpt-6-2-astra-and-gpt-6-2-sol-now-available": {
-  "title": "OpenAI&#8217;s GPT-6.2 Astra and GPT-6.2 Sol now available",
-  "date": "Tue, 17 Nov 2026 20:20:29 +0000",
-  "summary": "OpenAI&#8217;s GPT-6.2 Astra and GPT-6.2 Sol are now generally available in GitHub Copilot. Both models are designed for agentic coding and code review, with stronger coding judgment than earlier GPT-6&#8230;\nThe post OpenAI&#8217;s GPT-6.2 Astra and GPT-6.2 Sol now available appeared first on The GitHub Blog."
  }
 }
