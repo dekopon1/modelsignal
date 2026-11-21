@@ -1,5 +1,17 @@
 {
  "models": {
+  "thinkingmachines/inkling-2-mini": {
+   "name": "Thinking Machines: Inkling 2 Mini",
+   "context_length": "1048576",
+   "prompt_per_mtok": "0.1",
+   "completion_per_mtok": "0.4"
+  },
+  "radixark/daisyrose-27b": {
+   "name": "RadixArk: DaisyRose 27B",
+   "context_length": "262144",
+   "prompt_per_mtok": "0.15",
+   "completion_per_mtok": "1.875"
+  },
   "mistralai/pixtral-large-2502": {
    "name": "Mistral: Pixtral Large 2502",
    "context_length": "128000",
@@ -267,14 +279,14 @@
   "minimax/minimax-m3.1-flash": {
    "name": "MiniMax: MiniMax M3.1 Flash",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.075",
-   "completion_per_mtok": "0.3"
+   "prompt_per_mtok": "0.15",
+   "completion_per_mtok": "0.6"
   },
   "deepseek/deepseek-v4.1-flash-1017": {
    "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.036",
-   "completion_per_mtok": "0.5"
+   "prompt_per_mtok": "0.15",
+   "completion_per_mtok": "0.6"
   },
   "deepseek/deepseek-v4.1-flash-1017:batch": {
    "name": "DeepSeek: DeepSeek V4.1 Flash 1017 (batch)",
@@ -322,7 +334,7 @@
    "name": "NVIDIA: Nemotron 3.5 Super VL",
    "context_length": "1048576",
    "prompt_per_mtok": "0.15",
-   "completion_per_mtok": "0.5"
+   "completion_per_mtok": "0.47"
   },
   "nvidia/nemotron-3.5-super-vl:free": {
    "name": "NVIDIA: Nemotron 3.5 Super VL (free)",
@@ -689,8 +701,8 @@
   "deepseek/deepseek-v4.1-flash": {
    "name": "DeepSeek: DeepSeek V4.1 Flash",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.3",
-   "completion_per_mtok": "1.2"
+   "prompt_per_mtok": "0.0498",
+   "completion_per_mtok": "0.1992"
   },
   "deepseek/deepseek-v4.1-flash:batch": {
    "name": "DeepSeek: DeepSeek V4.1 Flash (batch)",
@@ -793,8 +805,8 @@
   "tencent/hy4-preview": {
    "name": "Tencent: Hy4 preview",
    "context_length": "1048576",
-   "prompt_per_mtok": "0.7506",
-   "completion_per_mtok": "2.2509"
+   "prompt_per_mtok": "0.834",
+   "completion_per_mtok": "2.501"
   },
   "~z-ai/glm-flash-latest": {
    "name": "Z.ai: GLM Flash Latest",
@@ -879,12 +891,6 @@
    "context_length": "262144",
    "prompt_per_mtok": "0.16",
    "completion_per_mtok": "2"
-  },
-  "dots-studio/dots-3-note-preview:free": {
-   "name": "Dots Studio: Dots3-Note Preview (free)",
-   "context_length": "512000",
-   "prompt_per_mtok": "0",
-   "completion_per_mtok": "0"
   },
   "google/gemini-3.7-flash": {
    "name": "Google: Gemini 3.7 Flash",
@@ -1060,12 +1066,6 @@
    "completion_per_mtok": "1.25",
    "image_per_mtok": "0.15"
   },
-  "meituan/longcat-2.0": {
-   "name": "Meituan: LongCat 2.0",
-   "context_length": "1048756",
-   "prompt_per_mtok": "0.3",
-   "completion_per_mtok": "1.2"
-  },
   "thinkingmachines/inkling": {
    "name": "Thinking Machines: Inkling",
    "context_length": "524288",
@@ -1189,8 +1189,8 @@
   "tencent/hy3": {
    "name": "Tencent: Hy3",
    "context_length": "262144",
-   "prompt_per_mtok": "0.0825",
-   "completion_per_mtok": "0.33"
+   "prompt_per_mtok": "0.132",
+   "completion_per_mtok": "0.528"
   },
   "anthropic/claude-sonnet-5": {
    "name": "Anthropic: Claude Sonnet 5",
@@ -1800,8 +1800,8 @@
   "minimax/minimax-m2.5": {
    "name": "MiniMax: MiniMax M2.5",
    "context_length": "198000",
-   "prompt_per_mtok": "0.295",
-   "completion_per_mtok": "1.2"
+   "prompt_per_mtok": "0.27",
+   "completion_per_mtok": "0.95"
   },
   "z-ai/glm-5": {
    "name": "Z.ai: GLM 5",
@@ -2278,8 +2278,8 @@
   "qwen/qwen3-coder-30b-a3b-instruct": {
    "name": "Qwen: Qwen3 Coder 30B A3B Instruct",
    "context_length": "262144",
-   "prompt_per_mtok": "0.15",
-   "completion_per_mtok": "0.6"
+   "prompt_per_mtok": "0.07",
+   "completion_per_mtok": "0.28"
   },
   "qwen/qwen3-30b-a3b-instruct-2507": {
    "name": "Qwen: Qwen3 30B A3B Instruct 2507",

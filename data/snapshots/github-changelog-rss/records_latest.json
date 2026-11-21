@@ -1,4 +1,14 @@
 {
+ "https://github.blog/changelog/2026-11-20-security-advisory-permissions-are-now-generally-available": {
+  "title": "Security advisory permissions are now generally available",
+  "date": "Fri, 20 Nov 2026 21:49:29 +0000",
+  "summary": "Organization owners can now let people work on repository security advisories, including private vulnerability reports, through custom repository roles. You no longer have to make them repository administrators or give&#8230;\nThe post Security advisory permissions are now generally available appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-11-20-github-enterprise-server-3-23-release-candidate": {
+  "title": "GitHub Enterprise Server 3.23 release candidate",
+  "date": "Fri, 20 Nov 2026 20:41:26 +0000",
+  "summary": "GitHub Enterprise Server (GHES) 3.23 is now available and introduces new capabilities across the platform. Here are a few highlights in the 3.23 release: When working in GitHub Projects, you&#8230;\nThe post GitHub Enterprise Server 3.23 release candidate appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-11-20-pin-your-favorite-repositories-to-your-dashboard": {
   "title": "Pin your favorite repositories to your dashboard",
   "date": "Fri, 20 Nov 2026 14:12:05 +0000",
@@ -38,15 +48,5 @@
   "title": "Connect Supabase, Box, Calendly, and more to Copilot",
   "date": "Wed, 18 Nov 2026 22:04:50 +0000",
   "summary": "You can now connect eight more services to Copilot using GitHub-verified MCP servers, or connectors, available in public preview. They join more than 25 services you can already connect, like&#8230;\nThe post Connect Supabase, Box, Calendly, and more to Copilot appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-11-18-gemini-4-neon-in-github-copilot": {
-  "title": "Gemini 4 Neon in GitHub Copilot",
-  "date": "Wed, 18 Nov 2026 21:49:21 +0000",
-  "summary": "Gemini 4 Neon is now generally available in GitHub Copilot. It is designed for agentic coding, multistep tool use, and knowledge work. According to Google, Gemini 4 Neon delivers quality&#8230;\nThe post Gemini 4 Neon in GitHub Copilot appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-11-18-security-risk-assessments-run-automatically-on-github-team": {
-  "title": "Security risk assessments run automatically on GitHub Team",
-  "date": "Wed, 18 Nov 2026 16:54:26 +0000",
-  "summary": "GitHub security risk assessments now run automatically for organizations on GitHub Team. Organization admins and security managers can review findings from the free assessments to identify exposed credentials and code&#8230;\nThe post Security risk assessments run automatically on GitHub Team appeared first on The GitHub Blog."
  }
 }
