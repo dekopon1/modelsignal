@@ -1,4 +1,9 @@
 {
+ "https://openai.com/index/perplexity-and-intelligence": {
+  "title": "Perplexity and Intelligence",
+  "date": "Sun, 22 Nov 2026 00:00:00 GMT",
+  "summary": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities."
+ },
  "https://openai.com/index/combatting-adversarial-distillation": {
   "title": "Combatting adversarial distillation",
   "date": "Fri, 20 Nov 2026 10:00:00 GMT",
@@ -19,10 +24,10 @@
   "date": "Thu, 19 Nov 2026 08:00:00 GMT",
   "summary": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast."
  },
- "https://openai.com/business/learn/codex-security-plugin-demo": {
-  "title": "Explore the Codex Security Plugin",
+ "https://openai.com/business/learn/deploying-daybreak-red": {
+  "title": "Deploying Daybreak Red",
   "date": "Thu, 19 Nov 2026 00:00:00 GMT",
-  "summary": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording."
+  "summary": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring."
  },
  "https://openai.com/business/learn/pr-scans-demo": {
   "title": "See PR scans in action",
@@ -34,25 +39,25 @@
   "date": "Thu, 19 Nov 2026 00:00:00 GMT",
   "summary": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started."
  },
- "https://openai.com/business/learn/deploying-daybreak-red": {
-  "title": "Deploying Daybreak Red",
+ "https://openai.com/business/learn/codex-security-plugin-demo": {
+  "title": "Explore the Codex Security Plugin",
   "date": "Thu, 19 Nov 2026 00:00:00 GMT",
-  "summary": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring."
+  "summary": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording."
  },
  "https://openai.com/index/the-silent-consensus": {
   "title": "The Silent Consensus",
   "date": "Wed, 18 Nov 2026 10:00:00 GMT",
   "summary": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions."
  },
- "https://openai.com/business/customer-stories/sumitomo-life": {
-  "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
-  "date": "Wed, 18 Nov 2026 08:00:00 GMT",
-  "summary": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption."
- },
  "https://openai.com/index/research-acceleration-jagged-frontier": {
   "title": "Research acceleration: The jagged frontier",
   "date": "Wed, 18 Nov 2026 08:00:00 GMT",
   "summary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement."
+ },
+ "https://openai.com/business/customer-stories/sumitomo-life": {
+  "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+  "date": "Wed, 18 Nov 2026 08:00:00 GMT",
+  "summary": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption."
  },
  "https://openai.com/index/inside-the-codex-sandbox": {
   "title": "Inside the Codex sandbox",
@@ -89,15 +94,15 @@
   "date": "Tue, 17 Nov 2026 08:00:00 GMT",
   "summary": "Explore the new Sales plugin and 30+ new and expanded partner plugins in ChatGPT to research prospects, prepare pitches, update your CRM, and move deals forward."
  },
- "https://openai.com/index/astra-law-6-2": {
-  "title": "Astra for Law leads in legal intelligence",
-  "date": "Tue, 17 Nov 2026 00:00:00 GMT",
-  "summary": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access."
- },
  "https://openai.com/index/introducing-openai-for-chile": {
   "title": "Introducing OpenAI for Chile",
   "date": "Tue, 17 Nov 2026 00:00:00 GMT",
   "summary": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications."
+ },
+ "https://openai.com/index/astra-law-6-2": {
+  "title": "Astra for Law leads in legal intelligence",
+  "date": "Tue, 17 Nov 2026 00:00:00 GMT",
+  "summary": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access."
  },
  "https://openai.com/index/expanding-chatgpt-for-academic-researchers": {
   "title": "Broadening access to AI for scientists",
@@ -364,30 +369,30 @@
   "date": "Mon, 02 Nov 2026 15:00:00 GMT",
   "summary": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs."
  },
- "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties": {
-  "title": "Rewarding defenders with bigger bug bounties",
-  "date": "Mon, 02 Nov 2026 18:00:00 GMT",
-  "summary": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers."
- },
  "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai": {
   "title": "Preparing our next security sprint to harden OpenAI",
   "date": "Mon, 02 Nov 2026 18:00:00 GMT",
   "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI."
+ },
+ "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties": {
+  "title": "Rewarding defenders with bigger bug bounties",
+  "date": "Mon, 02 Nov 2026 18:00:00 GMT",
+  "summary": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers."
  },
  "https://openai.com/index/lifeval": {
   "title": "LifeVal",
   "date": "Mon, 02 Nov 2026 09:00:00 GMT",
   "summary": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork."
  },
- "https://openai.com/index/qodo-codex-plugin": {
-  "title": "Qodo builds context into AI code review with Codex",
-  "date": "Mon, 02 Nov 2026 00:00:00 GMT",
-  "summary": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request."
- },
  "https://openai.com/index/dan-driscoll-joins-openai": {
   "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
   "date": "Mon, 02 Nov 2026 00:00:00 GMT",
   "summary": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies."
+ },
+ "https://openai.com/index/qodo-codex-plugin": {
+  "title": "Qodo builds context into AI code review with Codex",
+  "date": "Mon, 02 Nov 2026 00:00:00 GMT",
+  "summary": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request."
  },
  "https://openai.com/index/helping-websites-express-ai-training-preferences": {
   "title": "Making it easier for websites to express AI training preferences",
@@ -609,15 +614,15 @@
   "date": "Fri, 16 Oct 2026 00:00:00 GMT",
   "summary": "Almost 50 years after starting in a compounding pharmacy in Paraná, the group operates a proprietary agent platform that autonomously resolves up to 80% of resellers’ operational requests—enabling the sales force to take on an advisory role."
  },
- "https://openai.com/index/benefit-street-partners": {
-  "title": "Benefit Street Partners answers questions faster with Codex",
-  "date": "Fri, 16 Oct 2026 00:00:00 GMT",
-  "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups."
- },
  "https://openai.com/index/stack-overflow-chatgpt-plugin": {
   "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
   "date": "Fri, 16 Oct 2026 00:00:00 GMT",
   "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation."
+ },
+ "https://openai.com/index/benefit-street-partners": {
+  "title": "Benefit Street Partners answers questions faster with Codex",
+  "date": "Fri, 16 Oct 2026 00:00:00 GMT",
+  "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups."
  },
  "https://openai.com/index/introducing-the-rosalind-academic-plan": {
   "title": "Bringing GPT-Rosalind to academic research labs",
@@ -664,15 +669,15 @@
   "date": "Tue, 13 Oct 2026 12:00:00 GMT",
   "summary": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live."
  },
- "https://openai.com/index/sophos": {
-  "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
-  "date": "Fri, 09 Oct 2026 07:00:00 GMT",
-  "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight."
- },
  "https://openai.com/index/asana-browser-agent": {
   "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
   "date": "Fri, 09 Oct 2026 07:00:00 GMT",
   "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models."
+ },
+ "https://openai.com/index/sophos": {
+  "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+  "date": "Fri, 09 Oct 2026 07:00:00 GMT",
+  "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight."
  },
  "https://openai.com/index/oracle": {
   "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
@@ -789,30 +794,30 @@
   "date": "Tue, 29 Sep 2026 00:00:00 GMT",
   "summary": "Dots by OpenAI are proactive assistants that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward."
  },
- "https://openai.com/index/how-we-will-do-better-for-australia": {
-  "title": "How we will do better for Australia",
-  "date": "Mon, 28 Sep 2026 19:00:00 GMT",
-  "summary": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences."
- },
  "https://openai.com/index/towards-safety-cases-for-frontier-ai-training": {
   "title": "Towards safety cases for frontier AI training",
   "date": "Mon, 28 Sep 2026 19:00:00 GMT",
   "summary": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents"
+ },
+ "https://openai.com/index/how-we-will-do-better-for-australia": {
+  "title": "How we will do better for Australia",
+  "date": "Mon, 28 Sep 2026 19:00:00 GMT",
+  "summary": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences."
  },
  "https://openai.com/index/lenfest-ai-collaborative-expansion": {
   "title": "The Lenfest Institute grows landmark program with expanded OpenAI support",
   "date": "Mon, 28 Sep 2026 07:00:00 GMT",
   "summary": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support."
  },
- "https://openai.com/index/basis-tax-workbook-with-astra": {
-  "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
-  "date": "Mon, 28 Sep 2026 00:00:00 GMT",
-  "summary": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use."
- },
  "https://openai.com/form/codex-originals": {
   "title": "Are you a Codex Original?",
   "date": "Mon, 28 Sep 2026 00:00:00 GMT",
   "summary": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about your story and project below."
+ },
+ "https://openai.com/index/basis-tax-workbook-with-astra": {
+  "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
+  "date": "Mon, 28 Sep 2026 00:00:00 GMT",
+  "summary": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use."
  },
  "https://openai.com/index/proaction": {
   "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
@@ -839,6 +844,11 @@
   "date": "Wed, 23 Sep 2026 13:00:00 GMT",
   "summary": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure."
  },
+ "https://openai.com/index/harvey-from-context-to-confidence-with-astra": {
+  "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
+  "date": "Wed, 23 Sep 2026 12:00:00 GMT",
+  "summary": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy."
+ },
  "https://openai.com/index/ringg": {
   "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
   "date": "Wed, 23 Sep 2026 12:00:00 GMT",
@@ -853,11 +863,6 @@
   "title": "How invideo improves color grading 3x with GPT‑6 Astra",
   "date": "Wed, 23 Sep 2026 12:00:00 GMT",
   "summary": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day."
- },
- "https://openai.com/index/harvey-from-context-to-confidence-with-astra": {
-  "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
-  "date": "Wed, 23 Sep 2026 12:00:00 GMT",
-  "summary": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy."
  },
  "https://openai.com/index/introducing-mentalhealthbench": {
   "title": "Introducing MentalHealthBench",
@@ -1009,15 +1014,15 @@
   "date": "Thu, 10 Sep 2026 07:00:00 GMT",
   "summary": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support."
  },
- "https://openai.com/index/introducing-gpt-live-1-in-the-api": {
-  "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
-  "date": "Thu, 10 Sep 2026 00:00:00 GMT",
-  "summary": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support."
- },
  "https://openai.com/index/introducing-the-agents-api": {
   "title": "Introducing the Agents API",
   "date": "Thu, 10 Sep 2026 00:00:00 GMT",
   "summary": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use."
+ },
+ "https://openai.com/index/introducing-gpt-live-1-in-the-api": {
+  "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
+  "date": "Thu, 10 Sep 2026 00:00:00 GMT",
+  "summary": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support."
  },
  "https://openai.com/index/ai-policy-window": {
   "title": "The AI policy window is open. We need to act.",
@@ -1089,15 +1094,15 @@
   "date": "Thu, 03 Sep 2026 13:15:00 GMT",
   "summary": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services."
  },
- "https://openai.com/index/legora-financial-statement-review-with-astra": {
-  "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
-  "date": "Thu, 03 Sep 2026 12:00:00 GMT",
-  "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow."
- },
  "https://openai.com/index/playco-game-prototyping-with-astra": {
   "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
   "date": "Thu, 03 Sep 2026 12:00:00 GMT",
   "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model."
+ },
+ "https://openai.com/index/legora-financial-statement-review-with-astra": {
+  "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+  "date": "Thu, 03 Sep 2026 12:00:00 GMT",
+  "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow."
  },
  "https://openai.com/index/gpt-6-astra": {
   "title": "GPT-6 Astra: A new generation of intelligence",
@@ -1169,15 +1174,15 @@
   "date": "Thu, 27 Aug 2026 03:00:00 GMT",
   "summary": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country."
  },
- "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts": {
-  "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
-  "date": "Wed, 26 Aug 2026 10:00:00 GMT",
-  "summary": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff."
- },
  "https://openai.com/index/learning-never-stops": {
   "title": "Learning never stops: How AI makes learning continuous",
   "date": "Wed, 26 Aug 2026 10:00:00 GMT",
   "summary": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom."
+ },
+ "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts": {
+  "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
+  "date": "Wed, 26 Aug 2026 10:00:00 GMT",
+  "summary": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff."
  },
  "https://openai.com/index/hugging-face-incident-and-the-road-ahead": {
   "title": "The Hugging Face incident and the road ahead",
@@ -1309,15 +1314,15 @@
   "date": "Wed, 12 Aug 2026 00:00:00 GMT",
   "summary": "See how RingCentral uses ChatGPT Work and Codex to accelerate AI product development and centralize operational intelligence across engineering and operations."
  },
- "https://openai.com/index/testing-ads-in-chatgpt": {
-  "title": "Testing ads in ChatGPT",
-  "date": "Tue, 11 Aug 2026 10:00:00 GMT",
-  "summary": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control."
- },
  "https://openai.com/index/daybreak-models-are-now-available-on-aws": {
   "title": "Daybreak models are now available on AWS",
   "date": "Tue, 11 Aug 2026 10:00:00 GMT",
   "summary": "OpenAI and AWS are making Daybreak cybersecurity capabilities available through Amazon Bedrock to support enterprise security workflows."
+ },
+ "https://openai.com/index/testing-ads-in-chatgpt": {
+  "title": "Testing ads in ChatGPT",
+  "date": "Tue, 11 Aug 2026 10:00:00 GMT",
+  "summary": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control."
  },
  "https://openai.com/index/responsible-ai-infrastructure-texas": {
   "title": "OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas",
@@ -1344,15 +1349,15 @@
   "date": "Mon, 10 Aug 2026 10:00:00 GMT",
   "summary": "Approved Daybreak partners can use OpenAI’s frontier cyber models to deliver authorized, governed cybersecurity services to customers."
  },
- "https://openai.com/index/premium-seats-chatgpt-business": {
-  "title": "Premium seats are coming to ChatGPT Business",
-  "date": "Mon, 10 Aug 2026 00:00:00 GMT",
-  "summary": "Premium seats are now available on ChatGPT Business, with 5x more usage, no five-hour usage limit, and flexible seat options for every teammate."
- },
  "https://openai.com/index/zapier": {
   "title": "How Zapier transformed core marketing processes with ChatGPT Work",
   "date": "Mon, 10 Aug 2026 00:00:00 GMT",
   "summary": "The enterprise marketing team at Zapier uses ChatGPT Work to reduce the number of drop-offs in its lead funnel, build campaign assets, and automate reporting."
+ },
+ "https://openai.com/index/premium-seats-chatgpt-business": {
+  "title": "Premium seats are coming to ChatGPT Business",
+  "date": "Mon, 10 Aug 2026 00:00:00 GMT",
+  "summary": "Premium seats are now available on ChatGPT Business, with 5x more usage, no five-hour usage limit, and flexible seat options for every teammate."
  },
  "https://openai.com/index/virgin-atlantic/chatgpt-work": {
   "title": "Virgin Atlantic sharpens customer journeys with ChatGPT Work",
@@ -1493,10 +1498,5 @@
   "title": "Introducing OpenAI Presence",
   "date": "Wed, 22 Jul 2026 05:30:00 GMT",
   "summary": "Introducing OpenAI Presence, a proven enterprise AI agent platform that helps organizations deploy trusted voice and chat agents for customer and internal workflows."
- },
- "https://openai.com/index/ntt-data": {
-  "title": "NTT DATA Group cuts incident analysis to 30 minutes with Codex",
-  "date": "Wed, 22 Jul 2026 00:00:00 GMT",
-  "summary": "NTT DATA Group uses ChatGPT Enterprise and Codex to help 9,000 employees automate work, cut incident analysis to 30 minutes, and scale secure AI adoption."
  }
 }
