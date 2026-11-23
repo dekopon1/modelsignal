@@ -1,4 +1,24 @@
 {
+ "https://github.blog/changelog/2026-11-23-issue-statuses-and-repository-boards-are-in-public-preview": {
+  "title": "Issue statuses and repository boards are in public preview",
+  "date": "Mon, 23 Nov 2026 20:37:11 +0000",
+  "summary": "Open or closed doesn&#8217;t always tell you where an issue stands. You can now use more specific statuses to give your team and agents shared context about what&#8217;s in flight&#8230;\nThe post Issue statuses and repository boards are in public preview appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-11-23-secret-scanning-reduces-false-positives-for-slack": {
+  "title": "Secret scanning reduces false positives for Slack",
+  "date": "Mon, 23 Nov 2026 18:32:59 +0000",
+  "summary": "Secret scanning now reduces false-positive detections for Slack secrets. False positives reduced The following detector improvements reduce false-positive matches for supported secrets. Provider Secret type Improvement Slack slack_incoming_webhook_url Exclude URLs&#8230;\nThe post Secret scanning reduces false positives for Slack appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-11-23-code-coverage-uploads-now-flag-invalid-report-formats": {
+  "title": "Code coverage uploads now flag invalid report formats",
+  "date": "Mon, 23 Nov 2026 15:28:36 +0000",
+  "summary": "The GitHub Code Quality upload-code-coverage action now checks that your coverage report is in Cobertura XML format. If it isn&#8217;t in a supported format, the upload step fails and the&#8230;\nThe post Code coverage uploads now flag invalid report formats appeared first on The GitHub Blog."
+ },
+ "https://github.blog/changelog/2026-11-23-usage-reports-will-include-a-user-id-column-starting-december-1": {
+  "title": "Usage reports will include a user ID column starting December 1",
+  "date": "Mon, 23 Nov 2026 10:29:36 +0000",
+  "summary": "Starting December 1, 2026, usage reports that include a username column will also include a user_id column next to it. Every column after username will move one position to the&#8230;\nThe post Usage reports will include a user ID column starting December 1 appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-11-20-security-advisory-permissions-are-now-generally-available": {
   "title": "Security advisory permissions are now generally available",
   "date": "Fri, 20 Nov 2026 21:49:29 +0000",
@@ -12,7 +32,7 @@
  "https://github.blog/changelog/2026-11-20-pin-your-favorite-repositories-to-your-dashboard": {
   "title": "Pin your favorite repositories to your dashboard",
   "date": "Fri, 20 Nov 2026 14:12:05 +0000",
-  "summary": "Choose which repositories appear on the Dashboard with the new Favorite repositories section. If the new dashboard experience isn&#8217;t enabled, Top repositories remains unchanged. Select Edit or Add repositories to&#8230;\nThe post Pin your favorite repositories to your dashboard appeared first on The GitHub Blog."
+  "summary": "Editor&#8217;s note (November 23, 2026): We have temporarily rolled back this change while we improve the experience based on user feedback. Choose which repositories appear on the Dashboard with the&#8230;\nThe post Pin your favorite repositories to your dashboard appeared first on The GitHub Blog."
  },
  "https://github.blog/changelog/2026-11-19-github-desktop-now-supports-multiple-accounts-per-host": {
   "title": "GitHub Desktop now supports multiple accounts per host",
@@ -28,25 +48,5 @@
   "title": "Enterprise Live Migrations from Azure DevOps generally available",
   "date": "Thu, 19 Nov 2026 18:50:57 +0000",
   "summary": "Enterprise Live Migrations (ELM) from Azure DevOps Services to GitHub Enterprise Cloud with data residency is now generally available. You can move your repositories while your teams keep working, then&#8230;\nThe post Enterprise Live Migrations from Azure DevOps generally available appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-11-19-red-hat-enterprise-linux-runner-images-now-generally-available": {
-  "title": "Red Hat Enterprise Linux runner images now generally available",
-  "date": "Thu, 19 Nov 2026 18:48:46 +0000",
-  "summary": "Red Hat Enterprise Linux (RHEL) 9 and RHEL 10 images for GitHub-hosted larger runners are now generally available. Originally introduced in public preview in June 2026 in partnership with Red&#8230;\nThe post Red Hat Enterprise Linux runner images now generally available appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-11-19-s3-audit-log-streaming-with-openid-connect-expands-to-ghe-com": {
-  "title": "S3 audit log streaming with OpenID Connect expands to GHE.com",
-  "date": "Thu, 19 Nov 2026 08:27:16 +0000",
-  "summary": "You can now stream enterprise audit logs to Amazon S3 using OpenID Connect (OIDC) on GitHub Enterprise Cloud with data residency (GHE.com). This extends the existing github.com capability, letting you&#8230;\nThe post S3 audit log streaming with OpenID Connect expands to GHE.com appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-11-18-wait-for-pull-request-events-with-github-cli": {
-  "title": "Wait for pull request events with GitHub CLI",
-  "date": "Thu, 19 Nov 2026 00:00:13 +0000",
-  "summary": "GitHub CLI now supports GitHub Event Streams. With gh v2.105.0, you and your agents can wait for a pull request to change with a single command instead of polling it&#8230;\nThe post Wait for pull request events with GitHub CLI appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-11-18-connect-supabase-box-calendly-and-more-to-copilot": {
-  "title": "Connect Supabase, Box, Calendly, and more to Copilot",
-  "date": "Wed, 18 Nov 2026 22:04:50 +0000",
-  "summary": "You can now connect eight more services to Copilot using GitHub-verified MCP servers, or connectors, available in public preview. They join more than 25 services you can already connect, like&#8230;\nThe post Connect Supabase, Box, Calendly, and more to Copilot appeared first on The GitHub Blog."
  }
 }
