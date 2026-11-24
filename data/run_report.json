@@ -1,5 +1,5 @@
 {
- "run_at": "2026-11-24T09:49:50Z",
+ "run_at": "2026-11-24T22:22:21Z",
  "results": [
   {
    "id": "anthropic-pricing",
@@ -10,15 +10,17 @@
   {
    "id": "anthropic-limits",
    "ok": true,
-   "http_chars": 27912,
-   "changed": false
+   "http_chars": 28181,
+   "changed": true,
+   "changes": 0,
+   "announcements": 0
   },
   {
    "id": "openrouter-models",
    "ok": true,
-   "http_chars": 917942,
+   "http_chars": 910087,
    "changed": true,
-   "changes": 20,
+   "changes": 17,
    "announcements": 0
   },
   {
@@ -30,13 +32,15 @@
   {
    "id": "mistral-models",
    "ok": true,
-   "http_chars": 934027,
-   "changed": false
+   "http_chars": 1293242,
+   "changed": true,
+   "changes": 97,
+   "announcements": 0
   },
   {
    "id": "google-gemini-pricing",
    "ok": true,
-   "http_chars": 156707,
+   "http_chars": 156967,
    "changed": true,
    "changes": 0,
    "announcements": 0
@@ -44,7 +48,7 @@
   {
    "id": "github-copilot-plans",
    "ok": true,
-   "http_chars": 1099736,
+   "http_chars": 1100573,
    "changed": true,
    "changes": 0,
    "announcements": 0
@@ -52,7 +56,7 @@
   {
    "id": "github-copilot-premium",
    "ok": true,
-   "http_chars": 625721,
+   "http_chars": 626558,
    "changed": true,
    "changes": 0,
    "announcements": 0
@@ -60,27 +64,31 @@
   {
    "id": "anthropic-changelog",
    "ok": true,
-   "http_chars": 148084,
-   "changed": false
-  },
-  {
-   "id": "github-changelog-rss",
-   "ok": true,
-   "http_chars": 39956,
-   "changed": false
-  },
-  {
-   "id": "openai-news-rss",
-   "ok": true,
-   "http_chars": 865424,
+   "http_chars": 148066,
    "changed": true,
    "changes": 0,
    "announcements": 0
   },
   {
+   "id": "github-changelog-rss",
+   "ok": true,
+   "http_chars": 42373,
+   "changed": true,
+   "changes": 0,
+   "announcements": 1
+  },
+  {
+   "id": "openai-news-rss",
+   "ok": true,
+   "http_chars": 867636,
+   "changed": true,
+   "changes": 0,
+   "announcements": 4
+  },
+  {
    "id": "gemini-release-notes",
    "ok": true,
-   "http_chars": 110038,
+   "http_chars": 110297,
    "changed": true,
    "changes": 0,
    "announcements": 0

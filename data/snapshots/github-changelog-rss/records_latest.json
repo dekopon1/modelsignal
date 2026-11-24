@@ -1,4 +1,9 @@
 {
+ "https://github.blog/changelog/2026-11-24-more-predictable-notifications-on-github-com": {
+  "title": "More predictable notifications on GitHub.com",
+  "date": "Tue, 24 Nov 2026 16:40:59 +0000",
+  "summary": "Starting December 1, 2026, we&#8217;re migrating notifications on GitHub.com over the course of a week to make subscriptions more predictable, correct unexpected behavior, and support the growing scale of activity.&#8230;\nThe post More predictable notifications on GitHub.com appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-11-23-issue-statuses-and-repository-boards-are-in-public-preview": {
   "title": "Issue statuses and repository boards are in public preview",
   "date": "Mon, 23 Nov 2026 20:37:11 +0000",
@@ -43,10 +48,5 @@
   "title": "Improvements on the pull request overview in public preview",
   "date": "Fri, 20 Nov 2026 00:02:21 +0000",
   "summary": "Your feedback has helped improve the new pull request Overview page since its November 5, 2026 public preview. Here&#8217;s what&#8217;s new! Clearer merge status and next steps Failed optional checks&#8230;\nThe post Improvements on the pull request overview in public preview appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-11-19-enterprise-live-migrations-from-azure-devops-generally-available": {
-  "title": "Enterprise Live Migrations from Azure DevOps generally available",
-  "date": "Thu, 19 Nov 2026 18:50:57 +0000",
-  "summary": "Enterprise Live Migrations (ELM) from Azure DevOps Services to GitHub Enterprise Cloud with data residency is now generally available. You can move your repositories while your teams keep working, then&#8230;\nThe post Enterprise Live Migrations from Azure DevOps generally available appeared first on The GitHub Blog."
  }
 }

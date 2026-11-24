@@ -1,333 +1,379 @@
 {
- "Models Overview": {},
- "Featured Models": {},
- "Mistral Large 4": {},
- "OCR 4.1": {},
- "Z.ai GLM 5.3": {},
- "Z.ai GLM 5.3 Flash": {},
- "DeepSeek V4.1 Flash 1017": {},
- "Mistral Small 4": {},
- "Voxtral Mini Transcribe 3": {},
- "Voxtral TTS 3": {},
- "All models": {},
+ "Models": {},
+ "Featured models": {},
  "Generalist models": {},
- "Ministral 3 14B": {},
- "Ministral 3 8B": {},
- "Ministral 3 3B": {},
  "OCR models": {},
- "OCR 3": {},
  "Audio models": {},
- "Voxtral Small Transcribe 3": {},
- "Voxtral Mini Transcribe Realtime 3": {},
- "Voxtral Small": {},
  "Code models": {},
- "Codestral": {},
  "Embedding models": {},
- "Codestral Embed": {},
- "Mistral Embed": {},
  "Moderation and safety models": {},
- "Shieldstral 1.0": {},
- "Mistral Moderation 2": {},
  "Time series models": {},
- "Timestral 1.0 209M": {},
- "Timestral 1.0 123M": {},
- "Timestral 1.0 28M": {},
- "Timestral 1.0 5M": {},
- "Deprecated": {},
+ "Other specialist": {},
  "Deprecated & retired models": {
-  "Mistral Medium 3.5 ↗": {
-   "5.2": "26.04",
-   "zai-glm-5-2": "mistral-medium-3-5",
-   "9/29/202610/31/2026": "10/31/20264/30/2027",
-   "Z.ai GLM 5.3": "Mistral Large 4"
+  "Voxtral Mini Transcribe 2": {
+   "Version": "26.02",
+   "API": "voxtral-mini-2602voxtral-mini-latest",
+   "Deprecation": "06/09/2026",
+   "Retirement": "05/03/2027",
+   "Alternative": "Voxtral Mini Transcribe 3"
   },
-  "Voxtral TTS ↗": {
-   "5.2": "26.03",
-   "zai-glm-5-2": "voxtral-mini-tts-2603",
-   "9/29/202610/31/2026": "10/31/20264/30/2027",
-   "Z.ai GLM 5.3": "Voxtral TTS 3"
+  "Voxtral Mini Transcribe Realtime": {
+   "Version": "26.02",
+   "API": "voxtral-mini-transcribe-realtime-2602voxtral-mini-realtime-latest",
+   "Deprecation": "06/09/2026",
+   "Retirement": "05/03/2027",
+   "Alternative": "Voxtral Mini Transcribe Realtime 3"
   },
-  "Leanstral 1.5 ↗": {
-   "5.2": "1.5",
-   "zai-glm-5-2": "labs-leanstral-1-5",
-   "9/29/202610/31/2026": "9/29/20269/30/2026"
+  "Mistral Medium 3.5": {
+   "Version": "26.04",
+   "API": "mistral-medium-3-5mistral-medium-latest",
+   "Deprecation": "06/09/2026",
+   "Retirement": "05/03/2027",
+   "Alternative": "Mistral Large 4"
   },
-  "Leanstral ↗": {
-   "5.2": "26.03",
-   "zai-glm-5-2": "labs-leanstral-2603",
-   "9/29/202610/31/2026": "5/22/20266/30/2026",
-   "Z.ai GLM 5.3": "Leanstral 1.5"
+  "OCR 4.0": {
+   "Version": "4.0",
+   "API": "mistral-ocr-4-0",
+   "Deprecation": "02/08/2026",
+   "Retirement": "03/08/2026",
+   "Alternative": "OCR 4.1"
   },
-  "Mistral Large 3 ↗": {
-   "5.2": "25.12",
-   "zai-glm-5-2": "mistral-large-2512",
-   "9/29/202610/31/2026": "10/31/20264/30/2027",
-   "Z.ai GLM 5.3": "Mistral Large 4"
+  "Leanstral 1.5": {
+   "Version": "1.5",
+   "API": "labs-leanstral-1-5",
+   "Deprecation": "02/08/2026",
+   "Retirement": "03/08/2026",
+   "Alternative": "-"
   },
-  "Mistral Medium 3.1 ↗": {
-   "5.2": "25.08",
-   "zai-glm-5-2": "mistral-medium-2508",
-   "9/29/202610/31/2026": "5/22/20268/31/2026",
-   "Z.ai GLM 5.3": "Mistral Medium 3.5"
+  "GLM 5.2": {
+   "Version": "5.2",
+   "API": "zai-glm-5-2glm-5-2",
+   "Deprecation": "02/08/2026",
+   "Retirement": "06/09/2026",
+   "Alternative": "GLM 5.3"
   },
-  "Mistral Small 3.2 ↗": {
-   "5.2": "25.06",
-   "zai-glm-5-2": "mistral-small-2506",
-   "9/29/202610/31/2026": "4/30/20267/31/2026",
-   "Z.ai GLM 5.3": "Mistral Small 4"
+  "Mistral NeMo": {
+   "Version": "24.07",
+   "API": "open-mistral-nemo-2407open-mistral-nemo",
+   "Deprecation": "05/04/2026",
+   "Retirement": "05/06/2026",
+   "Alternative": "Ministral 3 (8B)"
   },
-  "OCR 4.0 ↗": {
-   "5.2": "4.0",
-   "zai-glm-5-2": "mistral-ocr-4-0",
-   "9/29/202610/31/2026": "9/29/20269/30/2026",
-   "Z.ai GLM 5.3": "OCR 4.1"
+  "Mistral Medium 3": {
+   "Version": "25.05",
+   "API": "mistral-medium-2505",
+   "Deprecation": "05/04/2026",
+   "Retirement": "01/07/2026",
+   "Alternative": "Mistral Medium 3.5"
   },
-  "Voxtral Mini Transcribe ↗": {
-   "5.2": "25.07",
-   "zai-glm-5-2": "voxtral-mini-2507",
-   "9/29/202610/31/2026": "2/27/20265/31/2026",
-   "Z.ai GLM 5.3": "Voxtral Mini Transcribe 2"
+  "Mistral Medium 3.1": {
+   "Version": "25.08",
+   "API": "mistral-medium-2508",
+   "Deprecation": "05/04/2026",
+   "Retirement": "01/07/2026",
+   "Alternative": "Mistral Medium 3.5"
   },
-  "Voxtral Mini Transcribe 2 ↗": {
-   "5.2": "26.02",
-   "zai-glm-5-2": "voxtral-mini-2602",
-   "9/29/202610/31/2026": "10/31/20264/30/2027",
-   "Z.ai GLM 5.3": "Voxtral Mini Transcribe 3"
+  "Magistral Medium 1.2": {
+   "Version": "25.09",
+   "API": "magistral-medium-2509magistral-medium-latest",
+   "Deprecation": "05/04/2026",
+   "Retirement": "05/06/2026",
+   "Alternative": "Mistral Medium 3.5"
   },
-  "Voxtral Mini Transcribe Realtime ↗": {
-   "5.2": "26.02",
-   "zai-glm-5-2": "voxtral-mini-transcribe-realtime-2602",
-   "9/29/202610/31/2026": "10/31/20264/30/2027",
-   "Z.ai GLM 5.3": "Voxtral Mini Transcribe Realtime 3"
+  "Devstral 2": {
+   "Version": "25.12",
+   "API": "devstral-2512devstral-latestdevstral-medium-latest",
+   "Deprecation": "05/04/2026",
+   "Retirement": "05/06/2026",
+   "Alternative": "Mistral Medium 3.5"
   },
-  "Devstral 2 ↗": {
-   "5.2": "25.12",
-   "zai-glm-5-2": "devstral-2512",
-   "9/29/202610/31/2026": "5/22/20267/31/2026",
-   "Z.ai GLM 5.3": "Mistral Medium 3.5"
+  "Leanstral": {
+   "Version": "26.03",
+   "API": "labs-leanstral-2603",
+   "Deprecation": "05/04/2026",
+   "Retirement": "02/05/2026",
+   "Alternative": "Leanstral 1.5"
   },
-  "Magistral Medium 1.1 ↗": {
-   "5.2": "25.07",
-   "zai-glm-5-2": "magistral-medium-2507",
-   "9/29/202610/31/2026": "10/31/202511/30/2025",
-   "Z.ai GLM 5.3": "Mistral Medium 3.5"
+  "Mistral Small 3.2": {
+   "Version": "25.06",
+   "API": "mistral-small-2506",
+   "Deprecation": "04/03/2026",
+   "Retirement": "05/06/2026",
+   "Alternative": "Mistral Small 4"
   },
-  "Mistral Small Creative ↗": {
-   "5.2": "25.12",
-   "zai-glm-5-2": "labs-mistral-small-creative",
-   "9/29/202610/31/2026": "3/31/20264/30/2026",
-   "Z.ai GLM 5.3": "Ministral 3 8B"
+  "Magistral Small 1.2": {
+   "Version": "25.09",
+   "API": "magistral-small-2509magistral-small-latest",
+   "Deprecation": "04/03/2026",
+   "Retirement": "05/06/2026",
+   "Alternative": "Mistral Small 4"
   },
-  "Devstral Small 2 ↗": {
-   "5.2": "25.12",
-   "zai-glm-5-2": "labs-devstral-small-2512",
-   "9/29/202610/31/2026": "2/27/20263/31/2026",
-   "Z.ai GLM 5.3": "Mistral Medium 3.5"
+  "Mistral Moderation": {
+   "Version": "24.11",
+   "API": "mistral-moderation-2411",
+   "Deprecation": "02/02/2026",
+   "Retirement": "02/05/2026",
+   "Alternative": "Mistral Moderation 2"
   },
-  "Magistral Medium 1.2 ↗": {
-   "5.2": "25.09",
-   "zai-glm-5-2": "magistral-medium-2509",
-   "9/29/202610/31/2026": "5/22/20267/31/2026",
-   "Z.ai GLM 5.3": "Mistral Medium 3.5"
+  "Mistral Small Creative": {
+   "Version": "25.12",
+   "API": "labs-mistral-small-creative",
+   "Deprecation": "02/02/2026",
+   "Retirement": "04/03/2026",
+   "Alternative": "Ministral 3 (8B)"
   },
-  "Magistral Small 1.2 ↗": {
-   "5.2": "25.09",
-   "zai-glm-5-2": "magistral-small-2509",
-   "9/29/202610/31/2026": "4/30/20267/31/2026",
-   "Z.ai GLM 5.3": "Mistral Small 4"
+  "Pixtral Large": {
+   "Version": "24.11",
+   "API": "pixtral-large-2411pixtral-large-latest",
+   "Deprecation": "05/01/2026",
+   "Retirement": "00/04/2026",
+   "Alternative": "Mistral Medium 3.5"
   },
-  "Magistral Small 1.1 ↗": {
-   "5.2": "25.07",
-   "zai-glm-5-2": "magistral-small-2507",
-   "9/29/202610/31/2026": "10/31/202511/30/2025",
-   "Z.ai GLM 5.3": "Mistral Small 4"
+  "Mistral Large 2.1": {
+   "Version": "24.11",
+   "API": "mistral-large-2411",
+   "Deprecation": "05/01/2026",
+   "Retirement": "00/04/2026",
+   "Alternative": "Mistral Medium 3.5"
   },
-  "Voxtral Mini ↗": {
-   "5.2": "25.07",
-   "zai-glm-5-2": "voxtral-mini-2507",
-   "9/29/202610/31/2026": "2/27/20265/31/2026",
-   "Z.ai GLM 5.3": "Voxtral Mini Transcribe 2"
+  "OCR 2": {
+   "Version": "25.05",
+   "API": "mistral-ocr-2505",
+   "Deprecation": "05/01/2026",
+   "Retirement": "00/04/2026",
+   "Alternative": "OCR 4.1"
   },
-  "Devstral Medium 1.0 ↗": {
-   "5.2": "25.07",
-   "zai-glm-5-2": "devstral-medium-2507",
-   "9/29/202610/31/2026": "2/27/20265/31/2026",
-   "Z.ai GLM 5.3": "Mistral Medium 3.5"
+  "Devstral Medium 1.0": {
+   "Version": "25.07",
+   "API": "devstral-medium-2507",
+   "Deprecation": "05/01/2026",
+   "Retirement": "00/04/2026",
+   "Alternative": "Mistral Medium 3.5"
   },
-  "Devstral Small 1.1 ↗": {
-   "5.2": "25.07",
-   "zai-glm-5-2": "devstral-small-2507",
-   "9/29/202610/31/2026": "2/27/20265/31/2026",
-   "Z.ai GLM 5.3": "Mistral Small 4"
+  "Devstral Small 1.1": {
+   "Version": "25.07",
+   "API": "devstral-small-2507",
+   "Deprecation": "05/01/2026",
+   "Retirement": "00/04/2026",
+   "Alternative": "Mistral Small 4"
   },
-  "Magistral Medium 1.0 ↗": {
-   "5.2": "25.06",
-   "zai-glm-5-2": "magistral-medium-2506",
-   "9/29/202610/31/2026": "10/31/202511/30/2025",
-   "Z.ai GLM 5.3": "Mistral Medium 3.5"
+  "Voxtral Mini": {
+   "Version": "25.07",
+   "API": "-",
+   "Deprecation": "05/01/2026",
+   "Retirement": "00/04/2026",
+   "Alternative": "Voxtral Mini Transcribe 2"
   },
-  "Magistral Small 1.0 ↗": {
-   "5.2": "25.06",
-   "zai-glm-5-2": "magistral-small-2506",
-   "9/29/202610/31/2026": "10/31/202511/30/2025",
-   "Z.ai GLM 5.3": "Mistral Small 4"
+  "Voxtral Mini Transcribe": {
+   "Version": "25.07",
+   "API": "voxtral-mini-2507",
+   "Deprecation": "05/01/2026",
+   "Retirement": "00/04/2026",
+   "Alternative": "Voxtral Mini Transcribe 2"
   },
-  "OCR 2 ↗": {
-   "5.2": "25.05",
-   "zai-glm-5-2": "mistral-ocr-2505",
-   "9/29/202610/31/2026": "2/27/20265/31/2026",
-   "Z.ai GLM 5.3": "OCR 4.1"
+  "Devstral Small 2": {
+   "Version": "25.12",
+   "API": "labs-devstral-small-2512devstral-small-latest",
+   "Deprecation": "05/01/2026",
+   "Retirement": "02/02/2026",
+   "Alternative": "Mistral Medium 3.5"
   },
-  "Devstral Small 1.0 ↗": {
-   "5.2": "25.05",
-   "zai-glm-5-2": "devstral-small-2505",
-   "9/29/202610/31/2026": "10/31/202511/30/2025",
-   "Z.ai GLM 5.3": "Mistral Medium 3.5"
+  "Pixtral 12B": {
+   "Version": "24.09",
+   "API": "pixtral-12b-2409",
+   "Deprecation": "02/11/2025",
+   "Retirement": "03/11/2025",
+   "Alternative": "Ministral 3 (14B)"
   },
-  "Mistral Medium 3 ↗": {
-   "5.2": "25.05",
-   "zai-glm-5-2": "mistral-medium-2505",
-   "9/29/202610/31/2026": "5/22/20268/31/2026",
-   "Z.ai GLM 5.3": "Mistral Medium 3.5"
+  "Ministral 3B": {
+   "Version": "24.1",
+   "API": "ministral-3b-2410",
+   "Deprecation": "02/11/2025",
+   "Retirement": "03/11/2025",
+   "Alternative": "Ministral 3 (3B)"
   },
-  "Mistral Small 3.1 ↗": {
-   "5.2": "25.03",
-   "zai-glm-5-2": "mistral-small-2503",
-   "9/29/202610/31/2026": "11/6/202511/30/2025",
-   "Z.ai GLM 5.3": "Mistral Small 4"
+  "Ministral 8B": {
+   "Version": "24.1",
+   "API": "ministral-8b-2410",
+   "Deprecation": "02/11/2025",
+   "Retirement": "03/11/2025",
+   "Alternative": "Ministral 3 (8B)"
   },
-  "OCR ↗": {
-   "5.2": "25.03",
-   "zai-glm-5-2": "mistral-ocr-2503",
-   "9/29/202610/31/2026": "12/2/202512/31/2025",
-   "Z.ai GLM 5.3": "OCR 4.1"
+  "OCR": {
+   "Version": "25.03",
+   "API": "mistral-ocr-2503",
+   "Deprecation": "02/11/2025",
+   "Retirement": "03/11/2025",
+   "Alternative": "OCR 4.1"
   },
-  "Mistral Saba ↗": {
-   "5.2": "25.02",
-   "zai-glm-5-2": "mistral-saba-2502",
-   "9/29/202610/31/2026": "6/10/20259/30/2025",
-   "Z.ai GLM 5.3": "Mistral Small 4"
+  "Mistral Small 2.0": {
+   "Version": "24.09",
+   "API": "mistral-small-2409",
+   "Deprecation": "04/10/2025",
+   "Retirement": "00/10/2025",
+   "Alternative": "Mistral Small 4"
   },
-  "Mistral Small 3.0 ↗": {
-   "5.2": "25.01",
-   "zai-glm-5-2": "mistral-small-2501",
-   "9/29/202610/31/2026": "11/6/202511/30/2025",
-   "Z.ai GLM 5.3": "Mistral Small 4"
+  "Codestral 25.01": {
+   "Version": "25.01",
+   "API": "codestral-2501",
+   "Deprecation": "04/10/2025",
+   "Retirement": "00/10/2025",
+   "Alternative": "Codestral 24.05"
   },
-  "Codestral ↗": {
-   "5.2": "25.01 | 24.05",
-   "zai-glm-5-2": "codestral-2501 | codestral-2405",
-   "9/29/202610/31/2026": "11/6/202511/30/2025 | 12/2/20246/16/2025",
-   "Z.ai GLM 5.3": "Codestral"
+  "Mistral Small 3.0": {
+   "Version": "25.01",
+   "API": "mistral-small-2501",
+   "Deprecation": "04/10/2025",
+   "Retirement": "00/10/2025",
+   "Alternative": "Mistral Small 4"
   },
-  "Mistral Large 2.1 ↗": {
-   "5.2": "24.11",
-   "zai-glm-5-2": "mistral-large-2411",
-   "9/29/202610/31/2026": "2/27/20265/31/2026",
-   "Z.ai GLM 5.3": "Mistral Medium 3.5"
+  "Mistral Small 3.1": {
+   "Version": "25.03",
+   "API": "mistral-small-2503",
+   "Deprecation": "04/10/2025",
+   "Retirement": "00/10/2025",
+   "Alternative": "Mistral Small 4"
   },
-  "Pixtral Large ↗": {
-   "5.2": "24.11",
-   "zai-glm-5-2": "pixtral-large-2411",
-   "9/29/202610/31/2026": "2/27/20265/31/2026",
-   "Z.ai GLM 5.3": "Mistral Medium 3.5"
+  "Devstral Small 1.0": {
+   "Version": "25.05",
+   "API": "devstral-small-2505",
+   "Deprecation": "05/09/2025",
+   "Retirement": "00/10/2025",
+   "Alternative": "Mistral Medium 3.5"
   },
-  "Mistral Moderation ↗": {
-   "5.2": "24.11",
-   "zai-glm-5-2": "mistral-moderation-2411",
-   "9/29/202610/31/2026": "3/31/20266/30/2026",
-   "Z.ai GLM 5.3": "Mistral Moderation 2"
+  "Magistral Medium 1.0": {
+   "Version": "25.06",
+   "API": "magistral-medium-2506",
+   "Deprecation": "05/09/2025",
+   "Retirement": "00/10/2025",
+   "Alternative": "Mistral Medium 3.5"
   },
-  "Ministral 3B ↗": {
-   "5.2": "24.1",
-   "zai-glm-5-2": "ministral-3b-2410",
-   "9/29/202610/31/2026": "12/2/202512/31/2025",
-   "Z.ai GLM 5.3": "Ministral 3 3B"
+  "Magistral Small 1.0": {
+   "Version": "25.06",
+   "API": "magistral-small-2506",
+   "Deprecation": "05/09/2025",
+   "Retirement": "00/10/2025",
+   "Alternative": "Mistral Small 4"
   },
-  "Ministral 8B ↗": {
-   "5.2": "24.1",
-   "zai-glm-5-2": "ministral-8b-2410",
-   "9/29/202610/31/2026": "12/2/202512/31/2025",
-   "Z.ai GLM 5.3": "Ministral 3 8B"
+  "Magistral Medium 1.1": {
+   "Version": "25.07",
+   "API": "magistral-medium-2507",
+   "Deprecation": "05/09/2025",
+   "Retirement": "00/10/2025",
+   "Alternative": "Mistral Medium 3.5"
   },
-  "Mistral Small 2.0 ↗": {
-   "5.2": "24.09",
-   "zai-glm-5-2": "mistral-small-2409",
-   "9/29/202610/31/2026": "11/6/202511/30/2025",
-   "Z.ai GLM 5.3": "Mistral Small 4"
+  "Magistral Small 1.1": {
+   "Version": "25.07",
+   "API": "magistral-small-2507",
+   "Deprecation": "05/09/2025",
+   "Retirement": "00/10/2025",
+   "Alternative": "Mistral Small 4"
   },
-  "Pixtral 12B ↗": {
-   "5.2": "24.09",
-   "zai-glm-5-2": "pixtral-12b-2409",
-   "9/29/202610/31/2026": "12/2/202512/31/2025",
-   "Z.ai GLM 5.3": "Ministral 3 14B"
+  "Mistral Saba": {
+   "Version": "25.02",
+   "API": "mistral-saba-2502mistral-saba-latest",
+   "Deprecation": "02/05/2025",
+   "Retirement": "02/08/2025",
+   "Alternative": "Mistral Small 4"
   },
-  "Mistral Large 2.0 ↗": {
-   "5.2": "24.07",
-   "zai-glm-5-2": "mistral-large-2407",
-   "9/29/202610/31/2026": "11/30/20243/30/2025",
-   "Z.ai GLM 5.3": "Mistral Large 3"
+  "Codestral Mamba 7B": {
+   "Version": "0.1",
+   "API": "open-codestral-mamba",
+   "Deprecation": "05/05/2025",
+   "Retirement": "05/05/2025",
+   "Alternative": "Codestral 24.05"
   },
-  "Mistral Nemo 12B ↗": {
-   "5.2": "24.07",
-   "zai-glm-5-2": "open-mistral-nemo-2407",
-   "9/29/202610/31/2026": "5/22/20267/31/2026",
-   "Z.ai GLM 5.3": "Ministral 3 8B"
+  "Mistral 7B 0.1": {
+   "Version": "0.1",
+   "API": "-",
+   "Deprecation": "06/10/2024",
+   "Retirement": "00/02/2025",
+   "Alternative": "Ministral 3 (8B)"
   },
-  "Codestral Mamba 7B ↗": {
-   "5.2": "0.1",
-   "zai-glm-5-2": "open-codestral-mamba",
-   "9/29/202610/31/2026": "6/6/20256/6/2025",
-   "Z.ai GLM 5.3": "Codestral"
+  "Mixtral 8x7B": {
+   "Version": "0.1",
+   "API": "open-mixtral-8x7b",
+   "Deprecation": "06/10/2024",
+   "Retirement": "00/02/2025",
+   "Alternative": "Mistral Small 4"
   },
-  "Mathstral 7B ↗": {
-   "5.2": "0.1",
-   "Z.ai GLM 5.3": "Mistral Small 4"
+  "Mistral Medium 1.0": {
+   "Version": "23.12",
+   "API": "mistral-medium-2312",
+   "Deprecation": "06/10/2024",
+   "Retirement": "01/05/2025",
+   "Alternative": "Mistral Medium 3.5"
   },
-  "Mistral 7B ↗": {
-   "5.2": "0.3 | 0.2 | 0.1",
-   "zai-glm-5-2": "open-mistral-7b",
-   "9/29/202610/31/2026": "11/30/20243/30/2025",
-   "Z.ai GLM 5.3": "Ministral 3 8B"
+  "Mistral 7B 0.2": {
+   "Version": "0.2",
+   "API": "-",
+   "Deprecation": "06/10/2024",
+   "Retirement": "00/02/2025",
+   "Alternative": "Ministral 3 (8B)"
   },
-  "Mixtral 8x22B ↗": {
-   "5.2": "0.1-0.3",
-   "zai-glm-5-2": "open-mixtral-8x22b",
-   "9/29/202610/31/2026": "11/30/20243/30/2025",
-   "Z.ai GLM 5.3": "Mistral Small 4"
+  "Mistral Small 1.0": {
+   "Version": "24.02",
+   "API": "mistral-small-2402",
+   "Deprecation": "06/10/2024",
+   "Retirement": "01/05/2025",
+   "Alternative": "Mistral Small 4"
   },
-  "Mistral Small 1.0 ↗": {
-   "5.2": "24.02",
-   "zai-glm-5-2": "mistral-small-2402",
-   "9/29/202610/31/2026": "11/30/20246/16/2025",
-   "Z.ai GLM 5.3": "Mistral Small 4"
+  "Mistral Large 1.0": {
+   "Version": "24.02",
+   "API": "mistral-large-2402",
+   "Deprecation": "06/10/2024",
+   "Retirement": "01/05/2025",
+   "Alternative": "Mistral Large 3"
   },
-  "Mistral Large 1.0 ↗": {
-   "5.2": "24.02",
-   "zai-glm-5-2": "mistral-large-2402",
-   "9/29/202610/31/2026": "11/30/20246/16/2025",
-   "Z.ai GLM 5.3": "Mistral Large 3"
+  "Mixtral 8x22B": {
+   "Version": "0.1-0.3",
+   "API": "open-mixtral-8x22b",
+   "Deprecation": "06/10/2024",
+   "Retirement": "00/02/2025",
+   "Alternative": "Mistral Small 4"
   },
-  "Mistral Next ↗": {
-   "Z.ai GLM 5.3": "Mistral Large 3"
+  "Mistral 7B 0.3": {
+   "Version": "0.3",
+   "API": "open-mistral-7b",
+   "Deprecation": "06/10/2024",
+   "Retirement": "00/02/2025",
+   "Alternative": "Ministral 3 (8B)"
   },
-  "Mistral Medium 1.0 ↗": {
-   "5.2": "23.12",
-   "zai-glm-5-2": "mistral-medium-2312",
-   "9/29/202610/31/2026": "11/30/20246/16/2025",
-   "Z.ai GLM 5.3": "Mistral Medium 3.5"
-  },
-  "Mixtral 8x7B ↗": {
-   "5.2": "0.1",
-   "zai-glm-5-2": "open-mixtral-8x7b",
-   "9/29/202610/31/2026": "11/30/20243/30/2025",
-   "Z.ai GLM 5.3": "Mistral Small 4"
+  "Mistral Large 2.0": {
+   "Version": "24.07",
+   "API": "mistral-large-2407",
+   "Deprecation": "06/10/2024",
+   "Retirement": "00/02/2025",
+   "Alternative": "Mistral Large 3"
   }
  },
- "WHY MISTRAL": {},
- "EXPLORE": {},
- "DOCUMENTATION": {},
- "BUILD": {},
- "LEGAL": {},
- "COMMUNITY": {}
+ "DeepSeek V4.1 Flash 1017": {},
+ "GLM 5.3 Flash": {},
+ "Voxtral Mini Transcribe 3": {},
+ "Mistral Large 4": {},
+ "GLM 5.3": {},
+ "OCR 4.1": {},
+ "Mistral Small 4": {},
+ "Ministral 3 (14B)": {},
+ "Ministral 3 (8B)": {},
+ "Ministral 3 (3B)": {},
+ "Timestral": {},
+ "Ministral 3": {},
+ "Mistral 7B": {},
+ "Magistral Small": {},
+ "Magistral Medium": {},
+ "OCR 3": {},
+ "Voxtral Mini Transcribe Realtime 3": {},
+ "Voxtral Small Transcribe 3": {},
+ "Voxtral Small": {},
+ "Codestral": {},
+ "Codestral Embed": {},
+ "Mistral Embed": {},
+ "Shieldstral": {},
+ "Mistral Moderation 2": {},
+ "Timestral 1.0 5M": {},
+ "Timestral 1.0 28M": {},
+ "Timestral 1.0 123M": {},
+ "Timestral 1.0 209M": {},
+ "Mathstral 7B": {}
 }
