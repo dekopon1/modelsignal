@@ -10,6 +10,26 @@
  "Time series models": {},
  "Other specialist": {},
  "Deprecated & retired models": {
+  "Mistral Next": {
+   "API": "-",
+   "Deprecation": "-",
+   "Retirement": "-",
+   "Alternative": "Mistral Large 3"
+  },
+  "Mathstral 7B": {
+   "Version": "0.1",
+   "API": "-",
+   "Deprecation": "-",
+   "Retirement": "-",
+   "Alternative": "Mistral Small 4"
+  },
+  "Mistral Large 3": {
+   "Version": "25.12",
+   "API": "mistral-large-2512",
+   "Deprecation": "06/09/2026",
+   "Retirement": "05/03/2027",
+   "Alternative": "Mistral Large 4"
+  },
   "Voxtral Mini Transcribe 2": {
    "Version": "26.02",
    "API": "voxtral-mini-2602voxtral-mini-latest",
@@ -23,6 +43,13 @@
    "Deprecation": "06/09/2026",
    "Retirement": "05/03/2027",
    "Alternative": "Voxtral Mini Transcribe Realtime 3"
+  },
+  "Voxtral TTS": {
+   "Version": "26.03",
+   "API": "voxtral-mini-tts-2603",
+   "Deprecation": "06/09/2026",
+   "Retirement": "05/03/2027",
+   "Alternative": "Voxtral Mini TTS 3"
   },
   "Mistral Medium 3.5": {
    "Version": "26.04",
@@ -350,6 +377,7 @@
  "DeepSeek V4.1 Flash 1017": {},
  "GLM 5.3 Flash": {},
  "Voxtral Mini Transcribe 3": {},
+ "Voxtral Mini TTS 3": {},
  "Mistral Large 4": {},
  "GLM 5.3": {},
  "OCR 4.1": {},
@@ -357,6 +385,7 @@
  "Ministral 3 (14B)": {},
  "Ministral 3 (8B)": {},
  "Ministral 3 (3B)": {},
+ "Mistral Next": {},
  "Timestral": {},
  "Ministral 3": {},
  "Mistral 7B": {},
@@ -369,11 +398,11 @@
  "Codestral": {},
  "Codestral Embed": {},
  "Mistral Embed": {},
- "Shieldstral": {},
  "Mistral Moderation 2": {},
- "Timestral 1.0 5M": {},
- "Timestral 1.0 28M": {},
- "Timestral 1.0 123M": {},
+ "Shieldstral": {},
  "Timestral 1.0 209M": {},
+ "Timestral 1.0 123M": {},
+ "Timestral 1.0 28M": {},
+ "Timestral 1.0 5M": {},
  "Mathstral 7B": {}
 }
