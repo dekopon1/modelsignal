@@ -1,4 +1,9 @@
 {
+ "https://github.blog/changelog/2026-11-25-copilot-code-review-billing-will-default-to-the-organization": {
+  "title": "Copilot code review billing will default to the organization",
+  "date": "Wed, 25 Nov 2026 22:18:03 +0000",
+  "summary": "If you haven&#8217;t chosen how to bill Copilot code review for members with a Copilot license, those reviews will be billed to your organization starting December 30, 2026. To keep&#8230;\nThe post Copilot code review billing will default to the organization appeared first on The GitHub Blog."
+ },
  "https://github.blog/changelog/2026-11-24-more-predictable-notifications-on-github-com": {
   "title": "More predictable notifications on GitHub.com",
   "date": "Tue, 24 Nov 2026 16:40:59 +0000",
@@ -43,10 +48,5 @@
   "title": "GitHub Desktop now supports multiple accounts per host",
   "date": "Fri, 20 Nov 2026 02:06:01 +0000",
   "summary": "GitHub Desktop now lets you sign in with more than one account on the same host, including GitHub.com, GitHub Enterprise Server, and GHE.com. This has been one of the most&#8230;\nThe post GitHub Desktop now supports multiple accounts per host appeared first on The GitHub Blog."
- },
- "https://github.blog/changelog/2026-11-19-improvements-on-the-pull-request-overview-in-public-preview": {
-  "title": "Improvements on the pull request overview in public preview",
-  "date": "Fri, 20 Nov 2026 00:02:21 +0000",
-  "summary": "Your feedback has helped improve the new pull request Overview page since its November 5, 2026 public preview. Here&#8217;s what&#8217;s new! Clearer merge status and next steps Failed optional checks&#8230;\nThe post Improvements on the pull request overview in public preview appeared first on The GitHub Blog."
  }
 }
