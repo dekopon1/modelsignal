@@ -10,10 +10,354 @@
  "Time series models": {},
  "Other specialist": {},
  "Deprecated & retired models": {
-  "Mistral Next": {
+  "Mistral Large 3": {
+   "Version": "25.12",
+   "API": "mistral-large-2512",
+   "Deprecation": "Oct 31, 2026",
+   "Retirement": "Apr 30, 2027",
+   "Alternative": "Mistral Large 4"
+  },
+  "Voxtral Mini Transcribe 2": {
+   "Version": "26.02",
+   "API": "voxtral-mini-2602voxtral-mini-latest",
+   "Deprecation": "Oct 31, 2026",
+   "Retirement": "Apr 30, 2027",
+   "Alternative": "Voxtral Mini Transcribe 3"
+  },
+  "Voxtral Mini Transcribe Realtime": {
+   "Version": "26.02",
+   "API": "voxtral-mini-transcribe-realtime-2602voxtral-mini-realtime-latest",
+   "Deprecation": "Oct 31, 2026",
+   "Retirement": "Apr 30, 2027",
+   "Alternative": "Voxtral Mini Transcribe Realtime 3"
+  },
+  "Voxtral TTS": {
+   "Version": "26.03",
+   "API": "voxtral-mini-tts-2603",
+   "Deprecation": "Oct 31, 2026",
+   "Retirement": "Apr 30, 2027",
+   "Alternative": "Voxtral Mini TTS 3"
+  },
+  "Mistral Medium 3.5": {
+   "Version": "26.04",
+   "API": "mistral-medium-3-5mistral-medium-latest",
+   "Deprecation": "Oct 31, 2026",
+   "Retirement": "Apr 30, 2027",
+   "Alternative": "Mistral Large 4"
+  },
+  "OCR 4.0": {
+   "Version": "4.0",
+   "API": "mistral-ocr-4-0",
+   "Deprecation": "Sep 29, 2026",
+   "Retirement": "Sep 30, 2026",
+   "Alternative": "OCR 4.1"
+  },
+  "Leanstral 1.5": {
+   "Version": "1.5",
+   "API": "labs-leanstral-1-5",
+   "Deprecation": "Sep 29, 2026",
+   "Retirement": "Sep 30, 2026",
+   "Alternative": "-"
+  },
+  "GLM 5.2": {
+   "Version": "5.2",
+   "API": "zai-glm-5-2glm-5-2",
+   "Deprecation": "Sep 29, 2026",
+   "Retirement": "Oct 31, 2026",
+   "Alternative": "GLM 5.3"
+  },
+  "Mistral NeMo": {
+   "Version": "24.07",
+   "API": "open-mistral-nemo-2407open-mistral-nemo",
+   "Deprecation": "May 22, 2026",
+   "Retirement": "Jul 31, 2026",
+   "Alternative": "Ministral 3 (8B)"
+  },
+  "Mistral Medium 3": {
+   "Version": "25.05",
+   "API": "mistral-medium-2505",
+   "Deprecation": "May 22, 2026",
+   "Retirement": "Aug 31, 2026",
+   "Alternative": "Mistral Medium 3.5"
+  },
+  "Mistral Medium 3.1": {
+   "Version": "25.08",
+   "API": "mistral-medium-2508",
+   "Deprecation": "May 22, 2026",
+   "Retirement": "Aug 31, 2026",
+   "Alternative": "Mistral Medium 3.5"
+  },
+  "Magistral Medium 1.2": {
+   "Version": "25.09",
+   "API": "magistral-medium-2509magistral-medium-latest",
+   "Deprecation": "May 22, 2026",
+   "Retirement": "Jul 31, 2026",
+   "Alternative": "Mistral Medium 3.5"
+  },
+  "Devstral 2": {
+   "Version": "25.12",
+   "API": "devstral-2512devstral-latestdevstral-medium-latest",
+   "Deprecation": "May 22, 2026",
+   "Retirement": "Jul 31, 2026",
+   "Alternative": "Mistral Medium 3.5"
+  },
+  "Leanstral": {
+   "Version": "26.03",
+   "API": "labs-leanstral-2603",
+   "Deprecation": "May 22, 2026",
+   "Retirement": "Jun 30, 2026",
+   "Alternative": "Leanstral 1.5"
+  },
+  "Mistral Small 3.2": {
+   "Version": "25.06",
+   "API": "mistral-small-2506",
+   "Deprecation": "Apr 30, 2026",
+   "Retirement": "Jul 31, 2026",
+   "Alternative": "Mistral Small 4"
+  },
+  "Magistral Small 1.2": {
+   "Version": "25.09",
+   "API": "magistral-small-2509magistral-small-latest",
+   "Deprecation": "Apr 30, 2026",
+   "Retirement": "Jul 31, 2026",
+   "Alternative": "Mistral Small 4"
+  },
+  "Mistral Moderation": {
+   "Version": "24.11",
+   "API": "mistral-moderation-2411",
+   "Deprecation": "Mar 31, 2026",
+   "Retirement": "Jun 30, 2026",
+   "Alternative": "Mistral Moderation 2"
+  },
+  "Mistral Small Creative": {
+   "Version": "25.12",
+   "API": "labs-mistral-small-creative",
+   "Deprecation": "Mar 31, 2026",
+   "Retirement": "Apr 30, 2026",
+   "Alternative": "Ministral 3 (8B)"
+  },
+  "Pixtral Large": {
+   "Version": "24.11",
+   "API": "pixtral-large-2411pixtral-large-latest",
+   "Deprecation": "Feb 27, 2026",
+   "Retirement": "May 31, 2026",
+   "Alternative": "Mistral Medium 3.5"
+  },
+  "Mistral Large 2.1": {
+   "Version": "24.11",
+   "API": "mistral-large-2411",
+   "Deprecation": "Feb 27, 2026",
+   "Retirement": "May 31, 2026",
+   "Alternative": "Mistral Medium 3.5"
+  },
+  "OCR 2": {
+   "Version": "25.05",
+   "API": "mistral-ocr-2505",
+   "Deprecation": "Feb 27, 2026",
+   "Retirement": "May 31, 2026",
+   "Alternative": "OCR 4.1"
+  },
+  "Devstral Medium 1.0": {
+   "Version": "25.07",
+   "API": "devstral-medium-2507",
+   "Deprecation": "Feb 27, 2026",
+   "Retirement": "May 31, 2026",
+   "Alternative": "Mistral Medium 3.5"
+  },
+  "Devstral Small 1.1": {
+   "Version": "25.07",
+   "API": "devstral-small-2507",
+   "Deprecation": "Feb 27, 2026",
+   "Retirement": "May 31, 2026",
+   "Alternative": "Mistral Small 4"
+  },
+  "Voxtral Mini": {
+   "Version": "25.07",
    "API": "-",
-   "Deprecation": "-",
-   "Retirement": "-",
+   "Deprecation": "Feb 27, 2026",
+   "Retirement": "May 31, 2026",
+   "Alternative": "Voxtral Mini Transcribe 2"
+  },
+  "Voxtral Mini Transcribe": {
+   "Version": "25.07",
+   "API": "voxtral-mini-2507",
+   "Deprecation": "Feb 27, 2026",
+   "Retirement": "May 31, 2026",
+   "Alternative": "Voxtral Mini Transcribe 2"
+  },
+  "Devstral Small 2": {
+   "Version": "25.12",
+   "API": "labs-devstral-small-2512devstral-small-latest",
+   "Deprecation": "Feb 27, 2026",
+   "Retirement": "Mar 31, 2026",
+   "Alternative": "Mistral Medium 3.5"
+  },
+  "Pixtral 12B": {
+   "Version": "24.09",
+   "API": "pixtral-12b-2409",
+   "Deprecation": "Dec 2, 2025",
+   "Retirement": "Dec 31, 2025",
+   "Alternative": "Ministral 3 (14B)"
+  },
+  "Ministral 3B": {
+   "Version": "24.1",
+   "API": "ministral-3b-2410",
+   "Deprecation": "Dec 2, 2025",
+   "Retirement": "Dec 31, 2025",
+   "Alternative": "Ministral 3 (3B)"
+  },
+  "Ministral 8B": {
+   "Version": "24.1",
+   "API": "ministral-8b-2410",
+   "Deprecation": "Dec 2, 2025",
+   "Retirement": "Dec 31, 2025",
+   "Alternative": "Ministral 3 (8B)"
+  },
+  "OCR": {
+   "Version": "25.03",
+   "API": "mistral-ocr-2503",
+   "Deprecation": "Dec 2, 2025",
+   "Retirement": "Dec 31, 2025",
+   "Alternative": "OCR 4.1"
+  },
+  "Mistral Small 2.0": {
+   "Version": "24.09",
+   "API": "mistral-small-2409",
+   "Deprecation": "Nov 6, 2025",
+   "Retirement": "Nov 30, 2025",
+   "Alternative": "Mistral Small 4"
+  },
+  "Codestral 25.01": {
+   "Version": "25.01",
+   "API": "codestral-2501",
+   "Deprecation": "Nov 6, 2025",
+   "Retirement": "Nov 30, 2025",
+   "Alternative": "Codestral 24.05"
+  },
+  "Mistral Small 3.0": {
+   "Version": "25.01",
+   "API": "mistral-small-2501",
+   "Deprecation": "Nov 6, 2025",
+   "Retirement": "Nov 30, 2025",
+   "Alternative": "Mistral Small 4"
+  },
+  "Mistral Small 3.1": {
+   "Version": "25.03",
+   "API": "mistral-small-2503",
+   "Deprecation": "Nov 6, 2025",
+   "Retirement": "Nov 30, 2025",
+   "Alternative": "Mistral Small 4"
+  },
+  "Devstral Small 1.0": {
+   "Version": "25.05",
+   "API": "devstral-small-2505",
+   "Deprecation": "Oct 31, 2025",
+   "Retirement": "Nov 30, 2025",
+   "Alternative": "Mistral Medium 3.5"
+  },
+  "Magistral Medium 1.0": {
+   "Version": "25.06",
+   "API": "magistral-medium-2506",
+   "Deprecation": "Oct 31, 2025",
+   "Retirement": "Nov 30, 2025",
+   "Alternative": "Mistral Medium 3.5"
+  },
+  "Magistral Small 1.0": {
+   "Version": "25.06",
+   "API": "magistral-small-2506",
+   "Deprecation": "Oct 31, 2025",
+   "Retirement": "Nov 30, 2025",
+   "Alternative": "Mistral Small 4"
+  },
+  "Magistral Medium 1.1": {
+   "Version": "25.07",
+   "API": "magistral-medium-2507",
+   "Deprecation": "Oct 31, 2025",
+   "Retirement": "Nov 30, 2025",
+   "Alternative": "Mistral Medium 3.5"
+  },
+  "Magistral Small 1.1": {
+   "Version": "25.07",
+   "API": "magistral-small-2507",
+   "Deprecation": "Oct 31, 2025",
+   "Retirement": "Nov 30, 2025",
+   "Alternative": "Mistral Small 4"
+  },
+  "Mistral Saba": {
+   "Version": "25.02",
+   "API": "mistral-saba-2502mistral-saba-latest",
+   "Deprecation": "Jun 10, 2025",
+   "Retirement": "Sep 30, 2025",
+   "Alternative": "Mistral Small 4"
+  },
+  "Codestral Mamba 7B": {
+   "Version": "0.1",
+   "API": "open-codestral-mamba",
+   "Deprecation": "Jun 6, 2025",
+   "Retirement": "Jun 6, 2025",
+   "Alternative": "Codestral 24.05"
+  },
+  "Mistral 7B 0.1": {
+   "Version": "0.1",
+   "API": "-",
+   "Deprecation": "Nov 30, 2024",
+   "Retirement": "Mar 30, 2025",
+   "Alternative": "Ministral 3 (8B)"
+  },
+  "Mixtral 8x7B": {
+   "Version": "0.1",
+   "API": "open-mixtral-8x7b",
+   "Deprecation": "Nov 30, 2024",
+   "Retirement": "Mar 30, 2025",
+   "Alternative": "Mistral Small 4"
+  },
+  "Mistral Medium 1.0": {
+   "Version": "23.12",
+   "API": "mistral-medium-2312",
+   "Deprecation": "Nov 30, 2024",
+   "Retirement": "Jun 16, 2025",
+   "Alternative": "Mistral Medium 3.5"
+  },
+  "Mistral 7B 0.2": {
+   "Version": "0.2",
+   "API": "-",
+   "Deprecation": "Nov 30, 2024",
+   "Retirement": "Mar 30, 2025",
+   "Alternative": "Ministral 3 (8B)"
+  },
+  "Mistral Small 1.0": {
+   "Version": "24.02",
+   "API": "mistral-small-2402",
+   "Deprecation": "Nov 30, 2024",
+   "Retirement": "Jun 16, 2025",
+   "Alternative": "Mistral Small 4"
+  },
+  "Mistral Large 1.0": {
+   "Version": "24.02",
+   "API": "mistral-large-2402",
+   "Deprecation": "Nov 30, 2024",
+   "Retirement": "Jun 16, 2025",
+   "Alternative": "Mistral Large 3"
+  },
+  "Mixtral 8x22B": {
+   "Version": "0.1-0.3",
+   "API": "open-mixtral-8x22b",
+   "Deprecation": "Nov 30, 2024",
+   "Retirement": "Mar 30, 2025",
+   "Alternative": "Mistral Small 4"
+  },
+  "Mistral 7B 0.3": {
+   "Version": "0.3",
+   "API": "open-mistral-7b",
+   "Deprecation": "Nov 30, 2024",
+   "Retirement": "Mar 30, 2025",
+   "Alternative": "Ministral 3 (8B)"
+  },
+  "Mistral Large 2.0": {
+   "Version": "24.07",
+   "API": "mistral-large-2407",
+   "Deprecation": "Nov 30, 2024",
+   "Retirement": "Mar 30, 2025",
    "Alternative": "Mistral Large 3"
   },
   "Mathstral 7B": {
@@ -23,354 +367,11 @@
    "Retirement": "-",
    "Alternative": "Mistral Small 4"
   },
-  "Mistral Large 3": {
-   "Version": "25.12",
-   "API": "mistral-large-2512",
-   "Deprecation": "06/09/2026",
-   "Retirement": "05/03/2027",
-   "Alternative": "Mistral Large 4"
-  },
-  "Voxtral Mini Transcribe 2": {
-   "Version": "26.02",
-   "API": "voxtral-mini-2602voxtral-mini-latest",
-   "Deprecation": "06/09/2026",
-   "Retirement": "05/03/2027",
-   "Alternative": "Voxtral Mini Transcribe 3"
-  },
-  "Voxtral Mini Transcribe Realtime": {
-   "Version": "26.02",
-   "API": "voxtral-mini-transcribe-realtime-2602voxtral-mini-realtime-latest",
-   "Deprecation": "06/09/2026",
-   "Retirement": "05/03/2027",
-   "Alternative": "Voxtral Mini Transcribe Realtime 3"
-  },
-  "Voxtral TTS": {
-   "Version": "26.03",
-   "API": "voxtral-mini-tts-2603",
-   "Deprecation": "06/09/2026",
-   "Retirement": "05/03/2027",
-   "Alternative": "Voxtral Mini TTS 3"
-  },
-  "Mistral Medium 3.5": {
-   "Version": "26.04",
-   "API": "mistral-medium-3-5mistral-medium-latest",
-   "Deprecation": "06/09/2026",
-   "Retirement": "05/03/2027",
-   "Alternative": "Mistral Large 4"
-  },
-  "OCR 4.0": {
-   "Version": "4.0",
-   "API": "mistral-ocr-4-0",
-   "Deprecation": "02/08/2026",
-   "Retirement": "03/08/2026",
-   "Alternative": "OCR 4.1"
-  },
-  "Leanstral 1.5": {
-   "Version": "1.5",
-   "API": "labs-leanstral-1-5",
-   "Deprecation": "02/08/2026",
-   "Retirement": "03/08/2026",
-   "Alternative": "-"
-  },
-  "GLM 5.2": {
-   "Version": "5.2",
-   "API": "zai-glm-5-2glm-5-2",
-   "Deprecation": "02/08/2026",
-   "Retirement": "06/09/2026",
-   "Alternative": "GLM 5.3"
-  },
-  "Mistral NeMo": {
-   "Version": "24.07",
-   "API": "open-mistral-nemo-2407open-mistral-nemo",
-   "Deprecation": "05/04/2026",
-   "Retirement": "05/06/2026",
-   "Alternative": "Ministral 3 (8B)"
-  },
-  "Mistral Medium 3": {
-   "Version": "25.05",
-   "API": "mistral-medium-2505",
-   "Deprecation": "05/04/2026",
-   "Retirement": "01/07/2026",
-   "Alternative": "Mistral Medium 3.5"
-  },
-  "Mistral Medium 3.1": {
-   "Version": "25.08",
-   "API": "mistral-medium-2508",
-   "Deprecation": "05/04/2026",
-   "Retirement": "01/07/2026",
-   "Alternative": "Mistral Medium 3.5"
-  },
-  "Magistral Medium 1.2": {
-   "Version": "25.09",
-   "API": "magistral-medium-2509magistral-medium-latest",
-   "Deprecation": "05/04/2026",
-   "Retirement": "05/06/2026",
-   "Alternative": "Mistral Medium 3.5"
-  },
-  "Devstral 2": {
-   "Version": "25.12",
-   "API": "devstral-2512devstral-latestdevstral-medium-latest",
-   "Deprecation": "05/04/2026",
-   "Retirement": "05/06/2026",
-   "Alternative": "Mistral Medium 3.5"
-  },
-  "Leanstral": {
-   "Version": "26.03",
-   "API": "labs-leanstral-2603",
-   "Deprecation": "05/04/2026",
-   "Retirement": "02/05/2026",
-   "Alternative": "Leanstral 1.5"
-  },
-  "Mistral Small 3.2": {
-   "Version": "25.06",
-   "API": "mistral-small-2506",
-   "Deprecation": "04/03/2026",
-   "Retirement": "05/06/2026",
-   "Alternative": "Mistral Small 4"
-  },
-  "Magistral Small 1.2": {
-   "Version": "25.09",
-   "API": "magistral-small-2509magistral-small-latest",
-   "Deprecation": "04/03/2026",
-   "Retirement": "05/06/2026",
-   "Alternative": "Mistral Small 4"
-  },
-  "Mistral Moderation": {
-   "Version": "24.11",
-   "API": "mistral-moderation-2411",
-   "Deprecation": "02/02/2026",
-   "Retirement": "02/05/2026",
-   "Alternative": "Mistral Moderation 2"
-  },
-  "Mistral Small Creative": {
-   "Version": "25.12",
-   "API": "labs-mistral-small-creative",
-   "Deprecation": "02/02/2026",
-   "Retirement": "04/03/2026",
-   "Alternative": "Ministral 3 (8B)"
-  },
-  "Pixtral Large": {
-   "Version": "24.11",
-   "API": "pixtral-large-2411pixtral-large-latest",
-   "Deprecation": "05/01/2026",
-   "Retirement": "00/04/2026",
-   "Alternative": "Mistral Medium 3.5"
-  },
-  "Mistral Large 2.1": {
-   "Version": "24.11",
-   "API": "mistral-large-2411",
-   "Deprecation": "05/01/2026",
-   "Retirement": "00/04/2026",
-   "Alternative": "Mistral Medium 3.5"
-  },
-  "OCR 2": {
-   "Version": "25.05",
-   "API": "mistral-ocr-2505",
-   "Deprecation": "05/01/2026",
-   "Retirement": "00/04/2026",
-   "Alternative": "OCR 4.1"
-  },
-  "Devstral Medium 1.0": {
-   "Version": "25.07",
-   "API": "devstral-medium-2507",
-   "Deprecation": "05/01/2026",
-   "Retirement": "00/04/2026",
-   "Alternative": "Mistral Medium 3.5"
-  },
-  "Devstral Small 1.1": {
-   "Version": "25.07",
-   "API": "devstral-small-2507",
-   "Deprecation": "05/01/2026",
-   "Retirement": "00/04/2026",
-   "Alternative": "Mistral Small 4"
-  },
-  "Voxtral Mini": {
-   "Version": "25.07",
+  "Mistral Next": {
+   "Version": "-",
    "API": "-",
-   "Deprecation": "05/01/2026",
-   "Retirement": "00/04/2026",
-   "Alternative": "Voxtral Mini Transcribe 2"
-  },
-  "Voxtral Mini Transcribe": {
-   "Version": "25.07",
-   "API": "voxtral-mini-2507",
-   "Deprecation": "05/01/2026",
-   "Retirement": "00/04/2026",
-   "Alternative": "Voxtral Mini Transcribe 2"
-  },
-  "Devstral Small 2": {
-   "Version": "25.12",
-   "API": "labs-devstral-small-2512devstral-small-latest",
-   "Deprecation": "05/01/2026",
-   "Retirement": "02/02/2026",
-   "Alternative": "Mistral Medium 3.5"
-  },
-  "Pixtral 12B": {
-   "Version": "24.09",
-   "API": "pixtral-12b-2409",
-   "Deprecation": "02/11/2025",
-   "Retirement": "03/11/2025",
-   "Alternative": "Ministral 3 (14B)"
-  },
-  "Ministral 3B": {
-   "Version": "24.1",
-   "API": "ministral-3b-2410",
-   "Deprecation": "02/11/2025",
-   "Retirement": "03/11/2025",
-   "Alternative": "Ministral 3 (3B)"
-  },
-  "Ministral 8B": {
-   "Version": "24.1",
-   "API": "ministral-8b-2410",
-   "Deprecation": "02/11/2025",
-   "Retirement": "03/11/2025",
-   "Alternative": "Ministral 3 (8B)"
-  },
-  "OCR": {
-   "Version": "25.03",
-   "API": "mistral-ocr-2503",
-   "Deprecation": "02/11/2025",
-   "Retirement": "03/11/2025",
-   "Alternative": "OCR 4.1"
-  },
-  "Mistral Small 2.0": {
-   "Version": "24.09",
-   "API": "mistral-small-2409",
-   "Deprecation": "04/10/2025",
-   "Retirement": "00/10/2025",
-   "Alternative": "Mistral Small 4"
-  },
-  "Codestral 25.01": {
-   "Version": "25.01",
-   "API": "codestral-2501",
-   "Deprecation": "04/10/2025",
-   "Retirement": "00/10/2025",
-   "Alternative": "Codestral 24.05"
-  },
-  "Mistral Small 3.0": {
-   "Version": "25.01",
-   "API": "mistral-small-2501",
-   "Deprecation": "04/10/2025",
-   "Retirement": "00/10/2025",
-   "Alternative": "Mistral Small 4"
-  },
-  "Mistral Small 3.1": {
-   "Version": "25.03",
-   "API": "mistral-small-2503",
-   "Deprecation": "04/10/2025",
-   "Retirement": "00/10/2025",
-   "Alternative": "Mistral Small 4"
-  },
-  "Devstral Small 1.0": {
-   "Version": "25.05",
-   "API": "devstral-small-2505",
-   "Deprecation": "05/09/2025",
-   "Retirement": "00/10/2025",
-   "Alternative": "Mistral Medium 3.5"
-  },
-  "Magistral Medium 1.0": {
-   "Version": "25.06",
-   "API": "magistral-medium-2506",
-   "Deprecation": "05/09/2025",
-   "Retirement": "00/10/2025",
-   "Alternative": "Mistral Medium 3.5"
-  },
-  "Magistral Small 1.0": {
-   "Version": "25.06",
-   "API": "magistral-small-2506",
-   "Deprecation": "05/09/2025",
-   "Retirement": "00/10/2025",
-   "Alternative": "Mistral Small 4"
-  },
-  "Magistral Medium 1.1": {
-   "Version": "25.07",
-   "API": "magistral-medium-2507",
-   "Deprecation": "05/09/2025",
-   "Retirement": "00/10/2025",
-   "Alternative": "Mistral Medium 3.5"
-  },
-  "Magistral Small 1.1": {
-   "Version": "25.07",
-   "API": "magistral-small-2507",
-   "Deprecation": "05/09/2025",
-   "Retirement": "00/10/2025",
-   "Alternative": "Mistral Small 4"
-  },
-  "Mistral Saba": {
-   "Version": "25.02",
-   "API": "mistral-saba-2502mistral-saba-latest",
-   "Deprecation": "02/05/2025",
-   "Retirement": "02/08/2025",
-   "Alternative": "Mistral Small 4"
-  },
-  "Codestral Mamba 7B": {
-   "Version": "0.1",
-   "API": "open-codestral-mamba",
-   "Deprecation": "05/05/2025",
-   "Retirement": "05/05/2025",
-   "Alternative": "Codestral 24.05"
-  },
-  "Mistral 7B 0.1": {
-   "Version": "0.1",
-   "API": "-",
-   "Deprecation": "06/10/2024",
-   "Retirement": "00/02/2025",
-   "Alternative": "Ministral 3 (8B)"
-  },
-  "Mixtral 8x7B": {
-   "Version": "0.1",
-   "API": "open-mixtral-8x7b",
-   "Deprecation": "06/10/2024",
-   "Retirement": "00/02/2025",
-   "Alternative": "Mistral Small 4"
-  },
-  "Mistral Medium 1.0": {
-   "Version": "23.12",
-   "API": "mistral-medium-2312",
-   "Deprecation": "06/10/2024",
-   "Retirement": "01/05/2025",
-   "Alternative": "Mistral Medium 3.5"
-  },
-  "Mistral 7B 0.2": {
-   "Version": "0.2",
-   "API": "-",
-   "Deprecation": "06/10/2024",
-   "Retirement": "00/02/2025",
-   "Alternative": "Ministral 3 (8B)"
-  },
-  "Mistral Small 1.0": {
-   "Version": "24.02",
-   "API": "mistral-small-2402",
-   "Deprecation": "06/10/2024",
-   "Retirement": "01/05/2025",
-   "Alternative": "Mistral Small 4"
-  },
-  "Mistral Large 1.0": {
-   "Version": "24.02",
-   "API": "mistral-large-2402",
-   "Deprecation": "06/10/2024",
-   "Retirement": "01/05/2025",
-   "Alternative": "Mistral Large 3"
-  },
-  "Mixtral 8x22B": {
-   "Version": "0.1-0.3",
-   "API": "open-mixtral-8x22b",
-   "Deprecation": "06/10/2024",
-   "Retirement": "00/02/2025",
-   "Alternative": "Mistral Small 4"
-  },
-  "Mistral 7B 0.3": {
-   "Version": "0.3",
-   "API": "open-mistral-7b",
-   "Deprecation": "06/10/2024",
-   "Retirement": "00/02/2025",
-   "Alternative": "Ministral 3 (8B)"
-  },
-  "Mistral Large 2.0": {
-   "Version": "24.07",
-   "API": "mistral-large-2407",
-   "Deprecation": "06/10/2024",
-   "Retirement": "00/02/2025",
+   "Deprecation": "-",
+   "Retirement": "-",
    "Alternative": "Mistral Large 3"
   }
  },
@@ -396,6 +397,7 @@
  "Voxtral Small Transcribe 3": {},
  "Voxtral Small": {},
  "Codestral": {},
+ "Mistral Multimodal Embed": {},
  "Codestral Embed": {},
  "Mistral Embed": {},
  "Mistral Moderation 2": {},
